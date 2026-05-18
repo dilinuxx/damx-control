@@ -53,3 +53,8 @@ recoater_motor_speed = 1000
 build_dosing_motor_units = 4 # Convert user-scale units to motor controller units
 paused_dosing = 0
 paused_build = 0
+
+HEARTBEAT_INTERVAL_MS = 5000
+HEARTBEAT_READ_WINDOW_S = 0.2
+
+HEARTBEAT_COMMAND = "M621\n"
