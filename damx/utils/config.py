@@ -58,3 +58,45 @@ HEARTBEAT_INTERVAL_MS = 5000
 HEARTBEAT_READ_WINDOW_S = 0.2
 
 HEARTBEAT_COMMAND = "M621\n"
+
+# =====================================================================
+# DAM AUTOMATION CONFIGURATION SETTINGS
+# =====================================================================
+
+# 1. Print Cycle Architecture
+TOTAL_LAYERS = 10                  # Total programmatic loop layers
+LAYER_THICKNESS_MM = 1.0           # Height delta per layer for powder dosing/building
+
+# 2. Hardware Tool Routing Identifiers
+TOOL_BUILD_PISTON = "T0"           # Marlin extruder index for build piston
+TOOL_DOSING_PISTON = "T1"          # Marlin extruder index for dosing piston
+RECOATER_AXIS = "Z"                # Linear hardware axis for physical recoater travel
+
+# 3. Hardware Feedrates (mm/min)
+FEEDRATE_PISTONS = 1500            # Piston motor travel velocity
+FEEDRATE_RECOATER = 8000           # Recoater blade speed
+
+# 4. Initialization Settings (mm)
+INIT_DRAIN_COOLDOWN_S = 0.2        # Serial settling delay before purge
+INIT_DOSE_LOAD_DOWN_MM = 10.0      # Loading powder reservoir draw distance
+INIT_DOSE_PREP_UP_MM = 1.0         # Initial push up before layer 1
+
+# 5. Recoater Sweep Architecture (mm)
+RECOATER_SWEEP_DISTANCE = 415.0    # Forward push length across powder bed
+
+# 6. Directional Flags (Invert if mechanics change)
+DIRECTION_DOSE_UP = -1.0           # Direction multiplier to lift dosing powder
+DIRECTION_BUILD_DOWN = 1.0         # Direction multiplier to lower build plate
+
+# 5. Laser Scanning & Optomechanics Profile
+LASER_FEEDRATE = 3000              # Velocity during exposure (mm/min)
+LASER_TRAVEL_SPEED = 6000          # Velocity during non-exposure transit moves (mm/min)
+
+CUBE_CENTER_X = 75.0               # Center physical coordinate of your build piston bed
+CUBE_CENTER_Y = 50.0               # Center physical coordinate of your build piston bed
+CUBE_SIZE_MM = 2.0                 # Target dimensions of the cube wall profiles
+HATCH_SPACING_MM = 0.1             # Overlap path density shift step (laser spot diameter)
+
+# 6. Laser Control Hooks (Marlin customized digital pins or hotend heaters)
+LASER_ON_COMMAND = "M3 S255\n"      # Spindle/Laser PWM turn on (or M106 fan control)
+LASER_OFF_COMMAND = "M5\n"          # Spindle/Laser cut-off pin command (or M107)

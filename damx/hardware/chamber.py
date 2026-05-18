@@ -12,12 +12,12 @@ subsystems including:
 - Vacuum pump control
 - Vacuum valve actuation
 - Argon gas flow management
-- Chamber purge operations
-- Chamber venting and sealing sequences
+- Chamber purge sequences
+- Chamber venting and sealing operations
 
-The implementation encapsulates low-level Marlin `M42` pin-control
-commands behind descriptive Python methods, improving readability,
-maintainability, and system safety in automated workflows.
+The implementation encapsulates low-level Marlin `M42` GPIO control
+commands behind descriptive Python methods, improving readability and
+maintainability in automated experimental workflows.
 
 The module is intended for laboratory automation systems, inert-atmosphere
 processing chambers, powder-handling platforms, and other digital
@@ -41,9 +41,9 @@ Example
 
 Notes
 -----
-The implementation assumes that Marlin firmware is configured to allow
-direct GPIO pin manipulation using the `M42` command. Pin assignments
-must correspond to the target hardware configuration.
+This implementation assumes that Marlin firmware is configured to allow
+GPIO pin control via the `M42` command (where enabled in firmware
+configuration). Pin assignments must match the underlying hardware setup.
 """
 
 # chamber.py
@@ -102,7 +102,7 @@ class ChamberControl:
         self.send("M42 P57 S0")
 
     # ---------------------------
-    # SYSTEM OPERATIONS (Optional logic)
+    # SYSTEM OPERATIONS
     # ---------------------------
     def start_purge(self):
         # Example purge sequence (adjust to your system)

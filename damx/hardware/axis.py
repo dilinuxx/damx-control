@@ -5,22 +5,24 @@ Axis Motion Control Interface
 This module provides a high-level motion-control interface for operating
 Cartesian machine axes through Marlin firmware using G-code commands.
 
-The implementation abstracts low-level motion commands into reusable
+The implementation wraps low-level G-code motion primitives into reusable
 Python methods for incremental positioning and homing operations. It is
-designed for laboratory automation systems, robotic platforms, and
+intended for use in laboratory automation systems, robotic platforms, and
 digital fabrication equipment requiring programmable axis control.
 
 Features
 --------
-- Relative incremental motion control
-- Positive and negative movement along X, Y, and Z axes
-- Configurable movement step size
-- Machine homing operations using Marlin `G28`
-- Integration with graphical user interface (GUI) step selectors
+- Relative incremental motion control along X, Y, and Z axes
+- Configurable step-size control via a GUI selector (Qt-based interface)
+- Machine homing using Marlin `G28`
+- Automatic restoration of absolute positioning mode (`G90`) after motion
 
-The module uses relative positioning (`G91`) for controlled incremental
-movement and restores absolute positioning mode (`G90`) after each
-operation to maintain predictable machine-state behavior.
+Design Note
+-----------
+Each motion command temporarily switches Marlin into relative positioning
+mode (`G91`) to perform an incremental move, then restores absolute mode
+(`G90`). This local state encapsulation helps avoid unintended cumulative
+state changes in shared or multi-command control workflows.
 
 Classes
 -------
@@ -29,9 +31,8 @@ AxisControl
 
 Dependencies
 ------------
-This module requires:
-- A controller object capable of transmitting G-code commands
-- A GUI-compatible step selector object implementing `currentText()`
+- A controller object capable of sending G-code to Marlin firmware
+- A Qt-based step selector implementing `currentText()`
 
 Example
 -------
@@ -42,12 +43,10 @@ Example
 
 Notes
 -----
-Movement distances are dynamically obtained from the user-interface step
-selector and interpreted as machine units configured in Marlin firmware
-(typically millimeters).
-
-Care should be taken to ensure that all commanded movements remain within
-the safe operating limits of the mechanical system.
+Movement distances are interpreted in the machine units configured in
+Marlin firmware (typically millimeters). Users should ensure that motion
+limits are enforced at the application or firmware level to prevent
+mechanical collisions.
 """
 
 # axis.py
