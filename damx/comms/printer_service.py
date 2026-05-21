@@ -59,7 +59,7 @@ defensive and tolerant to partial or malformed messages.
 
 from PyQt5.QtCore import QObject, pyqtSignal, QTimer
 import time
-import config
+import utils.config as config
 
 class PrinterService(QObject):
     data_updated = pyqtSignal(dict)   # send parsed data to UI
@@ -79,6 +79,7 @@ class PrinterService(QObject):
 
         # Initialize the buffer here
         self._rx_buffer = ""
+        self.paused = False
 
     # -----------------------
     # START / STOP (NON-BLOCKING)
@@ -93,6 +94,9 @@ class PrinterService(QObject):
     # HEARTBEAT (NON-BLOCKING)
     # -----------------------
     def heartbeat(self):
+        if self.paused:
+            return
+
         if not self.controller or not self.controller.ser or not self.controller.ser.is_open:
             self.log.emit("Printer not connected.")
             return
@@ -124,29 +128,21 @@ class PrinterService(QObject):
         else:
             self.log.emit("Failed to send heartbeat")
 
-    def heartbbeat(self):
-        if not self.controller or not self.controller.ser or not self.controller.ser.is_open:
-            self.log.emit("Printer not connected.")
-            return
+    def pause(self):
+        self.paused = True
+        # Clear Python's internal string processing buffer
+        self._rx_buffer = ""
 
-        if self.controller.send_gcode(config.HEARTBEAT_COMMAND):
-            self.log.emit("Heartbeat sent")
+        # Flush the physical hardware serial buffers
+        if self.controller and self.controller.ser and self.controller.ser.is_open:
+            self.controller.ser.reset_input_buffer()
+            self.controller.ser.reset_output_buffer()
 
-            # Read whatever is available WITHOUT blocking forever
-            start_time = time.time()
-            while time.time() - start_time < config.HEARTBEAT_READ_WINDOW_S:  # short read window
-                if self.controller.ser.in_waiting:
-                    line = self.controller.ser.readline().decode(errors="ignore").strip()
-                    if line:
-                        self.log.emit(f"[RX] {line}")
+        self.log.emit("PrinterService paused and serial buffers flushed.")
 
-                        data = self.parse_status(line)
-                        if data:
-                            self.data_updated.emit(data)
-                else:
-                    break
-        else:
-            self.log.emit("Failed to send heartbeat")
+    def resume(self):
+        self.paused = False
+        self.log.emit("PrinterService resumed")
 
     # -----------------------
     # PARSE STATUS RESPONSE

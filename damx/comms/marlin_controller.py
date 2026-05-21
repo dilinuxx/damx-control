@@ -131,8 +131,25 @@ class MarlinController:
             return False
 
         try:
+            #self.ser.write(cmd.encode())
+            #print("Sent:", cmd.strip())
+            #return True
+
+            clean_cmd = cmd.strip()
+            # ------------------------------------------------
+            # VIRTUAL LASER EXPOSURE SIMULATION
+            # ------------------------------------------------
+            if clean_cmd in ["M1001", "M1002", "M1003", "M1004", "M1005", "M1006", "M1007", "M1008", "M1009", "M1010"]:
+                print(f"[VIRTUAL LASER] {clean_cmd} fired")
+                # Simulate diode switching / pulse latency
+                time.sleep(0.02)
+                return True
+
+            # ------------------------------------------------
+            # NORMAL GCODE TRANSMISSION
+            # ------------------------------------------------
             self.ser.write(cmd.encode())
-            print("Sent:", cmd.strip())
+            print("Sent:", clean_cmd)
             return True
 
         except Exception as e:
@@ -143,29 +160,48 @@ class MarlinController:
     # -----------------------
     # WAIT FOR OK RESPONSE
     # -----------------------
-    def wait_for_ok(self, timeout=10):
+    def wait_for_ok(self, timeout=20):
         """
-        Waits for Marlin to respond with 'ok'.
-        Returns True if 'ok' is received within timeout, False otherwise.
+        Asynchronously parses incoming bytes line-by-line to extract 'ok' handshakes.
+        Safely discards malformed fragments or lingering sensor data strings.
         """
         if not self.ser or not self.ser.is_open:
             print(f"[{self.wait_for_ok.__name__}] Firmware not connected")
             return False
 
         start_time = time.time()
-        buffer = ""
+        line_accumulator = ""
 
         while True:
+            # Check global timeout window
             if time.time() - start_time > timeout:
-                print("Timeout waiting for 'ok'")
+                print(f"[{self.wait_for_ok.__name__}] Timeout waiting for 'ok'")
                 return False
 
-            line = self.ser.readline().decode(errors="ignore").strip()
-            if line:
-                print("Marlin:", line)  # optional debug
-                buffer += line
-                if "ok" in line.lower():
-                    return True
+            # Check if bytes are available to prevent blocking reads
+            if self.ser.in_waiting > 0:
+                # Read single raw bytes to build structured strings safely
+                char = self.ser.read(1).decode(errors="ignore")
+                line_accumulator += char
+
+                # Look for standard terminal carriage returns/newlines
+                if char == '\n':
+                    clean_line = line_accumulator.strip()
+                    line_accumulator = ""  # Reset structural accumulator
+
+                    if clean_line:
+                        print(f"Marlin (Sync Read): {clean_line}")
+
+                    # True negative filtering: check for precise Marlin 'ok' tokens
+                    if clean_line == "ok" or clean_line.startswith("ok "):
+                        return True
+
+                    # Maintain connection lifespans during slow structural hardware travel
+                    elif "echo:busy" in clean_line:
+                        start_time = time.time()  # Refresh timeout counter
+            else:
+                # Yield execution briefly to minimize CPU thrashing
+                time.sleep(0.001)
 
     # -----------------------
     # SAVE DOSING & BUILD CALIBRATION VALUES

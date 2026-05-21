@@ -92,10 +92,15 @@ DIRECTION_BUILD_DOWN = 1.0         # Direction multiplier to lower build plate
 LASER_FEEDRATE = 3000              # Velocity during exposure (mm/min)
 LASER_TRAVEL_SPEED = 6000          # Velocity during non-exposure transit moves (mm/min)
 
-CUBE_CENTER_X = 75.0               # Center physical coordinate of your build piston bed
+# ============================================================
+# BUILD PLATE GEOMETRY
+# ============================================================
+BUILD_PLATE_DIAMETER_MM = 80.0
+CUBE_CENTER_X = 50.0               # Center physical coordinate of your build piston bed
 CUBE_CENTER_Y = 50.0               # Center physical coordinate of your build piston bed
 CUBE_SIZE_MM = 2.0                 # Target dimensions of the cube wall profiles
 HATCH_SPACING_MM = 0.1             # Overlap path density shift step (laser spot diameter)
+BUILD_RADIUS_MM = BUILD_PLATE_DIAMETER_MM / 2.0
 
 # 6. Laser Control Hooks (Marlin customized digital pins or hotend heaters)
 LASER_ON_COMMAND = "M3 S255\n"      # Spindle/Laser PWM turn on (or M106 fan control)

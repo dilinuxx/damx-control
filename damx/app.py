@@ -1,4 +1,4 @@
-__version__ = "2.0"
+__version__ = "1.0.0"
 
 import sys
 from PyQt5.QtWidgets import (QApplication)

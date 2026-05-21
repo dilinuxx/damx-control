@@ -3,6 +3,7 @@ from PyQt5.QtCore import Qt, QTimer
 import random
 from ui.status_card import StatusCard
 
+
 class DashboardPage(QWidget):
 
     def __init__(self, parent=None):
@@ -13,10 +14,12 @@ class DashboardPage(QWidget):
         self.start_timers()
 
     # -----------------------
-    # UI BUILDER (was create_dashboard_page)
+    # UI BUILDER
     # -----------------------
     def build_ui(self):
         layout = QVBoxLayout(self)
+
+        parent = self.parent()
 
         # ----------------------
         # Status cards
@@ -47,22 +50,26 @@ class DashboardPage(QWidget):
         layout.addLayout(grid)
 
         # ----------------------
-        # Laser Diode Array Info
+        # Laser Info
         # ----------------------
         self.laser_label = QLabel("Laser: 10 W × 10 diodes")
         self.laser_label.setAlignment(Qt.AlignCenter)
-        self.laser_label.setStyleSheet("font-size:16px; font-weight:bold; color:#d32f2f")
+        self.laser_label.setStyleSheet(
+            "font-size:16px; font-weight:bold; color:#d32f2f"
+        )
         layout.addWidget(self.laser_label)
 
         # ----------------------
-        # Marlin Connection Status
+        # Marlin Status
         # ----------------------
         connection_layout = QHBoxLayout()
 
         self.marlin_status_label = QLabel("Marlin: Not Connected")
-        self.marlin_status_label.setStyleSheet("font-size:16px; font-weight:bold; color:red")
+        self.marlin_status_label.setStyleSheet(
+            "font-size:16px; font-weight:bold; color:red"
+        )
 
-        self.reconnect_btn = QPushButton("Connecting ......")
+        self.reconnect_btn = QPushButton("Connect")
         self.reconnect_btn.setFixedWidth(120)
         self.reconnect_btn.clicked.connect(self.check_marlin_connection)
 
@@ -73,7 +80,7 @@ class DashboardPage(QWidget):
         layout.addLayout(connection_layout)
 
         # ----------------------
-        # Gantry X, Y, Z
+        # Gantry Position
         # ----------------------
         self.x_label = QLabel("X: 0.00 mm")
         self.y_label = QLabel("Y: 0.00 mm")
@@ -90,15 +97,19 @@ class DashboardPage(QWidget):
         layout.addLayout(gantry_layout)
 
         # ----------------------
-        # System status & time
+        # System status + time
         # ----------------------
         status_layout = QHBoxLayout()
 
         self.system_status_label = QLabel("System Status: Idle")
-        self.system_status_label.setStyleSheet("font-size:16px; font-weight:bold; color:blue")
+        self.system_status_label.setStyleSheet(
+            "font-size:16px; font-weight:bold; color:blue"
+        )
 
         self.time_label = QLabel("")
-        self.time_label.setStyleSheet("font-size:16px; font-weight:bold; color:green")
+        self.time_label.setStyleSheet(
+            "font-size:16px; font-weight:bold; color:green"
+        )
 
         status_layout.addWidget(self.system_status_label)
         status_layout.addStretch()
@@ -135,20 +146,24 @@ class DashboardPage(QWidget):
 
         for b, color in buttons:
             b.setFixedHeight(60)
-            b.setStyleSheet(f"background:{color}; color:white; font-size:18px; border-radius:6px;")
+            b.setStyleSheet(
+                f"background:{color}; color:white; font-size:18px; border-radius:6px;"
+            )
             controls.addWidget(b)
 
         layout.addLayout(controls)
 
-        # Connect buttons
-        self.start_btn.clicked.connect(self.start_print)
-        self.pause_btn.clicked.connect(self.pause_print)
-        self.stop_btn.clicked.connect(self.stop_print)
-        self.restart_btn.clicked.connect(self.restart_machine)
-        self.shutdown_btn.clicked.connect(self.shutdown_machine)
+        # ----------------------
+        # BUTTON CONNECTIONS (FIXED)
+        # ----------------------
+        self.start_btn.clicked.connect(lambda: parent.start_print() if parent else None)
+        self.pause_btn.clicked.connect(lambda: parent.pause_print() if parent else None)
+        self.stop_btn.clicked.connect(lambda: parent.stop_print() if parent else None)
+        self.restart_btn.clicked.connect(lambda: parent.restart_machine() if parent else None)
+        self.shutdown_btn.clicked.connect(lambda: parent.shutdown_machine() if parent else None)
 
     # -----------------------
-    # TIMERS (moved from function)
+    # TIMERS
     # -----------------------
     def start_timers(self):
         self.timer_time = QTimer(self)
@@ -160,13 +175,21 @@ class DashboardPage(QWidget):
         self.timer_values.start(500)
 
     # -----------------------
-    # ORIGINAL METHODS (unchanged)
+    # DUMMY UPDATES
     # -----------------------
     def update_dummy_values(self):
-        self.cards["Layer Height"].set_value(f"{round(random.uniform(0.04, 0.06), 3)} mm/layer")
-        self.cards["Scan Speed"].set_value(f"{random.randint(450, 550)} mm/s")
-        self.cards["Recoater Speed"].set_value(f"{random.randint(25, 35)} rpm")
-        self.cards["Temperature"].set_value(f"{random.randint(195, 205)} °C")
+        self.cards["Layer Height"].set_value(
+            f"{round(random.uniform(0.04, 0.06), 3)} mm/layer"
+        )
+        self.cards["Scan Speed"].set_value(
+            f"{random.randint(450, 550)} mm/s"
+        )
+        self.cards["Recoater Speed"].set_value(
+            f"{random.randint(25, 35)} rpm"
+        )
+        self.cards["Temperature"].set_value(
+            f"{random.randint(195, 205)} °C"
+        )
 
         if self.system_status_label.text() == "System Status: Building":
             progress = self.job_progress.value()
@@ -176,11 +199,17 @@ class DashboardPage(QWidget):
                 self.system_status_label.setText("System Status: Idle")
                 self.job_progress.setValue(0)
 
-    # Dummy placeholders
-    def check_marlin_connection(self): pass
-    def update_time(self): pass
-    def start_print(self): pass
-    def pause_print(self): pass
-    def stop_print(self): pass
-    def restart_machine(self): pass
-    def shutdown_machine(self): pass
+    # -----------------------
+    # PLACEHOLDERS (optional overrides from main window)
+    # -----------------------
+    def check_marlin_connection(self):
+        parent = self.parent()
+        if parent:
+            parent.check_marlin_connection()
+
+    def update_time(self):
+        from datetime import datetime
+        import pytz
+        bst = pytz.timezone("Europe/London")
+        now = datetime.now(bst)
+        self.time_label.setText(now.strftime("BST Time: %H:%M:%S"))

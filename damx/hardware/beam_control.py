@@ -1,7 +1,8 @@
 import socket
 import time
 from PyQt5.QtCore import QObject, pyqtSignal
-
+import math
+from comms.marlin_controller import MarlinController
 
 # =========================================================
 # LOW LEVEL: TCP CONTROL
@@ -93,15 +94,26 @@ class BeamWorker(QObject):
     connected = pyqtSignal(bool)
     error = pyqtSignal(str)
     status_update = pyqtSignal(str)
+    layer_done = pyqtSignal(int)
 
     def __init__(self, host="boris.shef.ac.uk", port=51003):
         super().__init__()
-        self.beam = BeamControl(host, port)
-        self.running = False
 
-    # -----------------------
-    # CONNECTION
-    # -----------------------
+        self.beam = BeamControl(host, port)
+        self.controller = MarlinController()
+
+        self.running = False
+        self.is_building = False
+
+        # cylinder parameters (can later move to config)
+        self.cx = 75.0
+        self.cy = 50.0
+        self.r = 1.0
+        self.step = 0.1  # hatch spacing
+
+    # =====================================================
+    # CONNECT / DISCONNECT
+    # =====================================================
     def connect_boris(self):
         try:
             res = self.beam.connect()
@@ -111,39 +123,25 @@ class BeamWorker(QObject):
                 self.running = True
                 self._poll_loop()
             else:
-                self.error.emit(res)
                 self.connected.emit(False)
+                self.error.emit(res)
 
         except Exception as e:
-            self.error.emit(str(e))
             self.connected.emit(False)
+            self.error.emit(str(e))
 
     def disconnect_boris(self):
         self.running = False
         self.beam.disconnect()
         self.connected.emit(False)
 
-    # -----------------------
-    # LASER CONTROL
-    # -----------------------
-    def set_current(self, device_id, laser_id, current):
-        try:
-            res = self.beam.set_current(device_id, laser_id, current)
-
-            if "ERR" in res:
-                self.error.emit(res)
-
-        except Exception as e:
-            self.error.emit(str(e))
-
-    # -----------------------
-    # STATUS LOOP
-    # -----------------------
+    # =====================================================
+    # POLL LOOP
+    # =====================================================
     def _poll_loop(self):
         while self.running:
             try:
-                res = self.beam.how_connected()
-                self.status_update.emit(res)
+                self.status_update.emit("System running")
                 time.sleep(2)
             except Exception as e:
                 self.error.emit(str(e))

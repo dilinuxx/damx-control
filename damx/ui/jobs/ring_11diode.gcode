@@ -1,0 +1,9423 @@
+; Multi‑Diode DAM Slicer
+; Material: TI64
+; Diodes: 10
+; Scan Speed: 800.00 mm/s
+; LED: 0.250 J/mm
+; VED: 142.857 J/mm^3
+; Absorbed Power: 36.00 W
+; Layer Height: 0.025 mm
+; Hatch Spacing: 0.07 mm
+; Spot Diameter: 0.08 mm
+
+; ===== Layer 1 Z=5.1089 =====
+; Active Diodes This Layer: [0, 1, 2, 3]
+; -- Scan Pass 1 --
+G1 X-0.8200 Y-0.1700 Z5.1089 S200.0 V800.00 DIODE3 F1000
+G1 X-0.8200 Y-0.1700 Z5.1089 S200.0 V800.00 DIODE4 F1000
+G1 X-0.7967 Y-0.1000 Z5.1089 S200.0 V800.00 DIODE4 F1000
+G1 X-0.8000 Y-0.0300 Z5.1089 S200.0 V800.00 DIODE4 F1000
+G1 X-0.8175 Y0.0400 Z5.1089 S200.0 V800.00 DIODE4 F1000
+G1 X-0.8378 Y0.1100 Z5.1089 S200.0 V800.00 DIODE3 F1000
+G1 X-0.8378 Y0.1100 Z5.1089 S200.0 V800.00 DIODE4 F1000
+G1 X-0.8596 Y0.1800 Z5.1089 S200.0 V800.00 DIODE3 F1000
+; -- Scan Pass 2 --
+G1 X-0.8200 Y-0.1700 Z5.1089 S200.0 V800.00 DIODE3 F1000
+G1 X-0.8200 Y-0.1700 Z5.1089 S200.0 V800.00 DIODE4 F1000
+G1 X-0.7967 Y-0.1000 Z5.1089 S200.0 V800.00 DIODE4 F1000
+G1 X-0.8000 Y-0.0300 Z5.1089 S200.0 V800.00 DIODE4 F1000
+G1 X-0.8175 Y0.0400 Z5.1089 S200.0 V800.00 DIODE4 F1000
+G1 X-0.8378 Y0.1100 Z5.1089 S200.0 V800.00 DIODE3 F1000
+G1 X-0.8378 Y0.1100 Z5.1089 S200.0 V800.00 DIODE4 F1000
+G1 X-0.8596 Y0.1800 Z5.1089 S200.0 V800.00 DIODE3 F1000
+; Layer Time: 0.5074 sec
+; ===== End Layer 1 =====
+
+; ===== Layer 2 Z=5.1339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-0.5940 Y-0.0417 Z5.1339 S200.0 V800.00 DIODE9 F1000
+G1 X-0.6341 Y0.0283 Z5.1339 S200.0 V800.00 DIODE8 F1000
+G1 X-0.6341 Y0.0283 Z5.1339 S200.0 V800.00 DIODE9 F1000
+G1 X-0.6593 Y0.0983 Z5.1339 S200.0 V800.00 DIODE8 F1000
+G1 X-0.6814 Y0.1683 Z5.1339 S200.0 V800.00 DIODE7 F1000
+G1 X-0.6814 Y0.1683 Z5.1339 S200.0 V800.00 DIODE8 F1000
+G1 X-0.6850 Y0.2383 Z5.1339 S200.0 V800.00 DIODE7 F1000
+G1 X-0.6850 Y0.2383 Z5.1339 S200.0 V800.00 DIODE8 F1000
+G1 X-0.6782 Y0.3083 Z5.1339 S200.0 V800.00 DIODE8 F1000
+G1 X-0.6717 Y0.3783 Z5.1339 S200.0 V800.00 DIODE8 F1000
+G1 X-0.7171 Y0.4483 Z5.1339 S200.0 V800.00 DIODE7 F1000
+; -- Scan Pass 2 --
+G1 X-0.5940 Y-0.0417 Z5.1339 S200.0 V800.00 DIODE9 F1000
+G1 X-0.6341 Y0.0283 Z5.1339 S200.0 V800.00 DIODE8 F1000
+G1 X-0.6341 Y0.0283 Z5.1339 S200.0 V800.00 DIODE9 F1000
+G1 X-0.6593 Y0.0983 Z5.1339 S200.0 V800.00 DIODE8 F1000
+G1 X-0.6814 Y0.1683 Z5.1339 S200.0 V800.00 DIODE7 F1000
+G1 X-0.6814 Y0.1683 Z5.1339 S200.0 V800.00 DIODE8 F1000
+G1 X-0.6850 Y0.2383 Z5.1339 S200.0 V800.00 DIODE7 F1000
+G1 X-0.6850 Y0.2383 Z5.1339 S200.0 V800.00 DIODE8 F1000
+G1 X-0.6782 Y0.3083 Z5.1339 S200.0 V800.00 DIODE8 F1000
+G1 X-0.6717 Y0.3783 Z5.1339 S200.0 V800.00 DIODE8 F1000
+G1 X-0.7171 Y0.4483 Z5.1339 S200.0 V800.00 DIODE7 F1000
+; Layer Time: 0.5456 sec
+; ===== End Layer 2 =====
+
+; ===== Layer 3 Z=5.1589 =====
+; Active Diodes This Layer: [0, 1]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 0.5862 sec
+; ===== End Layer 3 =====
+
+; ===== Layer 4 Z=5.1839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7]
+; -- Scan Pass 1 --
+G1 X-1.8931 Y-0.8217 Z5.1839 S200.0 V800.00 DIODE6 F1000
+G1 X-1.8931 Y-0.8217 Z5.1839 S200.0 V800.00 DIODE7 F1000
+G1 X-1.9548 Y-0.7517 Z5.1839 S200.0 V800.00 DIODE5 F1000
+G1 X-1.9548 Y-0.7517 Z5.1839 S200.0 V800.00 DIODE6 F1000
+G1 X-2.1451 Y-0.6817 Z5.1839 S200.0 V800.00 DIODE2 F1000
+G1 X-2.0030 Y-0.1917 Z5.1839 S200.0 V800.00 DIODE4 F1000
+G1 X-2.0030 Y-0.1917 Z5.1839 S200.0 V800.00 DIODE5 F1000
+G1 X-1.9292 Y-0.1217 Z5.1839 S200.0 V800.00 DIODE6 F1000
+G1 X-1.9035 Y-0.0517 Z5.1839 S200.0 V800.00 DIODE6 F1000
+G1 X-1.8801 Y0.0183 Z5.1839 S200.0 V800.00 DIODE7 F1000
+G1 X-1.8509 Y0.0883 Z5.1839 S200.0 V800.00 DIODE7 F1000
+G1 X-1.8432 Y0.1583 Z5.1839 S200.0 V800.00 DIODE7 F1000
+G1 X-1.8946 Y0.2283 Z5.1839 S200.0 V800.00 DIODE6 F1000
+G1 X-1.8946 Y0.2283 Z5.1839 S200.0 V800.00 DIODE7 F1000
+G1 X-1.9595 Y0.2983 Z5.1839 S200.0 V800.00 DIODE5 F1000
+G1 X-1.9595 Y0.2983 Z5.1839 S200.0 V800.00 DIODE6 F1000
+G1 X-1.9957 Y0.3683 Z5.1839 S200.0 V800.00 DIODE5 F1000
+; -- Scan Pass 2 --
+G1 X-1.8931 Y-0.8217 Z5.1839 S200.0 V800.00 DIODE6 F1000
+G1 X-1.8931 Y-0.8217 Z5.1839 S200.0 V800.00 DIODE7 F1000
+G1 X-1.9548 Y-0.7517 Z5.1839 S200.0 V800.00 DIODE5 F1000
+G1 X-1.9548 Y-0.7517 Z5.1839 S200.0 V800.00 DIODE6 F1000
+G1 X-2.1451 Y-0.6817 Z5.1839 S200.0 V800.00 DIODE2 F1000
+G1 X-2.0030 Y-0.1917 Z5.1839 S200.0 V800.00 DIODE4 F1000
+G1 X-2.0030 Y-0.1917 Z5.1839 S200.0 V800.00 DIODE5 F1000
+G1 X-1.9292 Y-0.1217 Z5.1839 S200.0 V800.00 DIODE6 F1000
+G1 X-1.9035 Y-0.0517 Z5.1839 S200.0 V800.00 DIODE6 F1000
+G1 X-1.8801 Y0.0183 Z5.1839 S200.0 V800.00 DIODE7 F1000
+G1 X-1.8509 Y0.0883 Z5.1839 S200.0 V800.00 DIODE7 F1000
+G1 X-1.8432 Y0.1583 Z5.1839 S200.0 V800.00 DIODE7 F1000
+G1 X-1.8946 Y0.2283 Z5.1839 S200.0 V800.00 DIODE6 F1000
+G1 X-1.8946 Y0.2283 Z5.1839 S200.0 V800.00 DIODE7 F1000
+G1 X-1.9595 Y0.2983 Z5.1839 S200.0 V800.00 DIODE5 F1000
+G1 X-1.9595 Y0.2983 Z5.1839 S200.0 V800.00 DIODE6 F1000
+G1 X-1.9957 Y0.3683 Z5.1839 S200.0 V800.00 DIODE5 F1000
+; Layer Time: 0.6363 sec
+; ===== End Layer 4 =====
+
+; ===== Layer 5 Z=5.2089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-2.2053 Y-0.9878 Z5.2089 S200.0 V800.00 DIODE8 F1000
+G1 X-2.1310 Y-0.9178 Z5.2089 S200.0 V800.00 DIODE9 F1000
+G1 X-2.1310 Y-0.9178 Z5.2089 S200.0 V800.00 DIODE10 F1000
+G1 X-2.4163 Y0.6222 Z5.2089 S200.0 V800.00 DIODE5 F1000
+G1 X-2.3995 Y0.6922 Z5.2089 S200.0 V800.00 DIODE5 F1000
+G1 X-2.4234 Y0.7622 Z5.2089 S200.0 V800.00 DIODE4 F1000
+G1 X-2.4234 Y0.7622 Z5.2089 S200.0 V800.00 DIODE5 F1000
+; -- Scan Pass 2 --
+G1 X-2.2053 Y-0.9878 Z5.2089 S200.0 V800.00 DIODE8 F1000
+G1 X-2.1310 Y-0.9178 Z5.2089 S200.0 V800.00 DIODE9 F1000
+G1 X-2.1310 Y-0.9178 Z5.2089 S200.0 V800.00 DIODE10 F1000
+G1 X-2.4163 Y0.6222 Z5.2089 S200.0 V800.00 DIODE5 F1000
+G1 X-2.3995 Y0.6922 Z5.2089 S200.0 V800.00 DIODE5 F1000
+G1 X-2.4234 Y0.7622 Z5.2089 S200.0 V800.00 DIODE4 F1000
+G1 X-2.4234 Y0.7622 Z5.2089 S200.0 V800.00 DIODE5 F1000
+; Layer Time: 0.7106 sec
+; ===== End Layer 5 =====
+
+; ===== Layer 6 Z=5.2339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-2.0140 Y-1.3401 Z5.2339 S200.0 V800.00 DIODE10 F1000
+G1 X-2.1076 Y-0.2901 Z5.2339 S200.0 V800.00 DIODE9 F1000
+G1 X-2.2290 Y-0.2201 Z5.2339 S200.0 V800.00 DIODE7 F1000
+G1 X-2.2687 Y0.2699 Z5.2339 S200.0 V800.00 DIODE6 F1000
+G1 X-2.0552 Y0.3399 Z5.2339 S200.0 V800.00 DIODE10 F1000
+G1 X-2.0713 Y0.4099 Z5.2339 S200.0 V800.00 DIODE9 F1000
+G1 X-2.0713 Y0.4099 Z5.2339 S200.0 V800.00 DIODE10 F1000
+G1 X-2.1234 Y0.4799 Z5.2339 S200.0 V800.00 DIODE8 F1000
+G1 X-2.1234 Y0.4799 Z5.2339 S200.0 V800.00 DIODE9 F1000
+G1 X-2.1472 Y0.5499 Z5.2339 S200.0 V800.00 DIODE8 F1000
+G1 X-2.1575 Y0.6199 Z5.2339 S200.0 V800.00 DIODE8 F1000
+G1 X-2.1595 Y0.6899 Z5.2339 S200.0 V800.00 DIODE8 F1000
+G1 X-2.1726 Y0.7599 Z5.2339 S200.0 V800.00 DIODE8 F1000
+; -- Scan Pass 2 --
+G1 X-2.0140 Y-1.3401 Z5.2339 S200.0 V800.00 DIODE10 F1000
+G1 X-2.1076 Y-0.2901 Z5.2339 S200.0 V800.00 DIODE9 F1000
+G1 X-2.2290 Y-0.2201 Z5.2339 S200.0 V800.00 DIODE7 F1000
+G1 X-2.2687 Y0.2699 Z5.2339 S200.0 V800.00 DIODE6 F1000
+G1 X-2.0552 Y0.3399 Z5.2339 S200.0 V800.00 DIODE10 F1000
+G1 X-2.0713 Y0.4099 Z5.2339 S200.0 V800.00 DIODE9 F1000
+G1 X-2.0713 Y0.4099 Z5.2339 S200.0 V800.00 DIODE10 F1000
+G1 X-2.1234 Y0.4799 Z5.2339 S200.0 V800.00 DIODE8 F1000
+G1 X-2.1234 Y0.4799 Z5.2339 S200.0 V800.00 DIODE9 F1000
+G1 X-2.1472 Y0.5499 Z5.2339 S200.0 V800.00 DIODE8 F1000
+G1 X-2.1575 Y0.6199 Z5.2339 S200.0 V800.00 DIODE8 F1000
+G1 X-2.1595 Y0.6899 Z5.2339 S200.0 V800.00 DIODE8 F1000
+G1 X-2.1726 Y0.7599 Z5.2339 S200.0 V800.00 DIODE8 F1000
+; Layer Time: 0.8273 sec
+; ===== End Layer 6 =====
+
+; ===== Layer 7 Z=5.2589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-2.2020 Y0.4283 Z5.2589 S200.0 V800.00 DIODE10 F1000
+G1 X-2.2303 Y0.4983 Z5.2589 S200.0 V800.00 DIODE10 F1000
+G1 X-2.2320 Y0.5683 Z5.2589 S200.0 V800.00 DIODE10 F1000
+G1 X-2.2338 Y0.6383 Z5.2589 S200.0 V800.00 DIODE10 F1000
+G1 X-2.2847 Y0.7083 Z5.2589 S200.0 V800.00 DIODE9 F1000
+; -- Scan Pass 2 --
+G1 X-2.2020 Y0.4283 Z5.2589 S200.0 V800.00 DIODE10 F1000
+G1 X-2.2303 Y0.4983 Z5.2589 S200.0 V800.00 DIODE10 F1000
+G1 X-2.2320 Y0.5683 Z5.2589 S200.0 V800.00 DIODE10 F1000
+G1 X-2.2338 Y0.6383 Z5.2589 S200.0 V800.00 DIODE10 F1000
+G1 X-2.2847 Y0.7083 Z5.2589 S200.0 V800.00 DIODE9 F1000
+; Layer Time: 0.9235 sec
+; ===== End Layer 7 =====
+
+; ===== Layer 8 Z=5.2839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-2.3166 Y0.6898 Z5.2839 S200.0 V800.00 DIODE10 F1000
+; -- Scan Pass 2 --
+G1 X-2.3166 Y0.6898 Z5.2839 S200.0 V800.00 DIODE10 F1000
+; Layer Time: 0.9923 sec
+; ===== End Layer 8 =====
+
+; ===== Layer 9 Z=5.3089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 9]
+; -- Scan Pass 1 --
+G1 X-2.9398 Y0.8583 Z5.3089 S200.0 V800.00 DIODE2 F1000
+G1 X-2.7108 Y0.8583 Z5.3089 S200.0 V800.00 DIODE6 F1000
+G1 X-2.9891 Y0.9283 Z5.3089 S200.0 V800.00 DIODE1 F1000
+G1 X-2.9891 Y0.9283 Z5.3089 S200.0 V800.00 DIODE2 F1000
+; -- Scan Pass 2 --
+G1 X-2.9398 Y0.8583 Z5.3089 S200.0 V800.00 DIODE2 F1000
+G1 X-2.7108 Y0.8583 Z5.3089 S200.0 V800.00 DIODE6 F1000
+G1 X-2.9891 Y0.9283 Z5.3089 S200.0 V800.00 DIODE1 F1000
+G1 X-2.9891 Y0.9283 Z5.3089 S200.0 V800.00 DIODE2 F1000
+; Layer Time: 1.0598 sec
+; ===== End Layer 9 =====
+
+; ===== Layer 10 Z=5.3339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-2.9418 Y0.9589 Z5.3339 S200.0 V800.00 DIODE2 F1000
+G1 X-2.9418 Y0.9589 Z5.3339 S200.0 V800.00 DIODE3 F1000
+G1 X-2.6171 Y0.9589 Z5.3339 S200.0 V800.00 DIODE8 F1000
+G1 X-2.9552 Y1.0289 Z5.3339 S200.0 V800.00 DIODE2 F1000
+G1 X-2.8866 Y1.0989 Z5.3339 S200.0 V800.00 DIODE3 F1000
+G1 X-2.7341 Y1.1689 Z5.3339 S200.0 V800.00 DIODE6 F1000
+G1 X-2.7473 Y1.2389 Z5.3339 S200.0 V800.00 DIODE5 F1000
+G1 X-2.7473 Y1.2389 Z5.3339 S200.0 V800.00 DIODE6 F1000
+G1 X-2.7861 Y1.3089 Z5.3339 S200.0 V800.00 DIODE5 F1000
+; -- Scan Pass 2 --
+G1 X-2.9418 Y0.9589 Z5.3339 S200.0 V800.00 DIODE2 F1000
+G1 X-2.9418 Y0.9589 Z5.3339 S200.0 V800.00 DIODE3 F1000
+G1 X-2.6171 Y0.9589 Z5.3339 S200.0 V800.00 DIODE8 F1000
+G1 X-2.9552 Y1.0289 Z5.3339 S200.0 V800.00 DIODE2 F1000
+G1 X-2.8866 Y1.0989 Z5.3339 S200.0 V800.00 DIODE3 F1000
+G1 X-2.7341 Y1.1689 Z5.3339 S200.0 V800.00 DIODE6 F1000
+G1 X-2.7473 Y1.2389 Z5.3339 S200.0 V800.00 DIODE5 F1000
+G1 X-2.7473 Y1.2389 Z5.3339 S200.0 V800.00 DIODE6 F1000
+G1 X-2.7861 Y1.3089 Z5.3339 S200.0 V800.00 DIODE5 F1000
+; Layer Time: 1.1251 sec
+; ===== End Layer 10 =====
+
+; ===== Layer 11 Z=5.3589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-2.6184 Y1.1769 Z5.3589 S200.0 V800.00 DIODE9 F1000
+G1 X-2.6184 Y1.1769 Z5.3589 S200.0 V800.00 DIODE10 F1000
+G1 X-2.7222 Y1.2469 Z5.3589 S200.0 V800.00 DIODE8 F1000
+G1 X-2.7731 Y1.3169 Z5.3589 S200.0 V800.00 DIODE7 F1000
+G1 X-2.8132 Y1.3869 Z5.3589 S200.0 V800.00 DIODE6 F1000
+G1 X-2.8560 Y1.4569 Z5.3589 S200.0 V800.00 DIODE5 F1000
+G1 X-2.8560 Y1.4569 Z5.3589 S200.0 V800.00 DIODE6 F1000
+; -- Scan Pass 2 --
+G1 X-2.6184 Y1.1769 Z5.3589 S200.0 V800.00 DIODE9 F1000
+G1 X-2.6184 Y1.1769 Z5.3589 S200.0 V800.00 DIODE10 F1000
+G1 X-2.7222 Y1.2469 Z5.3589 S200.0 V800.00 DIODE8 F1000
+G1 X-2.7731 Y1.3169 Z5.3589 S200.0 V800.00 DIODE7 F1000
+G1 X-2.8132 Y1.3869 Z5.3589 S200.0 V800.00 DIODE6 F1000
+G1 X-2.8560 Y1.4569 Z5.3589 S200.0 V800.00 DIODE5 F1000
+G1 X-2.8560 Y1.4569 Z5.3589 S200.0 V800.00 DIODE6 F1000
+; Layer Time: 1.1793 sec
+; ===== End Layer 11 =====
+
+; ===== Layer 12 Z=5.3839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-2.5787 Y1.4037 Z5.3839 S200.0 V800.00 DIODE10 F1000
+G1 X-2.7239 Y1.4737 Z5.3839 S200.0 V800.00 DIODE8 F1000
+G1 X-2.7648 Y1.5437 Z5.3839 S200.0 V800.00 DIODE7 F1000
+G1 X-2.7884 Y1.6137 Z5.3839 S200.0 V800.00 DIODE7 F1000
+G1 X-2.8319 Y1.6837 Z5.3839 S200.0 V800.00 DIODE6 F1000
+; -- Scan Pass 2 --
+G1 X-2.5787 Y1.4037 Z5.3839 S200.0 V800.00 DIODE10 F1000
+G1 X-2.7239 Y1.4737 Z5.3839 S200.0 V800.00 DIODE8 F1000
+G1 X-2.7648 Y1.5437 Z5.3839 S200.0 V800.00 DIODE7 F1000
+G1 X-2.7884 Y1.6137 Z5.3839 S200.0 V800.00 DIODE7 F1000
+G1 X-2.8319 Y1.6837 Z5.3839 S200.0 V800.00 DIODE6 F1000
+; Layer Time: 1.2275 sec
+; ===== End Layer 12 =====
+
+; ===== Layer 13 Z=5.4089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-2.5482 Y1.5713 Z5.4089 S200.0 V800.00 DIODE10 F1000
+G1 X-2.6116 Y1.6413 Z5.4089 S200.0 V800.00 DIODE9 F1000
+G1 X-2.6474 Y1.7113 Z5.4089 S200.0 V800.00 DIODE8 F1000
+G1 X-2.7053 Y1.7813 Z5.4089 S200.0 V800.00 DIODE7 F1000
+; -- Scan Pass 2 --
+G1 X-2.5482 Y1.5713 Z5.4089 S200.0 V800.00 DIODE10 F1000
+G1 X-2.6116 Y1.6413 Z5.4089 S200.0 V800.00 DIODE9 F1000
+G1 X-2.6474 Y1.7113 Z5.4089 S200.0 V800.00 DIODE8 F1000
+G1 X-2.7053 Y1.7813 Z5.4089 S200.0 V800.00 DIODE7 F1000
+; Layer Time: 1.2745 sec
+; ===== End Layer 13 =====
+
+; ===== Layer 14 Z=5.4339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 1.3270 sec
+; ===== End Layer 14 =====
+
+; ===== Layer 15 Z=5.4589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-3.1407 Y1.8677 Z5.4589 S200.0 V800.00 DIODE1 F1000
+G1 X-3.1407 Y1.8677 Z5.4589 S200.0 V800.00 DIODE2 F1000
+; -- Scan Pass 2 --
+G1 X-3.1407 Y1.8677 Z5.4589 S200.0 V800.00 DIODE1 F1000
+G1 X-3.1407 Y1.8677 Z5.4589 S200.0 V800.00 DIODE2 F1000
+; Layer Time: 1.3790 sec
+; ===== End Layer 15 =====
+
+; ===== Layer 16 Z=5.4839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-3.0540 Y2.1647 Z5.4839 S200.0 V800.00 DIODE2 F1000
+; -- Scan Pass 2 --
+G1 X-3.0540 Y2.1647 Z5.4839 S200.0 V800.00 DIODE2 F1000
+; Layer Time: 1.4262 sec
+; ===== End Layer 16 =====
+
+; ===== Layer 17 Z=5.5089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-2.5501 Y2.3471 Z5.5089 S200.0 V800.00 DIODE10 F1000
+; -- Scan Pass 2 --
+G1 X-2.5501 Y2.3471 Z5.5089 S200.0 V800.00 DIODE10 F1000
+; Layer Time: 1.4757 sec
+; ===== End Layer 17 =====
+
+; ===== Layer 18 Z=5.5339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-2.6376 Y2.7641 Z5.5339 S200.0 V800.00 DIODE9 F1000
+G1 X-2.6376 Y2.7641 Z5.5339 S200.0 V800.00 DIODE10 F1000
+; -- Scan Pass 2 --
+G1 X-2.6376 Y2.7641 Z5.5339 S200.0 V800.00 DIODE9 F1000
+G1 X-2.6376 Y2.7641 Z5.5339 S200.0 V800.00 DIODE10 F1000
+; Layer Time: 1.5273 sec
+; ===== End Layer 18 =====
+
+; ===== Layer 19 Z=5.5589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 1.5920 sec
+; ===== End Layer 19 =====
+
+; ===== Layer 20 Z=5.5839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-2.9261 Y1.4637 Z5.5839 S200.0 V800.00 DIODE6 F1000
+G1 X-2.9896 Y1.5337 Z5.5839 S200.0 V800.00 DIODE5 F1000
+G1 X-3.0360 Y1.6037 Z5.5839 S200.0 V800.00 DIODE4 F1000
+G1 X-3.0360 Y1.6037 Z5.5839 S200.0 V800.00 DIODE5 F1000
+; -- Scan Pass 2 --
+G1 X-2.9261 Y1.4637 Z5.5839 S200.0 V800.00 DIODE6 F1000
+G1 X-2.9896 Y1.5337 Z5.5839 S200.0 V800.00 DIODE5 F1000
+G1 X-3.0360 Y1.6037 Z5.5839 S200.0 V800.00 DIODE4 F1000
+G1 X-3.0360 Y1.6037 Z5.5839 S200.0 V800.00 DIODE5 F1000
+; Layer Time: 1.6702 sec
+; ===== End Layer 20 =====
+
+; ===== Layer 21 Z=5.6089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-2.8699 Y1.0762 Z5.6089 S200.0 V800.00 DIODE8 F1000
+G1 X-2.9302 Y1.1462 Z5.6089 S200.0 V800.00 DIODE7 F1000
+G1 X-2.9780 Y1.2162 Z5.6089 S200.0 V800.00 DIODE6 F1000
+G1 X-3.0184 Y1.2862 Z5.6089 S200.0 V800.00 DIODE5 F1000
+G1 X-3.0184 Y1.2862 Z5.6089 S200.0 V800.00 DIODE6 F1000
+G1 X-3.0768 Y1.3562 Z5.6089 S200.0 V800.00 DIODE4 F1000
+G1 X-3.0768 Y1.3562 Z5.6089 S200.0 V800.00 DIODE5 F1000
+; -- Scan Pass 2 --
+G1 X-2.8699 Y1.0762 Z5.6089 S200.0 V800.00 DIODE8 F1000
+G1 X-2.9302 Y1.1462 Z5.6089 S200.0 V800.00 DIODE7 F1000
+G1 X-2.9780 Y1.2162 Z5.6089 S200.0 V800.00 DIODE6 F1000
+G1 X-3.0184 Y1.2862 Z5.6089 S200.0 V800.00 DIODE5 F1000
+G1 X-3.0184 Y1.2862 Z5.6089 S200.0 V800.00 DIODE6 F1000
+G1 X-3.0768 Y1.3562 Z5.6089 S200.0 V800.00 DIODE4 F1000
+G1 X-3.0768 Y1.3562 Z5.6089 S200.0 V800.00 DIODE5 F1000
+; Layer Time: 1.7417 sec
+; ===== End Layer 21 =====
+
+; ===== Layer 22 Z=5.6339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-2.7998 Y1.0762 Z5.6339 S200.0 V800.00 DIODE10 F1000
+G1 X-2.9025 Y1.1462 Z5.6339 S200.0 V800.00 DIODE9 F1000
+G1 X-2.9970 Y1.2162 Z5.6339 S200.0 V800.00 DIODE7 F1000
+G1 X-3.1373 Y1.2862 Z5.6339 S200.0 V800.00 DIODE5 F1000
+; -- Scan Pass 2 --
+G1 X-2.7998 Y1.0762 Z5.6339 S200.0 V800.00 DIODE10 F1000
+G1 X-2.9025 Y1.1462 Z5.6339 S200.0 V800.00 DIODE9 F1000
+G1 X-2.9970 Y1.2162 Z5.6339 S200.0 V800.00 DIODE7 F1000
+G1 X-3.1373 Y1.2862 Z5.6339 S200.0 V800.00 DIODE5 F1000
+; Layer Time: 1.8133 sec
+; ===== End Layer 22 =====
+
+; ===== Layer 23 Z=5.6589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-2.9659 Y1.2228 Z5.6589 S200.0 V800.00 DIODE9 F1000
+; -- Scan Pass 2 --
+G1 X-2.9659 Y1.2228 Z5.6589 S200.0 V800.00 DIODE9 F1000
+; Layer Time: 1.8747 sec
+; ===== End Layer 23 =====
+
+; ===== Layer 24 Z=5.6839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-3.1425 Y1.0918 Z5.6839 S200.0 V800.00 DIODE6 F1000
+G1 X-3.1425 Y1.0918 Z5.6839 S200.0 V800.00 DIODE7 F1000
+; -- Scan Pass 2 --
+G1 X-3.1425 Y1.0918 Z5.6839 S200.0 V800.00 DIODE6 F1000
+G1 X-3.1425 Y1.0918 Z5.6839 S200.0 V800.00 DIODE7 F1000
+; Layer Time: 1.9408 sec
+; ===== End Layer 24 =====
+
+; ===== Layer 25 Z=5.7089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 2.0007 sec
+; ===== End Layer 25 =====
+
+; ===== Layer 26 Z=5.7339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-3.1330 Y0.6596 Z5.7339 S200.0 V800.00 DIODE8 F1000
+; -- Scan Pass 2 --
+G1 X-3.1330 Y0.6596 Z5.7339 S200.0 V800.00 DIODE8 F1000
+; Layer Time: 2.0596 sec
+; ===== End Layer 26 =====
+
+; ===== Layer 27 Z=5.7589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-3.1891 Y0.5000 Z5.7589 S200.0 V800.00 DIODE7 F1000
+; -- Scan Pass 2 --
+G1 X-3.1891 Y0.5000 Z5.7589 S200.0 V800.00 DIODE7 F1000
+; Layer Time: 2.1155 sec
+; ===== End Layer 27 =====
+
+; ===== Layer 28 Z=5.7839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-3.1263 Y0.5324 Z5.7839 S200.0 V800.00 DIODE6 F1000
+; -- Scan Pass 2 --
+G1 X-3.1263 Y0.5324 Z5.7839 S200.0 V800.00 DIODE6 F1000
+; Layer Time: 2.1704 sec
+; ===== End Layer 28 =====
+
+; ===== Layer 29 Z=5.8089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 2.2228 sec
+; ===== End Layer 29 =====
+
+; ===== Layer 30 Z=5.8339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 2.2722 sec
+; ===== End Layer 30 =====
+
+; ===== Layer 31 Z=5.8589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 2.3183 sec
+; ===== End Layer 31 =====
+
+; ===== Layer 32 Z=5.8839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 2.3613 sec
+; ===== End Layer 32 =====
+
+; ===== Layer 33 Z=5.9089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 2.4020 sec
+; ===== End Layer 33 =====
+
+; ===== Layer 34 Z=5.9339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 2.4425 sec
+; ===== End Layer 34 =====
+
+; ===== Layer 35 Z=5.9589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-2.9865 Y0.1072 Z5.9589 S200.0 V800.00 DIODE9 F1000
+; -- Scan Pass 2 --
+G1 X-2.9865 Y0.1072 Z5.9589 S200.0 V800.00 DIODE9 F1000
+; Layer Time: 2.4832 sec
+; ===== End Layer 35 =====
+
+; ===== Layer 36 Z=5.9839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-2.9139 Y0.0065 Z5.9839 S200.0 V800.00 DIODE10 F1000
+; -- Scan Pass 2 --
+G1 X-2.9139 Y0.0065 Z5.9839 S200.0 V800.00 DIODE10 F1000
+; Layer Time: 2.5210 sec
+; ===== End Layer 36 =====
+
+; ===== Layer 37 Z=6.0089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 2.5581 sec
+; ===== End Layer 37 =====
+
+; ===== Layer 38 Z=6.0339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 2.6005 sec
+; ===== End Layer 38 =====
+
+; ===== Layer 39 Z=6.0589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 2.6440 sec
+; ===== End Layer 39 =====
+
+; ===== Layer 40 Z=6.0839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 2.6797 sec
+; ===== End Layer 40 =====
+
+; ===== Layer 41 Z=6.1089 =====
+; Active Diodes This Layer: [0, 1, 2, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 2.7184 sec
+; ===== End Layer 41 =====
+
+; ===== Layer 42 Z=6.1339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 2.7556 sec
+; ===== End Layer 42 =====
+
+; ===== Layer 43 Z=6.1589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 2.7923 sec
+; ===== End Layer 43 =====
+
+; ===== Layer 44 Z=6.1839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 2.8261 sec
+; ===== End Layer 44 =====
+
+; ===== Layer 45 Z=6.2089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 2.8591 sec
+; ===== End Layer 45 =====
+
+; ===== Layer 46 Z=6.2339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 2.8906 sec
+; ===== End Layer 46 =====
+
+; ===== Layer 47 Z=6.2589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 2.9185 sec
+; ===== End Layer 47 =====
+
+; ===== Layer 48 Z=6.2839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 2.9503 sec
+; ===== End Layer 48 =====
+
+; ===== Layer 49 Z=6.3089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 2.9846 sec
+; ===== End Layer 49 =====
+
+; ===== Layer 50 Z=6.3339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.0160 sec
+; ===== End Layer 50 =====
+
+; ===== Layer 51 Z=6.3589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.0467 sec
+; ===== End Layer 51 =====
+
+; ===== Layer 52 Z=6.3839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.0746 sec
+; ===== End Layer 52 =====
+
+; ===== Layer 53 Z=6.4089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.1042 sec
+; ===== End Layer 53 =====
+
+; ===== Layer 54 Z=6.4339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-3.7473 Y-0.6717 Z6.4339 S200.0 V800.00 DIODE1 F1000
+G1 X-3.7473 Y-0.6717 Z6.4339 S200.0 V800.00 DIODE2 F1000
+; -- Scan Pass 2 --
+G1 X-3.7473 Y-0.6717 Z6.4339 S200.0 V800.00 DIODE1 F1000
+G1 X-3.7473 Y-0.6717 Z6.4339 S200.0 V800.00 DIODE2 F1000
+; Layer Time: 3.1319 sec
+; ===== End Layer 54 =====
+
+; ===== Layer 55 Z=6.4589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.1612 sec
+; ===== End Layer 55 =====
+
+; ===== Layer 56 Z=6.4839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.1895 sec
+; ===== End Layer 56 =====
+
+; ===== Layer 57 Z=6.5089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.2194 sec
+; ===== End Layer 57 =====
+
+; ===== Layer 58 Z=6.5339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.2462 sec
+; ===== End Layer 58 =====
+
+; ===== Layer 59 Z=6.5589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-3.7783 Y-0.3608 Z6.5589 S200.0 V800.00 DIODE2 F1000
+G1 X-3.7783 Y-0.3608 Z6.5589 S200.0 V800.00 DIODE3 F1000
+; -- Scan Pass 2 --
+G1 X-3.7783 Y-0.3608 Z6.5589 S200.0 V800.00 DIODE2 F1000
+G1 X-3.7783 Y-0.3608 Z6.5589 S200.0 V800.00 DIODE3 F1000
+; Layer Time: 3.2798 sec
+; ===== End Layer 59 =====
+
+; ===== Layer 60 Z=6.5839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.3049 sec
+; ===== End Layer 60 =====
+
+; ===== Layer 61 Z=6.6089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-3.8963 Y-0.3892 Z6.6089 S200.0 V800.00 DIODE1 F1000
+; -- Scan Pass 2 --
+G1 X-3.8963 Y-0.3892 Z6.6089 S200.0 V800.00 DIODE1 F1000
+; Layer Time: 3.3352 sec
+; ===== End Layer 61 =====
+
+; ===== Layer 62 Z=6.6339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-3.4348 Y-0.2917 Z6.6339 S200.0 V800.00 DIODE9 F1000
+G1 X-3.8900 Y-0.2217 Z6.6339 S200.0 V800.00 DIODE1 F1000
+; -- Scan Pass 2 --
+G1 X-3.4348 Y-0.2917 Z6.6339 S200.0 V800.00 DIODE9 F1000
+G1 X-3.8900 Y-0.2217 Z6.6339 S200.0 V800.00 DIODE1 F1000
+; Layer Time: 3.3609 sec
+; ===== End Layer 62 =====
+
+; ===== Layer 63 Z=6.6589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-3.9455 Y-0.2060 Z6.6589 S200.0 V800.00 DIODE1 F1000
+G1 X-3.9455 Y-0.2060 Z6.6589 S200.0 V800.00 DIODE2 F1000
+; -- Scan Pass 2 --
+G1 X-3.9455 Y-0.2060 Z6.6589 S200.0 V800.00 DIODE1 F1000
+G1 X-3.9455 Y-0.2060 Z6.6589 S200.0 V800.00 DIODE2 F1000
+; Layer Time: 3.3890 sec
+; ===== End Layer 63 =====
+
+; ===== Layer 64 Z=6.6839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-3.9255 Y-0.2680 Z6.6839 S200.0 V800.00 DIODE2 F1000
+; -- Scan Pass 2 --
+G1 X-3.9255 Y-0.2680 Z6.6839 S200.0 V800.00 DIODE2 F1000
+; Layer Time: 3.4195 sec
+; ===== End Layer 64 =====
+
+; ===== Layer 65 Z=6.7089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-4.7376 Y-0.2747 Z6.7089 S200.0 V800.00 DIODE3 F1000
+G1 X-4.4528 Y-0.2747 Z6.7089 S200.0 V800.00 DIODE8 F1000
+G1 X-4.8468 Y-0.2047 Z6.7089 S200.0 V800.00 DIODE1 F1000
+; -- Scan Pass 2 --
+G1 X-4.7376 Y-0.2747 Z6.7089 S200.0 V800.00 DIODE3 F1000
+G1 X-4.4528 Y-0.2747 Z6.7089 S200.0 V800.00 DIODE8 F1000
+G1 X-4.8468 Y-0.2047 Z6.7089 S200.0 V800.00 DIODE1 F1000
+; Layer Time: 3.4550 sec
+; ===== End Layer 65 =====
+
+; ===== Layer 66 Z=6.7339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-4.8964 Y-0.3126 Z6.7339 S200.0 V800.00 DIODE10 F1000
+G1 X-5.4317 Y-0.2426 Z6.7339 S200.0 V800.00 DIODE1 F1000
+; -- Scan Pass 2 --
+G1 X-4.8964 Y-0.3126 Z6.7339 S200.0 V800.00 DIODE10 F1000
+G1 X-5.4317 Y-0.2426 Z6.7339 S200.0 V800.00 DIODE1 F1000
+; Layer Time: 3.5046 sec
+; ===== End Layer 66 =====
+
+; ===== Layer 67 Z=6.7589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-5.8315 Y-0.4212 Z6.7589 S200.0 V800.00 DIODE1 F1000
+G1 X-5.8315 Y-0.4212 Z6.7589 S200.0 V800.00 DIODE2 F1000
+G1 X-5.3965 Y-0.4212 Z6.7589 S200.0 V800.00 DIODE9 F1000
+; -- Scan Pass 2 --
+G1 X-5.8315 Y-0.4212 Z6.7589 S200.0 V800.00 DIODE1 F1000
+G1 X-5.8315 Y-0.4212 Z6.7589 S200.0 V800.00 DIODE2 F1000
+G1 X-5.3965 Y-0.4212 Z6.7589 S200.0 V800.00 DIODE9 F1000
+; Layer Time: 3.5586 sec
+; ===== End Layer 67 =====
+
+; ===== Layer 68 Z=6.7839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-6.0141 Y-0.3644 Z6.7839 S200.0 V800.00 DIODE1 F1000
+G1 X-6.0141 Y-0.3644 Z6.7839 S200.0 V800.00 DIODE2 F1000
+G1 X-5.5419 Y-0.3644 Z6.7839 S200.0 V800.00 DIODE9 F1000
+; -- Scan Pass 2 --
+G1 X-6.0141 Y-0.3644 Z6.7839 S200.0 V800.00 DIODE1 F1000
+G1 X-6.0141 Y-0.3644 Z6.7839 S200.0 V800.00 DIODE2 F1000
+G1 X-5.5419 Y-0.3644 Z6.7839 S200.0 V800.00 DIODE9 F1000
+; Layer Time: 3.6053 sec
+; ===== End Layer 68 =====
+
+; ===== Layer 69 Z=6.8089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-6.0852 Y-0.2458 Z6.8089 S200.0 V800.00 DIODE1 F1000
+G1 X-6.0852 Y-0.2458 Z6.8089 S200.0 V800.00 DIODE2 F1000
+G1 X-5.6137 Y-0.2458 Z6.8089 S200.0 V800.00 DIODE9 F1000
+; -- Scan Pass 2 --
+G1 X-6.0852 Y-0.2458 Z6.8089 S200.0 V800.00 DIODE1 F1000
+G1 X-6.0852 Y-0.2458 Z6.8089 S200.0 V800.00 DIODE2 F1000
+G1 X-5.6137 Y-0.2458 Z6.8089 S200.0 V800.00 DIODE9 F1000
+; Layer Time: 3.6480 sec
+; ===== End Layer 69 =====
+
+; ===== Layer 70 Z=6.8339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-6.4521 Y0.0068 Z6.8339 S200.0 V800.00 DIODE1 F1000
+G1 X-6.4521 Y0.0068 Z6.8339 S200.0 V800.00 DIODE2 F1000
+G1 X-6.0048 Y0.0068 Z6.8339 S200.0 V800.00 DIODE9 F1000
+; -- Scan Pass 2 --
+G1 X-6.4521 Y0.0068 Z6.8339 S200.0 V800.00 DIODE1 F1000
+G1 X-6.4521 Y0.0068 Z6.8339 S200.0 V800.00 DIODE2 F1000
+G1 X-6.0048 Y0.0068 Z6.8339 S200.0 V800.00 DIODE9 F1000
+; Layer Time: 3.6899 sec
+; ===== End Layer 70 =====
+
+; ===== Layer 71 Z=6.8589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-6.5478 Y0.0846 Z6.8589 S200.0 V800.00 DIODE2 F1000
+; -- Scan Pass 2 --
+G1 X-6.5478 Y0.0846 Z6.8589 S200.0 V800.00 DIODE2 F1000
+; Layer Time: 3.7327 sec
+; ===== End Layer 71 =====
+
+; ===== Layer 72 Z=6.8839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-6.4994 Y0.0335 Z6.8839 S200.0 V800.00 DIODE2 F1000
+; -- Scan Pass 2 --
+G1 X-6.4994 Y0.0335 Z6.8839 S200.0 V800.00 DIODE2 F1000
+; Layer Time: 3.7728 sec
+; ===== End Layer 72 =====
+
+; ===== Layer 73 Z=6.9089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-6.7330 Y0.0980 Z6.9089 S200.0 V800.00 DIODE2 F1000
+G1 X-6.2784 Y0.0980 Z6.9089 S200.0 V800.00 DIODE9 F1000
+G1 X-6.2784 Y0.0980 Z6.9089 S200.0 V800.00 DIODE10 F1000
+G1 X-6.7842 Y0.1680 Z6.9089 S200.0 V800.00 DIODE1 F1000
+; -- Scan Pass 2 --
+G1 X-6.7330 Y0.0980 Z6.9089 S200.0 V800.00 DIODE2 F1000
+G1 X-6.2784 Y0.0980 Z6.9089 S200.0 V800.00 DIODE9 F1000
+G1 X-6.2784 Y0.0980 Z6.9089 S200.0 V800.00 DIODE10 F1000
+G1 X-6.7842 Y0.1680 Z6.9089 S200.0 V800.00 DIODE1 F1000
+; Layer Time: 3.8121 sec
+; ===== End Layer 73 =====
+
+; ===== Layer 74 Z=6.9339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-7.0296 Y0.2796 Z6.9339 S200.0 V800.00 DIODE1 F1000
+; -- Scan Pass 2 --
+G1 X-7.0296 Y0.2796 Z6.9339 S200.0 V800.00 DIODE1 F1000
+; Layer Time: 3.8505 sec
+; ===== End Layer 74 =====
+
+; ===== Layer 75 Z=6.9589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-7.1569 Y0.4028 Z6.9589 S200.0 V800.00 DIODE1 F1000
+G1 X-7.1569 Y0.4028 Z6.9589 S200.0 V800.00 DIODE2 F1000
+; -- Scan Pass 2 --
+G1 X-7.1569 Y0.4028 Z6.9589 S200.0 V800.00 DIODE1 F1000
+G1 X-7.1569 Y0.4028 Z6.9589 S200.0 V800.00 DIODE2 F1000
+; Layer Time: 3.8873 sec
+; ===== End Layer 75 =====
+
+; ===== Layer 76 Z=6.9839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-7.1940 Y0.4026 Z6.9839 S200.0 V800.00 DIODE1 F1000
+G1 X-7.1940 Y0.4026 Z6.9839 S200.0 V800.00 DIODE2 F1000
+; -- Scan Pass 2 --
+G1 X-7.1940 Y0.4026 Z6.9839 S200.0 V800.00 DIODE1 F1000
+G1 X-7.1940 Y0.4026 Z6.9839 S200.0 V800.00 DIODE2 F1000
+; Layer Time: 3.9217 sec
+; ===== End Layer 76 =====
+
+; ===== Layer 77 Z=7.0089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-7.4025 Y0.5818 Z7.0089 S200.0 V800.00 DIODE1 F1000
+G1 X-7.4025 Y0.5818 Z7.0089 S200.0 V800.00 DIODE2 F1000
+; -- Scan Pass 2 --
+G1 X-7.4025 Y0.5818 Z7.0089 S200.0 V800.00 DIODE1 F1000
+G1 X-7.4025 Y0.5818 Z7.0089 S200.0 V800.00 DIODE2 F1000
+; Layer Time: 3.9522 sec
+; ===== End Layer 77 =====
+
+; ===== Layer 78 Z=7.0339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-7.5061 Y0.7260 Z7.0339 S200.0 V800.00 DIODE1 F1000
+G1 X-7.5061 Y0.7260 Z7.0339 S200.0 V800.00 DIODE2 F1000
+; -- Scan Pass 2 --
+G1 X-7.5061 Y0.7260 Z7.0339 S200.0 V800.00 DIODE1 F1000
+G1 X-7.5061 Y0.7260 Z7.0339 S200.0 V800.00 DIODE2 F1000
+; Layer Time: 3.8394 sec
+; ===== End Layer 78 =====
+
+; ===== Layer 79 Z=7.0589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-7.5041 Y0.7265 Z7.0589 S200.0 V800.00 DIODE1 F1000
+G1 X-7.5041 Y0.7265 Z7.0589 S200.0 V800.00 DIODE2 F1000
+; -- Scan Pass 2 --
+G1 X-7.5041 Y0.7265 Z7.0589 S200.0 V800.00 DIODE1 F1000
+G1 X-7.5041 Y0.7265 Z7.0589 S200.0 V800.00 DIODE2 F1000
+; Layer Time: 3.7049 sec
+; ===== End Layer 79 =====
+
+; ===== Layer 80 Z=7.0839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-7.7750 Y0.6584 Z7.0839 S200.0 V800.00 DIODE1 F1000
+G1 X-7.7750 Y0.6584 Z7.0839 S200.0 V800.00 DIODE2 F1000
+; -- Scan Pass 2 --
+G1 X-7.7750 Y0.6584 Z7.0839 S200.0 V800.00 DIODE1 F1000
+G1 X-7.7750 Y0.6584 Z7.0839 S200.0 V800.00 DIODE2 F1000
+; Layer Time: 3.6383 sec
+; ===== End Layer 80 =====
+
+; ===== Layer 81 Z=7.1089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-7.7538 Y0.7121 Z7.1089 S200.0 V800.00 DIODE1 F1000
+G1 X-7.7538 Y0.7121 Z7.1089 S200.0 V800.00 DIODE2 F1000
+; -- Scan Pass 2 --
+G1 X-7.7538 Y0.7121 Z7.1089 S200.0 V800.00 DIODE1 F1000
+G1 X-7.7538 Y0.7121 Z7.1089 S200.0 V800.00 DIODE2 F1000
+; Layer Time: 3.5885 sec
+; ===== End Layer 81 =====
+
+; ===== Layer 82 Z=7.1339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-7.7274 Y0.7546 Z7.1339 S200.0 V800.00 DIODE1 F1000
+G1 X-7.7274 Y0.7546 Z7.1339 S200.0 V800.00 DIODE2 F1000
+; -- Scan Pass 2 --
+G1 X-7.7274 Y0.7546 Z7.1339 S200.0 V800.00 DIODE1 F1000
+G1 X-7.7274 Y0.7546 Z7.1339 S200.0 V800.00 DIODE2 F1000
+; Layer Time: 3.5529 sec
+; ===== End Layer 82 =====
+
+; ===== Layer 83 Z=7.1589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-7.6731 Y0.7569 Z7.1589 S200.0 V800.00 DIODE1 F1000
+; -- Scan Pass 2 --
+G1 X-7.6731 Y0.7569 Z7.1589 S200.0 V800.00 DIODE1 F1000
+; Layer Time: 3.5431 sec
+; ===== End Layer 83 =====
+
+; ===== Layer 84 Z=7.1839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-7.8259 Y0.7870 Z7.1839 S200.0 V800.00 DIODE1 F1000
+; -- Scan Pass 2 --
+G1 X-7.8259 Y0.7870 Z7.1839 S200.0 V800.00 DIODE1 F1000
+; Layer Time: 3.5099 sec
+; ===== End Layer 84 =====
+
+; ===== Layer 85 Z=7.2089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-7.8309 Y0.7532 Z7.2089 S200.0 V800.00 DIODE2 F1000
+G1 X-7.8309 Y0.7532 Z7.2089 S200.0 V800.00 DIODE3 F1000
+G1 X-7.9132 Y0.8232 Z7.2089 S200.0 V800.00 DIODE1 F1000
+; -- Scan Pass 2 --
+G1 X-7.8309 Y0.7532 Z7.2089 S200.0 V800.00 DIODE2 F1000
+G1 X-7.8309 Y0.7532 Z7.2089 S200.0 V800.00 DIODE3 F1000
+G1 X-7.9132 Y0.8232 Z7.2089 S200.0 V800.00 DIODE1 F1000
+; Layer Time: 3.4972 sec
+; ===== End Layer 85 =====
+
+; ===== Layer 86 Z=7.2339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-7.9406 Y0.7863 Z7.2339 S200.0 V800.00 DIODE2 F1000
+G1 X-7.9406 Y0.7863 Z7.2339 S200.0 V800.00 DIODE3 F1000
+G1 X-7.5908 Y0.7863 Z7.2339 S200.0 V800.00 DIODE8 F1000
+G1 X-8.0115 Y0.8563 Z7.2339 S200.0 V800.00 DIODE1 F1000
+; -- Scan Pass 2 --
+G1 X-7.9406 Y0.7863 Z7.2339 S200.0 V800.00 DIODE2 F1000
+G1 X-7.9406 Y0.7863 Z7.2339 S200.0 V800.00 DIODE3 F1000
+G1 X-7.5908 Y0.7863 Z7.2339 S200.0 V800.00 DIODE8 F1000
+G1 X-8.0115 Y0.8563 Z7.2339 S200.0 V800.00 DIODE1 F1000
+; Layer Time: 3.4782 sec
+; ===== End Layer 86 =====
+
+; ===== Layer 87 Z=7.2589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-8.0475 Y0.7218 Z7.2589 S200.0 V800.00 DIODE2 F1000
+G1 X-8.1064 Y0.7918 Z7.2589 S200.0 V800.00 DIODE1 F1000
+; -- Scan Pass 2 --
+G1 X-8.0475 Y0.7218 Z7.2589 S200.0 V800.00 DIODE2 F1000
+G1 X-8.1064 Y0.7918 Z7.2589 S200.0 V800.00 DIODE1 F1000
+; Layer Time: 3.4687 sec
+; ===== End Layer 87 =====
+
+; ===== Layer 88 Z=7.2839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-8.2525 Y0.8107 Z7.2839 S200.0 V800.00 DIODE2 F1000
+G1 X-8.2918 Y0.8807 Z7.2839 S200.0 V800.00 DIODE1 F1000
+; -- Scan Pass 2 --
+G1 X-8.2525 Y0.8107 Z7.2839 S200.0 V800.00 DIODE2 F1000
+G1 X-8.2918 Y0.8807 Z7.2839 S200.0 V800.00 DIODE1 F1000
+; Layer Time: 3.4593 sec
+; ===== End Layer 88 =====
+
+; ===== Layer 89 Z=7.3089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-8.3523 Y0.7307 Z7.3089 S200.0 V800.00 DIODE2 F1000
+; -- Scan Pass 2 --
+G1 X-8.3523 Y0.7307 Z7.3089 S200.0 V800.00 DIODE2 F1000
+; Layer Time: 3.4526 sec
+; ===== End Layer 89 =====
+
+; ===== Layer 90 Z=7.3339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-8.4884 Y0.5089 Z7.3339 S200.0 V800.00 DIODE2 F1000
+G1 X-8.4884 Y0.5089 Z7.3339 S200.0 V800.00 DIODE3 F1000
+G1 X-8.0155 Y0.5089 Z7.3339 S200.0 V800.00 DIODE10 F1000
+G1 X-8.5651 Y0.5789 Z7.3339 S200.0 V800.00 DIODE1 F1000
+; -- Scan Pass 2 --
+G1 X-8.4884 Y0.5089 Z7.3339 S200.0 V800.00 DIODE2 F1000
+G1 X-8.4884 Y0.5089 Z7.3339 S200.0 V800.00 DIODE3 F1000
+G1 X-8.0155 Y0.5089 Z7.3339 S200.0 V800.00 DIODE10 F1000
+G1 X-8.5651 Y0.5789 Z7.3339 S200.0 V800.00 DIODE1 F1000
+; Layer Time: 3.4575 sec
+; ===== End Layer 90 =====
+
+; ===== Layer 91 Z=7.3589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-8.6221 Y0.6597 Z7.3589 S200.0 V800.00 DIODE1 F1000
+G1 X-8.6221 Y0.6597 Z7.3589 S200.0 V800.00 DIODE2 F1000
+; -- Scan Pass 2 --
+G1 X-8.6221 Y0.6597 Z7.3589 S200.0 V800.00 DIODE1 F1000
+G1 X-8.6221 Y0.6597 Z7.3589 S200.0 V800.00 DIODE2 F1000
+; Layer Time: 3.4534 sec
+; ===== End Layer 91 =====
+
+; ===== Layer 92 Z=7.3839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-8.6903 Y0.6334 Z7.3839 S200.0 V800.00 DIODE1 F1000
+G1 X-8.6903 Y0.6334 Z7.3839 S200.0 V800.00 DIODE2 F1000
+; -- Scan Pass 2 --
+G1 X-8.6903 Y0.6334 Z7.3839 S200.0 V800.00 DIODE1 F1000
+G1 X-8.6903 Y0.6334 Z7.3839 S200.0 V800.00 DIODE2 F1000
+; Layer Time: 3.4469 sec
+; ===== End Layer 92 =====
+
+; ===== Layer 93 Z=7.4089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-8.7277 Y0.5668 Z7.4089 S200.0 V800.00 DIODE1 F1000
+G1 X-8.7277 Y0.5668 Z7.4089 S200.0 V800.00 DIODE2 F1000
+; -- Scan Pass 2 --
+G1 X-8.7277 Y0.5668 Z7.4089 S200.0 V800.00 DIODE1 F1000
+G1 X-8.7277 Y0.5668 Z7.4089 S200.0 V800.00 DIODE2 F1000
+; Layer Time: 3.4677 sec
+; ===== End Layer 93 =====
+
+; ===== Layer 94 Z=7.4339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-8.8531 Y0.4751 Z7.4339 S200.0 V800.00 DIODE1 F1000
+G1 X-8.8531 Y0.4751 Z7.4339 S200.0 V800.00 DIODE2 F1000
+; -- Scan Pass 2 --
+G1 X-8.8531 Y0.4751 Z7.4339 S200.0 V800.00 DIODE1 F1000
+G1 X-8.8531 Y0.4751 Z7.4339 S200.0 V800.00 DIODE2 F1000
+; Layer Time: 3.4628 sec
+; ===== End Layer 94 =====
+
+; ===== Layer 95 Z=7.4589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.0100 Y0.5197 Z7.4589 S200.0 V800.00 DIODE1 F1000
+G1 X-9.0100 Y0.5197 Z7.4589 S200.0 V800.00 DIODE2 F1000
+; -- Scan Pass 2 --
+G1 X-9.0100 Y0.5197 Z7.4589 S200.0 V800.00 DIODE1 F1000
+G1 X-9.0100 Y0.5197 Z7.4589 S200.0 V800.00 DIODE2 F1000
+; Layer Time: 3.4715 sec
+; ===== End Layer 95 =====
+
+; ===== Layer 96 Z=7.4839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.0166 Y0.6296 Z7.4839 S200.0 V800.00 DIODE1 F1000
+G1 X-9.0166 Y0.6296 Z7.4839 S200.0 V800.00 DIODE2 F1000
+; -- Scan Pass 2 --
+G1 X-9.0166 Y0.6296 Z7.4839 S200.0 V800.00 DIODE1 F1000
+G1 X-9.0166 Y0.6296 Z7.4839 S200.0 V800.00 DIODE2 F1000
+; Layer Time: 3.4702 sec
+; ===== End Layer 96 =====
+
+; ===== Layer 97 Z=7.5089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-8.4151 Y0.6978 Z7.5089 S200.0 V800.00 DIODE10 F1000
+; -- Scan Pass 2 --
+G1 X-8.4151 Y0.6978 Z7.5089 S200.0 V800.00 DIODE10 F1000
+; Layer Time: 3.4954 sec
+; ===== End Layer 97 =====
+
+; ===== Layer 98 Z=7.5339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.5077 sec
+; ===== End Layer 98 =====
+
+; ===== Layer 99 Z=7.5589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.0898 Y0.6208 Z7.5589 S200.0 V800.00 DIODE1 F1000
+G1 X-9.0898 Y0.6208 Z7.5589 S200.0 V800.00 DIODE2 F1000
+; -- Scan Pass 2 --
+G1 X-9.0898 Y0.6208 Z7.5589 S200.0 V800.00 DIODE1 F1000
+G1 X-9.0898 Y0.6208 Z7.5589 S200.0 V800.00 DIODE2 F1000
+; Layer Time: 3.5071 sec
+; ===== End Layer 99 =====
+
+; ===== Layer 100 Z=7.5839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.2631 Y0.6623 Z7.5839 S200.0 V800.00 DIODE1 F1000
+G1 X-9.2631 Y0.6623 Z7.5839 S200.0 V800.00 DIODE2 F1000
+; -- Scan Pass 2 --
+G1 X-9.2631 Y0.6623 Z7.5839 S200.0 V800.00 DIODE1 F1000
+G1 X-9.2631 Y0.6623 Z7.5839 S200.0 V800.00 DIODE2 F1000
+; Layer Time: 3.5341 sec
+; ===== End Layer 100 =====
+
+; ===== Layer 101 Z=7.6089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.2216 Y0.7014 Z7.6089 S200.0 V800.00 DIODE1 F1000
+G1 X-9.2216 Y0.7014 Z7.6089 S200.0 V800.00 DIODE2 F1000
+; -- Scan Pass 2 --
+G1 X-9.2216 Y0.7014 Z7.6089 S200.0 V800.00 DIODE1 F1000
+G1 X-9.2216 Y0.7014 Z7.6089 S200.0 V800.00 DIODE2 F1000
+; Layer Time: 3.5362 sec
+; ===== End Layer 101 =====
+
+; ===== Layer 102 Z=7.6339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.2838 Y0.5605 Z7.6339 S200.0 V800.00 DIODE2 F1000
+; -- Scan Pass 2 --
+G1 X-9.2838 Y0.5605 Z7.6339 S200.0 V800.00 DIODE2 F1000
+; Layer Time: 3.5656 sec
+; ===== End Layer 102 =====
+
+; ===== Layer 103 Z=7.6589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.2784 Y0.5800 Z7.6589 S200.0 V800.00 DIODE1 F1000
+G1 X-9.2784 Y0.5800 Z7.6589 S200.0 V800.00 DIODE2 F1000
+G1 X-8.9653 Y0.5800 Z7.6589 S200.0 V800.00 DIODE7 F1000
+; -- Scan Pass 2 --
+G1 X-9.2784 Y0.5800 Z7.6589 S200.0 V800.00 DIODE1 F1000
+G1 X-9.2784 Y0.5800 Z7.6589 S200.0 V800.00 DIODE2 F1000
+G1 X-8.9653 Y0.5800 Z7.6589 S200.0 V800.00 DIODE7 F1000
+; Layer Time: 3.5787 sec
+; ===== End Layer 103 =====
+
+; ===== Layer 104 Z=7.6839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.4034 Y0.6065 Z7.6839 S200.0 V800.00 DIODE1 F1000
+G1 X-9.4034 Y0.6065 Z7.6839 S200.0 V800.00 DIODE2 F1000
+; -- Scan Pass 2 --
+G1 X-9.4034 Y0.6065 Z7.6839 S200.0 V800.00 DIODE1 F1000
+G1 X-9.4034 Y0.6065 Z7.6839 S200.0 V800.00 DIODE2 F1000
+; Layer Time: 3.5893 sec
+; ===== End Layer 104 =====
+
+; ===== Layer 105 Z=7.7089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.4654 Y0.6217 Z7.7089 S200.0 V800.00 DIODE1 F1000
+; -- Scan Pass 2 --
+G1 X-9.4654 Y0.6217 Z7.7089 S200.0 V800.00 DIODE1 F1000
+; Layer Time: 3.6112 sec
+; ===== End Layer 105 =====
+
+; ===== Layer 106 Z=7.7339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.6214 sec
+; ===== End Layer 106 =====
+
+; ===== Layer 107 Z=7.7589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.6225 sec
+; ===== End Layer 107 =====
+
+; ===== Layer 108 Z=7.7839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.3859 Y0.4804 Z7.7839 S200.0 V800.00 DIODE2 F1000
+G1 X-9.3170 Y0.4804 Z7.7839 S200.0 V800.00 DIODE3 F1000
+G1 X-8.9532 Y0.4804 Z7.7839 S200.0 V800.00 DIODE9 F1000
+; -- Scan Pass 2 --
+G1 X-9.3859 Y0.4804 Z7.7839 S200.0 V800.00 DIODE2 F1000
+G1 X-9.3170 Y0.4804 Z7.7839 S200.0 V800.00 DIODE3 F1000
+G1 X-8.9532 Y0.4804 Z7.7839 S200.0 V800.00 DIODE9 F1000
+; Layer Time: 3.6263 sec
+; ===== End Layer 108 =====
+
+; ===== Layer 109 Z=7.8089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.4768 Y0.3791 Z7.8089 S200.0 V800.00 DIODE1 F1000
+G1 X-9.4768 Y0.3791 Z7.8089 S200.0 V800.00 DIODE2 F1000
+G1 X-9.1440 Y0.3791 Z7.8089 S200.0 V800.00 DIODE7 F1000
+; -- Scan Pass 2 --
+G1 X-9.4768 Y0.3791 Z7.8089 S200.0 V800.00 DIODE1 F1000
+G1 X-9.4768 Y0.3791 Z7.8089 S200.0 V800.00 DIODE2 F1000
+G1 X-9.1440 Y0.3791 Z7.8089 S200.0 V800.00 DIODE7 F1000
+; Layer Time: 3.6415 sec
+; ===== End Layer 109 =====
+
+; ===== Layer 110 Z=7.8339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.4215 Y0.3762 Z7.8339 S200.0 V800.00 DIODE1 F1000
+G1 X-9.4215 Y0.3762 Z7.8339 S200.0 V800.00 DIODE2 F1000
+G1 X-9.2165 Y0.3762 Z7.8339 S200.0 V800.00 DIODE5 F1000
+; -- Scan Pass 2 --
+G1 X-9.4215 Y0.3762 Z7.8339 S200.0 V800.00 DIODE1 F1000
+G1 X-9.4215 Y0.3762 Z7.8339 S200.0 V800.00 DIODE2 F1000
+G1 X-9.2165 Y0.3762 Z7.8339 S200.0 V800.00 DIODE5 F1000
+; Layer Time: 3.6404 sec
+; ===== End Layer 110 =====
+
+; ===== Layer 111 Z=7.8589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.3642 Y0.4330 Z7.8589 S200.0 V800.00 DIODE1 F1000
+; -- Scan Pass 2 --
+G1 X-9.3642 Y0.4330 Z7.8589 S200.0 V800.00 DIODE1 F1000
+; Layer Time: 3.6511 sec
+; ===== End Layer 111 =====
+
+; ===== Layer 112 Z=7.8839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.6383 sec
+; ===== End Layer 112 =====
+
+; ===== Layer 113 Z=7.9089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.6328 sec
+; ===== End Layer 113 =====
+
+; ===== Layer 114 Z=7.9339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.6414 sec
+; ===== End Layer 114 =====
+
+; ===== Layer 115 Z=7.9589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-8.7618 Y0.3950 Z7.9589 S200.0 V800.00 DIODE10 F1000
+; -- Scan Pass 2 --
+G1 X-8.7618 Y0.3950 Z7.9589 S200.0 V800.00 DIODE10 F1000
+; Layer Time: 3.6493 sec
+; ===== End Layer 115 =====
+
+; ===== Layer 116 Z=7.9839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.6481 sec
+; ===== End Layer 116 =====
+
+; ===== Layer 117 Z=8.0089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.4424 Y0.4938 Z8.0089 S200.0 V800.00 DIODE1 F1000
+G1 X-9.4424 Y0.4938 Z8.0089 S200.0 V800.00 DIODE2 F1000
+; -- Scan Pass 2 --
+G1 X-9.4424 Y0.4938 Z8.0089 S200.0 V800.00 DIODE1 F1000
+G1 X-9.4424 Y0.4938 Z8.0089 S200.0 V800.00 DIODE2 F1000
+; Layer Time: 3.6588 sec
+; ===== End Layer 117 =====
+
+; ===== Layer 118 Z=8.0339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.5418 Y0.4795 Z8.0339 S200.0 V800.00 DIODE1 F1000
+; -- Scan Pass 2 --
+G1 X-9.5418 Y0.4795 Z8.0339 S200.0 V800.00 DIODE1 F1000
+; Layer Time: 3.6675 sec
+; ===== End Layer 118 =====
+
+; ===== Layer 119 Z=8.0589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.6636 sec
+; ===== End Layer 119 =====
+
+; ===== Layer 120 Z=8.0839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.6689 sec
+; ===== End Layer 120 =====
+
+; ===== Layer 121 Z=8.1089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.6737 sec
+; ===== End Layer 121 =====
+
+; ===== Layer 122 Z=8.1339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.6674 sec
+; ===== End Layer 122 =====
+
+; ===== Layer 123 Z=8.1589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.3990 Y0.4623 Z8.1589 S200.0 V800.00 DIODE6 F1000
+; -- Scan Pass 2 --
+G1 X-9.3990 Y0.4623 Z8.1589 S200.0 V800.00 DIODE6 F1000
+; Layer Time: 3.6723 sec
+; ===== End Layer 123 =====
+
+; ===== Layer 124 Z=8.1839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.4174 Y0.5289 Z8.1839 S200.0 V800.00 DIODE6 F1000
+; -- Scan Pass 2 --
+G1 X-9.4174 Y0.5289 Z8.1839 S200.0 V800.00 DIODE6 F1000
+; Layer Time: 3.6752 sec
+; ===== End Layer 124 =====
+
+; ===== Layer 125 Z=8.2089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.4071 Y0.6121 Z8.2089 S200.0 V800.00 DIODE5 F1000
+G1 X-9.4071 Y0.6121 Z8.2089 S200.0 V800.00 DIODE6 F1000
+; -- Scan Pass 2 --
+G1 X-9.4071 Y0.6121 Z8.2089 S200.0 V800.00 DIODE5 F1000
+G1 X-9.4071 Y0.6121 Z8.2089 S200.0 V800.00 DIODE6 F1000
+; Layer Time: 3.6795 sec
+; ===== End Layer 125 =====
+
+; ===== Layer 126 Z=8.2339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.4142 Y0.6670 Z8.2339 S200.0 V800.00 DIODE5 F1000
+G1 X-9.4142 Y0.6670 Z8.2339 S200.0 V800.00 DIODE6 F1000
+; -- Scan Pass 2 --
+G1 X-9.4142 Y0.6670 Z8.2339 S200.0 V800.00 DIODE5 F1000
+G1 X-9.4142 Y0.6670 Z8.2339 S200.0 V800.00 DIODE6 F1000
+; Layer Time: 3.6705 sec
+; ===== End Layer 126 =====
+
+; ===== Layer 127 Z=8.2589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.3583 Y0.7405 Z8.2589 S200.0 V800.00 DIODE5 F1000
+; -- Scan Pass 2 --
+G1 X-9.3583 Y0.7405 Z8.2589 S200.0 V800.00 DIODE5 F1000
+; Layer Time: 3.6750 sec
+; ===== End Layer 127 =====
+
+; ===== Layer 128 Z=8.2839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.4857 Y0.7671 Z8.2839 S200.0 V800.00 DIODE4 F1000
+; -- Scan Pass 2 --
+G1 X-9.4857 Y0.7671 Z8.2839 S200.0 V800.00 DIODE4 F1000
+; Layer Time: 3.6773 sec
+; ===== End Layer 128 =====
+
+; ===== Layer 129 Z=8.3089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.6753 sec
+; ===== End Layer 129 =====
+
+; ===== Layer 130 Z=8.3339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.7074 sec
+; ===== End Layer 130 =====
+
+; ===== Layer 131 Z=8.3589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.0571 Y0.6734 Z8.3589 S200.0 V800.00 DIODE10 F1000
+; -- Scan Pass 2 --
+G1 X-9.0571 Y0.6734 Z8.3589 S200.0 V800.00 DIODE10 F1000
+; Layer Time: 3.7312 sec
+; ===== End Layer 131 =====
+
+; ===== Layer 132 Z=8.3839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.7480 sec
+; ===== End Layer 132 =====
+
+; ===== Layer 133 Z=8.4089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.7546 sec
+; ===== End Layer 133 =====
+
+; ===== Layer 134 Z=8.4339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.7871 sec
+; ===== End Layer 134 =====
+
+; ===== Layer 135 Z=8.4589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.7991 sec
+; ===== End Layer 135 =====
+
+; ===== Layer 136 Z=8.4839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.3734 Y0.2810 Z8.4839 S200.0 V800.00 DIODE7 F1000
+; -- Scan Pass 2 --
+G1 X-9.3734 Y0.2810 Z8.4839 S200.0 V800.00 DIODE7 F1000
+; Layer Time: 3.7987 sec
+; ===== End Layer 136 =====
+
+; ===== Layer 137 Z=8.5089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.8069 sec
+; ===== End Layer 137 =====
+
+; ===== Layer 138 Z=8.5339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.8308 sec
+; ===== End Layer 138 =====
+
+; ===== Layer 139 Z=8.5589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.8272 sec
+; ===== End Layer 139 =====
+
+; ===== Layer 140 Z=8.5839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.8368 sec
+; ===== End Layer 140 =====
+
+; ===== Layer 141 Z=8.6089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.8487 sec
+; ===== End Layer 141 =====
+
+; ===== Layer 142 Z=8.6339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.2978 Y-0.0304 Z8.6339 S200.0 V800.00 DIODE4 F1000
+; -- Scan Pass 2 --
+G1 X-9.2978 Y-0.0304 Z8.6339 S200.0 V800.00 DIODE4 F1000
+; Layer Time: 3.8563 sec
+; ===== End Layer 142 =====
+
+; ===== Layer 143 Z=8.6589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.8658 sec
+; ===== End Layer 143 =====
+
+; ===== Layer 144 Z=8.6839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.8815 sec
+; ===== End Layer 144 =====
+
+; ===== Layer 145 Z=8.7089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.2521 Y-0.2118 Z8.7089 S200.0 V800.00 DIODE9 F1000
+; -- Scan Pass 2 --
+G1 X-9.2521 Y-0.2118 Z8.7089 S200.0 V800.00 DIODE9 F1000
+; Layer Time: 3.8907 sec
+; ===== End Layer 145 =====
+
+; ===== Layer 146 Z=8.7339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.4169 Y-0.1709 Z8.7339 S200.0 V800.00 DIODE5 F1000
+; -- Scan Pass 2 --
+G1 X-9.4169 Y-0.1709 Z8.7339 S200.0 V800.00 DIODE5 F1000
+; Layer Time: 3.8940 sec
+; ===== End Layer 146 =====
+
+; ===== Layer 147 Z=8.7589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.9025 sec
+; ===== End Layer 147 =====
+
+; ===== Layer 148 Z=8.7839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.9114 sec
+; ===== End Layer 148 =====
+
+; ===== Layer 149 Z=8.8089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.2001 Y-0.3121 Z8.8089 S200.0 V800.00 DIODE8 F1000
+; -- Scan Pass 2 --
+G1 X-9.2001 Y-0.3121 Z8.8089 S200.0 V800.00 DIODE8 F1000
+; Layer Time: 3.9175 sec
+; ===== End Layer 149 =====
+
+; ===== Layer 150 Z=8.8339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.9309 sec
+; ===== End Layer 150 =====
+
+; ===== Layer 151 Z=8.8589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.9376 sec
+; ===== End Layer 151 =====
+
+; ===== Layer 152 Z=8.8839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.9453 sec
+; ===== End Layer 152 =====
+
+; ===== Layer 153 Z=8.9089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.9489 sec
+; ===== End Layer 153 =====
+
+; ===== Layer 154 Z=8.9339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.9799 sec
+; ===== End Layer 154 =====
+
+; ===== Layer 155 Z=8.9589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.9921 sec
+; ===== End Layer 155 =====
+
+; ===== Layer 156 Z=8.9839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 4.0032 sec
+; ===== End Layer 156 =====
+
+; ===== Layer 157 Z=9.0089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 4.0365 sec
+; ===== End Layer 157 =====
+
+; ===== Layer 158 Z=9.0339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 4.0616 sec
+; ===== End Layer 158 =====
+
+; ===== Layer 159 Z=9.0589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 4.0608 sec
+; ===== End Layer 159 =====
+
+; ===== Layer 160 Z=9.0839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 4.0924 sec
+; ===== End Layer 160 =====
+
+; ===== Layer 161 Z=9.1089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 4.1045 sec
+; ===== End Layer 161 =====
+
+; ===== Layer 162 Z=9.1339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 4.1168 sec
+; ===== End Layer 162 =====
+
+; ===== Layer 163 Z=9.1589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 4.1418 sec
+; ===== End Layer 163 =====
+
+; ===== Layer 164 Z=9.1839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 4.1535 sec
+; ===== End Layer 164 =====
+
+; ===== Layer 165 Z=9.2089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 4.1556 sec
+; ===== End Layer 165 =====
+
+; ===== Layer 166 Z=9.2339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 4.1852 sec
+; ===== End Layer 166 =====
+
+; ===== Layer 167 Z=9.2589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 4.1977 sec
+; ===== End Layer 167 =====
+
+; ===== Layer 168 Z=9.2839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 4.2134 sec
+; ===== End Layer 168 =====
+
+; ===== Layer 169 Z=9.3089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.0697 Y-1.4153 Z9.3089 S200.0 V800.00 DIODE8 F1000
+G1 X-9.2748 Y-1.0653 Z9.3089 S200.0 V800.00 DIODE4 F1000
+G1 X-9.2748 Y-1.0653 Z9.3089 S200.0 V800.00 DIODE5 F1000
+G1 X-9.2828 Y-0.9953 Z9.3089 S200.0 V800.00 DIODE4 F1000
+G1 X-9.2828 Y-0.9953 Z9.3089 S200.0 V800.00 DIODE5 F1000
+G1 X-9.3547 Y-0.9253 Z9.3089 S200.0 V800.00 DIODE3 F1000
+; -- Scan Pass 2 --
+G1 X-9.0697 Y-1.4153 Z9.3089 S200.0 V800.00 DIODE8 F1000
+G1 X-9.2748 Y-1.0653 Z9.3089 S200.0 V800.00 DIODE4 F1000
+G1 X-9.2748 Y-1.0653 Z9.3089 S200.0 V800.00 DIODE5 F1000
+G1 X-9.2828 Y-0.9953 Z9.3089 S200.0 V800.00 DIODE4 F1000
+G1 X-9.2828 Y-0.9953 Z9.3089 S200.0 V800.00 DIODE5 F1000
+G1 X-9.3547 Y-0.9253 Z9.3089 S200.0 V800.00 DIODE3 F1000
+; Layer Time: 4.2446 sec
+; ===== End Layer 169 =====
+
+; ===== Layer 170 Z=9.3339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-8.9849 Y-1.3653 Z9.3339 S200.0 V800.00 DIODE8 F1000
+G1 X-8.9849 Y-1.3653 Z9.3339 S200.0 V800.00 DIODE9 F1000
+G1 X-9.0867 Y-1.2953 Z9.3339 S200.0 V800.00 DIODE7 F1000
+G1 X-9.1137 Y-1.2253 Z9.3339 S200.0 V800.00 DIODE6 F1000
+G1 X-9.1137 Y-1.2253 Z9.3339 S200.0 V800.00 DIODE7 F1000
+G1 X-9.0938 Y-1.1553 Z9.3339 S200.0 V800.00 DIODE7 F1000
+G1 X-9.0724 Y-1.0853 Z9.3339 S200.0 V800.00 DIODE7 F1000
+G1 X-9.0644 Y-1.0153 Z9.3339 S200.0 V800.00 DIODE7 F1000
+G1 X-9.0845 Y-0.9453 Z9.3339 S200.0 V800.00 DIODE7 F1000
+G1 X-9.1587 Y-0.8753 Z9.3339 S200.0 V800.00 DIODE5 F1000
+G1 X-9.1587 Y-0.8753 Z9.3339 S200.0 V800.00 DIODE6 F1000
+; -- Scan Pass 2 --
+G1 X-8.9849 Y-1.3653 Z9.3339 S200.0 V800.00 DIODE8 F1000
+G1 X-8.9849 Y-1.3653 Z9.3339 S200.0 V800.00 DIODE9 F1000
+G1 X-9.0867 Y-1.2953 Z9.3339 S200.0 V800.00 DIODE7 F1000
+G1 X-9.1137 Y-1.2253 Z9.3339 S200.0 V800.00 DIODE6 F1000
+G1 X-9.1137 Y-1.2253 Z9.3339 S200.0 V800.00 DIODE7 F1000
+G1 X-9.0938 Y-1.1553 Z9.3339 S200.0 V800.00 DIODE7 F1000
+G1 X-9.0724 Y-1.0853 Z9.3339 S200.0 V800.00 DIODE7 F1000
+G1 X-9.0644 Y-1.0153 Z9.3339 S200.0 V800.00 DIODE7 F1000
+G1 X-9.0845 Y-0.9453 Z9.3339 S200.0 V800.00 DIODE7 F1000
+G1 X-9.1587 Y-0.8753 Z9.3339 S200.0 V800.00 DIODE5 F1000
+G1 X-9.1587 Y-0.8753 Z9.3339 S200.0 V800.00 DIODE6 F1000
+; Layer Time: 4.2803 sec
+; ===== End Layer 170 =====
+
+; ===== Layer 171 Z=9.3589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-8.8763 Y-0.8221 Z9.3589 S200.0 V800.00 DIODE10 F1000
+G1 X-9.1625 Y-0.7521 Z9.3589 S200.0 V800.00 DIODE5 F1000
+; -- Scan Pass 2 --
+G1 X-8.8763 Y-0.8221 Z9.3589 S200.0 V800.00 DIODE10 F1000
+G1 X-9.1625 Y-0.7521 Z9.3589 S200.0 V800.00 DIODE5 F1000
+; Layer Time: 4.3103 sec
+; ===== End Layer 171 =====
+
+; ===== Layer 172 Z=9.3839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.0867 Y-0.8378 Z9.3839 S200.0 V800.00 DIODE8 F1000
+G1 X-9.0867 Y-0.8378 Z9.3839 S200.0 V800.00 DIODE9 F1000
+; -- Scan Pass 2 --
+G1 X-9.0867 Y-0.8378 Z9.3839 S200.0 V800.00 DIODE8 F1000
+G1 X-9.0867 Y-0.8378 Z9.3839 S200.0 V800.00 DIODE9 F1000
+; Layer Time: 4.3352 sec
+; ===== End Layer 172 =====
+
+; ===== Layer 173 Z=9.4089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 4.3594 sec
+; ===== End Layer 173 =====
+
+; ===== Layer 174 Z=9.4339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.3251 Y-0.6540 Z9.4339 S200.0 V800.00 DIODE7 F1000
+; -- Scan Pass 2 --
+G1 X-9.3251 Y-0.6540 Z9.4339 S200.0 V800.00 DIODE7 F1000
+; Layer Time: 4.3816 sec
+; ===== End Layer 174 =====
+
+; ===== Layer 175 Z=9.4589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.2726 Y-0.5577 Z9.4589 S200.0 V800.00 DIODE8 F1000
+G1 X-9.5422 Y-0.4877 Z9.4589 S200.0 V800.00 DIODE4 F1000
+; -- Scan Pass 2 --
+G1 X-9.2726 Y-0.5577 Z9.4589 S200.0 V800.00 DIODE8 F1000
+G1 X-9.5422 Y-0.4877 Z9.4589 S200.0 V800.00 DIODE4 F1000
+; Layer Time: 4.4032 sec
+; ===== End Layer 175 =====
+
+; ===== Layer 176 Z=9.4839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.2288 Y-0.5198 Z9.4839 S200.0 V800.00 DIODE9 F1000
+G1 X-9.2288 Y-0.5198 Z9.4839 S200.0 V800.00 DIODE10 F1000
+G1 X-9.4401 Y-0.4498 Z9.4839 S200.0 V800.00 DIODE6 F1000
+; -- Scan Pass 2 --
+G1 X-9.2288 Y-0.5198 Z9.4839 S200.0 V800.00 DIODE9 F1000
+G1 X-9.2288 Y-0.5198 Z9.4839 S200.0 V800.00 DIODE10 F1000
+G1 X-9.4401 Y-0.4498 Z9.4839 S200.0 V800.00 DIODE6 F1000
+; Layer Time: 4.4248 sec
+; ===== End Layer 176 =====
+
+; ===== Layer 177 Z=9.5089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.2375 Y-0.5926 Z9.5089 S200.0 V800.00 DIODE10 F1000
+G1 X-9.4230 Y-0.5226 Z9.5089 S200.0 V800.00 DIODE7 F1000
+; -- Scan Pass 2 --
+G1 X-9.2375 Y-0.5926 Z9.5089 S200.0 V800.00 DIODE10 F1000
+G1 X-9.4230 Y-0.5226 Z9.5089 S200.0 V800.00 DIODE7 F1000
+; Layer Time: 4.4637 sec
+; ===== End Layer 177 =====
+
+; ===== Layer 178 Z=9.5339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.2352 Y-0.5331 Z9.5339 S200.0 V800.00 DIODE10 F1000
+G1 X-9.4114 Y-0.4631 Z9.5339 S200.0 V800.00 DIODE7 F1000
+G1 X-9.4114 Y-0.4631 Z9.5339 S200.0 V800.00 DIODE8 F1000
+; -- Scan Pass 2 --
+G1 X-9.2352 Y-0.5331 Z9.5339 S200.0 V800.00 DIODE10 F1000
+G1 X-9.4114 Y-0.4631 Z9.5339 S200.0 V800.00 DIODE7 F1000
+G1 X-9.4114 Y-0.4631 Z9.5339 S200.0 V800.00 DIODE8 F1000
+; Layer Time: 4.4795 sec
+; ===== End Layer 178 =====
+
+; ===== Layer 179 Z=9.5589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.3629 Y-0.7556 Z9.5589 S200.0 V800.00 DIODE10 F1000
+G1 X-9.5552 Y-0.6856 Z9.5589 S200.0 V800.00 DIODE7 F1000
+; -- Scan Pass 2 --
+G1 X-9.3629 Y-0.7556 Z9.5589 S200.0 V800.00 DIODE10 F1000
+G1 X-9.5552 Y-0.6856 Z9.5589 S200.0 V800.00 DIODE7 F1000
+; Layer Time: 4.4968 sec
+; ===== End Layer 179 =====
+
+; ===== Layer 180 Z=9.5839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.3415 Y-0.7768 Z9.5839 S200.0 V800.00 DIODE10 F1000
+; -- Scan Pass 2 --
+G1 X-9.3415 Y-0.7768 Z9.5839 S200.0 V800.00 DIODE10 F1000
+; Layer Time: 4.5203 sec
+; ===== End Layer 180 =====
+
+; ===== Layer 181 Z=9.6089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.4706 Y-0.7023 Z9.6089 S200.0 V800.00 DIODE9 F1000
+; -- Scan Pass 2 --
+G1 X-9.4706 Y-0.7023 Z9.6089 S200.0 V800.00 DIODE9 F1000
+; Layer Time: 4.5353 sec
+; ===== End Layer 181 =====
+
+; ===== Layer 182 Z=9.6339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 4.5649 sec
+; ===== End Layer 182 =====
+
+; ===== Layer 183 Z=9.6589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.4071 Y-0.6340 Z9.6589 S200.0 V800.00 DIODE10 F1000
+; -- Scan Pass 2 --
+G1 X-9.4071 Y-0.6340 Z9.6589 S200.0 V800.00 DIODE10 F1000
+; Layer Time: 4.5671 sec
+; ===== End Layer 183 =====
+
+; ===== Layer 184 Z=9.6839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.5924 Y-0.6244 Z9.6839 S200.0 V800.00 DIODE8 F1000
+G1 X-9.5924 Y-0.6244 Z9.6839 S200.0 V800.00 DIODE9 F1000
+; -- Scan Pass 2 --
+G1 X-9.5924 Y-0.6244 Z9.6839 S200.0 V800.00 DIODE8 F1000
+G1 X-9.5924 Y-0.6244 Z9.6839 S200.0 V800.00 DIODE9 F1000
+; Layer Time: 4.5977 sec
+; ===== End Layer 184 =====
+
+; ===== Layer 185 Z=9.7089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 4.6085 sec
+; ===== End Layer 185 =====
+
+; ===== Layer 186 Z=9.7339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.4260 Y-0.6595 Z9.7339 S200.0 V800.00 DIODE10 F1000
+; -- Scan Pass 2 --
+G1 X-9.4260 Y-0.6595 Z9.7339 S200.0 V800.00 DIODE10 F1000
+; Layer Time: 4.6204 sec
+; ===== End Layer 186 =====
+
+; ===== Layer 187 Z=9.7589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.4930 Y-0.5597 Z9.7589 S200.0 V800.00 DIODE9 F1000
+G1 X-9.4930 Y-0.5597 Z9.7589 S200.0 V800.00 DIODE10 F1000
+; -- Scan Pass 2 --
+G1 X-9.4930 Y-0.5597 Z9.7589 S200.0 V800.00 DIODE9 F1000
+G1 X-9.4930 Y-0.5597 Z9.7589 S200.0 V800.00 DIODE10 F1000
+; Layer Time: 4.6351 sec
+; ===== End Layer 187 =====
+
+; ===== Layer 188 Z=9.7839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.5540 Y-0.4887 Z9.7839 S200.0 V800.00 DIODE9 F1000
+; -- Scan Pass 2 --
+G1 X-9.5540 Y-0.4887 Z9.7839 S200.0 V800.00 DIODE9 F1000
+; Layer Time: 4.6562 sec
+; ===== End Layer 188 =====
+
+; ===== Layer 189 Z=9.8089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.7609 Y-0.5424 Z9.8089 S200.0 V800.00 DIODE8 F1000
+; -- Scan Pass 2 --
+G1 X-9.7609 Y-0.5424 Z9.8089 S200.0 V800.00 DIODE8 F1000
+; Layer Time: 4.6653 sec
+; ===== End Layer 189 =====
+
+; ===== Layer 190 Z=9.8339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.7997 Y-0.3997 Z9.8339 S200.0 V800.00 DIODE6 F1000
+; -- Scan Pass 2 --
+G1 X-9.7997 Y-0.3997 Z9.8339 S200.0 V800.00 DIODE6 F1000
+; Layer Time: 4.6745 sec
+; ===== End Layer 190 =====
+
+; ===== Layer 191 Z=9.8589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.6389 Y-0.4685 Z9.8589 S200.0 V800.00 DIODE9 F1000
+G1 X-9.6389 Y-0.4685 Z9.8589 S200.0 V800.00 DIODE10 F1000
+; -- Scan Pass 2 --
+G1 X-9.6389 Y-0.4685 Z9.8589 S200.0 V800.00 DIODE9 F1000
+G1 X-9.6389 Y-0.4685 Z9.8589 S200.0 V800.00 DIODE10 F1000
+; Layer Time: 4.6857 sec
+; ===== End Layer 191 =====
+
+; ===== Layer 192 Z=9.8839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.7705 Y-0.4785 Z9.8839 S200.0 V800.00 DIODE7 F1000
+G1 X-9.7705 Y-0.4785 Z9.8839 S200.0 V800.00 DIODE8 F1000
+; -- Scan Pass 2 --
+G1 X-9.7705 Y-0.4785 Z9.8839 S200.0 V800.00 DIODE7 F1000
+G1 X-9.7705 Y-0.4785 Z9.8839 S200.0 V800.00 DIODE8 F1000
+; Layer Time: 4.6909 sec
+; ===== End Layer 192 =====
+
+; ===== Layer 193 Z=9.9089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.7476 Y-0.4887 Z9.9089 S200.0 V800.00 DIODE10 F1000
+; -- Scan Pass 2 --
+G1 X-9.7476 Y-0.4887 Z9.9089 S200.0 V800.00 DIODE10 F1000
+; Layer Time: 4.7119 sec
+; ===== End Layer 193 =====
+
+; ===== Layer 194 Z=9.9339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 4.7133 sec
+; ===== End Layer 194 =====
+
+; ===== Layer 195 Z=9.9589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 4.7175 sec
+; ===== End Layer 195 =====
+
+; ===== Layer 196 Z=9.9839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.8182 Y-0.4558 Z9.9839 S200.0 V800.00 DIODE10 F1000
+; -- Scan Pass 2 --
+G1 X-9.8182 Y-0.4558 Z9.9839 S200.0 V800.00 DIODE10 F1000
+; Layer Time: 4.7215 sec
+; ===== End Layer 196 =====
+
+; ===== Layer 197 Z=10.0089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 4.7402 sec
+; ===== End Layer 197 =====
+
+; ===== Layer 198 Z=10.0339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 4.7319 sec
+; ===== End Layer 198 =====
+
+; ===== Layer 199 Z=10.0589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 4.7287 sec
+; ===== End Layer 199 =====
+
+; ===== Layer 200 Z=10.0839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 4.7411 sec
+; ===== End Layer 200 =====
+
+; ===== Layer 201 Z=10.1089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 4.7387 sec
+; ===== End Layer 201 =====
+
+; ===== Layer 202 Z=10.1339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.7919 Y0.0182 Z10.1339 S200.0 V800.00 DIODE9 F1000
+G1 X-9.7919 Y0.0182 Z10.1339 S200.0 V800.00 DIODE10 F1000
+; -- Scan Pass 2 --
+G1 X-9.7919 Y0.0182 Z10.1339 S200.0 V800.00 DIODE9 F1000
+G1 X-9.7919 Y0.0182 Z10.1339 S200.0 V800.00 DIODE10 F1000
+; Layer Time: 4.7416 sec
+; ===== End Layer 202 =====
+
+; ===== Layer 203 Z=10.1589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-10.0021 Y-0.2044 Z10.1589 S200.0 V800.00 DIODE10 F1000
+; -- Scan Pass 2 --
+G1 X-10.0021 Y-0.2044 Z10.1589 S200.0 V800.00 DIODE10 F1000
+; Layer Time: 4.7593 sec
+; ===== End Layer 203 =====
+
+; ===== Layer 204 Z=10.1839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 4.7737 sec
+; ===== End Layer 204 =====
+
+; ===== Layer 205 Z=10.2089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 4.8090 sec
+; ===== End Layer 205 =====
+
+; ===== Layer 206 Z=10.2339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-10.7456 Y-0.5490 Z10.2339 S200.0 V800.00 DIODE9 F1000
+G1 X-10.8319 Y-0.4790 Z10.2339 S200.0 V800.00 DIODE8 F1000
+; -- Scan Pass 2 --
+G1 X-10.7456 Y-0.5490 Z10.2339 S200.0 V800.00 DIODE9 F1000
+G1 X-10.8319 Y-0.4790 Z10.2339 S200.0 V800.00 DIODE8 F1000
+; Layer Time: 4.8220 sec
+; ===== End Layer 206 =====
+
+; ===== Layer 207 Z=10.2589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 4.8486 sec
+; ===== End Layer 207 =====
+
+; ===== Layer 208 Z=10.2839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 4.8876 sec
+; ===== End Layer 208 =====
+
+; ===== Layer 209 Z=10.3089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 4.9131 sec
+; ===== End Layer 209 =====
+
+; ===== Layer 210 Z=10.3339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 4.9539 sec
+; ===== End Layer 210 =====
+
+; ===== Layer 211 Z=10.3589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 4.9798 sec
+; ===== End Layer 211 =====
+
+; ===== Layer 212 Z=10.3839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 5.0145 sec
+; ===== End Layer 212 =====
+
+; ===== Layer 213 Z=10.4089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 5.0502 sec
+; ===== End Layer 213 =====
+
+; ===== Layer 214 Z=10.4339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 5.1110 sec
+; ===== End Layer 214 =====
+
+; ===== Layer 215 Z=10.4589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 5.1674 sec
+; ===== End Layer 215 =====
+
+; ===== Layer 216 Z=10.4839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 5.2163 sec
+; ===== End Layer 216 =====
+
+; ===== Layer 217 Z=10.5089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 5.2420 sec
+; ===== End Layer 217 =====
+
+; ===== Layer 218 Z=10.5339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 5.2530 sec
+; ===== End Layer 218 =====
+
+; ===== Layer 219 Z=10.5589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 5.2926 sec
+; ===== End Layer 219 =====
+
+; ===== Layer 220 Z=10.5839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 5.3073 sec
+; ===== End Layer 220 =====
+
+; ===== Layer 221 Z=10.6089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 5.3464 sec
+; ===== End Layer 221 =====
+
+; ===== Layer 222 Z=10.6339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 5.3581 sec
+; ===== End Layer 222 =====
+
+; ===== Layer 223 Z=10.6589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 5.3776 sec
+; ===== End Layer 223 =====
+
+; ===== Layer 224 Z=10.6839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 5.3859 sec
+; ===== End Layer 224 =====
+
+; ===== Layer 225 Z=10.7089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 5.4260 sec
+; ===== End Layer 225 =====
+
+; ===== Layer 226 Z=10.7339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 5.4342 sec
+; ===== End Layer 226 =====
+
+; ===== Layer 227 Z=10.7589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 5.4650 sec
+; ===== End Layer 227 =====
+
+; ===== Layer 228 Z=10.7839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 5.4679 sec
+; ===== End Layer 228 =====
+
+; ===== Layer 229 Z=10.8089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-12.7570 Y-0.3894 Z10.8089 S200.0 V800.00 DIODE7 F1000
+G1 X-12.7301 Y-0.3194 Z10.8089 S200.0 V800.00 DIODE7 F1000
+G1 X-12.7301 Y-0.3194 Z10.8089 S200.0 V800.00 DIODE8 F1000
+G1 X-12.7368 Y-0.2494 Z10.8089 S200.0 V800.00 DIODE7 F1000
+G1 X-12.7803 Y-0.1794 Z10.8089 S200.0 V800.00 DIODE6 F1000
+G1 X-12.7803 Y-0.1794 Z10.8089 S200.0 V800.00 DIODE7 F1000
+G1 X-12.8596 Y-0.1094 Z10.8089 S200.0 V800.00 DIODE5 F1000
+G1 X-12.9570 Y-0.0394 Z10.8089 S200.0 V800.00 DIODE3 F1000
+G1 X-12.9570 Y-0.0394 Z10.8089 S200.0 V800.00 DIODE4 F1000
+; -- Scan Pass 2 --
+G1 X-12.7570 Y-0.3894 Z10.8089 S200.0 V800.00 DIODE7 F1000
+G1 X-12.7301 Y-0.3194 Z10.8089 S200.0 V800.00 DIODE7 F1000
+G1 X-12.7301 Y-0.3194 Z10.8089 S200.0 V800.00 DIODE8 F1000
+G1 X-12.7368 Y-0.2494 Z10.8089 S200.0 V800.00 DIODE7 F1000
+G1 X-12.7803 Y-0.1794 Z10.8089 S200.0 V800.00 DIODE6 F1000
+G1 X-12.7803 Y-0.1794 Z10.8089 S200.0 V800.00 DIODE7 F1000
+G1 X-12.8596 Y-0.1094 Z10.8089 S200.0 V800.00 DIODE5 F1000
+G1 X-12.9570 Y-0.0394 Z10.8089 S200.0 V800.00 DIODE3 F1000
+G1 X-12.9570 Y-0.0394 Z10.8089 S200.0 V800.00 DIODE4 F1000
+; Layer Time: 5.5076 sec
+; ===== End Layer 229 =====
+
+; ===== Layer 230 Z=10.8339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-12.9042 Y-0.0029 Z10.8339 S200.0 V800.00 DIODE9 F1000
+G1 X-13.0538 Y0.0671 Z10.8339 S200.0 V800.00 DIODE7 F1000
+; -- Scan Pass 2 --
+G1 X-12.9042 Y-0.0029 Z10.8339 S200.0 V800.00 DIODE9 F1000
+G1 X-13.0538 Y0.0671 Z10.8339 S200.0 V800.00 DIODE7 F1000
+; Layer Time: 5.5265 sec
+; ===== End Layer 230 =====
+
+; ===== Layer 231 Z=10.8589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-12.9572 Y0.1657 Z10.8589 S200.0 V800.00 DIODE9 F1000
+G1 X-13.2136 Y0.2357 Z10.8589 S200.0 V800.00 DIODE4 F1000
+G1 X-13.2136 Y0.2357 Z10.8589 S200.0 V800.00 DIODE5 F1000
+; -- Scan Pass 2 --
+G1 X-12.9572 Y0.1657 Z10.8589 S200.0 V800.00 DIODE9 F1000
+G1 X-13.2136 Y0.2357 Z10.8589 S200.0 V800.00 DIODE4 F1000
+G1 X-13.2136 Y0.2357 Z10.8589 S200.0 V800.00 DIODE5 F1000
+; Layer Time: 5.5381 sec
+; ===== End Layer 231 =====
+
+; ===== Layer 232 Z=10.8839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8]
+; -- Scan Pass 1 --
+G1 X-13.0913 Y0.3213 Z10.8839 S200.0 V800.00 DIODE8 F1000
+G1 X-13.0913 Y0.3213 Z10.8839 S200.0 V800.00 DIODE9 F1000
+; -- Scan Pass 2 --
+G1 X-13.0913 Y0.3213 Z10.8839 S200.0 V800.00 DIODE8 F1000
+G1 X-13.0913 Y0.3213 Z10.8839 S200.0 V800.00 DIODE9 F1000
+; Layer Time: 5.5673 sec
+; ===== End Layer 232 =====
+
+; ===== Layer 233 Z=10.9089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-13.1703 Y0.3194 Z10.9089 S200.0 V800.00 DIODE10 F1000
+; -- Scan Pass 2 --
+G1 X-13.1703 Y0.3194 Z10.9089 S200.0 V800.00 DIODE10 F1000
+; Layer Time: 5.5797 sec
+; ===== End Layer 233 =====
+
+; ===== Layer 234 Z=10.9339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-13.3009 Y0.4672 Z10.9339 S200.0 V800.00 DIODE7 F1000
+G1 X-13.3009 Y0.4672 Z10.9339 S200.0 V800.00 DIODE8 F1000
+; -- Scan Pass 2 --
+G1 X-13.3009 Y0.4672 Z10.9339 S200.0 V800.00 DIODE7 F1000
+G1 X-13.3009 Y0.4672 Z10.9339 S200.0 V800.00 DIODE8 F1000
+; Layer Time: 5.5846 sec
+; ===== End Layer 234 =====
+
+; ===== Layer 235 Z=10.9589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-13.3778 Y0.4699 Z10.9589 S200.0 V800.00 DIODE9 F1000
+; -- Scan Pass 2 --
+G1 X-13.3778 Y0.4699 Z10.9589 S200.0 V800.00 DIODE9 F1000
+; Layer Time: 5.6147 sec
+; ===== End Layer 235 =====
+
+; ===== Layer 236 Z=10.9839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-13.3573 Y0.5665 Z10.9839 S200.0 V800.00 DIODE9 F1000
+; -- Scan Pass 2 --
+G1 X-13.3573 Y0.5665 Z10.9839 S200.0 V800.00 DIODE9 F1000
+; Layer Time: 5.6191 sec
+; ===== End Layer 236 =====
+
+; ===== Layer 237 Z=11.0089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-13.3083 Y0.6509 Z11.0089 S200.0 V800.00 DIODE9 F1000
+G1 X-13.3083 Y0.6509 Z11.0089 S200.0 V800.00 DIODE10 F1000
+; -- Scan Pass 2 --
+G1 X-13.3083 Y0.6509 Z11.0089 S200.0 V800.00 DIODE9 F1000
+G1 X-13.3083 Y0.6509 Z11.0089 S200.0 V800.00 DIODE10 F1000
+; Layer Time: 5.6544 sec
+; ===== End Layer 237 =====
+
+; ===== Layer 238 Z=11.0339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-13.4168 Y0.6314 Z11.0339 S200.0 V800.00 DIODE10 F1000
+; -- Scan Pass 2 --
+G1 X-13.4168 Y0.6314 Z11.0339 S200.0 V800.00 DIODE10 F1000
+; Layer Time: 5.6636 sec
+; ===== End Layer 238 =====
+
+; ===== Layer 239 Z=11.0589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-13.4121 Y0.7336 Z11.0589 S200.0 V800.00 DIODE9 F1000
+; -- Scan Pass 2 --
+G1 X-13.4121 Y0.7336 Z11.0589 S200.0 V800.00 DIODE9 F1000
+; Layer Time: 5.6974 sec
+; ===== End Layer 239 =====
+
+; ===== Layer 240 Z=11.0839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 5.7081 sec
+; ===== End Layer 240 =====
+
+; ===== Layer 241 Z=11.1089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 5.7401 sec
+; ===== End Layer 241 =====
+
+; ===== Layer 242 Z=11.1339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 5.7543 sec
+; ===== End Layer 242 =====
+
+; ===== Layer 243 Z=11.1589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 5.7836 sec
+; ===== End Layer 243 =====
+
+; ===== Layer 244 Z=11.1839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 5.7964 sec
+; ===== End Layer 244 =====
+
+; ===== Layer 245 Z=11.2089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 5.8199 sec
+; ===== End Layer 245 =====
+
+; ===== Layer 246 Z=11.2339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 5.8299 sec
+; ===== End Layer 246 =====
+
+; ===== Layer 247 Z=11.2589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 5.8634 sec
+; ===== End Layer 247 =====
+
+; ===== Layer 248 Z=11.2839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 5.8806 sec
+; ===== End Layer 248 =====
+
+; ===== Layer 249 Z=11.3089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 5.9167 sec
+; ===== End Layer 249 =====
+
+; ===== Layer 250 Z=11.3339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 5.9296 sec
+; ===== End Layer 250 =====
+
+; ===== Layer 251 Z=11.3589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-13.8442 Y1.1753 Z11.3589 S200.0 V800.00 DIODE8 F1000
+G1 X-13.8442 Y1.1753 Z11.3589 S200.0 V800.00 DIODE9 F1000
+; -- Scan Pass 2 --
+G1 X-13.8442 Y1.1753 Z11.3589 S200.0 V800.00 DIODE8 F1000
+G1 X-13.8442 Y1.1753 Z11.3589 S200.0 V800.00 DIODE9 F1000
+; Layer Time: 5.9648 sec
+; ===== End Layer 251 =====
+
+; ===== Layer 252 Z=11.3839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-13.8361 Y1.2273 Z11.3839 S200.0 V800.00 DIODE8 F1000
+; -- Scan Pass 2 --
+G1 X-13.8361 Y1.2273 Z11.3839 S200.0 V800.00 DIODE8 F1000
+; Layer Time: 5.9832 sec
+; ===== End Layer 252 =====
+
+; ===== Layer 253 Z=11.4089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 6.0255 sec
+; ===== End Layer 253 =====
+
+; ===== Layer 254 Z=11.4339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 6.0454 sec
+; ===== End Layer 254 =====
+
+; ===== Layer 255 Z=11.4589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 6.0914 sec
+; ===== End Layer 255 =====
+
+; ===== Layer 256 Z=11.4839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 6.1112 sec
+; ===== End Layer 256 =====
+
+; ===== Layer 257 Z=11.5089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 6.1506 sec
+; ===== End Layer 257 =====
+
+; ===== Layer 258 Z=11.5339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-14.0430 Y1.3255 Z11.5339 S200.0 V800.00 DIODE10 F1000
+; -- Scan Pass 2 --
+G1 X-14.0430 Y1.3255 Z11.5339 S200.0 V800.00 DIODE10 F1000
+; Layer Time: 6.1672 sec
+; ===== End Layer 258 =====
+
+; ===== Layer 259 Z=11.5589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 6.2013 sec
+; ===== End Layer 259 =====
+
+; ===== Layer 260 Z=11.5839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 6.2389 sec
+; ===== End Layer 260 =====
+
+; ===== Layer 261 Z=11.6089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 6.2536 sec
+; ===== End Layer 261 =====
+
+; ===== Layer 262 Z=11.6339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-14.4503 Y1.4310 Z11.6339 S200.0 V800.00 DIODE5 F1000
+; -- Scan Pass 2 --
+G1 X-14.4503 Y1.4310 Z11.6339 S200.0 V800.00 DIODE5 F1000
+; Layer Time: 6.2876 sec
+; ===== End Layer 262 =====
+
+; ===== Layer 263 Z=11.6589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-14.3683 Y1.4714 Z11.6589 S200.0 V800.00 DIODE5 F1000
+G1 X-14.3683 Y1.4714 Z11.6589 S200.0 V800.00 DIODE6 F1000
+; -- Scan Pass 2 --
+G1 X-14.3683 Y1.4714 Z11.6589 S200.0 V800.00 DIODE5 F1000
+G1 X-14.3683 Y1.4714 Z11.6589 S200.0 V800.00 DIODE6 F1000
+; Layer Time: 6.3091 sec
+; ===== End Layer 263 =====
+
+; ===== Layer 264 Z=11.6839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-14.3378 Y1.6164 Z11.6839 S200.0 V800.00 DIODE8 F1000
+G1 X-14.5026 Y1.6864 Z11.6839 S200.0 V800.00 DIODE5 F1000
+G1 X-14.6226 Y1.7564 Z11.6839 S200.0 V800.00 DIODE3 F1000
+; -- Scan Pass 2 --
+G1 X-14.3378 Y1.6164 Z11.6839 S200.0 V800.00 DIODE8 F1000
+G1 X-14.5026 Y1.6864 Z11.6839 S200.0 V800.00 DIODE5 F1000
+G1 X-14.6226 Y1.7564 Z11.6839 S200.0 V800.00 DIODE3 F1000
+; Layer Time: 6.3413 sec
+; ===== End Layer 264 =====
+
+; ===== Layer 265 Z=11.7089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-14.2621 Y1.5976 Z11.7089 S200.0 V800.00 DIODE9 F1000
+G1 X-14.3964 Y1.6676 Z11.7089 S200.0 V800.00 DIODE6 F1000
+G1 X-14.3964 Y1.6676 Z11.7089 S200.0 V800.00 DIODE7 F1000
+G1 X-14.5107 Y1.7376 Z11.7089 S200.0 V800.00 DIODE4 F1000
+G1 X-14.5107 Y1.7376 Z11.7089 S200.0 V800.00 DIODE5 F1000
+; -- Scan Pass 2 --
+G1 X-14.2621 Y1.5976 Z11.7089 S200.0 V800.00 DIODE9 F1000
+G1 X-14.3964 Y1.6676 Z11.7089 S200.0 V800.00 DIODE6 F1000
+G1 X-14.3964 Y1.6676 Z11.7089 S200.0 V800.00 DIODE7 F1000
+G1 X-14.5107 Y1.7376 Z11.7089 S200.0 V800.00 DIODE4 F1000
+G1 X-14.5107 Y1.7376 Z11.7089 S200.0 V800.00 DIODE5 F1000
+; Layer Time: 6.3492 sec
+; ===== End Layer 265 =====
+
+; ===== Layer 266 Z=11.7339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-14.2687 Y1.6000 Z11.7339 S200.0 V800.00 DIODE9 F1000
+G1 X-14.3933 Y1.6700 Z11.7339 S200.0 V800.00 DIODE7 F1000
+G1 X-14.5002 Y1.7400 Z11.7339 S200.0 V800.00 DIODE5 F1000
+G1 X-14.6604 Y1.8100 Z11.7339 S200.0 V800.00 DIODE2 F1000
+G1 X-14.6604 Y1.8100 Z11.7339 S200.0 V800.00 DIODE3 F1000
+; -- Scan Pass 2 --
+G1 X-14.2687 Y1.6000 Z11.7339 S200.0 V800.00 DIODE9 F1000
+G1 X-14.3933 Y1.6700 Z11.7339 S200.0 V800.00 DIODE7 F1000
+G1 X-14.5002 Y1.7400 Z11.7339 S200.0 V800.00 DIODE5 F1000
+G1 X-14.6604 Y1.8100 Z11.7339 S200.0 V800.00 DIODE2 F1000
+G1 X-14.6604 Y1.8100 Z11.7339 S200.0 V800.00 DIODE3 F1000
+; Layer Time: 6.3886 sec
+; ===== End Layer 266 =====
+
+; ===== Layer 267 Z=11.7589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-14.2836 Y1.6162 Z11.7589 S200.0 V800.00 DIODE9 F1000
+G1 X-14.3972 Y1.6862 Z11.7589 S200.0 V800.00 DIODE7 F1000
+G1 X-14.5077 Y1.7562 Z11.7589 S200.0 V800.00 DIODE5 F1000
+G1 X-14.5077 Y1.7562 Z11.7589 S200.0 V800.00 DIODE6 F1000
+G1 X-14.6606 Y1.8262 Z11.7589 S200.0 V800.00 DIODE3 F1000
+; -- Scan Pass 2 --
+G1 X-14.2836 Y1.6162 Z11.7589 S200.0 V800.00 DIODE9 F1000
+G1 X-14.3972 Y1.6862 Z11.7589 S200.0 V800.00 DIODE7 F1000
+G1 X-14.5077 Y1.7562 Z11.7589 S200.0 V800.00 DIODE5 F1000
+G1 X-14.5077 Y1.7562 Z11.7589 S200.0 V800.00 DIODE6 F1000
+G1 X-14.6606 Y1.8262 Z11.7589 S200.0 V800.00 DIODE3 F1000
+; Layer Time: 6.4239 sec
+; ===== End Layer 267 =====
+
+; ===== Layer 268 Z=11.7839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-14.2613 Y1.7133 Z11.7839 S200.0 V800.00 DIODE9 F1000
+G1 X-14.3700 Y1.7833 Z11.7839 S200.0 V800.00 DIODE7 F1000
+G1 X-14.4789 Y1.8533 Z11.7839 S200.0 V800.00 DIODE5 F1000
+G1 X-14.4789 Y1.8533 Z11.7839 S200.0 V800.00 DIODE6 F1000
+G1 X-14.6661 Y1.9233 Z11.7839 S200.0 V800.00 DIODE2 F1000
+G1 X-14.6661 Y1.9233 Z11.7839 S200.0 V800.00 DIODE3 F1000
+; -- Scan Pass 2 --
+G1 X-14.2613 Y1.7133 Z11.7839 S200.0 V800.00 DIODE9 F1000
+G1 X-14.3700 Y1.7833 Z11.7839 S200.0 V800.00 DIODE7 F1000
+G1 X-14.4789 Y1.8533 Z11.7839 S200.0 V800.00 DIODE5 F1000
+G1 X-14.4789 Y1.8533 Z11.7839 S200.0 V800.00 DIODE6 F1000
+G1 X-14.6661 Y1.9233 Z11.7839 S200.0 V800.00 DIODE2 F1000
+G1 X-14.6661 Y1.9233 Z11.7839 S200.0 V800.00 DIODE3 F1000
+; Layer Time: 6.4353 sec
+; ===== End Layer 268 =====
+
+; ===== Layer 269 Z=11.8089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-14.2639 Y1.7127 Z11.8089 S200.0 V800.00 DIODE9 F1000
+G1 X-14.3687 Y1.7827 Z11.8089 S200.0 V800.00 DIODE7 F1000
+G1 X-14.4765 Y1.8527 Z11.8089 S200.0 V800.00 DIODE5 F1000
+G1 X-14.4765 Y1.8527 Z11.8089 S200.0 V800.00 DIODE6 F1000
+; -- Scan Pass 2 --
+G1 X-14.2639 Y1.7127 Z11.8089 S200.0 V800.00 DIODE9 F1000
+G1 X-14.3687 Y1.7827 Z11.8089 S200.0 V800.00 DIODE7 F1000
+G1 X-14.4765 Y1.8527 Z11.8089 S200.0 V800.00 DIODE5 F1000
+G1 X-14.4765 Y1.8527 Z11.8089 S200.0 V800.00 DIODE6 F1000
+; Layer Time: 6.4760 sec
+; ===== End Layer 269 =====
+
+; ===== Layer 270 Z=11.8339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-14.2268 Y1.7061 Z11.8339 S200.0 V800.00 DIODE9 F1000
+G1 X-14.3307 Y1.7761 Z11.8339 S200.0 V800.00 DIODE7 F1000
+G1 X-14.3307 Y1.7761 Z11.8339 S200.0 V800.00 DIODE8 F1000
+G1 X-14.4449 Y1.8461 Z11.8339 S200.0 V800.00 DIODE5 F1000
+G1 X-14.4449 Y1.8461 Z11.8339 S200.0 V800.00 DIODE6 F1000
+; -- Scan Pass 2 --
+G1 X-14.2268 Y1.7061 Z11.8339 S200.0 V800.00 DIODE9 F1000
+G1 X-14.3307 Y1.7761 Z11.8339 S200.0 V800.00 DIODE7 F1000
+G1 X-14.3307 Y1.7761 Z11.8339 S200.0 V800.00 DIODE8 F1000
+G1 X-14.4449 Y1.8461 Z11.8339 S200.0 V800.00 DIODE5 F1000
+G1 X-14.4449 Y1.8461 Z11.8339 S200.0 V800.00 DIODE6 F1000
+; Layer Time: 6.4909 sec
+; ===== End Layer 270 =====
+
+; ===== Layer 271 Z=11.8589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-14.2546 Y1.7355 Z11.8589 S200.0 V800.00 DIODE9 F1000
+G1 X-14.2546 Y1.7355 Z11.8589 S200.0 V800.00 DIODE10 F1000
+G1 X-14.3582 Y1.8055 Z11.8589 S200.0 V800.00 DIODE7 F1000
+G1 X-14.3582 Y1.8055 Z11.8589 S200.0 V800.00 DIODE8 F1000
+G1 X-14.4781 Y1.8755 Z11.8589 S200.0 V800.00 DIODE5 F1000
+G1 X-14.4781 Y1.8755 Z11.8589 S200.0 V800.00 DIODE6 F1000
+; -- Scan Pass 2 --
+G1 X-14.2546 Y1.7355 Z11.8589 S200.0 V800.00 DIODE9 F1000
+G1 X-14.2546 Y1.7355 Z11.8589 S200.0 V800.00 DIODE10 F1000
+G1 X-14.3582 Y1.8055 Z11.8589 S200.0 V800.00 DIODE7 F1000
+G1 X-14.3582 Y1.8055 Z11.8589 S200.0 V800.00 DIODE8 F1000
+G1 X-14.4781 Y1.8755 Z11.8589 S200.0 V800.00 DIODE5 F1000
+G1 X-14.4781 Y1.8755 Z11.8589 S200.0 V800.00 DIODE6 F1000
+; Layer Time: 6.5263 sec
+; ===== End Layer 271 =====
+
+; ===== Layer 272 Z=11.8839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-14.2511 Y1.7332 Z11.8839 S200.0 V800.00 DIODE9 F1000
+G1 X-14.2511 Y1.7332 Z11.8839 S200.0 V800.00 DIODE10 F1000
+G1 X-14.3551 Y1.8032 Z11.8839 S200.0 V800.00 DIODE8 F1000
+G1 X-14.4776 Y1.8732 Z11.8839 S200.0 V800.00 DIODE6 F1000
+; -- Scan Pass 2 --
+G1 X-14.2511 Y1.7332 Z11.8839 S200.0 V800.00 DIODE9 F1000
+G1 X-14.2511 Y1.7332 Z11.8839 S200.0 V800.00 DIODE10 F1000
+G1 X-14.3551 Y1.8032 Z11.8839 S200.0 V800.00 DIODE8 F1000
+G1 X-14.4776 Y1.8732 Z11.8839 S200.0 V800.00 DIODE6 F1000
+; Layer Time: 6.5439 sec
+; ===== End Layer 272 =====
+
+; ===== Layer 273 Z=11.9089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-14.2189 Y1.7513 Z11.9089 S200.0 V800.00 DIODE10 F1000
+G1 X-14.3237 Y1.8213 Z11.9089 S200.0 V800.00 DIODE8 F1000
+G1 X-14.3237 Y1.8213 Z11.9089 S200.0 V800.00 DIODE9 F1000
+G1 X-14.4509 Y1.8913 Z11.9089 S200.0 V800.00 DIODE6 F1000
+G1 X-14.4509 Y1.8913 Z11.9089 S200.0 V800.00 DIODE7 F1000
+; -- Scan Pass 2 --
+G1 X-14.2189 Y1.7513 Z11.9089 S200.0 V800.00 DIODE10 F1000
+G1 X-14.3237 Y1.8213 Z11.9089 S200.0 V800.00 DIODE8 F1000
+G1 X-14.3237 Y1.8213 Z11.9089 S200.0 V800.00 DIODE9 F1000
+G1 X-14.4509 Y1.8913 Z11.9089 S200.0 V800.00 DIODE6 F1000
+G1 X-14.4509 Y1.8913 Z11.9089 S200.0 V800.00 DIODE7 F1000
+; Layer Time: 6.5788 sec
+; ===== End Layer 273 =====
+
+; ===== Layer 274 Z=11.9339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-14.3451 Y1.9390 Z11.9339 S200.0 V800.00 DIODE9 F1000
+G1 X-14.3451 Y1.9390 Z11.9339 S200.0 V800.00 DIODE10 F1000
+G1 X-14.4762 Y2.0090 Z11.9339 S200.0 V800.00 DIODE7 F1000
+G1 X-14.4762 Y2.0090 Z11.9339 S200.0 V800.00 DIODE8 F1000
+; -- Scan Pass 2 --
+G1 X-14.3451 Y1.9390 Z11.9339 S200.0 V800.00 DIODE9 F1000
+G1 X-14.3451 Y1.9390 Z11.9339 S200.0 V800.00 DIODE10 F1000
+G1 X-14.4762 Y2.0090 Z11.9339 S200.0 V800.00 DIODE7 F1000
+G1 X-14.4762 Y2.0090 Z11.9339 S200.0 V800.00 DIODE8 F1000
+; Layer Time: 6.6201 sec
+; ===== End Layer 274 =====
+
+; ===== Layer 275 Z=11.9589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-14.5580 Y2.1198 Z11.9589 S200.0 V800.00 DIODE9 F1000
+; -- Scan Pass 2 --
+G1 X-14.5580 Y2.1198 Z11.9589 S200.0 V800.00 DIODE9 F1000
+; Layer Time: 6.6360 sec
+; ===== End Layer 275 =====
+
+; ===== Layer 276 Z=11.9839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-14.5401 Y2.0923 Z11.9839 S200.0 V800.00 DIODE10 F1000
+G1 X-14.8313 Y2.1623 Z11.9839 S200.0 V800.00 DIODE6 F1000
+; -- Scan Pass 2 --
+G1 X-14.5401 Y2.0923 Z11.9839 S200.0 V800.00 DIODE10 F1000
+G1 X-14.8313 Y2.1623 Z11.9839 S200.0 V800.00 DIODE6 F1000
+; Layer Time: 6.6717 sec
+; ===== End Layer 276 =====
+
+; ===== Layer 277 Z=12.0089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-14.8173 Y2.2449 Z12.0089 S200.0 V800.00 DIODE6 F1000
+; -- Scan Pass 2 --
+G1 X-14.8173 Y2.2449 Z12.0089 S200.0 V800.00 DIODE6 F1000
+; Layer Time: 6.6922 sec
+; ===== End Layer 277 =====
+
+; ===== Layer 278 Z=12.0339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 6.7360 sec
+; ===== End Layer 278 =====
+
+; ===== Layer 279 Z=12.0589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 6.7540 sec
+; ===== End Layer 279 =====
+
+; ===== Layer 280 Z=12.0839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-14.6219 Y2.3659 Z12.0839 S200.0 V800.00 DIODE10 F1000
+; -- Scan Pass 2 --
+G1 X-14.6219 Y2.3659 Z12.0839 S200.0 V800.00 DIODE10 F1000
+; Layer Time: 6.7977 sec
+; ===== End Layer 280 =====
+
+; ===== Layer 281 Z=12.1089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-14.9341 Y2.4489 Z12.1089 S200.0 V800.00 DIODE8 F1000
+; -- Scan Pass 2 --
+G1 X-14.9341 Y2.4489 Z12.1089 S200.0 V800.00 DIODE8 F1000
+; Layer Time: 6.8507 sec
+; ===== End Layer 281 =====
+
+; ===== Layer 282 Z=12.1339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 6.8900 sec
+; ===== End Layer 282 =====
+
+; ===== Layer 283 Z=12.1589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.1214 Y2.3094 Z12.1589 S200.0 V800.00 DIODE10 F1000
+; -- Scan Pass 2 --
+G1 X-15.1214 Y2.3094 Z12.1589 S200.0 V800.00 DIODE10 F1000
+; Layer Time: 6.9472 sec
+; ===== End Layer 283 =====
+
+; ===== Layer 284 Z=12.1839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 7.0085 sec
+; ===== End Layer 284 =====
+
+; ===== Layer 285 Z=12.2089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.1184 Y2.2103 Z12.2089 S200.0 V800.00 DIODE10 F1000
+; -- Scan Pass 2 --
+G1 X-15.1184 Y2.2103 Z12.2089 S200.0 V800.00 DIODE10 F1000
+; Layer Time: 7.0505 sec
+; ===== End Layer 285 =====
+
+; ===== Layer 286 Z=12.2339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 7.1114 sec
+; ===== End Layer 286 =====
+
+; ===== Layer 287 Z=12.2589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 7.1698 sec
+; ===== End Layer 287 =====
+
+; ===== Layer 288 Z=12.2839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 7.2112 sec
+; ===== End Layer 288 =====
+
+; ===== Layer 289 Z=12.3089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.0134 Y2.1967 Z12.3089 S200.0 V800.00 DIODE9 F1000
+G1 X-15.0134 Y2.1967 Z12.3089 S200.0 V800.00 DIODE10 F1000
+; -- Scan Pass 2 --
+G1 X-15.0134 Y2.1967 Z12.3089 S200.0 V800.00 DIODE9 F1000
+G1 X-15.0134 Y2.1967 Z12.3089 S200.0 V800.00 DIODE10 F1000
+; Layer Time: 7.2816 sec
+; ===== End Layer 289 =====
+
+; ===== Layer 290 Z=12.3339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 7.3478 sec
+; ===== End Layer 290 =====
+
+; ===== Layer 291 Z=12.3589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 7.3780 sec
+; ===== End Layer 291 =====
+
+; ===== Layer 292 Z=12.3839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 7.4339 sec
+; ===== End Layer 292 =====
+
+; ===== Layer 293 Z=12.4089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.1424 Y2.2377 Z12.4089 S200.0 V800.00 DIODE5 F1000
+; -- Scan Pass 2 --
+G1 X-15.1424 Y2.2377 Z12.4089 S200.0 V800.00 DIODE5 F1000
+; Layer Time: 7.4916 sec
+; ===== End Layer 293 =====
+
+; ===== Layer 294 Z=12.4339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.1664 Y2.3621 Z12.4339 S200.0 V800.00 DIODE4 F1000
+G1 X-15.1664 Y2.3621 Z12.4339 S200.0 V800.00 DIODE5 F1000
+; -- Scan Pass 2 --
+G1 X-15.1664 Y2.3621 Z12.4339 S200.0 V800.00 DIODE4 F1000
+G1 X-15.1664 Y2.3621 Z12.4339 S200.0 V800.00 DIODE5 F1000
+; Layer Time: 7.5294 sec
+; ===== End Layer 294 =====
+
+; ===== Layer 295 Z=12.4589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.0554 Y2.3440 Z12.4589 S200.0 V800.00 DIODE9 F1000
+G1 X-15.2865 Y2.4140 Z12.4589 S200.0 V800.00 DIODE5 F1000
+; -- Scan Pass 2 --
+G1 X-15.0554 Y2.3440 Z12.4589 S200.0 V800.00 DIODE9 F1000
+G1 X-15.2865 Y2.4140 Z12.4589 S200.0 V800.00 DIODE5 F1000
+; Layer Time: 7.5974 sec
+; ===== End Layer 295 =====
+
+; ===== Layer 296 Z=12.4839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.1183 Y2.4011 Z12.4839 S200.0 V800.00 DIODE8 F1000
+G1 X-15.1183 Y2.4011 Z12.4839 S200.0 V800.00 DIODE9 F1000
+G1 X-15.3129 Y2.4711 Z12.4839 S200.0 V800.00 DIODE5 F1000
+; -- Scan Pass 2 --
+G1 X-15.1183 Y2.4011 Z12.4839 S200.0 V800.00 DIODE8 F1000
+G1 X-15.1183 Y2.4011 Z12.4839 S200.0 V800.00 DIODE9 F1000
+G1 X-15.3129 Y2.4711 Z12.4839 S200.0 V800.00 DIODE5 F1000
+; Layer Time: 7.6569 sec
+; ===== End Layer 296 =====
+
+; ===== Layer 297 Z=12.5089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.0566 Y2.4738 Z12.5089 S200.0 V800.00 DIODE7 F1000
+G1 X-15.0566 Y2.4738 Z12.5089 S200.0 V800.00 DIODE8 F1000
+G1 X-15.2519 Y2.5438 Z12.5089 S200.0 V800.00 DIODE4 F1000
+G1 X-15.2519 Y2.5438 Z12.5089 S200.0 V800.00 DIODE5 F1000
+; -- Scan Pass 2 --
+G1 X-15.0566 Y2.4738 Z12.5089 S200.0 V800.00 DIODE7 F1000
+G1 X-15.0566 Y2.4738 Z12.5089 S200.0 V800.00 DIODE8 F1000
+G1 X-15.2519 Y2.5438 Z12.5089 S200.0 V800.00 DIODE4 F1000
+G1 X-15.2519 Y2.5438 Z12.5089 S200.0 V800.00 DIODE5 F1000
+; Layer Time: 7.6988 sec
+; ===== End Layer 297 =====
+
+; ===== Layer 298 Z=12.5339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-14.9309 Y2.4098 Z12.5339 S200.0 V800.00 DIODE10 F1000
+G1 X-15.1142 Y2.4798 Z12.5339 S200.0 V800.00 DIODE6 F1000
+G1 X-15.1142 Y2.4798 Z12.5339 S200.0 V800.00 DIODE7 F1000
+; -- Scan Pass 2 --
+G1 X-14.9309 Y2.4098 Z12.5339 S200.0 V800.00 DIODE10 F1000
+G1 X-15.1142 Y2.4798 Z12.5339 S200.0 V800.00 DIODE6 F1000
+G1 X-15.1142 Y2.4798 Z12.5339 S200.0 V800.00 DIODE7 F1000
+; Layer Time: 7.7475 sec
+; ===== End Layer 298 =====
+
+; ===== Layer 299 Z=12.5589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-14.9644 Y2.4417 Z12.5589 S200.0 V800.00 DIODE9 F1000
+G1 X-15.1688 Y2.5117 Z12.5589 S200.0 V800.00 DIODE5 F1000
+G1 X-15.1688 Y2.5117 Z12.5589 S200.0 V800.00 DIODE6 F1000
+; -- Scan Pass 2 --
+G1 X-14.9644 Y2.4417 Z12.5589 S200.0 V800.00 DIODE9 F1000
+G1 X-15.1688 Y2.5117 Z12.5589 S200.0 V800.00 DIODE5 F1000
+G1 X-15.1688 Y2.5117 Z12.5589 S200.0 V800.00 DIODE6 F1000
+; Layer Time: 7.8070 sec
+; ===== End Layer 299 =====
+
+; ===== Layer 300 Z=12.5839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-14.8649 Y2.5006 Z12.5839 S200.0 V800.00 DIODE10 F1000
+G1 X-15.0459 Y2.5706 Z12.5839 S200.0 V800.00 DIODE7 F1000
+G1 X-15.0459 Y2.5706 Z12.5839 S200.0 V800.00 DIODE8 F1000
+; -- Scan Pass 2 --
+G1 X-14.8649 Y2.5006 Z12.5839 S200.0 V800.00 DIODE10 F1000
+G1 X-15.0459 Y2.5706 Z12.5839 S200.0 V800.00 DIODE7 F1000
+G1 X-15.0459 Y2.5706 Z12.5839 S200.0 V800.00 DIODE8 F1000
+; Layer Time: 7.8661 sec
+; ===== End Layer 300 =====
+
+; ===== Layer 301 Z=12.6089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-14.9687 Y2.5820 Z12.6089 S200.0 V800.00 DIODE9 F1000
+G1 X-14.9687 Y2.5820 Z12.6089 S200.0 V800.00 DIODE10 F1000
+G1 X-15.1785 Y2.6520 Z12.6089 S200.0 V800.00 DIODE6 F1000
+; -- Scan Pass 2 --
+G1 X-14.9687 Y2.5820 Z12.6089 S200.0 V800.00 DIODE9 F1000
+G1 X-14.9687 Y2.5820 Z12.6089 S200.0 V800.00 DIODE10 F1000
+G1 X-15.1785 Y2.6520 Z12.6089 S200.0 V800.00 DIODE6 F1000
+; Layer Time: 7.8983 sec
+; ===== End Layer 301 =====
+
+; ===== Layer 302 Z=12.6339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-14.9355 Y2.5606 Z12.6339 S200.0 V800.00 DIODE8 F1000
+G1 X-15.2122 Y2.6306 Z12.6339 S200.0 V800.00 DIODE3 F1000
+G1 X-15.2122 Y2.6306 Z12.6339 S200.0 V800.00 DIODE4 F1000
+; -- Scan Pass 2 --
+G1 X-14.9355 Y2.5606 Z12.6339 S200.0 V800.00 DIODE8 F1000
+G1 X-15.2122 Y2.6306 Z12.6339 S200.0 V800.00 DIODE3 F1000
+G1 X-15.2122 Y2.6306 Z12.6339 S200.0 V800.00 DIODE4 F1000
+; Layer Time: 7.9620 sec
+; ===== End Layer 302 =====
+
+; ===== Layer 303 Z=12.6589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-14.8966 Y2.5546 Z12.6589 S200.0 V800.00 DIODE10 F1000
+G1 X-15.1099 Y2.6246 Z12.6589 S200.0 V800.00 DIODE6 F1000
+; -- Scan Pass 2 --
+G1 X-14.8966 Y2.5546 Z12.6589 S200.0 V800.00 DIODE10 F1000
+G1 X-15.1099 Y2.6246 Z12.6589 S200.0 V800.00 DIODE6 F1000
+; Layer Time: 8.0312 sec
+; ===== End Layer 303 =====
+
+; ===== Layer 304 Z=12.6839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-14.9602 Y2.6354 Z12.6839 S200.0 V800.00 DIODE8 F1000
+G1 X-15.2053 Y2.7054 Z12.6839 S200.0 V800.00 DIODE4 F1000
+; -- Scan Pass 2 --
+G1 X-14.9602 Y2.6354 Z12.6839 S200.0 V800.00 DIODE8 F1000
+G1 X-15.2053 Y2.7054 Z12.6839 S200.0 V800.00 DIODE4 F1000
+; Layer Time: 8.0742 sec
+; ===== End Layer 304 =====
+
+; ===== Layer 305 Z=12.7089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-14.7768 Y2.5611 Z12.7089 S200.0 V800.00 DIODE10 F1000
+G1 X-14.9929 Y2.6311 Z12.7089 S200.0 V800.00 DIODE6 F1000
+G1 X-14.9929 Y2.6311 Z12.7089 S200.0 V800.00 DIODE7 F1000
+; -- Scan Pass 2 --
+G1 X-14.7768 Y2.5611 Z12.7089 S200.0 V800.00 DIODE10 F1000
+G1 X-14.9929 Y2.6311 Z12.7089 S200.0 V800.00 DIODE6 F1000
+G1 X-14.9929 Y2.6311 Z12.7089 S200.0 V800.00 DIODE7 F1000
+; Layer Time: 8.1343 sec
+; ===== End Layer 305 =====
+
+; ===== Layer 306 Z=12.7339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 9]
+; -- Scan Pass 1 --
+G1 X-14.8685 Y2.5713 Z12.7339 S200.0 V800.00 DIODE8 F1000
+G1 X-14.8685 Y2.5713 Z12.7339 S200.0 V800.00 DIODE9 F1000
+G1 X-15.0928 Y2.6413 Z12.7339 S200.0 V800.00 DIODE4 F1000
+G1 X-15.0928 Y2.6413 Z12.7339 S200.0 V800.00 DIODE5 F1000
+; -- Scan Pass 2 --
+G1 X-14.8685 Y2.5713 Z12.7339 S200.0 V800.00 DIODE8 F1000
+G1 X-14.8685 Y2.5713 Z12.7339 S200.0 V800.00 DIODE9 F1000
+G1 X-15.0928 Y2.6413 Z12.7339 S200.0 V800.00 DIODE4 F1000
+G1 X-15.0928 Y2.6413 Z12.7339 S200.0 V800.00 DIODE5 F1000
+; Layer Time: 8.1987 sec
+; ===== End Layer 306 =====
+
+; ===== Layer 307 Z=12.7589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 9]
+; -- Scan Pass 1 --
+G1 X-14.8079 Y2.5564 Z12.7589 S200.0 V800.00 DIODE10 F1000
+G1 X-15.0165 Y2.6264 Z12.7589 S200.0 V800.00 DIODE7 F1000
+; -- Scan Pass 2 --
+G1 X-14.8079 Y2.5564 Z12.7589 S200.0 V800.00 DIODE10 F1000
+G1 X-15.0165 Y2.6264 Z12.7589 S200.0 V800.00 DIODE7 F1000
+; Layer Time: 8.2418 sec
+; ===== End Layer 307 =====
+
+; ===== Layer 308 Z=12.7839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 9]
+; -- Scan Pass 1 --
+G1 X-14.8790 Y2.6446 Z12.7839 S200.0 V800.00 DIODE9 F1000
+G1 X-15.0850 Y2.7146 Z12.7839 S200.0 V800.00 DIODE5 F1000
+; -- Scan Pass 2 --
+G1 X-14.8790 Y2.6446 Z12.7839 S200.0 V800.00 DIODE9 F1000
+G1 X-15.0850 Y2.7146 Z12.7839 S200.0 V800.00 DIODE5 F1000
+; Layer Time: 8.3042 sec
+; ===== End Layer 308 =====
+
+; ===== Layer 309 Z=12.8089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8]
+; -- Scan Pass 1 --
+G1 X-14.8314 Y2.6403 Z12.8089 S200.0 V800.00 DIODE10 F1000
+G1 X-15.0286 Y2.7103 Z12.8089 S200.0 V800.00 DIODE7 F1000
+G1 X-15.0286 Y2.7103 Z12.8089 S200.0 V800.00 DIODE8 F1000
+; -- Scan Pass 2 --
+G1 X-14.8314 Y2.6403 Z12.8089 S200.0 V800.00 DIODE10 F1000
+G1 X-15.0286 Y2.7103 Z12.8089 S200.0 V800.00 DIODE7 F1000
+G1 X-15.0286 Y2.7103 Z12.8089 S200.0 V800.00 DIODE8 F1000
+; Layer Time: 8.3582 sec
+; ===== End Layer 309 =====
+
+; ===== Layer 310 Z=12.8339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-14.9653 Y2.7023 Z12.8339 S200.0 V800.00 DIODE9 F1000
+G1 X-15.1495 Y2.7723 Z12.8339 S200.0 V800.00 DIODE6 F1000
+; -- Scan Pass 2 --
+G1 X-14.9653 Y2.7023 Z12.8339 S200.0 V800.00 DIODE9 F1000
+G1 X-15.1495 Y2.7723 Z12.8339 S200.0 V800.00 DIODE6 F1000
+; Layer Time: 8.3918 sec
+; ===== End Layer 310 =====
+
+; ===== Layer 311 Z=12.8589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.0073 Y2.7470 Z12.8589 S200.0 V800.00 DIODE8 F1000
+G1 X-15.1850 Y2.8170 Z12.8589 S200.0 V800.00 DIODE5 F1000
+; -- Scan Pass 2 --
+G1 X-15.0073 Y2.7470 Z12.8589 S200.0 V800.00 DIODE8 F1000
+G1 X-15.1850 Y2.8170 Z12.8589 S200.0 V800.00 DIODE5 F1000
+; Layer Time: 8.4546 sec
+; ===== End Layer 311 =====
+
+; ===== Layer 312 Z=12.8839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-14.9307 Y2.6766 Z12.8839 S200.0 V800.00 DIODE10 F1000
+G1 X-15.0933 Y2.7466 Z12.8839 S200.0 V800.00 DIODE7 F1000
+; -- Scan Pass 2 --
+G1 X-14.9307 Y2.6766 Z12.8839 S200.0 V800.00 DIODE10 F1000
+G1 X-15.0933 Y2.7466 Z12.8839 S200.0 V800.00 DIODE7 F1000
+; Layer Time: 8.5242 sec
+; ===== End Layer 312 =====
+
+; ===== Layer 313 Z=12.9089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.0846 Y2.8213 Z12.9089 S200.0 V800.00 DIODE9 F1000
+G1 X-15.2352 Y2.8913 Z12.9089 S200.0 V800.00 DIODE6 F1000
+; -- Scan Pass 2 --
+G1 X-15.0846 Y2.8213 Z12.9089 S200.0 V800.00 DIODE9 F1000
+G1 X-15.2352 Y2.8913 Z12.9089 S200.0 V800.00 DIODE6 F1000
+; Layer Time: 8.5925 sec
+; ===== End Layer 313 =====
+
+; ===== Layer 314 Z=12.9339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.0557 Y2.8539 Z12.9339 S200.0 V800.00 DIODE10 F1000
+G1 X-15.2049 Y2.9239 Z12.9339 S200.0 V800.00 DIODE8 F1000
+G1 X-15.3550 Y2.9939 Z12.9339 S200.0 V800.00 DIODE5 F1000
+G1 X-15.3550 Y2.9939 Z12.9339 S200.0 V800.00 DIODE6 F1000
+; -- Scan Pass 2 --
+G1 X-15.0557 Y2.8539 Z12.9339 S200.0 V800.00 DIODE10 F1000
+G1 X-15.2049 Y2.9239 Z12.9339 S200.0 V800.00 DIODE8 F1000
+G1 X-15.3550 Y2.9939 Z12.9339 S200.0 V800.00 DIODE5 F1000
+G1 X-15.3550 Y2.9939 Z12.9339 S200.0 V800.00 DIODE6 F1000
+; Layer Time: 8.6257 sec
+; ===== End Layer 314 =====
+
+; ===== Layer 315 Z=12.9589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.2391 Y3.1213 Z12.9589 S200.0 V800.00 DIODE10 F1000
+G1 X-15.3746 Y3.1913 Z12.9589 S200.0 V800.00 DIODE7 F1000
+G1 X-15.3746 Y3.1913 Z12.9589 S200.0 V800.00 DIODE8 F1000
+G1 X-15.5413 Y3.2613 Z12.9589 S200.0 V800.00 DIODE5 F1000
+; -- Scan Pass 2 --
+G1 X-15.2391 Y3.1213 Z12.9589 S200.0 V800.00 DIODE10 F1000
+G1 X-15.3746 Y3.1913 Z12.9589 S200.0 V800.00 DIODE7 F1000
+G1 X-15.3746 Y3.1913 Z12.9589 S200.0 V800.00 DIODE8 F1000
+G1 X-15.5413 Y3.2613 Z12.9589 S200.0 V800.00 DIODE5 F1000
+; Layer Time: 8.6774 sec
+; ===== End Layer 315 =====
+
+; ===== Layer 316 Z=12.9839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.1874 Y3.1345 Z12.9839 S200.0 V800.00 DIODE9 F1000
+G1 X-15.3089 Y3.2045 Z12.9839 S200.0 V800.00 DIODE7 F1000
+; -- Scan Pass 2 --
+G1 X-15.1874 Y3.1345 Z12.9839 S200.0 V800.00 DIODE9 F1000
+G1 X-15.3089 Y3.2045 Z12.9839 S200.0 V800.00 DIODE7 F1000
+; Layer Time: 8.7257 sec
+; ===== End Layer 316 =====
+
+; ===== Layer 317 Z=13.0089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.2984 Y3.1813 Z13.0089 S200.0 V800.00 DIODE9 F1000
+G1 X-15.4217 Y3.2513 Z13.0089 S200.0 V800.00 DIODE7 F1000
+; -- Scan Pass 2 --
+G1 X-15.2984 Y3.1813 Z13.0089 S200.0 V800.00 DIODE9 F1000
+G1 X-15.4217 Y3.2513 Z13.0089 S200.0 V800.00 DIODE7 F1000
+; Layer Time: 8.7464 sec
+; ===== End Layer 317 =====
+
+; ===== Layer 318 Z=13.0339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.2001 Y3.1808 Z13.0339 S200.0 V800.00 DIODE10 F1000
+G1 X-15.3078 Y3.2508 Z13.0339 S200.0 V800.00 DIODE8 F1000
+G1 X-15.3078 Y3.2508 Z13.0339 S200.0 V800.00 DIODE9 F1000
+G1 X-15.4315 Y3.3208 Z13.0339 S200.0 V800.00 DIODE6 F1000
+G1 X-15.4315 Y3.3208 Z13.0339 S200.0 V800.00 DIODE7 F1000
+; -- Scan Pass 2 --
+G1 X-15.2001 Y3.1808 Z13.0339 S200.0 V800.00 DIODE10 F1000
+G1 X-15.3078 Y3.2508 Z13.0339 S200.0 V800.00 DIODE8 F1000
+G1 X-15.3078 Y3.2508 Z13.0339 S200.0 V800.00 DIODE9 F1000
+G1 X-15.4315 Y3.3208 Z13.0339 S200.0 V800.00 DIODE6 F1000
+G1 X-15.4315 Y3.3208 Z13.0339 S200.0 V800.00 DIODE7 F1000
+; Layer Time: 8.7792 sec
+; ===== End Layer 318 =====
+
+; ===== Layer 319 Z=13.0589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.2722 Y3.1961 Z13.0589 S200.0 V800.00 DIODE10 F1000
+G1 X-15.3728 Y3.2661 Z13.0589 S200.0 V800.00 DIODE8 F1000
+G1 X-15.3728 Y3.2661 Z13.0589 S200.0 V800.00 DIODE9 F1000
+G1 X-15.5139 Y3.3361 Z13.0589 S200.0 V800.00 DIODE6 F1000
+; -- Scan Pass 2 --
+G1 X-15.2722 Y3.1961 Z13.0589 S200.0 V800.00 DIODE10 F1000
+G1 X-15.3728 Y3.2661 Z13.0589 S200.0 V800.00 DIODE8 F1000
+G1 X-15.3728 Y3.2661 Z13.0589 S200.0 V800.00 DIODE9 F1000
+G1 X-15.5139 Y3.3361 Z13.0589 S200.0 V800.00 DIODE6 F1000
+; Layer Time: 8.8202 sec
+; ===== End Layer 319 =====
+
+; ===== Layer 320 Z=13.0839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.2899 Y3.1764 Z13.0839 S200.0 V800.00 DIODE10 F1000
+G1 X-15.3885 Y3.2464 Z13.0839 S200.0 V800.00 DIODE8 F1000
+G1 X-15.3885 Y3.2464 Z13.0839 S200.0 V800.00 DIODE9 F1000
+G1 X-15.5496 Y3.3164 Z13.0839 S200.0 V800.00 DIODE6 F1000
+; -- Scan Pass 2 --
+G1 X-15.2899 Y3.1764 Z13.0839 S200.0 V800.00 DIODE10 F1000
+G1 X-15.3885 Y3.2464 Z13.0839 S200.0 V800.00 DIODE8 F1000
+G1 X-15.3885 Y3.2464 Z13.0839 S200.0 V800.00 DIODE9 F1000
+G1 X-15.5496 Y3.3164 Z13.0839 S200.0 V800.00 DIODE6 F1000
+; Layer Time: 8.8611 sec
+; ===== End Layer 320 =====
+
+; ===== Layer 321 Z=13.1089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.3729 Y3.2709 Z13.1089 S200.0 V800.00 DIODE10 F1000
+G1 X-15.4691 Y3.3409 Z13.1089 S200.0 V800.00 DIODE8 F1000
+G1 X-15.4691 Y3.3409 Z13.1089 S200.0 V800.00 DIODE9 F1000
+; -- Scan Pass 2 --
+G1 X-15.3729 Y3.2709 Z13.1089 S200.0 V800.00 DIODE10 F1000
+G1 X-15.4691 Y3.3409 Z13.1089 S200.0 V800.00 DIODE8 F1000
+G1 X-15.4691 Y3.3409 Z13.1089 S200.0 V800.00 DIODE9 F1000
+; Layer Time: 8.8796 sec
+; ===== End Layer 321 =====
+
+; ===== Layer 322 Z=13.1339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.2913 Y3.3919 Z13.1339 S200.0 V800.00 DIODE10 F1000
+G1 X-15.3935 Y3.4619 Z13.1339 S200.0 V800.00 DIODE8 F1000
+; -- Scan Pass 2 --
+G1 X-15.2913 Y3.3919 Z13.1339 S200.0 V800.00 DIODE10 F1000
+G1 X-15.3935 Y3.4619 Z13.1339 S200.0 V800.00 DIODE8 F1000
+; Layer Time: 8.9214 sec
+; ===== End Layer 322 =====
+
+; ===== Layer 323 Z=13.1589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.3076 Y3.4465 Z13.1589 S200.0 V800.00 DIODE10 F1000
+G1 X-15.4158 Y3.5165 Z13.1589 S200.0 V800.00 DIODE8 F1000
+; -- Scan Pass 2 --
+G1 X-15.3076 Y3.4465 Z13.1589 S200.0 V800.00 DIODE10 F1000
+G1 X-15.4158 Y3.5165 Z13.1589 S200.0 V800.00 DIODE8 F1000
+; Layer Time: 8.9494 sec
+; ===== End Layer 323 =====
+
+; ===== Layer 324 Z=13.1839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.4220 Y3.4558 Z13.1839 S200.0 V800.00 DIODE9 F1000
+G1 X-15.4220 Y3.4558 Z13.1839 S200.0 V800.00 DIODE10 F1000
+G1 X-15.5399 Y3.5258 Z13.1839 S200.0 V800.00 DIODE8 F1000
+; -- Scan Pass 2 --
+G1 X-15.4220 Y3.4558 Z13.1839 S200.0 V800.00 DIODE9 F1000
+G1 X-15.4220 Y3.4558 Z13.1839 S200.0 V800.00 DIODE10 F1000
+G1 X-15.5399 Y3.5258 Z13.1839 S200.0 V800.00 DIODE8 F1000
+; Layer Time: 8.9841 sec
+; ===== End Layer 324 =====
+
+; ===== Layer 325 Z=13.2089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.3626 Y3.5351 Z13.2089 S200.0 V800.00 DIODE9 F1000
+G1 X-15.3626 Y3.5351 Z13.2089 S200.0 V800.00 DIODE10 F1000
+G1 X-15.5014 Y3.6051 Z13.2089 S200.0 V800.00 DIODE7 F1000
+; -- Scan Pass 2 --
+G1 X-15.3626 Y3.5351 Z13.2089 S200.0 V800.00 DIODE9 F1000
+G1 X-15.3626 Y3.5351 Z13.2089 S200.0 V800.00 DIODE10 F1000
+G1 X-15.5014 Y3.6051 Z13.2089 S200.0 V800.00 DIODE7 F1000
+; Layer Time: 9.0088 sec
+; ===== End Layer 325 =====
+
+; ===== Layer 326 Z=13.2339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.3519 Y3.6126 Z13.2339 S200.0 V800.00 DIODE9 F1000
+; -- Scan Pass 2 --
+G1 X-15.3519 Y3.6126 Z13.2339 S200.0 V800.00 DIODE9 F1000
+; Layer Time: 9.0223 sec
+; ===== End Layer 326 =====
+
+; ===== Layer 327 Z=13.2589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.3239 Y3.6137 Z13.2589 S200.0 V800.00 DIODE10 F1000
+G1 X-15.4410 Y3.6837 Z13.2589 S200.0 V800.00 DIODE8 F1000
+G1 X-15.4410 Y3.6837 Z13.2589 S200.0 V800.00 DIODE9 F1000
+; -- Scan Pass 2 --
+G1 X-15.3239 Y3.6137 Z13.2589 S200.0 V800.00 DIODE10 F1000
+G1 X-15.4410 Y3.6837 Z13.2589 S200.0 V800.00 DIODE8 F1000
+G1 X-15.4410 Y3.6837 Z13.2589 S200.0 V800.00 DIODE9 F1000
+; Layer Time: 9.0595 sec
+; ===== End Layer 327 =====
+
+; ===== Layer 328 Z=13.2839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.3100 Y3.6690 Z13.2839 S200.0 V800.00 DIODE10 F1000
+; -- Scan Pass 2 --
+G1 X-15.3100 Y3.6690 Z13.2839 S200.0 V800.00 DIODE10 F1000
+; Layer Time: 9.0956 sec
+; ===== End Layer 328 =====
+
+; ===== Layer 329 Z=13.3089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.2563 Y3.7551 Z13.3089 S200.0 V800.00 DIODE9 F1000
+; -- Scan Pass 2 --
+G1 X-15.2563 Y3.7551 Z13.3089 S200.0 V800.00 DIODE9 F1000
+; Layer Time: 9.1361 sec
+; ===== End Layer 329 =====
+
+; ===== Layer 330 Z=13.3339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.4127 Y3.7804 Z13.3339 S200.0 V800.00 DIODE10 F1000
+G1 X-15.6091 Y3.8504 Z13.3339 S200.0 V800.00 DIODE6 F1000
+G1 X-15.6091 Y3.8504 Z13.3339 S200.0 V800.00 DIODE7 F1000
+; -- Scan Pass 2 --
+G1 X-15.4127 Y3.7804 Z13.3339 S200.0 V800.00 DIODE10 F1000
+G1 X-15.6091 Y3.8504 Z13.3339 S200.0 V800.00 DIODE6 F1000
+G1 X-15.6091 Y3.8504 Z13.3339 S200.0 V800.00 DIODE7 F1000
+; Layer Time: 9.1457 sec
+; ===== End Layer 330 =====
+
+; ===== Layer 331 Z=13.3589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.4332 Y3.7960 Z13.3589 S200.0 V800.00 DIODE8 F1000
+G1 X-15.4332 Y3.7960 Z13.3589 S200.0 V800.00 DIODE9 F1000
+; -- Scan Pass 2 --
+G1 X-15.4332 Y3.7960 Z13.3589 S200.0 V800.00 DIODE8 F1000
+G1 X-15.4332 Y3.7960 Z13.3589 S200.0 V800.00 DIODE9 F1000
+; Layer Time: 9.1750 sec
+; ===== End Layer 331 =====
+
+; ===== Layer 332 Z=13.3839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.2715 Y3.7498 Z13.3839 S200.0 V800.00 DIODE9 F1000
+G1 X-15.2715 Y3.7498 Z13.3839 S200.0 V800.00 DIODE10 F1000
+; -- Scan Pass 2 --
+G1 X-15.2715 Y3.7498 Z13.3839 S200.0 V800.00 DIODE9 F1000
+G1 X-15.2715 Y3.7498 Z13.3839 S200.0 V800.00 DIODE10 F1000
+; Layer Time: 9.2114 sec
+; ===== End Layer 332 =====
+
+; ===== Layer 333 Z=13.4089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.2785 Y3.7751 Z13.4089 S200.0 V800.00 DIODE10 F1000
+G1 X-15.4134 Y3.8451 Z13.4089 S200.0 V800.00 DIODE8 F1000
+; -- Scan Pass 2 --
+G1 X-15.2785 Y3.7751 Z13.4089 S200.0 V800.00 DIODE10 F1000
+G1 X-15.4134 Y3.8451 Z13.4089 S200.0 V800.00 DIODE8 F1000
+; Layer Time: 9.2472 sec
+; ===== End Layer 333 =====
+
+; ===== Layer 334 Z=13.4339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.2016 Y3.8421 Z13.4339 S200.0 V800.00 DIODE9 F1000
+; -- Scan Pass 2 --
+G1 X-15.2016 Y3.8421 Z13.4339 S200.0 V800.00 DIODE9 F1000
+; Layer Time: 9.2855 sec
+; ===== End Layer 334 =====
+
+; ===== Layer 335 Z=13.4589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.0958 Y3.7751 Z13.4589 S200.0 V800.00 DIODE10 F1000
+G1 X-15.2402 Y3.8451 Z13.4589 S200.0 V800.00 DIODE8 F1000
+; -- Scan Pass 2 --
+G1 X-15.0958 Y3.7751 Z13.4589 S200.0 V800.00 DIODE10 F1000
+G1 X-15.2402 Y3.8451 Z13.4589 S200.0 V800.00 DIODE8 F1000
+; Layer Time: 9.2873 sec
+; ===== End Layer 335 =====
+
+; ===== Layer 336 Z=13.4839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.1920 Y3.9144 Z13.4839 S200.0 V800.00 DIODE9 F1000
+; -- Scan Pass 2 --
+G1 X-15.1920 Y3.9144 Z13.4839 S200.0 V800.00 DIODE9 F1000
+; Layer Time: 9.3232 sec
+; ===== End Layer 336 =====
+
+; ===== Layer 337 Z=13.5089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.1584 Y3.8797 Z13.5089 S200.0 V800.00 DIODE10 F1000
+G1 X-15.3162 Y3.9497 Z13.5089 S200.0 V800.00 DIODE7 F1000
+; -- Scan Pass 2 --
+G1 X-15.1584 Y3.8797 Z13.5089 S200.0 V800.00 DIODE10 F1000
+G1 X-15.3162 Y3.9497 Z13.5089 S200.0 V800.00 DIODE7 F1000
+; Layer Time: 9.3607 sec
+; ===== End Layer 337 =====
+
+; ===== Layer 338 Z=13.5339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.2280 Y3.9451 Z13.5339 S200.0 V800.00 DIODE8 F1000
+; -- Scan Pass 2 --
+G1 X-15.2280 Y3.9451 Z13.5339 S200.0 V800.00 DIODE8 F1000
+; Layer Time: 9.3952 sec
+; ===== End Layer 338 =====
+
+; ===== Layer 339 Z=13.5589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.2225 Y3.9927 Z13.5589 S200.0 V800.00 DIODE9 F1000
+G1 X-15.4175 Y4.0627 Z13.5589 S200.0 V800.00 DIODE6 F1000
+; -- Scan Pass 2 --
+G1 X-15.2225 Y3.9927 Z13.5589 S200.0 V800.00 DIODE9 F1000
+G1 X-15.4175 Y4.0627 Z13.5589 S200.0 V800.00 DIODE6 F1000
+; Layer Time: 9.4017 sec
+; ===== End Layer 339 =====
+
+; ===== Layer 340 Z=13.5839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.1409 Y4.0028 Z13.5839 S200.0 V800.00 DIODE10 F1000
+G1 X-15.2842 Y4.0728 Z13.5839 S200.0 V800.00 DIODE7 F1000
+G1 X-15.2842 Y4.0728 Z13.5839 S200.0 V800.00 DIODE8 F1000
+; -- Scan Pass 2 --
+G1 X-15.1409 Y4.0028 Z13.5839 S200.0 V800.00 DIODE10 F1000
+G1 X-15.2842 Y4.0728 Z13.5839 S200.0 V800.00 DIODE7 F1000
+G1 X-15.2842 Y4.0728 Z13.5839 S200.0 V800.00 DIODE8 F1000
+; Layer Time: 9.4234 sec
+; ===== End Layer 340 =====
+
+; ===== Layer 341 Z=13.6089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.0502 Y4.0470 Z13.6089 S200.0 V800.00 DIODE10 F1000
+G1 X-15.1907 Y4.1170 Z13.6089 S200.0 V800.00 DIODE8 F1000
+; -- Scan Pass 2 --
+G1 X-15.0502 Y4.0470 Z13.6089 S200.0 V800.00 DIODE10 F1000
+G1 X-15.1907 Y4.1170 Z13.6089 S200.0 V800.00 DIODE8 F1000
+; Layer Time: 9.4524 sec
+; ===== End Layer 341 =====
+
+; ===== Layer 342 Z=13.6339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.1678 Y4.1772 Z13.6339 S200.0 V800.00 DIODE9 F1000
+G1 X-15.3392 Y4.2472 Z13.6339 S200.0 V800.00 DIODE6 F1000
+; -- Scan Pass 2 --
+G1 X-15.1678 Y4.1772 Z13.6339 S200.0 V800.00 DIODE9 F1000
+G1 X-15.3392 Y4.2472 Z13.6339 S200.0 V800.00 DIODE6 F1000
+; Layer Time: 9.4747 sec
+; ===== End Layer 342 =====
+
+; ===== Layer 343 Z=13.6589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.0273 Y4.1614 Z13.6589 S200.0 V800.00 DIODE9 F1000
+G1 X-15.1731 Y4.2314 Z13.6589 S200.0 V800.00 DIODE7 F1000
+; -- Scan Pass 2 --
+G1 X-15.0273 Y4.1614 Z13.6589 S200.0 V800.00 DIODE9 F1000
+G1 X-15.1731 Y4.2314 Z13.6589 S200.0 V800.00 DIODE7 F1000
+; Layer Time: 9.4960 sec
+; ===== End Layer 343 =====
+
+; ===== Layer 344 Z=13.6839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-14.9840 Y4.1457 Z13.6839 S200.0 V800.00 DIODE10 F1000
+G1 X-15.1213 Y4.2157 Z13.6839 S200.0 V800.00 DIODE7 F1000
+G1 X-15.1213 Y4.2157 Z13.6839 S200.0 V800.00 DIODE8 F1000
+; -- Scan Pass 2 --
+G1 X-14.9840 Y4.1457 Z13.6839 S200.0 V800.00 DIODE10 F1000
+G1 X-15.1213 Y4.2157 Z13.6839 S200.0 V800.00 DIODE7 F1000
+G1 X-15.1213 Y4.2157 Z13.6839 S200.0 V800.00 DIODE8 F1000
+; Layer Time: 9.5130 sec
+; ===== End Layer 344 =====
+
+; ===== Layer 345 Z=13.7089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-14.9506 Y4.1171 Z13.7089 S200.0 V800.00 DIODE10 F1000
+G1 X-15.0905 Y4.1871 Z13.7089 S200.0 V800.00 DIODE8 F1000
+; -- Scan Pass 2 --
+G1 X-14.9506 Y4.1171 Z13.7089 S200.0 V800.00 DIODE10 F1000
+G1 X-15.0905 Y4.1871 Z13.7089 S200.0 V800.00 DIODE8 F1000
+; Layer Time: 9.5298 sec
+; ===== End Layer 345 =====
+
+; ===== Layer 346 Z=13.7339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.1613 Y4.1846 Z13.7339 S200.0 V800.00 DIODE8 F1000
+G1 X-15.1613 Y4.1846 Z13.7339 S200.0 V800.00 DIODE9 F1000
+G1 X-15.2980 Y4.2546 Z13.7339 S200.0 V800.00 DIODE6 F1000
+; -- Scan Pass 2 --
+G1 X-15.1613 Y4.1846 Z13.7339 S200.0 V800.00 DIODE8 F1000
+G1 X-15.1613 Y4.1846 Z13.7339 S200.0 V800.00 DIODE9 F1000
+G1 X-15.2980 Y4.2546 Z13.7339 S200.0 V800.00 DIODE6 F1000
+; Layer Time: 9.5495 sec
+; ===== End Layer 346 =====
+
+; ===== Layer 347 Z=13.7589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.1645 Y4.1480 Z13.7589 S200.0 V800.00 DIODE9 F1000
+G1 X-15.1645 Y4.1480 Z13.7589 S200.0 V800.00 DIODE10 F1000
+G1 X-15.2923 Y4.2180 Z13.7589 S200.0 V800.00 DIODE7 F1000
+; -- Scan Pass 2 --
+G1 X-15.1645 Y4.1480 Z13.7589 S200.0 V800.00 DIODE9 F1000
+G1 X-15.1645 Y4.1480 Z13.7589 S200.0 V800.00 DIODE10 F1000
+G1 X-15.2923 Y4.2180 Z13.7589 S200.0 V800.00 DIODE7 F1000
+; Layer Time: 9.5527 sec
+; ===== End Layer 347 =====
+
+; ===== Layer 348 Z=13.7839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.0255 Y4.1666 Z13.7839 S200.0 V800.00 DIODE10 F1000
+G1 X-15.1594 Y4.2366 Z13.7839 S200.0 V800.00 DIODE8 F1000
+G1 X-15.2884 Y4.3066 Z13.7839 S200.0 V800.00 DIODE6 F1000
+; -- Scan Pass 2 --
+G1 X-15.0255 Y4.1666 Z13.7839 S200.0 V800.00 DIODE10 F1000
+G1 X-15.1594 Y4.2366 Z13.7839 S200.0 V800.00 DIODE8 F1000
+G1 X-15.2884 Y4.3066 Z13.7839 S200.0 V800.00 DIODE6 F1000
+; Layer Time: 9.5768 sec
+; ===== End Layer 348 =====
+
+; ===== Layer 349 Z=13.8089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.2183 Y4.1797 Z13.8089 S200.0 V800.00 DIODE9 F1000
+G1 X-15.3361 Y4.2497 Z13.8089 S200.0 V800.00 DIODE7 F1000
+; -- Scan Pass 2 --
+G1 X-15.2183 Y4.1797 Z13.8089 S200.0 V800.00 DIODE9 F1000
+G1 X-15.3361 Y4.2497 Z13.8089 S200.0 V800.00 DIODE7 F1000
+; Layer Time: 9.5879 sec
+; ===== End Layer 349 =====
+
+; ===== Layer 350 Z=13.8339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.1181 Y4.1568 Z13.8339 S200.0 V800.00 DIODE9 F1000
+G1 X-15.1181 Y4.1568 Z13.8339 S200.0 V800.00 DIODE10 F1000
+G1 X-15.2373 Y4.2268 Z13.8339 S200.0 V800.00 DIODE7 F1000
+G1 X-15.2373 Y4.2268 Z13.8339 S200.0 V800.00 DIODE8 F1000
+G1 X-15.3746 Y4.2968 Z13.8339 S200.0 V800.00 DIODE5 F1000
+; -- Scan Pass 2 --
+G1 X-15.1181 Y4.1568 Z13.8339 S200.0 V800.00 DIODE9 F1000
+G1 X-15.1181 Y4.1568 Z13.8339 S200.0 V800.00 DIODE10 F1000
+G1 X-15.2373 Y4.2268 Z13.8339 S200.0 V800.00 DIODE7 F1000
+G1 X-15.2373 Y4.2268 Z13.8339 S200.0 V800.00 DIODE8 F1000
+G1 X-15.3746 Y4.2968 Z13.8339 S200.0 V800.00 DIODE5 F1000
+; Layer Time: 9.6112 sec
+; ===== End Layer 350 =====
+
+; ===== Layer 351 Z=13.8589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.1542 Y4.2277 Z13.8589 S200.0 V800.00 DIODE10 F1000
+G1 X-15.2817 Y4.2977 Z13.8589 S200.0 V800.00 DIODE8 F1000
+G1 X-15.3912 Y4.3677 Z13.8589 S200.0 V800.00 DIODE6 F1000
+G1 X-15.3912 Y4.3677 Z13.8589 S200.0 V800.00 DIODE7 F1000
+; -- Scan Pass 2 --
+G1 X-15.1542 Y4.2277 Z13.8589 S200.0 V800.00 DIODE10 F1000
+G1 X-15.2817 Y4.2977 Z13.8589 S200.0 V800.00 DIODE8 F1000
+G1 X-15.3912 Y4.3677 Z13.8589 S200.0 V800.00 DIODE6 F1000
+G1 X-15.3912 Y4.3677 Z13.8589 S200.0 V800.00 DIODE7 F1000
+; Layer Time: 9.6087 sec
+; ===== End Layer 351 =====
+
+; ===== Layer 352 Z=13.8839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.3930 Y4.2723 Z13.8839 S200.0 V800.00 DIODE9 F1000
+G1 X-15.5010 Y4.3423 Z13.8839 S200.0 V800.00 DIODE7 F1000
+; -- Scan Pass 2 --
+G1 X-15.3930 Y4.2723 Z13.8839 S200.0 V800.00 DIODE9 F1000
+G1 X-15.5010 Y4.3423 Z13.8839 S200.0 V800.00 DIODE7 F1000
+; Layer Time: 9.6310 sec
+; ===== End Layer 352 =====
+
+; ===== Layer 353 Z=13.9089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.3184 Y4.2358 Z13.9089 S200.0 V800.00 DIODE9 F1000
+G1 X-15.3184 Y4.2358 Z13.9089 S200.0 V800.00 DIODE10 F1000
+G1 X-15.4282 Y4.3058 Z13.9089 S200.0 V800.00 DIODE7 F1000
+G1 X-15.4282 Y4.3058 Z13.9089 S200.0 V800.00 DIODE8 F1000
+G1 X-15.5337 Y4.3758 Z13.9089 S200.0 V800.00 DIODE6 F1000
+; -- Scan Pass 2 --
+G1 X-15.3184 Y4.2358 Z13.9089 S200.0 V800.00 DIODE9 F1000
+G1 X-15.3184 Y4.2358 Z13.9089 S200.0 V800.00 DIODE10 F1000
+G1 X-15.4282 Y4.3058 Z13.9089 S200.0 V800.00 DIODE7 F1000
+G1 X-15.4282 Y4.3058 Z13.9089 S200.0 V800.00 DIODE8 F1000
+G1 X-15.5337 Y4.3758 Z13.9089 S200.0 V800.00 DIODE6 F1000
+; Layer Time: 9.6529 sec
+; ===== End Layer 353 =====
+
+; ===== Layer 354 Z=13.9339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.1655 Y4.2510 Z13.9339 S200.0 V800.00 DIODE10 F1000
+G1 X-15.2832 Y4.3210 Z13.9339 S200.0 V800.00 DIODE8 F1000
+G1 X-15.3788 Y4.3910 Z13.9339 S200.0 V800.00 DIODE6 F1000
+G1 X-15.3788 Y4.3910 Z13.9339 S200.0 V800.00 DIODE7 F1000
+; -- Scan Pass 2 --
+G1 X-15.1655 Y4.2510 Z13.9339 S200.0 V800.00 DIODE10 F1000
+G1 X-15.2832 Y4.3210 Z13.9339 S200.0 V800.00 DIODE8 F1000
+G1 X-15.3788 Y4.3910 Z13.9339 S200.0 V800.00 DIODE6 F1000
+G1 X-15.3788 Y4.3910 Z13.9339 S200.0 V800.00 DIODE7 F1000
+; Layer Time: 9.6605 sec
+; ===== End Layer 354 =====
+
+; ===== Layer 355 Z=13.9589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.1971 Y4.2805 Z13.9589 S200.0 V800.00 DIODE8 F1000
+G1 X-15.1971 Y4.2805 Z13.9589 S200.0 V800.00 DIODE9 F1000
+G1 X-15.2922 Y4.3505 Z13.9589 S200.0 V800.00 DIODE7 F1000
+G1 X-15.4038 Y4.4205 Z13.9589 S200.0 V800.00 DIODE5 F1000
+; -- Scan Pass 2 --
+G1 X-15.1971 Y4.2805 Z13.9589 S200.0 V800.00 DIODE8 F1000
+G1 X-15.1971 Y4.2805 Z13.9589 S200.0 V800.00 DIODE9 F1000
+G1 X-15.2922 Y4.3505 Z13.9589 S200.0 V800.00 DIODE7 F1000
+G1 X-15.4038 Y4.4205 Z13.9589 S200.0 V800.00 DIODE5 F1000
+; Layer Time: 9.6796 sec
+; ===== End Layer 355 =====
+
+; ===== Layer 356 Z=13.9839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.2533 Y4.1933 Z13.9839 S200.0 V800.00 DIODE9 F1000
+G1 X-15.3546 Y4.2633 Z13.9839 S200.0 V800.00 DIODE7 F1000
+G1 X-15.3546 Y4.2633 Z13.9839 S200.0 V800.00 DIODE8 F1000
+G1 X-15.4458 Y4.3333 Z13.9839 S200.0 V800.00 DIODE6 F1000
+; -- Scan Pass 2 --
+G1 X-15.2533 Y4.1933 Z13.9839 S200.0 V800.00 DIODE9 F1000
+G1 X-15.3546 Y4.2633 Z13.9839 S200.0 V800.00 DIODE7 F1000
+G1 X-15.3546 Y4.2633 Z13.9839 S200.0 V800.00 DIODE8 F1000
+G1 X-15.4458 Y4.3333 Z13.9839 S200.0 V800.00 DIODE6 F1000
+; Layer Time: 9.6752 sec
+; ===== End Layer 356 =====
+
+; ===== Layer 357 Z=14.0089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.3289 Y4.2207 Z14.0089 S200.0 V800.00 DIODE10 F1000
+G1 X-15.4390 Y4.2907 Z14.0089 S200.0 V800.00 DIODE8 F1000
+G1 X-15.5247 Y4.3607 Z14.0089 S200.0 V800.00 DIODE6 F1000
+G1 X-15.5247 Y4.3607 Z14.0089 S200.0 V800.00 DIODE7 F1000
+; -- Scan Pass 2 --
+G1 X-15.3289 Y4.2207 Z14.0089 S200.0 V800.00 DIODE10 F1000
+G1 X-15.4390 Y4.2907 Z14.0089 S200.0 V800.00 DIODE8 F1000
+G1 X-15.5247 Y4.3607 Z14.0089 S200.0 V800.00 DIODE6 F1000
+G1 X-15.5247 Y4.3607 Z14.0089 S200.0 V800.00 DIODE7 F1000
+; Layer Time: 9.6949 sec
+; ===== End Layer 357 =====
+
+; ===== Layer 358 Z=14.0339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.4444 Y4.3083 Z14.0339 S200.0 V800.00 DIODE8 F1000
+G1 X-15.4444 Y4.3083 Z14.0339 S200.0 V800.00 DIODE9 F1000
+G1 X-15.5326 Y4.3783 Z14.0339 S200.0 V800.00 DIODE7 F1000
+G1 X-15.6230 Y4.4483 Z14.0339 S200.0 V800.00 DIODE5 F1000
+G1 X-15.6230 Y4.4483 Z14.0339 S200.0 V800.00 DIODE6 F1000
+; -- Scan Pass 2 --
+G1 X-15.4444 Y4.3083 Z14.0339 S200.0 V800.00 DIODE8 F1000
+G1 X-15.4444 Y4.3083 Z14.0339 S200.0 V800.00 DIODE9 F1000
+G1 X-15.5326 Y4.3783 Z14.0339 S200.0 V800.00 DIODE7 F1000
+G1 X-15.6230 Y4.4483 Z14.0339 S200.0 V800.00 DIODE5 F1000
+G1 X-15.6230 Y4.4483 Z14.0339 S200.0 V800.00 DIODE6 F1000
+; Layer Time: 9.7148 sec
+; ===== End Layer 358 =====
+
+; ===== Layer 359 Z=14.0589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.3938 Y4.2279 Z14.0589 S200.0 V800.00 DIODE9 F1000
+G1 X-15.4843 Y4.2979 Z14.0589 S200.0 V800.00 DIODE8 F1000
+G1 X-15.5638 Y4.3679 Z14.0589 S200.0 V800.00 DIODE6 F1000
+G1 X-15.5638 Y4.3679 Z14.0589 S200.0 V800.00 DIODE7 F1000
+; -- Scan Pass 2 --
+G1 X-15.3938 Y4.2279 Z14.0589 S200.0 V800.00 DIODE9 F1000
+G1 X-15.4843 Y4.2979 Z14.0589 S200.0 V800.00 DIODE8 F1000
+G1 X-15.5638 Y4.3679 Z14.0589 S200.0 V800.00 DIODE6 F1000
+G1 X-15.5638 Y4.3679 Z14.0589 S200.0 V800.00 DIODE7 F1000
+; Layer Time: 9.7342 sec
+; ===== End Layer 359 =====
+
+; ===== Layer 360 Z=14.0839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.3890 Y4.2557 Z14.0839 S200.0 V800.00 DIODE10 F1000
+G1 X-15.4886 Y4.3257 Z14.0839 S200.0 V800.00 DIODE8 F1000
+G1 X-15.5659 Y4.3957 Z14.0839 S200.0 V800.00 DIODE7 F1000
+G1 X-15.6782 Y4.4657 Z14.0839 S200.0 V800.00 DIODE5 F1000
+; -- Scan Pass 2 --
+G1 X-15.3890 Y4.2557 Z14.0839 S200.0 V800.00 DIODE10 F1000
+G1 X-15.4886 Y4.3257 Z14.0839 S200.0 V800.00 DIODE8 F1000
+G1 X-15.5659 Y4.3957 Z14.0839 S200.0 V800.00 DIODE7 F1000
+G1 X-15.6782 Y4.4657 Z14.0839 S200.0 V800.00 DIODE5 F1000
+; Layer Time: 9.7399 sec
+; ===== End Layer 360 =====
+
+; ===== Layer 361 Z=14.1089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.5643 Y4.3376 Z14.1089 S200.0 V800.00 DIODE9 F1000
+G1 X-15.6431 Y4.4076 Z14.1089 S200.0 V800.00 DIODE7 F1000
+G1 X-15.6431 Y4.4076 Z14.1089 S200.0 V800.00 DIODE8 F1000
+G1 X-15.7247 Y4.4776 Z14.1089 S200.0 V800.00 DIODE6 F1000
+; -- Scan Pass 2 --
+G1 X-15.5643 Y4.3376 Z14.1089 S200.0 V800.00 DIODE9 F1000
+G1 X-15.6431 Y4.4076 Z14.1089 S200.0 V800.00 DIODE7 F1000
+G1 X-15.6431 Y4.4076 Z14.1089 S200.0 V800.00 DIODE8 F1000
+G1 X-15.7247 Y4.4776 Z14.1089 S200.0 V800.00 DIODE6 F1000
+; Layer Time: 9.7340 sec
+; ===== End Layer 361 =====
+
+; ===== Layer 362 Z=14.1339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.4408 Y4.1764 Z14.1339 S200.0 V800.00 DIODE9 F1000
+G1 X-15.4408 Y4.1764 Z14.1339 S200.0 V800.00 DIODE10 F1000
+G1 X-15.5237 Y4.2464 Z14.1339 S200.0 V800.00 DIODE8 F1000
+G1 X-15.5974 Y4.3164 Z14.1339 S200.0 V800.00 DIODE7 F1000
+; -- Scan Pass 2 --
+G1 X-15.4408 Y4.1764 Z14.1339 S200.0 V800.00 DIODE9 F1000
+G1 X-15.4408 Y4.1764 Z14.1339 S200.0 V800.00 DIODE10 F1000
+G1 X-15.5237 Y4.2464 Z14.1339 S200.0 V800.00 DIODE8 F1000
+G1 X-15.5974 Y4.3164 Z14.1339 S200.0 V800.00 DIODE7 F1000
+; Layer Time: 9.7505 sec
+; ===== End Layer 362 =====
+
+; ===== Layer 363 Z=14.1589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.4721 Y4.1969 Z14.1589 S200.0 V800.00 DIODE10 F1000
+G1 X-15.5648 Y4.2669 Z14.1589 S200.0 V800.00 DIODE8 F1000
+G1 X-15.5648 Y4.2669 Z14.1589 S200.0 V800.00 DIODE9 F1000
+G1 X-15.6363 Y4.3369 Z14.1589 S200.0 V800.00 DIODE7 F1000
+G1 X-15.6363 Y4.3369 Z14.1589 S200.0 V800.00 DIODE8 F1000
+G1 X-15.7321 Y4.4069 Z14.1589 S200.0 V800.00 DIODE6 F1000
+; -- Scan Pass 2 --
+G1 X-15.4721 Y4.1969 Z14.1589 S200.0 V800.00 DIODE10 F1000
+G1 X-15.5648 Y4.2669 Z14.1589 S200.0 V800.00 DIODE8 F1000
+G1 X-15.5648 Y4.2669 Z14.1589 S200.0 V800.00 DIODE9 F1000
+G1 X-15.6363 Y4.3369 Z14.1589 S200.0 V800.00 DIODE7 F1000
+G1 X-15.6363 Y4.3369 Z14.1589 S200.0 V800.00 DIODE8 F1000
+G1 X-15.7321 Y4.4069 Z14.1589 S200.0 V800.00 DIODE6 F1000
+; Layer Time: 9.7732 sec
+; ===== End Layer 363 =====
+
+; ===== Layer 364 Z=14.1839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.3202 Y4.2455 Z14.1839 S200.0 V800.00 DIODE9 F1000
+G1 X-15.3951 Y4.3155 Z14.1839 S200.0 V800.00 DIODE8 F1000
+G1 X-15.4703 Y4.3855 Z14.1839 S200.0 V800.00 DIODE6 F1000
+G1 X-15.4703 Y4.3855 Z14.1839 S200.0 V800.00 DIODE7 F1000
+; -- Scan Pass 2 --
+G1 X-15.3202 Y4.2455 Z14.1839 S200.0 V800.00 DIODE9 F1000
+G1 X-15.3951 Y4.3155 Z14.1839 S200.0 V800.00 DIODE8 F1000
+G1 X-15.4703 Y4.3855 Z14.1839 S200.0 V800.00 DIODE6 F1000
+G1 X-15.4703 Y4.3855 Z14.1839 S200.0 V800.00 DIODE7 F1000
+; Layer Time: 9.7964 sec
+; ===== End Layer 364 =====
+
+; ===== Layer 365 Z=14.2089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.3087 Y4.1593 Z14.2089 S200.0 V800.00 DIODE10 F1000
+G1 X-15.3867 Y4.2293 Z14.2089 S200.0 V800.00 DIODE8 F1000
+G1 X-15.3867 Y4.2293 Z14.2089 S200.0 V800.00 DIODE9 F1000
+G1 X-15.4554 Y4.2993 Z14.2089 S200.0 V800.00 DIODE7 F1000
+; -- Scan Pass 2 --
+G1 X-15.3087 Y4.1593 Z14.2089 S200.0 V800.00 DIODE10 F1000
+G1 X-15.3867 Y4.2293 Z14.2089 S200.0 V800.00 DIODE8 F1000
+G1 X-15.3867 Y4.2293 Z14.2089 S200.0 V800.00 DIODE9 F1000
+G1 X-15.4554 Y4.2993 Z14.2089 S200.0 V800.00 DIODE7 F1000
+; Layer Time: 9.8180 sec
+; ===== End Layer 365 =====
+
+; ===== Layer 366 Z=14.2339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.1907 Y4.0968 Z14.2339 S200.0 V800.00 DIODE10 F1000
+G1 X-15.2783 Y4.1668 Z14.2339 S200.0 V800.00 DIODE9 F1000
+G1 X-15.3459 Y4.2368 Z14.2339 S200.0 V800.00 DIODE8 F1000
+G1 X-15.4313 Y4.3068 Z14.2339 S200.0 V800.00 DIODE6 F1000
+G1 X-15.4313 Y4.3068 Z14.2339 S200.0 V800.00 DIODE7 F1000
+; -- Scan Pass 2 --
+G1 X-15.1907 Y4.0968 Z14.2339 S200.0 V800.00 DIODE10 F1000
+G1 X-15.2783 Y4.1668 Z14.2339 S200.0 V800.00 DIODE9 F1000
+G1 X-15.3459 Y4.2368 Z14.2339 S200.0 V800.00 DIODE8 F1000
+G1 X-15.4313 Y4.3068 Z14.2339 S200.0 V800.00 DIODE6 F1000
+G1 X-15.4313 Y4.3068 Z14.2339 S200.0 V800.00 DIODE7 F1000
+; Layer Time: 9.8452 sec
+; ===== End Layer 366 =====
+
+; ===== Layer 367 Z=14.2589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.2087 Y4.1909 Z14.2589 S200.0 V800.00 DIODE9 F1000
+G1 X-15.2087 Y4.1909 Z14.2589 S200.0 V800.00 DIODE10 F1000
+G1 X-15.2785 Y4.2609 Z14.2589 S200.0 V800.00 DIODE8 F1000
+G1 X-15.3481 Y4.3309 Z14.2589 S200.0 V800.00 DIODE7 F1000
+; -- Scan Pass 2 --
+G1 X-15.2087 Y4.1909 Z14.2589 S200.0 V800.00 DIODE9 F1000
+G1 X-15.2087 Y4.1909 Z14.2589 S200.0 V800.00 DIODE10 F1000
+G1 X-15.2785 Y4.2609 Z14.2589 S200.0 V800.00 DIODE8 F1000
+G1 X-15.3481 Y4.3309 Z14.2589 S200.0 V800.00 DIODE7 F1000
+; Layer Time: 9.8308 sec
+; ===== End Layer 367 =====
+
+; ===== Layer 368 Z=14.2839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.1941 Y4.1705 Z14.2839 S200.0 V800.00 DIODE10 F1000
+G1 X-15.2697 Y4.2405 Z14.2839 S200.0 V800.00 DIODE9 F1000
+G1 X-15.3353 Y4.3105 Z14.2839 S200.0 V800.00 DIODE8 F1000
+G1 X-15.4858 Y4.3805 Z14.2839 S200.0 V800.00 DIODE5 F1000
+; -- Scan Pass 2 --
+G1 X-15.1941 Y4.1705 Z14.2839 S200.0 V800.00 DIODE10 F1000
+G1 X-15.2697 Y4.2405 Z14.2839 S200.0 V800.00 DIODE9 F1000
+G1 X-15.3353 Y4.3105 Z14.2839 S200.0 V800.00 DIODE8 F1000
+G1 X-15.4858 Y4.3805 Z14.2839 S200.0 V800.00 DIODE5 F1000
+; Layer Time: 9.8538 sec
+; ===== End Layer 368 =====
+
+; ===== Layer 369 Z=14.3089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.4304 Y4.2866 Z14.3089 S200.0 V800.00 DIODE9 F1000
+G1 X-15.4959 Y4.3566 Z14.3089 S200.0 V800.00 DIODE8 F1000
+G1 X-15.5740 Y4.4266 Z14.3089 S200.0 V800.00 DIODE7 F1000
+; -- Scan Pass 2 --
+G1 X-15.4304 Y4.2866 Z14.3089 S200.0 V800.00 DIODE9 F1000
+G1 X-15.4959 Y4.3566 Z14.3089 S200.0 V800.00 DIODE8 F1000
+G1 X-15.5740 Y4.4266 Z14.3089 S200.0 V800.00 DIODE7 F1000
+; Layer Time: 9.8785 sec
+; ===== End Layer 369 =====
+
+; ===== Layer 370 Z=14.3339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.3084 Y4.3725 Z14.3339 S200.0 V800.00 DIODE10 F1000
+G1 X-15.3762 Y4.4425 Z14.3339 S200.0 V800.00 DIODE8 F1000
+G1 X-15.3762 Y4.4425 Z14.3339 S200.0 V800.00 DIODE9 F1000
+G1 X-15.4436 Y4.5125 Z14.3339 S200.0 V800.00 DIODE7 F1000
+G1 X-15.4436 Y4.5125 Z14.3339 S200.0 V800.00 DIODE8 F1000
+; -- Scan Pass 2 --
+G1 X-15.3084 Y4.3725 Z14.3339 S200.0 V800.00 DIODE10 F1000
+G1 X-15.3762 Y4.4425 Z14.3339 S200.0 V800.00 DIODE8 F1000
+G1 X-15.3762 Y4.4425 Z14.3339 S200.0 V800.00 DIODE9 F1000
+G1 X-15.4436 Y4.5125 Z14.3339 S200.0 V800.00 DIODE7 F1000
+G1 X-15.4436 Y4.5125 Z14.3339 S200.0 V800.00 DIODE8 F1000
+; Layer Time: 9.9010 sec
+; ===== End Layer 370 =====
+
+; ===== Layer 371 Z=14.3589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.3366 Y4.3537 Z14.3589 S200.0 V800.00 DIODE10 F1000
+G1 X-15.4107 Y4.4237 Z14.3589 S200.0 V800.00 DIODE9 F1000
+G1 X-15.4735 Y4.4937 Z14.3589 S200.0 V800.00 DIODE8 F1000
+G1 X-15.5699 Y4.5637 Z14.3589 S200.0 V800.00 DIODE6 F1000
+G1 X-15.5699 Y4.5637 Z14.3589 S200.0 V800.00 DIODE7 F1000
+; -- Scan Pass 2 --
+G1 X-15.3366 Y4.3537 Z14.3589 S200.0 V800.00 DIODE10 F1000
+G1 X-15.4107 Y4.4237 Z14.3589 S200.0 V800.00 DIODE9 F1000
+G1 X-15.4735 Y4.4937 Z14.3589 S200.0 V800.00 DIODE8 F1000
+G1 X-15.5699 Y4.5637 Z14.3589 S200.0 V800.00 DIODE6 F1000
+G1 X-15.5699 Y4.5637 Z14.3589 S200.0 V800.00 DIODE7 F1000
+; Layer Time: 9.9184 sec
+; ===== End Layer 371 =====
+
+; ===== Layer 372 Z=14.3839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.3266 Y4.3435 Z14.3839 S200.0 V800.00 DIODE9 F1000
+G1 X-15.3266 Y4.3435 Z14.3839 S200.0 V800.00 DIODE10 F1000
+G1 X-15.3913 Y4.4135 Z14.3839 S200.0 V800.00 DIODE8 F1000
+G1 X-15.3913 Y4.4135 Z14.3839 S200.0 V800.00 DIODE9 F1000
+G1 X-15.4646 Y4.4835 Z14.3839 S200.0 V800.00 DIODE7 F1000
+; -- Scan Pass 2 --
+G1 X-15.3266 Y4.3435 Z14.3839 S200.0 V800.00 DIODE9 F1000
+G1 X-15.3266 Y4.3435 Z14.3839 S200.0 V800.00 DIODE10 F1000
+G1 X-15.3913 Y4.4135 Z14.3839 S200.0 V800.00 DIODE8 F1000
+G1 X-15.3913 Y4.4135 Z14.3839 S200.0 V800.00 DIODE9 F1000
+G1 X-15.4646 Y4.4835 Z14.3839 S200.0 V800.00 DIODE7 F1000
+; Layer Time: 9.9026 sec
+; ===== End Layer 372 =====
+
+; ===== Layer 373 Z=14.4089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.2682 Y4.3615 Z14.4089 S200.0 V800.00 DIODE10 F1000
+G1 X-15.3361 Y4.4315 Z14.4089 S200.0 V800.00 DIODE9 F1000
+G1 X-15.4011 Y4.5015 Z14.4089 S200.0 V800.00 DIODE8 F1000
+; -- Scan Pass 2 --
+G1 X-15.2682 Y4.3615 Z14.4089 S200.0 V800.00 DIODE10 F1000
+G1 X-15.3361 Y4.4315 Z14.4089 S200.0 V800.00 DIODE9 F1000
+G1 X-15.4011 Y4.5015 Z14.4089 S200.0 V800.00 DIODE8 F1000
+; Layer Time: 9.9233 sec
+; ===== End Layer 373 =====
+
+; ===== Layer 374 Z=14.4339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.3082 Y4.5007 Z14.4339 S200.0 V800.00 DIODE9 F1000
+G1 X-15.3082 Y4.5007 Z14.4339 S200.0 V800.00 DIODE10 F1000
+G1 X-15.3693 Y4.5707 Z14.4339 S200.0 V800.00 DIODE8 F1000
+G1 X-15.3693 Y4.5707 Z14.4339 S200.0 V800.00 DIODE9 F1000
+G1 X-15.4569 Y4.6407 Z14.4339 S200.0 V800.00 DIODE7 F1000
+; -- Scan Pass 2 --
+G1 X-15.3082 Y4.5007 Z14.4339 S200.0 V800.00 DIODE9 F1000
+G1 X-15.3082 Y4.5007 Z14.4339 S200.0 V800.00 DIODE10 F1000
+G1 X-15.3693 Y4.5707 Z14.4339 S200.0 V800.00 DIODE8 F1000
+G1 X-15.3693 Y4.5707 Z14.4339 S200.0 V800.00 DIODE9 F1000
+G1 X-15.4569 Y4.6407 Z14.4339 S200.0 V800.00 DIODE7 F1000
+; Layer Time: 9.9428 sec
+; ===== End Layer 374 =====
+
+; ===== Layer 375 Z=14.4589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.1672 Y4.5183 Z14.4589 S200.0 V800.00 DIODE10 F1000
+G1 X-15.2295 Y4.5883 Z14.4589 S200.0 V800.00 DIODE9 F1000
+G1 X-15.3001 Y4.6583 Z14.4589 S200.0 V800.00 DIODE8 F1000
+; -- Scan Pass 2 --
+G1 X-15.1672 Y4.5183 Z14.4589 S200.0 V800.00 DIODE10 F1000
+G1 X-15.2295 Y4.5883 Z14.4589 S200.0 V800.00 DIODE9 F1000
+G1 X-15.3001 Y4.6583 Z14.4589 S200.0 V800.00 DIODE8 F1000
+; Layer Time: 9.9627 sec
+; ===== End Layer 375 =====
+
+; ===== Layer 376 Z=14.4839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.2853 Y4.4435 Z14.4839 S200.0 V800.00 DIODE10 F1000
+G1 X-15.3521 Y4.5135 Z14.4839 S200.0 V800.00 DIODE9 F1000
+G1 X-15.4150 Y4.5835 Z14.4839 S200.0 V800.00 DIODE8 F1000
+; -- Scan Pass 2 --
+G1 X-15.2853 Y4.4435 Z14.4839 S200.0 V800.00 DIODE10 F1000
+G1 X-15.3521 Y4.5135 Z14.4839 S200.0 V800.00 DIODE9 F1000
+G1 X-15.4150 Y4.5835 Z14.4839 S200.0 V800.00 DIODE8 F1000
+; Layer Time: 9.9663 sec
+; ===== End Layer 376 =====
+
+; ===== Layer 377 Z=14.5089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.3335 Y4.6391 Z14.5089 S200.0 V800.00 DIODE10 F1000
+G1 X-15.3934 Y4.7091 Z14.5089 S200.0 V800.00 DIODE9 F1000
+G1 X-15.4741 Y4.7791 Z14.5089 S200.0 V800.00 DIODE7 F1000
+G1 X-15.4741 Y4.7791 Z14.5089 S200.0 V800.00 DIODE8 F1000
+; -- Scan Pass 2 --
+G1 X-15.3335 Y4.6391 Z14.5089 S200.0 V800.00 DIODE10 F1000
+G1 X-15.3934 Y4.7091 Z14.5089 S200.0 V800.00 DIODE9 F1000
+G1 X-15.4741 Y4.7791 Z14.5089 S200.0 V800.00 DIODE7 F1000
+G1 X-15.4741 Y4.7791 Z14.5089 S200.0 V800.00 DIODE8 F1000
+; Layer Time: 9.9702 sec
+; ===== End Layer 377 =====
+
+; ===== Layer 378 Z=14.5339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.3966 Y4.6608 Z14.5339 S200.0 V800.00 DIODE10 F1000
+G1 X-15.4575 Y4.7308 Z14.5339 S200.0 V800.00 DIODE9 F1000
+G1 X-15.5238 Y4.8008 Z14.5339 S200.0 V800.00 DIODE8 F1000
+; -- Scan Pass 2 --
+G1 X-15.3966 Y4.6608 Z14.5339 S200.0 V800.00 DIODE10 F1000
+G1 X-15.4575 Y4.7308 Z14.5339 S200.0 V800.00 DIODE9 F1000
+G1 X-15.5238 Y4.8008 Z14.5339 S200.0 V800.00 DIODE8 F1000
+; Layer Time: 9.9957 sec
+; ===== End Layer 378 =====
+
+; ===== Layer 379 Z=14.5589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.1438 Y4.5525 Z14.5589 S200.0 V800.00 DIODE10 F1000
+G1 X-15.2085 Y4.6225 Z14.5589 S200.0 V800.00 DIODE9 F1000
+G1 X-15.2085 Y4.6225 Z14.5589 S200.0 V800.00 DIODE10 F1000
+G1 X-15.2702 Y4.6925 Z14.5589 S200.0 V800.00 DIODE8 F1000
+G1 X-15.2702 Y4.6925 Z14.5589 S200.0 V800.00 DIODE9 F1000
+G1 X-15.4220 Y4.7625 Z14.5589 S200.0 V800.00 DIODE6 F1000
+; -- Scan Pass 2 --
+G1 X-15.1438 Y4.5525 Z14.5589 S200.0 V800.00 DIODE10 F1000
+G1 X-15.2085 Y4.6225 Z14.5589 S200.0 V800.00 DIODE9 F1000
+G1 X-15.2085 Y4.6225 Z14.5589 S200.0 V800.00 DIODE10 F1000
+G1 X-15.2702 Y4.6925 Z14.5589 S200.0 V800.00 DIODE8 F1000
+G1 X-15.2702 Y4.6925 Z14.5589 S200.0 V800.00 DIODE9 F1000
+G1 X-15.4220 Y4.7625 Z14.5589 S200.0 V800.00 DIODE6 F1000
+; Layer Time: 10.0173 sec
+; ===== End Layer 379 =====
+
+; ===== Layer 380 Z=14.5839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.2298 Y4.6348 Z14.5839 S200.0 V800.00 DIODE10 F1000
+G1 X-15.2893 Y4.7048 Z14.5839 S200.0 V800.00 DIODE9 F1000
+G1 X-15.3687 Y4.7748 Z14.5839 S200.0 V800.00 DIODE7 F1000
+G1 X-15.3687 Y4.7748 Z14.5839 S200.0 V800.00 DIODE8 F1000
+; -- Scan Pass 2 --
+G1 X-15.2298 Y4.6348 Z14.5839 S200.0 V800.00 DIODE10 F1000
+G1 X-15.2893 Y4.7048 Z14.5839 S200.0 V800.00 DIODE9 F1000
+G1 X-15.3687 Y4.7748 Z14.5839 S200.0 V800.00 DIODE7 F1000
+G1 X-15.3687 Y4.7748 Z14.5839 S200.0 V800.00 DIODE8 F1000
+; Layer Time: 10.0342 sec
+; ===== End Layer 380 =====
+
+; ===== Layer 381 Z=14.6089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.3178 Y4.5703 Z14.6089 S200.0 V800.00 DIODE10 F1000
+G1 X-15.3774 Y4.6403 Z14.6089 S200.0 V800.00 DIODE9 F1000
+G1 X-15.3774 Y4.6403 Z14.6089 S200.0 V800.00 DIODE10 F1000
+G1 X-15.4422 Y4.7103 Z14.6089 S200.0 V800.00 DIODE8 F1000
+; -- Scan Pass 2 --
+G1 X-15.3178 Y4.5703 Z14.6089 S200.0 V800.00 DIODE10 F1000
+G1 X-15.3774 Y4.6403 Z14.6089 S200.0 V800.00 DIODE9 F1000
+G1 X-15.3774 Y4.6403 Z14.6089 S200.0 V800.00 DIODE10 F1000
+G1 X-15.4422 Y4.7103 Z14.6089 S200.0 V800.00 DIODE8 F1000
+; Layer Time: 10.0358 sec
+; ===== End Layer 381 =====
+
+; ===== Layer 382 Z=14.6339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.5279 Y4.5491 Z14.6339 S200.0 V800.00 DIODE10 F1000
+G1 X-15.5880 Y4.6191 Z14.6339 S200.0 V800.00 DIODE9 F1000
+; -- Scan Pass 2 --
+G1 X-15.5279 Y4.5491 Z14.6339 S200.0 V800.00 DIODE10 F1000
+G1 X-15.5880 Y4.6191 Z14.6339 S200.0 V800.00 DIODE9 F1000
+; Layer Time: 10.0527 sec
+; ===== End Layer 382 =====
+
+; ===== Layer 383 Z=14.6589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.4375 Y4.5504 Z14.6589 S200.0 V800.00 DIODE10 F1000
+G1 X-15.4945 Y4.6204 Z14.6589 S200.0 V800.00 DIODE9 F1000
+G1 X-15.5867 Y4.6904 Z14.6589 S200.0 V800.00 DIODE7 F1000
+G1 X-15.5867 Y4.6904 Z14.6589 S200.0 V800.00 DIODE8 F1000
+; -- Scan Pass 2 --
+G1 X-15.4375 Y4.5504 Z14.6589 S200.0 V800.00 DIODE10 F1000
+G1 X-15.4945 Y4.6204 Z14.6589 S200.0 V800.00 DIODE9 F1000
+G1 X-15.5867 Y4.6904 Z14.6589 S200.0 V800.00 DIODE7 F1000
+G1 X-15.5867 Y4.6904 Z14.6589 S200.0 V800.00 DIODE8 F1000
+; Layer Time: 10.0716 sec
+; ===== End Layer 383 =====
+
+; ===== Layer 384 Z=14.6839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.4047 Y4.5115 Z14.6839 S200.0 V800.00 DIODE10 F1000
+G1 X-15.4617 Y4.5815 Z14.6839 S200.0 V800.00 DIODE9 F1000
+G1 X-15.4617 Y4.5815 Z14.6839 S200.0 V800.00 DIODE10 F1000
+G1 X-15.5298 Y4.6515 Z14.6839 S200.0 V800.00 DIODE8 F1000
+G1 X-15.5298 Y4.6515 Z14.6839 S200.0 V800.00 DIODE9 F1000
+; -- Scan Pass 2 --
+G1 X-15.4047 Y4.5115 Z14.6839 S200.0 V800.00 DIODE10 F1000
+G1 X-15.4617 Y4.5815 Z14.6839 S200.0 V800.00 DIODE9 F1000
+G1 X-15.4617 Y4.5815 Z14.6839 S200.0 V800.00 DIODE10 F1000
+G1 X-15.5298 Y4.6515 Z14.6839 S200.0 V800.00 DIODE8 F1000
+G1 X-15.5298 Y4.6515 Z14.6839 S200.0 V800.00 DIODE9 F1000
+; Layer Time: 10.0776 sec
+; ===== End Layer 384 =====
+
+; ===== Layer 385 Z=14.7089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.4673 Y4.6068 Z14.7089 S200.0 V800.00 DIODE10 F1000
+G1 X-15.5275 Y4.6768 Z14.7089 S200.0 V800.00 DIODE9 F1000
+; -- Scan Pass 2 --
+G1 X-15.4673 Y4.6068 Z14.7089 S200.0 V800.00 DIODE10 F1000
+G1 X-15.5275 Y4.6768 Z14.7089 S200.0 V800.00 DIODE9 F1000
+; Layer Time: 10.0984 sec
+; ===== End Layer 385 =====
+
+; ===== Layer 386 Z=14.7339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.5873 Y4.5546 Z14.7339 S200.0 V800.00 DIODE10 F1000
+G1 X-15.6428 Y4.6246 Z14.7339 S200.0 V800.00 DIODE9 F1000
+G1 X-15.7460 Y4.6946 Z14.7339 S200.0 V800.00 DIODE7 F1000
+G1 X-15.7460 Y4.6946 Z14.7339 S200.0 V800.00 DIODE8 F1000
+; -- Scan Pass 2 --
+G1 X-15.5873 Y4.5546 Z14.7339 S200.0 V800.00 DIODE10 F1000
+G1 X-15.6428 Y4.6246 Z14.7339 S200.0 V800.00 DIODE9 F1000
+G1 X-15.7460 Y4.6946 Z14.7339 S200.0 V800.00 DIODE7 F1000
+G1 X-15.7460 Y4.6946 Z14.7339 S200.0 V800.00 DIODE8 F1000
+; Layer Time: 10.1185 sec
+; ===== End Layer 386 =====
+
+; ===== Layer 387 Z=14.7589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.6702 Y4.5349 Z14.7589 S200.0 V800.00 DIODE10 F1000
+G1 X-15.7262 Y4.6049 Z14.7589 S200.0 V800.00 DIODE9 F1000
+G1 X-15.7262 Y4.6049 Z14.7589 S200.0 V800.00 DIODE10 F1000
+G1 X-15.8001 Y4.6749 Z14.7589 S200.0 V800.00 DIODE8 F1000
+G1 X-15.8001 Y4.6749 Z14.7589 S200.0 V800.00 DIODE9 F1000
+; -- Scan Pass 2 --
+G1 X-15.6702 Y4.5349 Z14.7589 S200.0 V800.00 DIODE10 F1000
+G1 X-15.7262 Y4.6049 Z14.7589 S200.0 V800.00 DIODE9 F1000
+G1 X-15.7262 Y4.6049 Z14.7589 S200.0 V800.00 DIODE10 F1000
+G1 X-15.8001 Y4.6749 Z14.7589 S200.0 V800.00 DIODE8 F1000
+G1 X-15.8001 Y4.6749 Z14.7589 S200.0 V800.00 DIODE9 F1000
+; Layer Time: 10.1409 sec
+; ===== End Layer 387 =====
+
+; ===== Layer 388 Z=14.7839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.8850 Y4.5690 Z14.7839 S200.0 V800.00 DIODE10 F1000
+G1 X-15.9470 Y4.6390 Z14.7839 S200.0 V800.00 DIODE9 F1000
+; -- Scan Pass 2 --
+G1 X-15.8850 Y4.5690 Z14.7839 S200.0 V800.00 DIODE10 F1000
+G1 X-15.9470 Y4.6390 Z14.7839 S200.0 V800.00 DIODE9 F1000
+; Layer Time: 10.1409 sec
+; ===== End Layer 388 =====
+
+; ===== Layer 389 Z=14.8089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.9349 Y4.5607 Z14.8089 S200.0 V800.00 DIODE10 F1000
+G1 X-15.9902 Y4.6307 Z14.8089 S200.0 V800.00 DIODE9 F1000
+G1 X-15.9902 Y4.6307 Z14.8089 S200.0 V800.00 DIODE10 F1000
+; -- Scan Pass 2 --
+G1 X-15.9349 Y4.5607 Z14.8089 S200.0 V800.00 DIODE10 F1000
+G1 X-15.9902 Y4.6307 Z14.8089 S200.0 V800.00 DIODE9 F1000
+G1 X-15.9902 Y4.6307 Z14.8089 S200.0 V800.00 DIODE10 F1000
+; Layer Time: 10.1575 sec
+; ===== End Layer 389 =====
+
+; ===== Layer 390 Z=14.8339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-16.3055 Y4.7653 Z14.8339 S200.0 V800.00 DIODE10 F1000
+G1 X-16.3930 Y4.8353 Z14.8339 S200.0 V800.00 DIODE8 F1000
+G1 X-16.3930 Y4.8353 Z14.8339 S200.0 V800.00 DIODE9 F1000
+; -- Scan Pass 2 --
+G1 X-16.3055 Y4.7653 Z14.8339 S200.0 V800.00 DIODE10 F1000
+G1 X-16.3930 Y4.8353 Z14.8339 S200.0 V800.00 DIODE8 F1000
+G1 X-16.3930 Y4.8353 Z14.8339 S200.0 V800.00 DIODE9 F1000
+; Layer Time: 10.1795 sec
+; ===== End Layer 390 =====
+
+; ===== Layer 391 Z=14.8589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-16.4121 Y4.7864 Z14.8589 S200.0 V800.00 DIODE10 F1000
+G1 X-16.4813 Y4.8564 Z14.8589 S200.0 V800.00 DIODE9 F1000
+; -- Scan Pass 2 --
+G1 X-16.4121 Y4.7864 Z14.8589 S200.0 V800.00 DIODE10 F1000
+G1 X-16.4813 Y4.8564 Z14.8589 S200.0 V800.00 DIODE9 F1000
+; Layer Time: 10.1818 sec
+; ===== End Layer 391 =====
+
+; ===== Layer 392 Z=14.8839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-16.5269 Y4.8323 Z14.8839 S200.0 V800.00 DIODE10 F1000
+G1 X-16.5879 Y4.9023 Z14.8839 S200.0 V800.00 DIODE9 F1000
+G1 X-16.5879 Y4.9023 Z14.8839 S200.0 V800.00 DIODE10 F1000
+; -- Scan Pass 2 --
+G1 X-16.5269 Y4.8323 Z14.8839 S200.0 V800.00 DIODE10 F1000
+G1 X-16.5879 Y4.9023 Z14.8839 S200.0 V800.00 DIODE9 F1000
+G1 X-16.5879 Y4.9023 Z14.8839 S200.0 V800.00 DIODE10 F1000
+; Layer Time: 10.1992 sec
+; ===== End Layer 392 =====
+
+; ===== Layer 393 Z=14.9089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-16.7140 Y5.0632 Z14.9089 S200.0 V800.00 DIODE10 F1000
+G1 X-16.8527 Y5.1332 Z14.9089 S200.0 V800.00 DIODE7 F1000
+G1 X-16.8527 Y5.1332 Z14.9089 S200.0 V800.00 DIODE8 F1000
+; -- Scan Pass 2 --
+G1 X-16.7140 Y5.0632 Z14.9089 S200.0 V800.00 DIODE10 F1000
+G1 X-16.8527 Y5.1332 Z14.9089 S200.0 V800.00 DIODE7 F1000
+G1 X-16.8527 Y5.1332 Z14.9089 S200.0 V800.00 DIODE8 F1000
+; Layer Time: 10.2156 sec
+; ===== End Layer 393 =====
+
+; ===== Layer 394 Z=14.9339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-16.7230 Y4.9600 Z14.9339 S200.0 V800.00 DIODE10 F1000
+G1 X-16.8067 Y5.0300 Z14.9339 S200.0 V800.00 DIODE9 F1000
+; -- Scan Pass 2 --
+G1 X-16.7230 Y4.9600 Z14.9339 S200.0 V800.00 DIODE10 F1000
+G1 X-16.8067 Y5.0300 Z14.9339 S200.0 V800.00 DIODE9 F1000
+; Layer Time: 10.2328 sec
+; ===== End Layer 394 =====
+
+; ===== Layer 395 Z=14.9589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-16.8675 Y5.0144 Z14.9589 S200.0 V800.00 DIODE9 F1000
+G1 X-16.8675 Y5.0144 Z14.9589 S200.0 V800.00 DIODE10 F1000
+; -- Scan Pass 2 --
+G1 X-16.8675 Y5.0144 Z14.9589 S200.0 V800.00 DIODE9 F1000
+G1 X-16.8675 Y5.0144 Z14.9589 S200.0 V800.00 DIODE10 F1000
+; Layer Time: 10.2417 sec
+; ===== End Layer 395 =====
+
+; ===== Layer 396 Z=14.9839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-16.8351 Y4.9479 Z14.9839 S200.0 V800.00 DIODE10 F1000
+; -- Scan Pass 2 --
+G1 X-16.8351 Y4.9479 Z14.9839 S200.0 V800.00 DIODE10 F1000
+; Layer Time: 10.2553 sec
+; ===== End Layer 396 =====
+
+; ===== Layer 397 Z=15.0089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-16.6763 Y5.0578 Z15.0089 S200.0 V800.00 DIODE10 F1000
+; -- Scan Pass 2 --
+G1 X-16.6763 Y5.0578 Z15.0089 S200.0 V800.00 DIODE10 F1000
+; Layer Time: 10.2534 sec
+; ===== End Layer 397 =====
+
+; ===== Layer 398 Z=15.0339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-16.8885 Y5.1287 Z15.0339 S200.0 V800.00 DIODE9 F1000
+; -- Scan Pass 2 --
+G1 X-16.8885 Y5.1287 Z15.0339 S200.0 V800.00 DIODE9 F1000
+; Layer Time: 10.2703 sec
+; ===== End Layer 398 =====
+
+; ===== Layer 399 Z=15.0589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-16.8130 Y5.0552 Z15.0589 S200.0 V800.00 DIODE10 F1000
+; -- Scan Pass 2 --
+G1 X-16.8130 Y5.0552 Z15.0589 S200.0 V800.00 DIODE10 F1000
+; Layer Time: 10.2858 sec
+; ===== End Layer 399 =====
+
+; ===== Layer 400 Z=15.0839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-16.8142 Y4.9965 Z15.0839 S200.0 V800.00 DIODE10 F1000
+; -- Scan Pass 2 --
+G1 X-16.8142 Y4.9965 Z15.0839 S200.0 V800.00 DIODE10 F1000
+; Layer Time: 10.3009 sec
+; ===== End Layer 400 =====
+
+; ===== Layer 401 Z=15.1089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.3187 sec
+; ===== End Layer 401 =====
+
+; ===== Layer 402 Z=15.1339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-16.8850 Y5.0211 Z15.1339 S200.0 V800.00 DIODE9 F1000
+G1 X-16.8850 Y5.0211 Z15.1339 S200.0 V800.00 DIODE10 F1000
+; -- Scan Pass 2 --
+G1 X-16.8850 Y5.0211 Z15.1339 S200.0 V800.00 DIODE9 F1000
+G1 X-16.8850 Y5.0211 Z15.1339 S200.0 V800.00 DIODE10 F1000
+; Layer Time: 10.3377 sec
+; ===== End Layer 402 =====
+
+; ===== Layer 403 Z=15.1589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-16.8982 Y4.9664 Z15.1589 S200.0 V800.00 DIODE10 F1000
+; -- Scan Pass 2 --
+G1 X-16.8982 Y4.9664 Z15.1589 S200.0 V800.00 DIODE10 F1000
+; Layer Time: 10.3538 sec
+; ===== End Layer 403 =====
+
+; ===== Layer 404 Z=15.1839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.3703 sec
+; ===== End Layer 404 =====
+
+; ===== Layer 405 Z=15.2089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.3755 sec
+; ===== End Layer 405 =====
+
+; ===== Layer 406 Z=15.2339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-16.8226 Y5.2676 Z15.2339 S200.0 V800.00 DIODE10 F1000
+; -- Scan Pass 2 --
+G1 X-16.8226 Y5.2676 Z15.2339 S200.0 V800.00 DIODE10 F1000
+; Layer Time: 10.3923 sec
+; ===== End Layer 406 =====
+
+; ===== Layer 407 Z=15.2589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.4108 sec
+; ===== End Layer 407 =====
+
+; ===== Layer 408 Z=15.2839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.4069 sec
+; ===== End Layer 408 =====
+
+; ===== Layer 409 Z=15.3089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.4180 sec
+; ===== End Layer 409 =====
+
+; ===== Layer 410 Z=15.3339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.4326 sec
+; ===== End Layer 410 =====
+
+; ===== Layer 411 Z=15.3589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.4524 sec
+; ===== End Layer 411 =====
+
+; ===== Layer 412 Z=15.3839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.4633 sec
+; ===== End Layer 412 =====
+
+; ===== Layer 413 Z=15.4089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.4718 sec
+; ===== End Layer 413 =====
+
+; ===== Layer 414 Z=15.4339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.4830 sec
+; ===== End Layer 414 =====
+
+; ===== Layer 415 Z=15.4589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.4816 sec
+; ===== End Layer 415 =====
+
+; ===== Layer 416 Z=15.4839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.4739 sec
+; ===== End Layer 416 =====
+
+; ===== Layer 417 Z=15.5089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.4836 sec
+; ===== End Layer 417 =====
+
+; ===== Layer 418 Z=15.5339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.5044 sec
+; ===== End Layer 418 =====
+
+; ===== Layer 419 Z=15.5589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.5140 sec
+; ===== End Layer 419 =====
+
+; ===== Layer 420 Z=15.5839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.5236 sec
+; ===== End Layer 420 =====
+
+; ===== Layer 421 Z=15.6089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.5341 sec
+; ===== End Layer 421 =====
+
+; ===== Layer 422 Z=15.6339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.5519 sec
+; ===== End Layer 422 =====
+
+; ===== Layer 423 Z=15.6589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.5529 sec
+; ===== End Layer 423 =====
+
+; ===== Layer 424 Z=15.6839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.5616 sec
+; ===== End Layer 424 =====
+
+; ===== Layer 425 Z=15.7089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.5585 sec
+; ===== End Layer 425 =====
+
+; ===== Layer 426 Z=15.7339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.5708 sec
+; ===== End Layer 426 =====
+
+; ===== Layer 427 Z=15.7589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.5849 sec
+; ===== End Layer 427 =====
+
+; ===== Layer 428 Z=15.7839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.5986 sec
+; ===== End Layer 428 =====
+
+; ===== Layer 429 Z=15.8089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.6091 sec
+; ===== End Layer 429 =====
+
+; ===== Layer 430 Z=15.8339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.6201 sec
+; ===== End Layer 430 =====
+
+; ===== Layer 431 Z=15.8589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.6316 sec
+; ===== End Layer 431 =====
+
+; ===== Layer 432 Z=15.8839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.6398 sec
+; ===== End Layer 432 =====
+
+; ===== Layer 433 Z=15.9089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.6472 sec
+; ===== End Layer 433 =====
+
+; ===== Layer 434 Z=15.9339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.6543 sec
+; ===== End Layer 434 =====
+
+; ===== Layer 435 Z=15.9589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.6632 sec
+; ===== End Layer 435 =====
+
+; ===== Layer 436 Z=15.9839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.6719 sec
+; ===== End Layer 436 =====
+
+; ===== Layer 437 Z=16.0089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.6801 sec
+; ===== End Layer 437 =====
+
+; ===== Layer 438 Z=16.0339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.6859 sec
+; ===== End Layer 438 =====
+
+; ===== Layer 439 Z=16.0589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.6915 sec
+; ===== End Layer 439 =====
+
+; ===== Layer 440 Z=16.0839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.6970 sec
+; ===== End Layer 440 =====
+
+; ===== Layer 441 Z=16.1089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.7020 sec
+; ===== End Layer 441 =====
+
+; ===== Layer 442 Z=16.1339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.7045 sec
+; ===== End Layer 442 =====
+
+; ===== Layer 443 Z=16.1589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.7062 sec
+; ===== End Layer 443 =====
+
+; ===== Layer 444 Z=16.1839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.7139 sec
+; ===== End Layer 444 =====
+
+; ===== Layer 445 Z=16.2089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.7214 sec
+; ===== End Layer 445 =====
+
+; ===== Layer 446 Z=16.2339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.7309 sec
+; ===== End Layer 446 =====
+
+; ===== Layer 447 Z=16.2589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.7389 sec
+; ===== End Layer 447 =====
+
+; ===== Layer 448 Z=16.2839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.7495 sec
+; ===== End Layer 448 =====
+
+; ===== Layer 449 Z=16.3089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.7592 sec
+; ===== End Layer 449 =====
+
+; ===== Layer 450 Z=16.3339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.7697 sec
+; ===== End Layer 450 =====
+
+; ===== Layer 451 Z=16.3589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.7781 sec
+; ===== End Layer 451 =====
+
+; ===== Layer 452 Z=16.3839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.7883 sec
+; ===== End Layer 452 =====
+
+; ===== Layer 453 Z=16.4089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.7998 sec
+; ===== End Layer 453 =====
+
+; ===== Layer 454 Z=16.4339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.8110 sec
+; ===== End Layer 454 =====
+
+; ===== Layer 455 Z=16.4589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.8244 sec
+; ===== End Layer 455 =====
+
+; ===== Layer 456 Z=16.4839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.8417 sec
+; ===== End Layer 456 =====
+
+; ===== Layer 457 Z=16.5089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.8701 sec
+; ===== End Layer 457 =====
+
+; ===== Layer 458 Z=16.5339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.8896 sec
+; ===== End Layer 458 =====
+
+; ===== Layer 459 Z=16.5589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.8992 sec
+; ===== End Layer 459 =====
+
+; ===== Layer 460 Z=16.5839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.9108 sec
+; ===== End Layer 460 =====
+
+; ===== Layer 461 Z=16.6089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.9159 sec
+; ===== End Layer 461 =====
+
+; ===== Layer 462 Z=16.6339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.9155 sec
+; ===== End Layer 462 =====
+
+; ===== Layer 463 Z=16.6589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.9176 sec
+; ===== End Layer 463 =====
+
+; ===== Layer 464 Z=16.6839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.9175 sec
+; ===== End Layer 464 =====
+
+; ===== Layer 465 Z=16.7089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.9175 sec
+; ===== End Layer 465 =====
+
+; ===== Layer 466 Z=16.7339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.9165 sec
+; ===== End Layer 466 =====
+
+; ===== Layer 467 Z=16.7589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.9146 sec
+; ===== End Layer 467 =====
+
+; ===== Layer 468 Z=16.7839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.9150 sec
+; ===== End Layer 468 =====
+
+; ===== Layer 469 Z=16.8089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.9129 sec
+; ===== End Layer 469 =====
+
+; ===== Layer 470 Z=16.8339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.9100 sec
+; ===== End Layer 470 =====
+
+; ===== Layer 471 Z=16.8589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.9080 sec
+; ===== End Layer 471 =====
+
+; ===== Layer 472 Z=16.8839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.9037 sec
+; ===== End Layer 472 =====
+
+; ===== Layer 473 Z=16.9089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.9013 sec
+; ===== End Layer 473 =====
+
+; ===== Layer 474 Z=16.9339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.8953 sec
+; ===== End Layer 474 =====
+
+; ===== Layer 475 Z=16.9589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.8899 sec
+; ===== End Layer 475 =====
+
+; ===== Layer 476 Z=16.9839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.8831 sec
+; ===== End Layer 476 =====
+
+; ===== Layer 477 Z=17.0089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.8754 sec
+; ===== End Layer 477 =====
+
+; ===== Layer 478 Z=17.0339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.8675 sec
+; ===== End Layer 478 =====
+
+; ===== Layer 479 Z=17.0589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.8656 sec
+; ===== End Layer 479 =====
+
+; ===== Layer 480 Z=17.0839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.8623 sec
+; ===== End Layer 480 =====
+
+; ===== Layer 481 Z=17.1089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.8537 sec
+; ===== End Layer 481 =====
+
+; ===== Layer 482 Z=17.1339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.8425 sec
+; ===== End Layer 482 =====
+
+; ===== Layer 483 Z=17.1589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.8316 sec
+; ===== End Layer 483 =====
+
+; ===== Layer 484 Z=17.1839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.8213 sec
+; ===== End Layer 484 =====
+
+; ===== Layer 485 Z=17.2089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.8069 sec
+; ===== End Layer 485 =====
+
+; ===== Layer 486 Z=17.2339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.7920 sec
+; ===== End Layer 486 =====
+
+; ===== Layer 487 Z=17.2589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.7763 sec
+; ===== End Layer 487 =====
+
+; ===== Layer 488 Z=17.2839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.7634 sec
+; ===== End Layer 488 =====
+
+; ===== Layer 489 Z=17.3089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.7487 sec
+; ===== End Layer 489 =====
+
+; ===== Layer 490 Z=17.3339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.7352 sec
+; ===== End Layer 490 =====
+
+; ===== Layer 491 Z=17.3589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.7168 sec
+; ===== End Layer 491 =====
+
+; ===== Layer 492 Z=17.3839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.7016 sec
+; ===== End Layer 492 =====
+
+; ===== Layer 493 Z=17.4089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.6883 sec
+; ===== End Layer 493 =====
+
+; ===== Layer 494 Z=17.4339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.6767 sec
+; ===== End Layer 494 =====
+
+; ===== Layer 495 Z=17.4589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.6647 sec
+; ===== End Layer 495 =====
+
+; ===== Layer 496 Z=17.4839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.6678 sec
+; ===== End Layer 496 =====
+
+; ===== Layer 497 Z=17.5089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.6550 sec
+; ===== End Layer 497 =====
+
+; ===== Layer 498 Z=17.5339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.6460 sec
+; ===== End Layer 498 =====
+
+; ===== Layer 499 Z=17.5589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.6450 sec
+; ===== End Layer 499 =====
+
+; ===== Layer 500 Z=17.5839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.6304 sec
+; ===== End Layer 500 =====
+
+; ===== Layer 501 Z=17.6089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.6165 sec
+; ===== End Layer 501 =====
+
+; ===== Layer 502 Z=17.6339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.6066 sec
+; ===== End Layer 502 =====
+
+; ===== Layer 503 Z=17.6589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.5936 sec
+; ===== End Layer 503 =====
+
+; ===== Layer 504 Z=17.6839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.5748 sec
+; ===== End Layer 504 =====
+
+; ===== Layer 505 Z=17.7089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.5823 sec
+; ===== End Layer 505 =====
+
+; ===== Layer 506 Z=17.7339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.5705 sec
+; ===== End Layer 506 =====
+
+; ===== Layer 507 Z=17.7589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.5694 sec
+; ===== End Layer 507 =====
+
+; ===== Layer 508 Z=17.7839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.5561 sec
+; ===== End Layer 508 =====
+
+; ===== Layer 509 Z=17.8089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.5463 sec
+; ===== End Layer 509 =====
+
+; ===== Layer 510 Z=17.8339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.5346 sec
+; ===== End Layer 510 =====
+
+; ===== Layer 511 Z=17.8589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.5232 sec
+; ===== End Layer 511 =====
+
+; ===== Layer 512 Z=17.8839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.5166 sec
+; ===== End Layer 512 =====
+
+; ===== Layer 513 Z=17.9089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.5268 sec
+; ===== End Layer 513 =====
+
+; ===== Layer 514 Z=17.9339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.5149 sec
+; ===== End Layer 514 =====
+
+; ===== Layer 515 Z=17.9589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.5028 sec
+; ===== End Layer 515 =====
+
+; ===== Layer 516 Z=17.9839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.4945 sec
+; ===== End Layer 516 =====
+
+; ===== Layer 517 Z=18.0089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.4992 sec
+; ===== End Layer 517 =====
+
+; ===== Layer 518 Z=18.0339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.4869 sec
+; ===== End Layer 518 =====
+
+; ===== Layer 519 Z=18.0589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.4772 sec
+; ===== End Layer 519 =====
+
+; ===== Layer 520 Z=18.0839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.4670 sec
+; ===== End Layer 520 =====
+
+; ===== Layer 521 Z=18.1089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.4601 sec
+; ===== End Layer 521 =====
+
+; ===== Layer 522 Z=18.1339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.4509 sec
+; ===== End Layer 522 =====
+
+; ===== Layer 523 Z=18.1589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.4409 sec
+; ===== End Layer 523 =====
+
+; ===== Layer 524 Z=18.1839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.4452 sec
+; ===== End Layer 524 =====
+
+; ===== Layer 525 Z=18.2089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.4364 sec
+; ===== End Layer 525 =====
+
+; ===== Layer 526 Z=18.2339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.4274 sec
+; ===== End Layer 526 =====
+
+; ===== Layer 527 Z=18.2589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.4186 sec
+; ===== End Layer 527 =====
+
+; ===== Layer 528 Z=18.2839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.3962 sec
+; ===== End Layer 528 =====
+
+; ===== Layer 529 Z=18.3089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.3809 sec
+; ===== End Layer 529 =====
+
+; ===== Layer 530 Z=18.3339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.3688 sec
+; ===== End Layer 530 =====
+
+; ===== Layer 531 Z=18.3589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.3660 sec
+; ===== End Layer 531 =====
+
+; ===== Layer 532 Z=18.3839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.3510 sec
+; ===== End Layer 532 =====
+
+; ===== Layer 533 Z=18.4089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.3498 sec
+; ===== End Layer 533 =====
+
+; ===== Layer 534 Z=18.4339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-17.2040 Y5.2926 Z18.4339 S200.0 V800.00 DIODE10 F1000
+; -- Scan Pass 2 --
+G1 X-17.2040 Y5.2926 Z18.4339 S200.0 V800.00 DIODE10 F1000
+; Layer Time: 10.3329 sec
+; ===== End Layer 534 =====
+
+; ===== Layer 535 Z=18.4589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 10.3168 sec
+; ===== End Layer 535 =====
+
+; ===== Layer 536 Z=18.4839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-17.1113 Y5.4594 Z18.4839 S200.0 V800.00 DIODE10 F1000
+; -- Scan Pass 2 --
+G1 X-17.1113 Y5.4594 Z18.4839 S200.0 V800.00 DIODE10 F1000
+; Layer Time: 10.3002 sec
+; ===== End Layer 536 =====
+
+; ===== Layer 537 Z=18.5089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-17.0834 Y5.3908 Z18.5089 S200.0 V800.00 DIODE9 F1000
+G1 X-17.0834 Y5.3908 Z18.5089 S200.0 V800.00 DIODE10 F1000
+; -- Scan Pass 2 --
+G1 X-17.0834 Y5.3908 Z18.5089 S200.0 V800.00 DIODE9 F1000
+G1 X-17.0834 Y5.3908 Z18.5089 S200.0 V800.00 DIODE10 F1000
+; Layer Time: 10.2854 sec
+; ===== End Layer 537 =====
+
+; ===== Layer 538 Z=18.5339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-17.0741 Y5.3467 Z18.5339 S200.0 V800.00 DIODE10 F1000
+; -- Scan Pass 2 --
+G1 X-17.0741 Y5.3467 Z18.5339 S200.0 V800.00 DIODE10 F1000
+; Layer Time: 10.2795 sec
+; ===== End Layer 538 =====
+
+; ===== Layer 539 Z=18.5589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-17.0776 Y5.3747 Z18.5589 S200.0 V800.00 DIODE10 F1000
+; -- Scan Pass 2 --
+G1 X-17.0776 Y5.3747 Z18.5589 S200.0 V800.00 DIODE10 F1000
+; Layer Time: 10.2694 sec
+; ===== End Layer 539 =====
+
+; ===== Layer 540 Z=18.5839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-16.9624 Y5.4194 Z18.5839 S200.0 V800.00 DIODE10 F1000
+G1 X-17.0448 Y5.4894 Z18.5839 S200.0 V800.00 DIODE9 F1000
+; -- Scan Pass 2 --
+G1 X-16.9624 Y5.4194 Z18.5839 S200.0 V800.00 DIODE10 F1000
+G1 X-17.0448 Y5.4894 Z18.5839 S200.0 V800.00 DIODE9 F1000
+; Layer Time: 10.2710 sec
+; ===== End Layer 540 =====
+
+; ===== Layer 541 Z=18.6089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-16.9076 Y5.4652 Z18.6089 S200.0 V800.00 DIODE10 F1000
+; -- Scan Pass 2 --
+G1 X-16.9076 Y5.4652 Z18.6089 S200.0 V800.00 DIODE10 F1000
+; Layer Time: 10.2593 sec
+; ===== End Layer 541 =====
+
+; ===== Layer 542 Z=18.6339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-16.8887 Y5.3379 Z18.6339 S200.0 V800.00 DIODE10 F1000
+G1 X-16.9529 Y5.4079 Z18.6339 S200.0 V800.00 DIODE9 F1000
+G1 X-16.9529 Y5.4079 Z18.6339 S200.0 V800.00 DIODE10 F1000
+; -- Scan Pass 2 --
+G1 X-16.8887 Y5.3379 Z18.6339 S200.0 V800.00 DIODE10 F1000
+G1 X-16.9529 Y5.4079 Z18.6339 S200.0 V800.00 DIODE9 F1000
+G1 X-16.9529 Y5.4079 Z18.6339 S200.0 V800.00 DIODE10 F1000
+; Layer Time: 10.2477 sec
+; ===== End Layer 542 =====
+
+; ===== Layer 543 Z=18.6589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-16.9772 Y5.4427 Z18.6589 S200.0 V800.00 DIODE10 F1000
+G1 X-17.0601 Y5.5127 Z18.6589 S200.0 V800.00 DIODE9 F1000
+; -- Scan Pass 2 --
+G1 X-16.9772 Y5.4427 Z18.6589 S200.0 V800.00 DIODE10 F1000
+G1 X-17.0601 Y5.5127 Z18.6589 S200.0 V800.00 DIODE9 F1000
+; Layer Time: 10.2327 sec
+; ===== End Layer 543 =====
+
+; ===== Layer 544 Z=18.6839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-17.0090 Y5.3278 Z18.6839 S200.0 V800.00 DIODE9 F1000
+G1 X-17.0090 Y5.3278 Z18.6839 S200.0 V800.00 DIODE10 F1000
+; -- Scan Pass 2 --
+G1 X-17.0090 Y5.3278 Z18.6839 S200.0 V800.00 DIODE9 F1000
+G1 X-17.0090 Y5.3278 Z18.6839 S200.0 V800.00 DIODE10 F1000
+; Layer Time: 10.2099 sec
+; ===== End Layer 544 =====
+
+; ===== Layer 545 Z=18.7089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-17.0713 Y5.1590 Z18.7089 S200.0 V800.00 DIODE10 F1000
+G1 X-17.1390 Y5.2290 Z18.7089 S200.0 V800.00 DIODE9 F1000
+; -- Scan Pass 2 --
+G1 X-17.0713 Y5.1590 Z18.7089 S200.0 V800.00 DIODE10 F1000
+G1 X-17.1390 Y5.2290 Z18.7089 S200.0 V800.00 DIODE9 F1000
+; Layer Time: 10.2316 sec
+; ===== End Layer 545 =====
+
+; ===== Layer 546 Z=18.7339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-17.1529 Y5.1065 Z18.7339 S200.0 V800.00 DIODE10 F1000
+G1 X-17.2566 Y5.1765 Z18.7339 S200.0 V800.00 DIODE8 F1000
+; -- Scan Pass 2 --
+G1 X-17.1529 Y5.1065 Z18.7339 S200.0 V800.00 DIODE10 F1000
+G1 X-17.2566 Y5.1765 Z18.7339 S200.0 V800.00 DIODE8 F1000
+; Layer Time: 10.2184 sec
+; ===== End Layer 546 =====
+
+; ===== Layer 547 Z=18.7589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-17.0370 Y5.0760 Z18.7589 S200.0 V800.00 DIODE10 F1000
+G1 X-17.1018 Y5.1460 Z18.7589 S200.0 V800.00 DIODE9 F1000
+; -- Scan Pass 2 --
+G1 X-17.0370 Y5.0760 Z18.7589 S200.0 V800.00 DIODE10 F1000
+G1 X-17.1018 Y5.1460 Z18.7589 S200.0 V800.00 DIODE9 F1000
+; Layer Time: 10.2037 sec
+; ===== End Layer 547 =====
+
+; ===== Layer 548 Z=18.7839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-16.9410 Y4.9198 Z18.7839 S200.0 V800.00 DIODE10 F1000
+G1 X-17.0180 Y4.9898 Z18.7839 S200.0 V800.00 DIODE8 F1000
+G1 X-17.0180 Y4.9898 Z18.7839 S200.0 V800.00 DIODE9 F1000
+; -- Scan Pass 2 --
+G1 X-16.9410 Y4.9198 Z18.7839 S200.0 V800.00 DIODE10 F1000
+G1 X-17.0180 Y4.9898 Z18.7839 S200.0 V800.00 DIODE8 F1000
+G1 X-17.0180 Y4.9898 Z18.7839 S200.0 V800.00 DIODE9 F1000
+; Layer Time: 10.1902 sec
+; ===== End Layer 548 =====
+
+; ===== Layer 549 Z=18.8089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-16.7749 Y4.8954 Z18.8089 S200.0 V800.00 DIODE10 F1000
+G1 X-16.8354 Y4.9654 Z18.8089 S200.0 V800.00 DIODE9 F1000
+G1 X-16.8354 Y4.9654 Z18.8089 S200.0 V800.00 DIODE10 F1000
+G1 X-16.9501 Y5.0354 Z18.8089 S200.0 V800.00 DIODE7 F1000
+G1 X-16.9501 Y5.0354 Z18.8089 S200.0 V800.00 DIODE8 F1000
+; -- Scan Pass 2 --
+G1 X-16.7749 Y4.8954 Z18.8089 S200.0 V800.00 DIODE10 F1000
+G1 X-16.8354 Y4.9654 Z18.8089 S200.0 V800.00 DIODE9 F1000
+G1 X-16.8354 Y4.9654 Z18.8089 S200.0 V800.00 DIODE10 F1000
+G1 X-16.9501 Y5.0354 Z18.8089 S200.0 V800.00 DIODE7 F1000
+G1 X-16.9501 Y5.0354 Z18.8089 S200.0 V800.00 DIODE8 F1000
+; Layer Time: 10.1795 sec
+; ===== End Layer 549 =====
+
+; ===== Layer 550 Z=18.8339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-16.7692 Y4.9532 Z18.8339 S200.0 V800.00 DIODE10 F1000
+G1 X-16.8352 Y5.0232 Z18.8339 S200.0 V800.00 DIODE9 F1000
+; -- Scan Pass 2 --
+G1 X-16.7692 Y4.9532 Z18.8339 S200.0 V800.00 DIODE10 F1000
+G1 X-16.8352 Y5.0232 Z18.8339 S200.0 V800.00 DIODE9 F1000
+; Layer Time: 10.1916 sec
+; ===== End Layer 550 =====
+
+; ===== Layer 551 Z=18.8589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-16.8623 Y4.8959 Z18.8589 S200.0 V800.00 DIODE10 F1000
+G1 X-16.9258 Y4.9659 Z18.8589 S200.0 V800.00 DIODE9 F1000
+G1 X-16.9258 Y4.9659 Z18.8589 S200.0 V800.00 DIODE10 F1000
+G1 X-17.0060 Y5.0359 Z18.8589 S200.0 V800.00 DIODE8 F1000
+; -- Scan Pass 2 --
+G1 X-16.8623 Y4.8959 Z18.8589 S200.0 V800.00 DIODE10 F1000
+G1 X-16.9258 Y4.9659 Z18.8589 S200.0 V800.00 DIODE9 F1000
+G1 X-16.9258 Y4.9659 Z18.8589 S200.0 V800.00 DIODE10 F1000
+G1 X-17.0060 Y5.0359 Z18.8589 S200.0 V800.00 DIODE8 F1000
+; Layer Time: 10.1768 sec
+; ===== End Layer 551 =====
+
+; ===== Layer 552 Z=18.8839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-16.6331 Y4.8197 Z18.8839 S200.0 V800.00 DIODE10 F1000
+G1 X-16.6971 Y4.8897 Z18.8839 S200.0 V800.00 DIODE9 F1000
+; -- Scan Pass 2 --
+G1 X-16.6331 Y4.8197 Z18.8839 S200.0 V800.00 DIODE10 F1000
+G1 X-16.6971 Y4.8897 Z18.8839 S200.0 V800.00 DIODE9 F1000
+; Layer Time: 10.1615 sec
+; ===== End Layer 552 =====
+
+; ===== Layer 553 Z=18.9089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-16.5016 Y4.6998 Z18.9089 S200.0 V800.00 DIODE10 F1000
+G1 X-16.5682 Y4.7698 Z18.9089 S200.0 V800.00 DIODE9 F1000
+G1 X-16.5682 Y4.7698 Z18.9089 S200.0 V800.00 DIODE10 F1000
+G1 X-16.6371 Y4.8398 Z18.9089 S200.0 V800.00 DIODE8 F1000
+G1 X-16.6371 Y4.8398 Z18.9089 S200.0 V800.00 DIODE9 F1000
+; -- Scan Pass 2 --
+G1 X-16.5016 Y4.6998 Z18.9089 S200.0 V800.00 DIODE10 F1000
+G1 X-16.5682 Y4.7698 Z18.9089 S200.0 V800.00 DIODE9 F1000
+G1 X-16.5682 Y4.7698 Z18.9089 S200.0 V800.00 DIODE10 F1000
+G1 X-16.6371 Y4.8398 Z18.9089 S200.0 V800.00 DIODE8 F1000
+G1 X-16.6371 Y4.8398 Z18.9089 S200.0 V800.00 DIODE9 F1000
+; Layer Time: 10.1466 sec
+; ===== End Layer 553 =====
+
+; ===== Layer 554 Z=18.9339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-16.5046 Y4.7399 Z18.9339 S200.0 V800.00 DIODE10 F1000
+G1 X-16.5682 Y4.8099 Z18.9339 S200.0 V800.00 DIODE9 F1000
+G1 X-16.6520 Y4.8799 Z18.9339 S200.0 V800.00 DIODE8 F1000
+; -- Scan Pass 2 --
+G1 X-16.5046 Y4.7399 Z18.9339 S200.0 V800.00 DIODE10 F1000
+G1 X-16.5682 Y4.8099 Z18.9339 S200.0 V800.00 DIODE9 F1000
+G1 X-16.6520 Y4.8799 Z18.9339 S200.0 V800.00 DIODE8 F1000
+; Layer Time: 10.1538 sec
+; ===== End Layer 554 =====
+
+; ===== Layer 555 Z=18.9589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-16.3813 Y4.6296 Z18.9589 S200.0 V800.00 DIODE10 F1000
+G1 X-16.4463 Y4.6996 Z18.9589 S200.0 V800.00 DIODE8 F1000
+G1 X-16.4463 Y4.6996 Z18.9589 S200.0 V800.00 DIODE9 F1000
+; -- Scan Pass 2 --
+G1 X-16.3813 Y4.6296 Z18.9589 S200.0 V800.00 DIODE10 F1000
+G1 X-16.4463 Y4.6996 Z18.9589 S200.0 V800.00 DIODE8 F1000
+G1 X-16.4463 Y4.6996 Z18.9589 S200.0 V800.00 DIODE9 F1000
+; Layer Time: 10.1549 sec
+; ===== End Layer 555 =====
+
+; ===== Layer 556 Z=18.9839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-16.1032 Y4.5615 Z18.9839 S200.0 V800.00 DIODE10 F1000
+G1 X-16.1684 Y4.6315 Z18.9839 S200.0 V800.00 DIODE9 F1000
+G1 X-16.2397 Y4.7015 Z18.9839 S200.0 V800.00 DIODE8 F1000
+; -- Scan Pass 2 --
+G1 X-16.1032 Y4.5615 Z18.9839 S200.0 V800.00 DIODE10 F1000
+G1 X-16.1684 Y4.6315 Z18.9839 S200.0 V800.00 DIODE9 F1000
+G1 X-16.2397 Y4.7015 Z18.9839 S200.0 V800.00 DIODE8 F1000
+; Layer Time: 10.1368 sec
+; ===== End Layer 556 =====
+
+; ===== Layer 557 Z=19.0089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-16.1036 Y4.5220 Z19.0089 S200.0 V800.00 DIODE10 F1000
+G1 X-16.1679 Y4.5920 Z19.0089 S200.0 V800.00 DIODE9 F1000
+G1 X-16.2522 Y4.6620 Z19.0089 S200.0 V800.00 DIODE7 F1000
+G1 X-16.2522 Y4.6620 Z19.0089 S200.0 V800.00 DIODE8 F1000
+; -- Scan Pass 2 --
+G1 X-16.1036 Y4.5220 Z19.0089 S200.0 V800.00 DIODE10 F1000
+G1 X-16.1679 Y4.5920 Z19.0089 S200.0 V800.00 DIODE9 F1000
+G1 X-16.2522 Y4.6620 Z19.0089 S200.0 V800.00 DIODE7 F1000
+G1 X-16.2522 Y4.6620 Z19.0089 S200.0 V800.00 DIODE8 F1000
+; Layer Time: 10.1172 sec
+; ===== End Layer 557 =====
+
+; ===== Layer 558 Z=19.0339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.9223 Y4.4244 Z19.0339 S200.0 V800.00 DIODE10 F1000
+G1 X-15.9937 Y4.4944 Z19.0339 S200.0 V800.00 DIODE9 F1000
+G1 X-15.9937 Y4.4944 Z19.0339 S200.0 V800.00 DIODE10 F1000
+G1 X-16.0591 Y4.5644 Z19.0339 S200.0 V800.00 DIODE8 F1000
+; -- Scan Pass 2 --
+G1 X-15.9223 Y4.4244 Z19.0339 S200.0 V800.00 DIODE10 F1000
+G1 X-15.9937 Y4.4944 Z19.0339 S200.0 V800.00 DIODE9 F1000
+G1 X-15.9937 Y4.4944 Z19.0339 S200.0 V800.00 DIODE10 F1000
+G1 X-16.0591 Y4.5644 Z19.0339 S200.0 V800.00 DIODE8 F1000
+; Layer Time: 10.0967 sec
+; ===== End Layer 558 =====
+
+; ===== Layer 559 Z=19.0589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-16.0222 Y4.4528 Z19.0589 S200.0 V800.00 DIODE10 F1000
+G1 X-16.0881 Y4.5228 Z19.0589 S200.0 V800.00 DIODE9 F1000
+G1 X-16.1599 Y4.5928 Z19.0589 S200.0 V800.00 DIODE8 F1000
+; -- Scan Pass 2 --
+G1 X-16.0222 Y4.4528 Z19.0589 S200.0 V800.00 DIODE10 F1000
+G1 X-16.0881 Y4.5228 Z19.0589 S200.0 V800.00 DIODE9 F1000
+G1 X-16.1599 Y4.5928 Z19.0589 S200.0 V800.00 DIODE8 F1000
+; Layer Time: 10.0864 sec
+; ===== End Layer 559 =====
+
+; ===== Layer 560 Z=19.0839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.9285 Y4.4382 Z19.0839 S200.0 V800.00 DIODE9 F1000
+G1 X-15.9285 Y4.4382 Z19.0839 S200.0 V800.00 DIODE10 F1000
+G1 X-15.9936 Y4.5082 Z19.0839 S200.0 V800.00 DIODE8 F1000
+G1 X-15.9936 Y4.5082 Z19.0839 S200.0 V800.00 DIODE9 F1000
+G1 X-16.0821 Y4.5782 Z19.0839 S200.0 V800.00 DIODE7 F1000
+; -- Scan Pass 2 --
+G1 X-15.9285 Y4.4382 Z19.0839 S200.0 V800.00 DIODE9 F1000
+G1 X-15.9285 Y4.4382 Z19.0839 S200.0 V800.00 DIODE10 F1000
+G1 X-15.9936 Y4.5082 Z19.0839 S200.0 V800.00 DIODE8 F1000
+G1 X-15.9936 Y4.5082 Z19.0839 S200.0 V800.00 DIODE9 F1000
+G1 X-16.0821 Y4.5782 Z19.0839 S200.0 V800.00 DIODE7 F1000
+; Layer Time: 10.0888 sec
+; ===== End Layer 560 =====
+
+; ===== Layer 561 Z=19.1089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.9485 Y4.3818 Z19.1089 S200.0 V800.00 DIODE10 F1000
+G1 X-16.0184 Y4.4518 Z19.1089 S200.0 V800.00 DIODE9 F1000
+G1 X-16.0832 Y4.5218 Z19.1089 S200.0 V800.00 DIODE8 F1000
+; -- Scan Pass 2 --
+G1 X-15.9485 Y4.3818 Z19.1089 S200.0 V800.00 DIODE10 F1000
+G1 X-16.0184 Y4.4518 Z19.1089 S200.0 V800.00 DIODE9 F1000
+G1 X-16.0832 Y4.5218 Z19.1089 S200.0 V800.00 DIODE8 F1000
+; Layer Time: 10.0712 sec
+; ===== End Layer 561 =====
+
+; ===== Layer 562 Z=19.1339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.9256 Y4.3695 Z19.1339 S200.0 V800.00 DIODE10 F1000
+G1 X-15.9925 Y4.4395 Z19.1339 S200.0 V800.00 DIODE8 F1000
+G1 X-15.9925 Y4.4395 Z19.1339 S200.0 V800.00 DIODE9 F1000
+G1 X-16.0648 Y4.5095 Z19.1339 S200.0 V800.00 DIODE7 F1000
+G1 X-16.0648 Y4.5095 Z19.1339 S200.0 V800.00 DIODE8 F1000
+; -- Scan Pass 2 --
+G1 X-15.9256 Y4.3695 Z19.1339 S200.0 V800.00 DIODE10 F1000
+G1 X-15.9925 Y4.4395 Z19.1339 S200.0 V800.00 DIODE8 F1000
+G1 X-15.9925 Y4.4395 Z19.1339 S200.0 V800.00 DIODE9 F1000
+G1 X-16.0648 Y4.5095 Z19.1339 S200.0 V800.00 DIODE7 F1000
+G1 X-16.0648 Y4.5095 Z19.1339 S200.0 V800.00 DIODE8 F1000
+; Layer Time: 10.0652 sec
+; ===== End Layer 562 =====
+
+; ===== Layer 563 Z=19.1589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.6897 Y4.3073 Z19.1589 S200.0 V800.00 DIODE10 F1000
+G1 X-15.7695 Y4.3773 Z19.1589 S200.0 V800.00 DIODE9 F1000
+G1 X-15.8333 Y4.4473 Z19.1589 S200.0 V800.00 DIODE8 F1000
+G1 X-15.9307 Y4.5173 Z19.1589 S200.0 V800.00 DIODE6 F1000
+G1 X-15.9307 Y4.5173 Z19.1589 S200.0 V800.00 DIODE7 F1000
+; -- Scan Pass 2 --
+G1 X-15.6897 Y4.3073 Z19.1589 S200.0 V800.00 DIODE10 F1000
+G1 X-15.7695 Y4.3773 Z19.1589 S200.0 V800.00 DIODE9 F1000
+G1 X-15.8333 Y4.4473 Z19.1589 S200.0 V800.00 DIODE8 F1000
+G1 X-15.9307 Y4.5173 Z19.1589 S200.0 V800.00 DIODE6 F1000
+G1 X-15.9307 Y4.5173 Z19.1589 S200.0 V800.00 DIODE7 F1000
+; Layer Time: 10.0476 sec
+; ===== End Layer 563 =====
+
+; ===== Layer 564 Z=19.1839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.7259 Y4.2840 Z19.1839 S200.0 V800.00 DIODE10 F1000
+G1 X-15.7952 Y4.3540 Z19.1839 S200.0 V800.00 DIODE8 F1000
+G1 X-15.7952 Y4.3540 Z19.1839 S200.0 V800.00 DIODE9 F1000
+G1 X-15.8606 Y4.4240 Z19.1839 S200.0 V800.00 DIODE7 F1000
+G1 X-15.8606 Y4.4240 Z19.1839 S200.0 V800.00 DIODE8 F1000
+; -- Scan Pass 2 --
+G1 X-15.7259 Y4.2840 Z19.1839 S200.0 V800.00 DIODE10 F1000
+G1 X-15.7952 Y4.3540 Z19.1839 S200.0 V800.00 DIODE8 F1000
+G1 X-15.7952 Y4.3540 Z19.1839 S200.0 V800.00 DIODE9 F1000
+G1 X-15.8606 Y4.4240 Z19.1839 S200.0 V800.00 DIODE7 F1000
+G1 X-15.8606 Y4.4240 Z19.1839 S200.0 V800.00 DIODE8 F1000
+; Layer Time: 10.0297 sec
+; ===== End Layer 564 =====
+
+; ===== Layer 565 Z=19.2089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.7455 Y4.3342 Z19.2089 S200.0 V800.00 DIODE9 F1000
+G1 X-15.8107 Y4.4042 Z19.2089 S200.0 V800.00 DIODE8 F1000
+G1 X-15.8867 Y4.4742 Z19.2089 S200.0 V800.00 DIODE7 F1000
+; -- Scan Pass 2 --
+G1 X-15.7455 Y4.3342 Z19.2089 S200.0 V800.00 DIODE9 F1000
+G1 X-15.8107 Y4.4042 Z19.2089 S200.0 V800.00 DIODE8 F1000
+G1 X-15.8867 Y4.4742 Z19.2089 S200.0 V800.00 DIODE7 F1000
+; Layer Time: 10.0336 sec
+; ===== End Layer 565 =====
+
+; ===== Layer 566 Z=19.2339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.5804 Y4.2889 Z19.2339 S200.0 V800.00 DIODE10 F1000
+G1 X-15.6579 Y4.3589 Z19.2339 S200.0 V800.00 DIODE9 F1000
+G1 X-15.7235 Y4.4289 Z19.2339 S200.0 V800.00 DIODE7 F1000
+G1 X-15.7235 Y4.4289 Z19.2339 S200.0 V800.00 DIODE8 F1000
+G1 X-15.8289 Y4.4989 Z19.2339 S200.0 V800.00 DIODE6 F1000
+; -- Scan Pass 2 --
+G1 X-15.5804 Y4.2889 Z19.2339 S200.0 V800.00 DIODE10 F1000
+G1 X-15.6579 Y4.3589 Z19.2339 S200.0 V800.00 DIODE9 F1000
+G1 X-15.7235 Y4.4289 Z19.2339 S200.0 V800.00 DIODE7 F1000
+G1 X-15.7235 Y4.4289 Z19.2339 S200.0 V800.00 DIODE8 F1000
+G1 X-15.8289 Y4.4989 Z19.2339 S200.0 V800.00 DIODE6 F1000
+; Layer Time: 10.0129 sec
+; ===== End Layer 566 =====
+
+; ===== Layer 567 Z=19.2589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.4130 Y4.3200 Z19.2589 S200.0 V800.00 DIODE9 F1000
+G1 X-15.4825 Y4.3900 Z19.2589 S200.0 V800.00 DIODE8 F1000
+G1 X-15.5535 Y4.4600 Z19.2589 S200.0 V800.00 DIODE7 F1000
+; -- Scan Pass 2 --
+G1 X-15.4130 Y4.3200 Z19.2589 S200.0 V800.00 DIODE9 F1000
+G1 X-15.4825 Y4.3900 Z19.2589 S200.0 V800.00 DIODE8 F1000
+G1 X-15.5535 Y4.4600 Z19.2589 S200.0 V800.00 DIODE7 F1000
+; Layer Time: 9.9889 sec
+; ===== End Layer 567 =====
+
+; ===== Layer 568 Z=19.2839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.4199 Y4.1681 Z19.2839 S200.0 V800.00 DIODE10 F1000
+G1 X-15.5071 Y4.2381 Z19.2839 S200.0 V800.00 DIODE9 F1000
+G1 X-15.5734 Y4.3081 Z19.2839 S200.0 V800.00 DIODE7 F1000
+G1 X-15.5734 Y4.3081 Z19.2839 S200.0 V800.00 DIODE8 F1000
+G1 X-15.6589 Y4.3781 Z19.2839 S200.0 V800.00 DIODE6 F1000
+; -- Scan Pass 2 --
+G1 X-15.4199 Y4.1681 Z19.2839 S200.0 V800.00 DIODE10 F1000
+G1 X-15.5071 Y4.2381 Z19.2839 S200.0 V800.00 DIODE9 F1000
+G1 X-15.5734 Y4.3081 Z19.2839 S200.0 V800.00 DIODE7 F1000
+G1 X-15.5734 Y4.3081 Z19.2839 S200.0 V800.00 DIODE8 F1000
+G1 X-15.6589 Y4.3781 Z19.2839 S200.0 V800.00 DIODE6 F1000
+; Layer Time: 9.9790 sec
+; ===== End Layer 568 =====
+
+; ===== Layer 569 Z=19.3089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.5831 Y4.2051 Z19.3089 S200.0 V800.00 DIODE9 F1000
+G1 X-15.5831 Y4.2051 Z19.3089 S200.0 V800.00 DIODE10 F1000
+G1 X-15.6622 Y4.2751 Z19.3089 S200.0 V800.00 DIODE8 F1000
+G1 X-15.7318 Y4.3451 Z19.3089 S200.0 V800.00 DIODE7 F1000
+; -- Scan Pass 2 --
+G1 X-15.5831 Y4.2051 Z19.3089 S200.0 V800.00 DIODE9 F1000
+G1 X-15.5831 Y4.2051 Z19.3089 S200.0 V800.00 DIODE10 F1000
+G1 X-15.6622 Y4.2751 Z19.3089 S200.0 V800.00 DIODE8 F1000
+G1 X-15.7318 Y4.3451 Z19.3089 S200.0 V800.00 DIODE7 F1000
+; Layer Time: 9.9529 sec
+; ===== End Layer 569 =====
+
+; ===== Layer 570 Z=19.3339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.5519 Y4.1948 Z19.3339 S200.0 V800.00 DIODE10 F1000
+G1 X-15.6526 Y4.2648 Z19.3339 S200.0 V800.00 DIODE9 F1000
+G1 X-15.7243 Y4.3348 Z19.3339 S200.0 V800.00 DIODE7 F1000
+G1 X-15.7243 Y4.3348 Z19.3339 S200.0 V800.00 DIODE8 F1000
+G1 X-15.8045 Y4.4048 Z19.3339 S200.0 V800.00 DIODE6 F1000
+; -- Scan Pass 2 --
+G1 X-15.5519 Y4.1948 Z19.3339 S200.0 V800.00 DIODE10 F1000
+G1 X-15.6526 Y4.2648 Z19.3339 S200.0 V800.00 DIODE9 F1000
+G1 X-15.7243 Y4.3348 Z19.3339 S200.0 V800.00 DIODE7 F1000
+G1 X-15.7243 Y4.3348 Z19.3339 S200.0 V800.00 DIODE8 F1000
+G1 X-15.8045 Y4.4048 Z19.3339 S200.0 V800.00 DIODE6 F1000
+; Layer Time: 9.9481 sec
+; ===== End Layer 570 =====
+
+; ===== Layer 571 Z=19.3589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.5401 Y4.1619 Z19.3589 S200.0 V800.00 DIODE9 F1000
+G1 X-15.5401 Y4.1619 Z19.3589 S200.0 V800.00 DIODE10 F1000
+G1 X-15.6268 Y4.2319 Z19.3589 S200.0 V800.00 DIODE8 F1000
+G1 X-15.6980 Y4.3019 Z19.3589 S200.0 V800.00 DIODE7 F1000
+G1 X-15.8221 Y4.3719 Z19.3589 S200.0 V800.00 DIODE5 F1000
+; -- Scan Pass 2 --
+G1 X-15.5401 Y4.1619 Z19.3589 S200.0 V800.00 DIODE9 F1000
+G1 X-15.5401 Y4.1619 Z19.3589 S200.0 V800.00 DIODE10 F1000
+G1 X-15.6268 Y4.2319 Z19.3589 S200.0 V800.00 DIODE8 F1000
+G1 X-15.6980 Y4.3019 Z19.3589 S200.0 V800.00 DIODE7 F1000
+G1 X-15.8221 Y4.3719 Z19.3589 S200.0 V800.00 DIODE5 F1000
+; Layer Time: 9.9184 sec
+; ===== End Layer 571 =====
+
+; ===== Layer 572 Z=19.3839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.4363 Y4.1675 Z19.3839 S200.0 V800.00 DIODE10 F1000
+G1 X-15.5515 Y4.2375 Z19.3839 S200.0 V800.00 DIODE9 F1000
+G1 X-15.6293 Y4.3075 Z19.3839 S200.0 V800.00 DIODE7 F1000
+G1 X-15.6293 Y4.3075 Z19.3839 S200.0 V800.00 DIODE8 F1000
+G1 X-15.7078 Y4.3775 Z19.3839 S200.0 V800.00 DIODE6 F1000
+; -- Scan Pass 2 --
+G1 X-15.4363 Y4.1675 Z19.3839 S200.0 V800.00 DIODE10 F1000
+G1 X-15.5515 Y4.2375 Z19.3839 S200.0 V800.00 DIODE9 F1000
+G1 X-15.6293 Y4.3075 Z19.3839 S200.0 V800.00 DIODE7 F1000
+G1 X-15.6293 Y4.3075 Z19.3839 S200.0 V800.00 DIODE8 F1000
+G1 X-15.7078 Y4.3775 Z19.3839 S200.0 V800.00 DIODE6 F1000
+; Layer Time: 9.8816 sec
+; ===== End Layer 572 =====
+
+; ===== Layer 573 Z=19.4089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.5223 Y4.1754 Z19.4089 S200.0 V800.00 DIODE9 F1000
+G1 X-15.5223 Y4.1754 Z19.4089 S200.0 V800.00 DIODE10 F1000
+G1 X-15.6201 Y4.2454 Z19.4089 S200.0 V800.00 DIODE8 F1000
+G1 X-15.6973 Y4.3154 Z19.4089 S200.0 V800.00 DIODE7 F1000
+G1 X-15.8146 Y4.3854 Z19.4089 S200.0 V800.00 DIODE5 F1000
+; -- Scan Pass 2 --
+G1 X-15.5223 Y4.1754 Z19.4089 S200.0 V800.00 DIODE9 F1000
+G1 X-15.5223 Y4.1754 Z19.4089 S200.0 V800.00 DIODE10 F1000
+G1 X-15.6201 Y4.2454 Z19.4089 S200.0 V800.00 DIODE8 F1000
+G1 X-15.6973 Y4.3154 Z19.4089 S200.0 V800.00 DIODE7 F1000
+G1 X-15.8146 Y4.3854 Z19.4089 S200.0 V800.00 DIODE5 F1000
+; Layer Time: 9.8606 sec
+; ===== End Layer 573 =====
+
+; ===== Layer 574 Z=19.4339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.5447 Y4.1718 Z19.4339 S200.0 V800.00 DIODE9 F1000
+G1 X-15.6313 Y4.2418 Z19.4339 S200.0 V800.00 DIODE7 F1000
+G1 X-15.7129 Y4.3118 Z19.4339 S200.0 V800.00 DIODE6 F1000
+; -- Scan Pass 2 --
+G1 X-15.5447 Y4.1718 Z19.4339 S200.0 V800.00 DIODE9 F1000
+G1 X-15.6313 Y4.2418 Z19.4339 S200.0 V800.00 DIODE7 F1000
+G1 X-15.7129 Y4.3118 Z19.4339 S200.0 V800.00 DIODE6 F1000
+; Layer Time: 9.8599 sec
+; ===== End Layer 574 =====
+
+; ===== Layer 575 Z=19.4589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.5172 Y4.1230 Z19.4589 S200.0 V800.00 DIODE10 F1000
+G1 X-15.6240 Y4.1930 Z19.4589 S200.0 V800.00 DIODE8 F1000
+G1 X-15.7054 Y4.2630 Z19.4589 S200.0 V800.00 DIODE6 F1000
+G1 X-15.7054 Y4.2630 Z19.4589 S200.0 V800.00 DIODE7 F1000
+G1 X-15.8266 Y4.3330 Z19.4589 S200.0 V800.00 DIODE4 F1000
+G1 X-15.8266 Y4.3330 Z19.4589 S200.0 V800.00 DIODE5 F1000
+; -- Scan Pass 2 --
+G1 X-15.5172 Y4.1230 Z19.4589 S200.0 V800.00 DIODE10 F1000
+G1 X-15.6240 Y4.1930 Z19.4589 S200.0 V800.00 DIODE8 F1000
+G1 X-15.7054 Y4.2630 Z19.4589 S200.0 V800.00 DIODE6 F1000
+G1 X-15.7054 Y4.2630 Z19.4589 S200.0 V800.00 DIODE7 F1000
+G1 X-15.8266 Y4.3330 Z19.4589 S200.0 V800.00 DIODE4 F1000
+G1 X-15.8266 Y4.3330 Z19.4589 S200.0 V800.00 DIODE5 F1000
+; Layer Time: 9.8365 sec
+; ===== End Layer 575 =====
+
+; ===== Layer 576 Z=19.4839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.5577 Y4.1349 Z19.4839 S200.0 V800.00 DIODE9 F1000
+G1 X-15.6556 Y4.2049 Z19.4839 S200.0 V800.00 DIODE7 F1000
+G1 X-15.6556 Y4.2049 Z19.4839 S200.0 V800.00 DIODE8 F1000
+G1 X-15.7397 Y4.2749 Z19.4839 S200.0 V800.00 DIODE6 F1000
+; -- Scan Pass 2 --
+G1 X-15.5577 Y4.1349 Z19.4839 S200.0 V800.00 DIODE9 F1000
+G1 X-15.6556 Y4.2049 Z19.4839 S200.0 V800.00 DIODE7 F1000
+G1 X-15.6556 Y4.2049 Z19.4839 S200.0 V800.00 DIODE8 F1000
+G1 X-15.7397 Y4.2749 Z19.4839 S200.0 V800.00 DIODE6 F1000
+; Layer Time: 9.8158 sec
+; ===== End Layer 576 =====
+
+; ===== Layer 577 Z=19.5089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.5257 Y4.3257 Z19.5089 S200.0 V800.00 DIODE9 F1000
+G1 X-15.6189 Y4.3957 Z19.5089 S200.0 V800.00 DIODE7 F1000
+G1 X-15.7146 Y4.4657 Z19.5089 S200.0 V800.00 DIODE5 F1000
+G1 X-15.7146 Y4.4657 Z19.5089 S200.0 V800.00 DIODE6 F1000
+; -- Scan Pass 2 --
+G1 X-15.5257 Y4.3257 Z19.5089 S200.0 V800.00 DIODE9 F1000
+G1 X-15.6189 Y4.3957 Z19.5089 S200.0 V800.00 DIODE7 F1000
+G1 X-15.7146 Y4.4657 Z19.5089 S200.0 V800.00 DIODE5 F1000
+G1 X-15.7146 Y4.4657 Z19.5089 S200.0 V800.00 DIODE6 F1000
+; Layer Time: 9.8008 sec
+; ===== End Layer 577 =====
+
+; ===== Layer 578 Z=19.5339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.3646 Y4.1614 Z19.5339 S200.0 V800.00 DIODE10 F1000
+G1 X-15.4865 Y4.2314 Z19.5339 S200.0 V800.00 DIODE8 F1000
+G1 X-15.5810 Y4.3014 Z19.5339 S200.0 V800.00 DIODE6 F1000
+G1 X-15.5810 Y4.3014 Z19.5339 S200.0 V800.00 DIODE7 F1000
+G1 X-15.7048 Y4.3714 Z19.5339 S200.0 V800.00 DIODE4 F1000
+G1 X-15.7048 Y4.3714 Z19.5339 S200.0 V800.00 DIODE5 F1000
+; -- Scan Pass 2 --
+G1 X-15.3646 Y4.1614 Z19.5339 S200.0 V800.00 DIODE10 F1000
+G1 X-15.4865 Y4.2314 Z19.5339 S200.0 V800.00 DIODE8 F1000
+G1 X-15.5810 Y4.3014 Z19.5339 S200.0 V800.00 DIODE6 F1000
+G1 X-15.5810 Y4.3014 Z19.5339 S200.0 V800.00 DIODE7 F1000
+G1 X-15.7048 Y4.3714 Z19.5339 S200.0 V800.00 DIODE4 F1000
+G1 X-15.7048 Y4.3714 Z19.5339 S200.0 V800.00 DIODE5 F1000
+; Layer Time: 9.7896 sec
+; ===== End Layer 578 =====
+
+; ===== Layer 579 Z=19.5589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.4049 Y4.2108 Z19.5589 S200.0 V800.00 DIODE10 F1000
+G1 X-15.5165 Y4.2808 Z19.5589 S200.0 V800.00 DIODE8 F1000
+G1 X-15.6117 Y4.3508 Z19.5589 S200.0 V800.00 DIODE6 F1000
+; -- Scan Pass 2 --
+G1 X-15.4049 Y4.2108 Z19.5589 S200.0 V800.00 DIODE10 F1000
+G1 X-15.5165 Y4.2808 Z19.5589 S200.0 V800.00 DIODE8 F1000
+G1 X-15.6117 Y4.3508 Z19.5589 S200.0 V800.00 DIODE6 F1000
+; Layer Time: 9.7708 sec
+; ===== End Layer 579 =====
+
+; ===== Layer 580 Z=19.5839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.3711 Y4.1934 Z19.5839 S200.0 V800.00 DIODE9 F1000
+G1 X-15.4769 Y4.2634 Z19.5839 S200.0 V800.00 DIODE7 F1000
+G1 X-15.4769 Y4.2634 Z19.5839 S200.0 V800.00 DIODE8 F1000
+G1 X-15.5806 Y4.3334 Z19.5839 S200.0 V800.00 DIODE5 F1000
+G1 X-15.5806 Y4.3334 Z19.5839 S200.0 V800.00 DIODE6 F1000
+; -- Scan Pass 2 --
+G1 X-15.3711 Y4.1934 Z19.5839 S200.0 V800.00 DIODE9 F1000
+G1 X-15.4769 Y4.2634 Z19.5839 S200.0 V800.00 DIODE7 F1000
+G1 X-15.4769 Y4.2634 Z19.5839 S200.0 V800.00 DIODE8 F1000
+G1 X-15.5806 Y4.3334 Z19.5839 S200.0 V800.00 DIODE5 F1000
+G1 X-15.5806 Y4.3334 Z19.5839 S200.0 V800.00 DIODE6 F1000
+; Layer Time: 9.7532 sec
+; ===== End Layer 580 =====
+
+; ===== Layer 581 Z=19.6089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.4296 Y4.1268 Z19.6089 S200.0 V800.00 DIODE8 F1000
+G1 X-15.4296 Y4.1268 Z19.6089 S200.0 V800.00 DIODE9 F1000
+G1 X-15.5294 Y4.1968 Z19.6089 S200.0 V800.00 DIODE7 F1000
+; -- Scan Pass 2 --
+G1 X-15.4296 Y4.1268 Z19.6089 S200.0 V800.00 DIODE8 F1000
+G1 X-15.4296 Y4.1268 Z19.6089 S200.0 V800.00 DIODE9 F1000
+G1 X-15.5294 Y4.1968 Z19.6089 S200.0 V800.00 DIODE7 F1000
+; Layer Time: 9.7347 sec
+; ===== End Layer 581 =====
+
+; ===== Layer 582 Z=19.6339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.4827 Y3.9661 Z19.6339 S200.0 V800.00 DIODE10 F1000
+G1 X-15.5996 Y4.0361 Z19.6339 S200.0 V800.00 DIODE8 F1000
+G1 X-15.7010 Y4.1061 Z19.6339 S200.0 V800.00 DIODE6 F1000
+; -- Scan Pass 2 --
+G1 X-15.4827 Y3.9661 Z19.6339 S200.0 V800.00 DIODE10 F1000
+G1 X-15.5996 Y4.0361 Z19.6339 S200.0 V800.00 DIODE8 F1000
+G1 X-15.7010 Y4.1061 Z19.6339 S200.0 V800.00 DIODE6 F1000
+; Layer Time: 9.7474 sec
+; ===== End Layer 582 =====
+
+; ===== Layer 583 Z=19.6589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.4687 Y4.0220 Z19.6589 S200.0 V800.00 DIODE9 F1000
+G1 X-15.5771 Y4.0920 Z19.6589 S200.0 V800.00 DIODE7 F1000
+G1 X-15.5771 Y4.0920 Z19.6589 S200.0 V800.00 DIODE8 F1000
+G1 X-15.6999 Y4.1620 Z19.6589 S200.0 V800.00 DIODE5 F1000
+; -- Scan Pass 2 --
+G1 X-15.4687 Y4.0220 Z19.6589 S200.0 V800.00 DIODE9 F1000
+G1 X-15.5771 Y4.0920 Z19.6589 S200.0 V800.00 DIODE7 F1000
+G1 X-15.5771 Y4.0920 Z19.6589 S200.0 V800.00 DIODE8 F1000
+G1 X-15.6999 Y4.1620 Z19.6589 S200.0 V800.00 DIODE5 F1000
+; Layer Time: 9.7235 sec
+; ===== End Layer 583 =====
+
+; ===== Layer 584 Z=19.6839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.3525 Y3.8955 Z19.6839 S200.0 V800.00 DIODE10 F1000
+G1 X-15.4752 Y3.9655 Z19.6839 S200.0 V800.00 DIODE8 F1000
+G1 X-15.4752 Y3.9655 Z19.6839 S200.0 V800.00 DIODE9 F1000
+G1 X-15.5801 Y4.0355 Z19.6839 S200.0 V800.00 DIODE6 F1000
+G1 X-15.5801 Y4.0355 Z19.6839 S200.0 V800.00 DIODE7 F1000
+; -- Scan Pass 2 --
+G1 X-15.3525 Y3.8955 Z19.6839 S200.0 V800.00 DIODE10 F1000
+G1 X-15.4752 Y3.9655 Z19.6839 S200.0 V800.00 DIODE8 F1000
+G1 X-15.4752 Y3.9655 Z19.6839 S200.0 V800.00 DIODE9 F1000
+G1 X-15.5801 Y4.0355 Z19.6839 S200.0 V800.00 DIODE6 F1000
+G1 X-15.5801 Y4.0355 Z19.6839 S200.0 V800.00 DIODE7 F1000
+; Layer Time: 9.6986 sec
+; ===== End Layer 584 =====
+
+; ===== Layer 585 Z=19.7089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.3985 Y3.9222 Z19.7089 S200.0 V800.00 DIODE9 F1000
+G1 X-15.3985 Y3.9222 Z19.7089 S200.0 V800.00 DIODE10 F1000
+G1 X-15.5118 Y3.9922 Z19.7089 S200.0 V800.00 DIODE7 F1000
+G1 X-15.5118 Y3.9922 Z19.7089 S200.0 V800.00 DIODE8 F1000
+G1 X-15.6342 Y4.0622 Z19.7089 S200.0 V800.00 DIODE5 F1000
+G1 X-15.6342 Y4.0622 Z19.7089 S200.0 V800.00 DIODE6 F1000
+; -- Scan Pass 2 --
+G1 X-15.3985 Y3.9222 Z19.7089 S200.0 V800.00 DIODE9 F1000
+G1 X-15.3985 Y3.9222 Z19.7089 S200.0 V800.00 DIODE10 F1000
+G1 X-15.5118 Y3.9922 Z19.7089 S200.0 V800.00 DIODE7 F1000
+G1 X-15.5118 Y3.9922 Z19.7089 S200.0 V800.00 DIODE8 F1000
+G1 X-15.6342 Y4.0622 Z19.7089 S200.0 V800.00 DIODE5 F1000
+G1 X-15.6342 Y4.0622 Z19.7089 S200.0 V800.00 DIODE6 F1000
+; Layer Time: 9.6755 sec
+; ===== End Layer 585 =====
+
+; ===== Layer 586 Z=19.7339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.4264 Y3.8847 Z19.7339 S200.0 V800.00 DIODE9 F1000
+G1 X-15.5367 Y3.9547 Z19.7339 S200.0 V800.00 DIODE7 F1000
+; -- Scan Pass 2 --
+G1 X-15.4264 Y3.8847 Z19.7339 S200.0 V800.00 DIODE9 F1000
+G1 X-15.5367 Y3.9547 Z19.7339 S200.0 V800.00 DIODE7 F1000
+; Layer Time: 9.6725 sec
+; ===== End Layer 586 =====
+
+; ===== Layer 587 Z=19.7589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.3737 Y3.9561 Z19.7589 S200.0 V800.00 DIODE10 F1000
+G1 X-15.4879 Y4.0261 Z19.7589 S200.0 V800.00 DIODE8 F1000
+G1 X-15.6095 Y4.0961 Z19.7589 S200.0 V800.00 DIODE6 F1000
+; -- Scan Pass 2 --
+G1 X-15.3737 Y3.9561 Z19.7589 S200.0 V800.00 DIODE10 F1000
+G1 X-15.4879 Y4.0261 Z19.7589 S200.0 V800.00 DIODE8 F1000
+G1 X-15.6095 Y4.0961 Z19.7589 S200.0 V800.00 DIODE6 F1000
+; Layer Time: 9.6591 sec
+; ===== End Layer 587 =====
+
+; ===== Layer 588 Z=19.7839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.3282 Y3.8726 Z19.7839 S200.0 V800.00 DIODE9 F1000
+G1 X-15.4374 Y3.9426 Z19.7839 S200.0 V800.00 DIODE7 F1000
+; -- Scan Pass 2 --
+G1 X-15.3282 Y3.8726 Z19.7839 S200.0 V800.00 DIODE9 F1000
+G1 X-15.4374 Y3.9426 Z19.7839 S200.0 V800.00 DIODE7 F1000
+; Layer Time: 9.6304 sec
+; ===== End Layer 588 =====
+
+; ===== Layer 589 Z=19.8089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.4629 Y3.8042 Z19.8089 S200.0 V800.00 DIODE10 F1000
+G1 X-15.5759 Y3.8742 Z19.8089 S200.0 V800.00 DIODE8 F1000
+G1 X-15.5759 Y3.8742 Z19.8089 S200.0 V800.00 DIODE9 F1000
+G1 X-15.6928 Y3.9442 Z19.8089 S200.0 V800.00 DIODE6 F1000
+G1 X-15.6928 Y3.9442 Z19.8089 S200.0 V800.00 DIODE7 F1000
+; -- Scan Pass 2 --
+G1 X-15.4629 Y3.8042 Z19.8089 S200.0 V800.00 DIODE10 F1000
+G1 X-15.5759 Y3.8742 Z19.8089 S200.0 V800.00 DIODE8 F1000
+G1 X-15.5759 Y3.8742 Z19.8089 S200.0 V800.00 DIODE9 F1000
+G1 X-15.6928 Y3.9442 Z19.8089 S200.0 V800.00 DIODE6 F1000
+G1 X-15.6928 Y3.9442 Z19.8089 S200.0 V800.00 DIODE7 F1000
+; Layer Time: 9.6009 sec
+; ===== End Layer 589 =====
+
+; ===== Layer 590 Z=19.8339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.3047 Y3.8811 Z19.8339 S200.0 V800.00 DIODE9 F1000
+G1 X-15.3047 Y3.8811 Z19.8339 S200.0 V800.00 DIODE10 F1000
+G1 X-15.4130 Y3.9511 Z19.8339 S200.0 V800.00 DIODE8 F1000
+G1 X-15.5693 Y4.0211 Z19.8339 S200.0 V800.00 DIODE5 F1000
+; -- Scan Pass 2 --
+G1 X-15.3047 Y3.8811 Z19.8339 S200.0 V800.00 DIODE9 F1000
+G1 X-15.3047 Y3.8811 Z19.8339 S200.0 V800.00 DIODE10 F1000
+G1 X-15.4130 Y3.9511 Z19.8339 S200.0 V800.00 DIODE8 F1000
+G1 X-15.5693 Y4.0211 Z19.8339 S200.0 V800.00 DIODE5 F1000
+; Layer Time: 9.5946 sec
+; ===== End Layer 590 =====
+
+; ===== Layer 591 Z=19.8589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.3594 Y3.9951 Z19.8589 S200.0 V800.00 DIODE9 F1000
+G1 X-15.4698 Y4.0651 Z19.8589 S200.0 V800.00 DIODE7 F1000
+; -- Scan Pass 2 --
+G1 X-15.3594 Y3.9951 Z19.8589 S200.0 V800.00 DIODE9 F1000
+G1 X-15.4698 Y4.0651 Z19.8589 S200.0 V800.00 DIODE7 F1000
+; Layer Time: 9.5658 sec
+; ===== End Layer 591 =====
+
+; ===== Layer 592 Z=19.8839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.3022 Y3.8413 Z19.8839 S200.0 V800.00 DIODE10 F1000
+G1 X-15.4069 Y3.9113 Z19.8839 S200.0 V800.00 DIODE8 F1000
+G1 X-15.5330 Y3.9813 Z19.8839 S200.0 V800.00 DIODE6 F1000
+; -- Scan Pass 2 --
+G1 X-15.3022 Y3.8413 Z19.8839 S200.0 V800.00 DIODE10 F1000
+G1 X-15.4069 Y3.9113 Z19.8839 S200.0 V800.00 DIODE8 F1000
+G1 X-15.5330 Y3.9813 Z19.8839 S200.0 V800.00 DIODE6 F1000
+; Layer Time: 9.5478 sec
+; ===== End Layer 592 =====
+
+; ===== Layer 593 Z=19.9089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.3603 Y3.9368 Z19.9089 S200.0 V800.00 DIODE9 F1000
+G1 X-15.3603 Y3.9368 Z19.9089 S200.0 V800.00 DIODE10 F1000
+G1 X-15.4676 Y4.0068 Z19.9089 S200.0 V800.00 DIODE8 F1000
+; -- Scan Pass 2 --
+G1 X-15.3603 Y3.9368 Z19.9089 S200.0 V800.00 DIODE9 F1000
+G1 X-15.3603 Y3.9368 Z19.9089 S200.0 V800.00 DIODE10 F1000
+G1 X-15.4676 Y4.0068 Z19.9089 S200.0 V800.00 DIODE8 F1000
+; Layer Time: 9.5165 sec
+; ===== End Layer 593 =====
+
+; ===== Layer 594 Z=19.9339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.3130 Y3.8081 Z19.9339 S200.0 V800.00 DIODE10 F1000
+G1 X-15.4119 Y3.8781 Z19.9339 S200.0 V800.00 DIODE9 F1000
+G1 X-15.5259 Y3.9481 Z19.9339 S200.0 V800.00 DIODE7 F1000
+; -- Scan Pass 2 --
+G1 X-15.3130 Y3.8081 Z19.9339 S200.0 V800.00 DIODE10 F1000
+G1 X-15.4119 Y3.8781 Z19.9339 S200.0 V800.00 DIODE9 F1000
+G1 X-15.5259 Y3.9481 Z19.9339 S200.0 V800.00 DIODE7 F1000
+; Layer Time: 9.4817 sec
+; ===== End Layer 594 =====
+
+; ===== Layer 595 Z=19.9589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.2868 Y3.8996 Z19.9589 S200.0 V800.00 DIODE10 F1000
+G1 X-15.3840 Y3.9696 Z19.9589 S200.0 V800.00 DIODE8 F1000
+G1 X-15.5350 Y4.0396 Z19.9589 S200.0 V800.00 DIODE6 F1000
+; -- Scan Pass 2 --
+G1 X-15.2868 Y3.8996 Z19.9589 S200.0 V800.00 DIODE10 F1000
+G1 X-15.3840 Y3.9696 Z19.9589 S200.0 V800.00 DIODE8 F1000
+G1 X-15.5350 Y4.0396 Z19.9589 S200.0 V800.00 DIODE6 F1000
+; Layer Time: 9.4691 sec
+; ===== End Layer 595 =====
+
+; ===== Layer 596 Z=19.9839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.3724 Y3.7512 Z19.9839 S200.0 V800.00 DIODE9 F1000
+G1 X-15.3724 Y3.7512 Z19.9839 S200.0 V800.00 DIODE10 F1000
+G1 X-15.4756 Y3.8212 Z19.9839 S200.0 V800.00 DIODE7 F1000
+G1 X-15.4756 Y3.8212 Z19.9839 S200.0 V800.00 DIODE8 F1000
+; -- Scan Pass 2 --
+G1 X-15.3724 Y3.7512 Z19.9839 S200.0 V800.00 DIODE9 F1000
+G1 X-15.3724 Y3.7512 Z19.9839 S200.0 V800.00 DIODE10 F1000
+G1 X-15.4756 Y3.8212 Z19.9839 S200.0 V800.00 DIODE7 F1000
+G1 X-15.4756 Y3.8212 Z19.9839 S200.0 V800.00 DIODE8 F1000
+; Layer Time: 9.4353 sec
+; ===== End Layer 596 =====
+
+; ===== Layer 597 Z=20.0089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.4458 Y3.7336 Z20.0089 S200.0 V800.00 DIODE10 F1000
+G1 X-15.5367 Y3.8036 Z20.0089 S200.0 V800.00 DIODE9 F1000
+G1 X-15.6589 Y3.8736 Z20.0089 S200.0 V800.00 DIODE7 F1000
+; -- Scan Pass 2 --
+G1 X-15.4458 Y3.7336 Z20.0089 S200.0 V800.00 DIODE10 F1000
+G1 X-15.5367 Y3.8036 Z20.0089 S200.0 V800.00 DIODE9 F1000
+G1 X-15.6589 Y3.8736 Z20.0089 S200.0 V800.00 DIODE7 F1000
+; Layer Time: 9.4086 sec
+; ===== End Layer 597 =====
+
+; ===== Layer 598 Z=20.0339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.5920 Y3.7044 Z20.0339 S200.0 V800.00 DIODE10 F1000
+G1 X-15.6879 Y3.7744 Z20.0339 S200.0 V800.00 DIODE8 F1000
+; -- Scan Pass 2 --
+G1 X-15.5920 Y3.7044 Z20.0339 S200.0 V800.00 DIODE10 F1000
+G1 X-15.6879 Y3.7744 Z20.0339 S200.0 V800.00 DIODE8 F1000
+; Layer Time: 9.3728 sec
+; ===== End Layer 598 =====
+
+; ===== Layer 599 Z=20.0589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.5493 Y3.7351 Z20.0589 S200.0 V800.00 DIODE10 F1000
+G1 X-15.6330 Y3.8051 Z20.0589 S200.0 V800.00 DIODE9 F1000
+G1 X-15.7480 Y3.8751 Z20.0589 S200.0 V800.00 DIODE7 F1000
+; -- Scan Pass 2 --
+G1 X-15.5493 Y3.7351 Z20.0589 S200.0 V800.00 DIODE10 F1000
+G1 X-15.6330 Y3.8051 Z20.0589 S200.0 V800.00 DIODE9 F1000
+G1 X-15.7480 Y3.8751 Z20.0589 S200.0 V800.00 DIODE7 F1000
+; Layer Time: 9.3477 sec
+; ===== End Layer 599 =====
+
+; ===== Layer 600 Z=20.0839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.5939 Y3.7277 Z20.0839 S200.0 V800.00 DIODE10 F1000
+G1 X-15.6828 Y3.7977 Z20.0839 S200.0 V800.00 DIODE8 F1000
+; -- Scan Pass 2 --
+G1 X-15.5939 Y3.7277 Z20.0839 S200.0 V800.00 DIODE10 F1000
+G1 X-15.6828 Y3.7977 Z20.0839 S200.0 V800.00 DIODE8 F1000
+; Layer Time: 9.3347 sec
+; ===== End Layer 600 =====
+
+; ===== Layer 601 Z=20.1089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.7592 Y3.5481 Z20.1089 S200.0 V800.00 DIODE10 F1000
+G1 X-15.8347 Y3.6181 Z20.1089 S200.0 V800.00 DIODE9 F1000
+G1 X-15.9441 Y3.6881 Z20.1089 S200.0 V800.00 DIODE7 F1000
+; -- Scan Pass 2 --
+G1 X-15.7592 Y3.5481 Z20.1089 S200.0 V800.00 DIODE10 F1000
+G1 X-15.8347 Y3.6181 Z20.1089 S200.0 V800.00 DIODE9 F1000
+G1 X-15.9441 Y3.6881 Z20.1089 S200.0 V800.00 DIODE7 F1000
+; Layer Time: 9.2975 sec
+; ===== End Layer 601 =====
+
+; ===== Layer 602 Z=20.1339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.6079 Y3.5609 Z20.1339 S200.0 V800.00 DIODE10 F1000
+G1 X-15.6733 Y3.6309 Z20.1339 S200.0 V800.00 DIODE9 F1000
+G1 X-15.6733 Y3.6309 Z20.1339 S200.0 V800.00 DIODE10 F1000
+G1 X-15.7607 Y3.7009 Z20.1339 S200.0 V800.00 DIODE8 F1000
+; -- Scan Pass 2 --
+G1 X-15.6079 Y3.5609 Z20.1339 S200.0 V800.00 DIODE10 F1000
+G1 X-15.6733 Y3.6309 Z20.1339 S200.0 V800.00 DIODE9 F1000
+G1 X-15.6733 Y3.6309 Z20.1339 S200.0 V800.00 DIODE10 F1000
+G1 X-15.7607 Y3.7009 Z20.1339 S200.0 V800.00 DIODE8 F1000
+; Layer Time: 9.2605 sec
+; ===== End Layer 602 =====
+
+; ===== Layer 603 Z=20.1589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.5733 Y3.5789 Z20.1589 S200.0 V800.00 DIODE10 F1000
+G1 X-15.6478 Y3.6489 Z20.1589 S200.0 V800.00 DIODE8 F1000
+G1 X-15.6478 Y3.6489 Z20.1589 S200.0 V800.00 DIODE9 F1000
+G1 X-15.7632 Y3.7189 Z20.1589 S200.0 V800.00 DIODE6 F1000
+G1 X-15.7632 Y3.7189 Z20.1589 S200.0 V800.00 DIODE7 F1000
+; -- Scan Pass 2 --
+G1 X-15.5733 Y3.5789 Z20.1589 S200.0 V800.00 DIODE10 F1000
+G1 X-15.6478 Y3.6489 Z20.1589 S200.0 V800.00 DIODE8 F1000
+G1 X-15.6478 Y3.6489 Z20.1589 S200.0 V800.00 DIODE9 F1000
+G1 X-15.7632 Y3.7189 Z20.1589 S200.0 V800.00 DIODE6 F1000
+G1 X-15.7632 Y3.7189 Z20.1589 S200.0 V800.00 DIODE7 F1000
+; Layer Time: 9.2206 sec
+; ===== End Layer 603 =====
+
+; ===== Layer 604 Z=20.1839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.5363 Y3.5471 Z20.1839 S200.0 V800.00 DIODE10 F1000
+G1 X-15.6044 Y3.6171 Z20.1839 S200.0 V800.00 DIODE9 F1000
+G1 X-15.6944 Y3.6871 Z20.1839 S200.0 V800.00 DIODE7 F1000
+G1 X-15.6944 Y3.6871 Z20.1839 S200.0 V800.00 DIODE8 F1000
+; -- Scan Pass 2 --
+G1 X-15.5363 Y3.5471 Z20.1839 S200.0 V800.00 DIODE10 F1000
+G1 X-15.6044 Y3.6171 Z20.1839 S200.0 V800.00 DIODE9 F1000
+G1 X-15.6944 Y3.6871 Z20.1839 S200.0 V800.00 DIODE7 F1000
+G1 X-15.6944 Y3.6871 Z20.1839 S200.0 V800.00 DIODE8 F1000
+; Layer Time: 9.2166 sec
+; ===== End Layer 604 =====
+
+; ===== Layer 605 Z=20.2089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.5202 Y3.5370 Z20.2089 S200.0 V800.00 DIODE10 F1000
+G1 X-15.5859 Y3.6070 Z20.2089 S200.0 V800.00 DIODE9 F1000
+G1 X-15.6673 Y3.6770 Z20.2089 S200.0 V800.00 DIODE7 F1000
+G1 X-15.6673 Y3.6770 Z20.2089 S200.0 V800.00 DIODE8 F1000
+; -- Scan Pass 2 --
+G1 X-15.5202 Y3.5370 Z20.2089 S200.0 V800.00 DIODE10 F1000
+G1 X-15.5859 Y3.6070 Z20.2089 S200.0 V800.00 DIODE9 F1000
+G1 X-15.6673 Y3.6770 Z20.2089 S200.0 V800.00 DIODE7 F1000
+G1 X-15.6673 Y3.6770 Z20.2089 S200.0 V800.00 DIODE8 F1000
+; Layer Time: 9.1784 sec
+; ===== End Layer 605 =====
+
+; ===== Layer 606 Z=20.2339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.4298 Y3.3925 Z20.2339 S200.0 V800.00 DIODE10 F1000
+G1 X-15.4932 Y3.4625 Z20.2339 S200.0 V800.00 DIODE9 F1000
+G1 X-15.5704 Y3.5325 Z20.2339 S200.0 V800.00 DIODE8 F1000
+G1 X-15.7218 Y3.6025 Z20.2339 S200.0 V800.00 DIODE5 F1000
+; -- Scan Pass 2 --
+G1 X-15.4298 Y3.3925 Z20.2339 S200.0 V800.00 DIODE10 F1000
+G1 X-15.4932 Y3.4625 Z20.2339 S200.0 V800.00 DIODE9 F1000
+G1 X-15.5704 Y3.5325 Z20.2339 S200.0 V800.00 DIODE8 F1000
+G1 X-15.7218 Y3.6025 Z20.2339 S200.0 V800.00 DIODE5 F1000
+; Layer Time: 9.1415 sec
+; ===== End Layer 606 =====
+
+; ===== Layer 607 Z=20.2589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.4021 Y3.3143 Z20.2589 S200.0 V800.00 DIODE10 F1000
+G1 X-15.4641 Y3.3843 Z20.2589 S200.0 V800.00 DIODE9 F1000
+G1 X-15.5375 Y3.4543 Z20.2589 S200.0 V800.00 DIODE8 F1000
+G1 X-15.6544 Y3.5243 Z20.2589 S200.0 V800.00 DIODE6 F1000
+; -- Scan Pass 2 --
+G1 X-15.4021 Y3.3143 Z20.2589 S200.0 V800.00 DIODE10 F1000
+G1 X-15.4641 Y3.3843 Z20.2589 S200.0 V800.00 DIODE9 F1000
+G1 X-15.5375 Y3.4543 Z20.2589 S200.0 V800.00 DIODE8 F1000
+G1 X-15.6544 Y3.5243 Z20.2589 S200.0 V800.00 DIODE6 F1000
+; Layer Time: 9.1245 sec
+; ===== End Layer 607 =====
+
+; ===== Layer 608 Z=20.2839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.3617 Y3.2333 Z20.2839 S200.0 V800.00 DIODE10 F1000
+G1 X-15.4255 Y3.3033 Z20.2839 S200.0 V800.00 DIODE9 F1000
+G1 X-15.4963 Y3.3733 Z20.2839 S200.0 V800.00 DIODE8 F1000
+G1 X-15.5983 Y3.4433 Z20.2839 S200.0 V800.00 DIODE6 F1000
+G1 X-15.5983 Y3.4433 Z20.2839 S200.0 V800.00 DIODE7 F1000
+; -- Scan Pass 2 --
+G1 X-15.3617 Y3.2333 Z20.2839 S200.0 V800.00 DIODE10 F1000
+G1 X-15.4255 Y3.3033 Z20.2839 S200.0 V800.00 DIODE9 F1000
+G1 X-15.4963 Y3.3733 Z20.2839 S200.0 V800.00 DIODE8 F1000
+G1 X-15.5983 Y3.4433 Z20.2839 S200.0 V800.00 DIODE6 F1000
+G1 X-15.5983 Y3.4433 Z20.2839 S200.0 V800.00 DIODE7 F1000
+; Layer Time: 9.0919 sec
+; ===== End Layer 608 =====
+
+; ===== Layer 609 Z=20.3089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.0357 Y3.0108 Z20.3089 S200.0 V800.00 DIODE10 F1000
+G1 X-15.1013 Y3.0808 Z20.3089 S200.0 V800.00 DIODE9 F1000
+G1 X-15.1013 Y3.0808 Z20.3089 S200.0 V800.00 DIODE10 F1000
+G1 X-15.1740 Y3.1508 Z20.3089 S200.0 V800.00 DIODE8 F1000
+G1 X-15.2606 Y3.2208 Z20.3089 S200.0 V800.00 DIODE7 F1000
+; -- Scan Pass 2 --
+G1 X-15.0357 Y3.0108 Z20.3089 S200.0 V800.00 DIODE10 F1000
+G1 X-15.1013 Y3.0808 Z20.3089 S200.0 V800.00 DIODE9 F1000
+G1 X-15.1013 Y3.0808 Z20.3089 S200.0 V800.00 DIODE10 F1000
+G1 X-15.1740 Y3.1508 Z20.3089 S200.0 V800.00 DIODE8 F1000
+G1 X-15.2606 Y3.2208 Z20.3089 S200.0 V800.00 DIODE7 F1000
+; Layer Time: 9.0542 sec
+; ===== End Layer 609 =====
+
+; ===== Layer 610 Z=20.3339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.0959 Y3.0038 Z20.3339 S200.0 V800.00 DIODE10 F1000
+G1 X-15.1676 Y3.0738 Z20.3339 S200.0 V800.00 DIODE9 F1000
+G1 X-15.1676 Y3.0738 Z20.3339 S200.0 V800.00 DIODE10 F1000
+G1 X-15.2381 Y3.1438 Z20.3339 S200.0 V800.00 DIODE8 F1000
+G1 X-15.3235 Y3.2138 Z20.3339 S200.0 V800.00 DIODE7 F1000
+; -- Scan Pass 2 --
+G1 X-15.0959 Y3.0038 Z20.3339 S200.0 V800.00 DIODE10 F1000
+G1 X-15.1676 Y3.0738 Z20.3339 S200.0 V800.00 DIODE9 F1000
+G1 X-15.1676 Y3.0738 Z20.3339 S200.0 V800.00 DIODE10 F1000
+G1 X-15.2381 Y3.1438 Z20.3339 S200.0 V800.00 DIODE8 F1000
+G1 X-15.3235 Y3.2138 Z20.3339 S200.0 V800.00 DIODE7 F1000
+; Layer Time: 9.0096 sec
+; ===== End Layer 610 =====
+
+; ===== Layer 611 Z=20.3589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.1562 Y3.0392 Z20.3589 S200.0 V800.00 DIODE9 F1000
+G1 X-15.1562 Y3.0392 Z20.3589 S200.0 V800.00 DIODE10 F1000
+G1 X-15.2323 Y3.1092 Z20.3589 S200.0 V800.00 DIODE8 F1000
+G1 X-15.2323 Y3.1092 Z20.3589 S200.0 V800.00 DIODE9 F1000
+G1 X-15.3145 Y3.1792 Z20.3589 S200.0 V800.00 DIODE7 F1000
+G1 X-15.4412 Y3.2492 Z20.3589 S200.0 V800.00 DIODE5 F1000
+; -- Scan Pass 2 --
+G1 X-15.1562 Y3.0392 Z20.3589 S200.0 V800.00 DIODE9 F1000
+G1 X-15.1562 Y3.0392 Z20.3589 S200.0 V800.00 DIODE10 F1000
+G1 X-15.2323 Y3.1092 Z20.3589 S200.0 V800.00 DIODE8 F1000
+G1 X-15.2323 Y3.1092 Z20.3589 S200.0 V800.00 DIODE9 F1000
+G1 X-15.3145 Y3.1792 Z20.3589 S200.0 V800.00 DIODE7 F1000
+G1 X-15.4412 Y3.2492 Z20.3589 S200.0 V800.00 DIODE5 F1000
+; Layer Time: 8.9926 sec
+; ===== End Layer 611 =====
+
+; ===== Layer 612 Z=20.3839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.1551 Y2.9835 Z20.3839 S200.0 V800.00 DIODE10 F1000
+G1 X-15.2309 Y3.0535 Z20.3839 S200.0 V800.00 DIODE8 F1000
+G1 X-15.2309 Y3.0535 Z20.3839 S200.0 V800.00 DIODE9 F1000
+G1 X-15.3099 Y3.1235 Z20.3839 S200.0 V800.00 DIODE7 F1000
+G1 X-15.4218 Y3.1935 Z20.3839 S200.0 V800.00 DIODE5 F1000
+G1 X-15.4218 Y3.1935 Z20.3839 S200.0 V800.00 DIODE6 F1000
+; -- Scan Pass 2 --
+G1 X-15.1551 Y2.9835 Z20.3839 S200.0 V800.00 DIODE10 F1000
+G1 X-15.2309 Y3.0535 Z20.3839 S200.0 V800.00 DIODE8 F1000
+G1 X-15.2309 Y3.0535 Z20.3839 S200.0 V800.00 DIODE9 F1000
+G1 X-15.3099 Y3.1235 Z20.3839 S200.0 V800.00 DIODE7 F1000
+G1 X-15.4218 Y3.1935 Z20.3839 S200.0 V800.00 DIODE5 F1000
+G1 X-15.4218 Y3.1935 Z20.3839 S200.0 V800.00 DIODE6 F1000
+; Layer Time: 8.9541 sec
+; ===== End Layer 612 =====
+
+; ===== Layer 613 Z=20.4089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.1264 Y2.9262 Z20.4089 S200.0 V800.00 DIODE10 F1000
+G1 X-15.2091 Y2.9962 Z20.4089 S200.0 V800.00 DIODE9 F1000
+G1 X-15.2886 Y3.0662 Z20.4089 S200.0 V800.00 DIODE7 F1000
+G1 X-15.2886 Y3.0662 Z20.4089 S200.0 V800.00 DIODE8 F1000
+G1 X-15.3889 Y3.1362 Z20.4089 S200.0 V800.00 DIODE6 F1000
+; -- Scan Pass 2 --
+G1 X-15.1264 Y2.9262 Z20.4089 S200.0 V800.00 DIODE10 F1000
+G1 X-15.2091 Y2.9962 Z20.4089 S200.0 V800.00 DIODE9 F1000
+G1 X-15.2886 Y3.0662 Z20.4089 S200.0 V800.00 DIODE7 F1000
+G1 X-15.2886 Y3.0662 Z20.4089 S200.0 V800.00 DIODE8 F1000
+G1 X-15.3889 Y3.1362 Z20.4089 S200.0 V800.00 DIODE6 F1000
+; Layer Time: 8.9166 sec
+; ===== End Layer 613 =====
+
+; ===== Layer 614 Z=20.4339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.0895 Y2.8716 Z20.4339 S200.0 V800.00 DIODE10 F1000
+G1 X-15.1784 Y2.9416 Z20.4339 S200.0 V800.00 DIODE9 F1000
+G1 X-15.2641 Y3.0116 Z20.4339 S200.0 V800.00 DIODE7 F1000
+G1 X-15.2641 Y3.0116 Z20.4339 S200.0 V800.00 DIODE8 F1000
+G1 X-15.3547 Y3.0816 Z20.4339 S200.0 V800.00 DIODE6 F1000
+; -- Scan Pass 2 --
+G1 X-15.0895 Y2.8716 Z20.4339 S200.0 V800.00 DIODE10 F1000
+G1 X-15.1784 Y2.9416 Z20.4339 S200.0 V800.00 DIODE9 F1000
+G1 X-15.2641 Y3.0116 Z20.4339 S200.0 V800.00 DIODE7 F1000
+G1 X-15.2641 Y3.0116 Z20.4339 S200.0 V800.00 DIODE8 F1000
+G1 X-15.3547 Y3.0816 Z20.4339 S200.0 V800.00 DIODE6 F1000
+; Layer Time: 8.8926 sec
+; ===== End Layer 614 =====
+
+; ===== Layer 615 Z=20.4589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.1382 Y2.8966 Z20.4589 S200.0 V800.00 DIODE9 F1000
+G1 X-15.1382 Y2.8966 Z20.4589 S200.0 V800.00 DIODE10 F1000
+G1 X-15.2255 Y2.9666 Z20.4589 S200.0 V800.00 DIODE8 F1000
+G1 X-15.3232 Y3.0366 Z20.4589 S200.0 V800.00 DIODE6 F1000
+G1 X-15.4558 Y3.1066 Z20.4589 S200.0 V800.00 DIODE4 F1000
+; -- Scan Pass 2 --
+G1 X-15.1382 Y2.8966 Z20.4589 S200.0 V800.00 DIODE9 F1000
+G1 X-15.1382 Y2.8966 Z20.4589 S200.0 V800.00 DIODE10 F1000
+G1 X-15.2255 Y2.9666 Z20.4589 S200.0 V800.00 DIODE8 F1000
+G1 X-15.3232 Y3.0366 Z20.4589 S200.0 V800.00 DIODE6 F1000
+G1 X-15.4558 Y3.1066 Z20.4589 S200.0 V800.00 DIODE4 F1000
+; Layer Time: 8.8460 sec
+; ===== End Layer 615 =====
+
+; ===== Layer 616 Z=20.4839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.0669 Y2.7778 Z20.4839 S200.0 V800.00 DIODE10 F1000
+G1 X-15.1620 Y2.8478 Z20.4839 S200.0 V800.00 DIODE8 F1000
+G1 X-15.2547 Y2.9178 Z20.4839 S200.0 V800.00 DIODE7 F1000
+G1 X-15.3684 Y2.9878 Z20.4839 S200.0 V800.00 DIODE5 F1000
+; -- Scan Pass 2 --
+G1 X-15.0669 Y2.7778 Z20.4839 S200.0 V800.00 DIODE10 F1000
+G1 X-15.1620 Y2.8478 Z20.4839 S200.0 V800.00 DIODE8 F1000
+G1 X-15.2547 Y2.9178 Z20.4839 S200.0 V800.00 DIODE7 F1000
+G1 X-15.3684 Y2.9878 Z20.4839 S200.0 V800.00 DIODE5 F1000
+; Layer Time: 8.7986 sec
+; ===== End Layer 616 =====
+
+; ===== Layer 617 Z=20.5089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8]
+; -- Scan Pass 1 --
+G1 X-15.0873 Y2.6971 Z20.5089 S200.0 V800.00 DIODE10 F1000
+G1 X-15.1944 Y2.7671 Z20.5089 S200.0 V800.00 DIODE9 F1000
+G1 X-15.2901 Y2.8371 Z20.5089 S200.0 V800.00 DIODE7 F1000
+G1 X-15.3937 Y2.9071 Z20.5089 S200.0 V800.00 DIODE5 F1000
+G1 X-15.3937 Y2.9071 Z20.5089 S200.0 V800.00 DIODE6 F1000
+; -- Scan Pass 2 --
+G1 X-15.0873 Y2.6971 Z20.5089 S200.0 V800.00 DIODE10 F1000
+G1 X-15.1944 Y2.7671 Z20.5089 S200.0 V800.00 DIODE9 F1000
+G1 X-15.2901 Y2.8371 Z20.5089 S200.0 V800.00 DIODE7 F1000
+G1 X-15.3937 Y2.9071 Z20.5089 S200.0 V800.00 DIODE5 F1000
+G1 X-15.3937 Y2.9071 Z20.5089 S200.0 V800.00 DIODE6 F1000
+; Layer Time: 8.7752 sec
+; ===== End Layer 617 =====
+
+; ===== Layer 618 Z=20.5339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.0673 Y2.6946 Z20.5339 S200.0 V800.00 DIODE9 F1000
+G1 X-15.0673 Y2.6946 Z20.5339 S200.0 V800.00 DIODE10 F1000
+G1 X-15.1730 Y2.7646 Z20.5339 S200.0 V800.00 DIODE8 F1000
+G1 X-15.2754 Y2.8346 Z20.5339 S200.0 V800.00 DIODE6 F1000
+G1 X-15.4152 Y2.9046 Z20.5339 S200.0 V800.00 DIODE4 F1000
+; -- Scan Pass 2 --
+G1 X-15.0673 Y2.6946 Z20.5339 S200.0 V800.00 DIODE9 F1000
+G1 X-15.0673 Y2.6946 Z20.5339 S200.0 V800.00 DIODE10 F1000
+G1 X-15.1730 Y2.7646 Z20.5339 S200.0 V800.00 DIODE8 F1000
+G1 X-15.2754 Y2.8346 Z20.5339 S200.0 V800.00 DIODE6 F1000
+G1 X-15.4152 Y2.9046 Z20.5339 S200.0 V800.00 DIODE4 F1000
+; Layer Time: 8.7151 sec
+; ===== End Layer 618 =====
+
+; ===== Layer 619 Z=20.5589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-14.8902 Y2.6226 Z20.5589 S200.0 V800.00 DIODE10 F1000
+G1 X-15.0010 Y2.6926 Z20.5589 S200.0 V800.00 DIODE8 F1000
+G1 X-15.0010 Y2.6926 Z20.5589 S200.0 V800.00 DIODE9 F1000
+G1 X-15.1056 Y2.7626 Z20.5589 S200.0 V800.00 DIODE6 F1000
+G1 X-15.1056 Y2.7626 Z20.5589 S200.0 V800.00 DIODE7 F1000
+G1 X-15.2217 Y2.8326 Z20.5589 S200.0 V800.00 DIODE5 F1000
+; -- Scan Pass 2 --
+G1 X-14.8902 Y2.6226 Z20.5589 S200.0 V800.00 DIODE10 F1000
+G1 X-15.0010 Y2.6926 Z20.5589 S200.0 V800.00 DIODE8 F1000
+G1 X-15.0010 Y2.6926 Z20.5589 S200.0 V800.00 DIODE9 F1000
+G1 X-15.1056 Y2.7626 Z20.5589 S200.0 V800.00 DIODE6 F1000
+G1 X-15.1056 Y2.7626 Z20.5589 S200.0 V800.00 DIODE7 F1000
+G1 X-15.2217 Y2.8326 Z20.5589 S200.0 V800.00 DIODE5 F1000
+; Layer Time: 8.6510 sec
+; ===== End Layer 619 =====
+
+; ===== Layer 620 Z=20.5839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-14.9986 Y2.6176 Z20.5839 S200.0 V800.00 DIODE9 F1000
+G1 X-15.1084 Y2.6876 Z20.5839 S200.0 V800.00 DIODE7 F1000
+G1 X-15.2266 Y2.7576 Z20.5839 S200.0 V800.00 DIODE5 F1000
+; -- Scan Pass 2 --
+G1 X-14.9986 Y2.6176 Z20.5839 S200.0 V800.00 DIODE9 F1000
+G1 X-15.1084 Y2.6876 Z20.5839 S200.0 V800.00 DIODE7 F1000
+G1 X-15.2266 Y2.7576 Z20.5839 S200.0 V800.00 DIODE5 F1000
+; Layer Time: 8.6071 sec
+; ===== End Layer 620 =====
+
+; ===== Layer 621 Z=20.6089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-14.9226 Y2.6108 Z20.6089 S200.0 V800.00 DIODE10 F1000
+G1 X-15.0425 Y2.6808 Z20.6089 S200.0 V800.00 DIODE8 F1000
+G1 X-15.1555 Y2.7508 Z20.6089 S200.0 V800.00 DIODE6 F1000
+G1 X-15.2998 Y2.8208 Z20.6089 S200.0 V800.00 DIODE4 F1000
+; -- Scan Pass 2 --
+G1 X-14.9226 Y2.6108 Z20.6089 S200.0 V800.00 DIODE10 F1000
+G1 X-15.0425 Y2.6808 Z20.6089 S200.0 V800.00 DIODE8 F1000
+G1 X-15.1555 Y2.7508 Z20.6089 S200.0 V800.00 DIODE6 F1000
+G1 X-15.2998 Y2.8208 Z20.6089 S200.0 V800.00 DIODE4 F1000
+; Layer Time: 8.5483 sec
+; ===== End Layer 621 =====
+
+; ===== Layer 622 Z=20.6339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 9]
+; -- Scan Pass 1 --
+G1 X-14.8789 Y2.5155 Z20.6339 S200.0 V800.00 DIODE9 F1000
+G1 X-14.9974 Y2.5855 Z20.6339 S200.0 V800.00 DIODE7 F1000
+G1 X-15.1224 Y2.6555 Z20.6339 S200.0 V800.00 DIODE5 F1000
+; -- Scan Pass 2 --
+G1 X-14.8789 Y2.5155 Z20.6339 S200.0 V800.00 DIODE9 F1000
+G1 X-14.9974 Y2.5855 Z20.6339 S200.0 V800.00 DIODE7 F1000
+G1 X-15.1224 Y2.6555 Z20.6339 S200.0 V800.00 DIODE5 F1000
+; Layer Time: 8.4873 sec
+; ===== End Layer 622 =====
+
+; ===== Layer 623 Z=20.6589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-14.8615 Y2.4342 Z20.6589 S200.0 V800.00 DIODE10 F1000
+G1 X-14.9850 Y2.5042 Z20.6589 S200.0 V800.00 DIODE8 F1000
+G1 X-15.1082 Y2.5742 Z20.6589 S200.0 V800.00 DIODE6 F1000
+; -- Scan Pass 2 --
+G1 X-14.8615 Y2.4342 Z20.6589 S200.0 V800.00 DIODE10 F1000
+G1 X-14.9850 Y2.5042 Z20.6589 S200.0 V800.00 DIODE8 F1000
+G1 X-15.1082 Y2.5742 Z20.6589 S200.0 V800.00 DIODE6 F1000
+; Layer Time: 8.4491 sec
+; ===== End Layer 623 =====
+
+; ===== Layer 624 Z=20.6839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-14.9630 Y2.4730 Z20.6839 S200.0 V800.00 DIODE9 F1000
+G1 X-15.0863 Y2.5430 Z20.6839 S200.0 V800.00 DIODE7 F1000
+G1 X-15.2283 Y2.6130 Z20.6839 S200.0 V800.00 DIODE4 F1000
+G1 X-15.2283 Y2.6130 Z20.6839 S200.0 V800.00 DIODE5 F1000
+; -- Scan Pass 2 --
+G1 X-14.9630 Y2.4730 Z20.6839 S200.0 V800.00 DIODE9 F1000
+G1 X-15.0863 Y2.5430 Z20.6839 S200.0 V800.00 DIODE7 F1000
+G1 X-15.2283 Y2.6130 Z20.6839 S200.0 V800.00 DIODE4 F1000
+G1 X-15.2283 Y2.6130 Z20.6839 S200.0 V800.00 DIODE5 F1000
+; Layer Time: 8.3894 sec
+; ===== End Layer 624 =====
+
+; ===== Layer 625 Z=20.7089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-14.8451 Y2.3801 Z20.7089 S200.0 V800.00 DIODE10 F1000
+G1 X-14.9705 Y2.4501 Z20.7089 S200.0 V800.00 DIODE8 F1000
+G1 X-15.1014 Y2.5201 Z20.7089 S200.0 V800.00 DIODE5 F1000
+G1 X-15.1014 Y2.5201 Z20.7089 S200.0 V800.00 DIODE6 F1000
+; -- Scan Pass 2 --
+G1 X-14.8451 Y2.3801 Z20.7089 S200.0 V800.00 DIODE10 F1000
+G1 X-14.9705 Y2.4501 Z20.7089 S200.0 V800.00 DIODE8 F1000
+G1 X-15.1014 Y2.5201 Z20.7089 S200.0 V800.00 DIODE5 F1000
+G1 X-15.1014 Y2.5201 Z20.7089 S200.0 V800.00 DIODE6 F1000
+; Layer Time: 8.3298 sec
+; ===== End Layer 625 =====
+
+; ===== Layer 626 Z=20.7339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-14.8958 Y2.4604 Z20.7339 S200.0 V800.00 DIODE9 F1000
+G1 X-15.0215 Y2.5304 Z20.7339 S200.0 V800.00 DIODE6 F1000
+G1 X-15.0215 Y2.5304 Z20.7339 S200.0 V800.00 DIODE7 F1000
+G1 X-15.1744 Y2.6004 Z20.7339 S200.0 V800.00 DIODE4 F1000
+; -- Scan Pass 2 --
+G1 X-14.8958 Y2.4604 Z20.7339 S200.0 V800.00 DIODE9 F1000
+G1 X-15.0215 Y2.5304 Z20.7339 S200.0 V800.00 DIODE6 F1000
+G1 X-15.0215 Y2.5304 Z20.7339 S200.0 V800.00 DIODE7 F1000
+G1 X-15.1744 Y2.6004 Z20.7339 S200.0 V800.00 DIODE4 F1000
+; Layer Time: 8.2746 sec
+; ===== End Layer 626 =====
+
+; ===== Layer 627 Z=20.7589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-14.8400 Y2.3612 Z20.7589 S200.0 V800.00 DIODE9 F1000
+G1 X-14.8400 Y2.3612 Z20.7589 S200.0 V800.00 DIODE10 F1000
+G1 X-14.9626 Y2.4312 Z20.7589 S200.0 V800.00 DIODE7 F1000
+G1 X-14.9626 Y2.4312 Z20.7589 S200.0 V800.00 DIODE8 F1000
+G1 X-15.0980 Y2.5012 Z20.7589 S200.0 V800.00 DIODE5 F1000
+G1 X-15.0980 Y2.5012 Z20.7589 S200.0 V800.00 DIODE6 F1000
+; -- Scan Pass 2 --
+G1 X-14.8400 Y2.3612 Z20.7589 S200.0 V800.00 DIODE9 F1000
+G1 X-14.8400 Y2.3612 Z20.7589 S200.0 V800.00 DIODE10 F1000
+G1 X-14.9626 Y2.4312 Z20.7589 S200.0 V800.00 DIODE7 F1000
+G1 X-14.9626 Y2.4312 Z20.7589 S200.0 V800.00 DIODE8 F1000
+G1 X-15.0980 Y2.5012 Z20.7589 S200.0 V800.00 DIODE5 F1000
+G1 X-15.0980 Y2.5012 Z20.7589 S200.0 V800.00 DIODE6 F1000
+; Layer Time: 8.2406 sec
+; ===== End Layer 627 =====
+
+; ===== Layer 628 Z=20.7839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-14.7903 Y2.2320 Z20.7839 S200.0 V800.00 DIODE10 F1000
+G1 X-14.9067 Y2.3020 Z20.7839 S200.0 V800.00 DIODE8 F1000
+G1 X-14.9067 Y2.3020 Z20.7839 S200.0 V800.00 DIODE9 F1000
+G1 X-15.0321 Y2.3720 Z20.7839 S200.0 V800.00 DIODE6 F1000
+G1 X-15.0321 Y2.3720 Z20.7839 S200.0 V800.00 DIODE7 F1000
+G1 X-15.1944 Y2.4420 Z20.7839 S200.0 V800.00 DIODE4 F1000
+; -- Scan Pass 2 --
+G1 X-14.7903 Y2.2320 Z20.7839 S200.0 V800.00 DIODE10 F1000
+G1 X-14.9067 Y2.3020 Z20.7839 S200.0 V800.00 DIODE8 F1000
+G1 X-14.9067 Y2.3020 Z20.7839 S200.0 V800.00 DIODE9 F1000
+G1 X-15.0321 Y2.3720 Z20.7839 S200.0 V800.00 DIODE6 F1000
+G1 X-15.0321 Y2.3720 Z20.7839 S200.0 V800.00 DIODE7 F1000
+G1 X-15.1944 Y2.4420 Z20.7839 S200.0 V800.00 DIODE4 F1000
+; Layer Time: 8.1739 sec
+; ===== End Layer 628 =====
+
+; ===== Layer 629 Z=20.8089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-14.8966 Y2.2804 Z20.8089 S200.0 V800.00 DIODE9 F1000
+G1 X-14.8966 Y2.2804 Z20.8089 S200.0 V800.00 DIODE10 F1000
+G1 X-15.0142 Y2.3504 Z20.8089 S200.0 V800.00 DIODE7 F1000
+G1 X-15.0142 Y2.3504 Z20.8089 S200.0 V800.00 DIODE8 F1000
+G1 X-15.1533 Y2.4204 Z20.8089 S200.0 V800.00 DIODE5 F1000
+; -- Scan Pass 2 --
+G1 X-14.8966 Y2.2804 Z20.8089 S200.0 V800.00 DIODE9 F1000
+G1 X-14.8966 Y2.2804 Z20.8089 S200.0 V800.00 DIODE10 F1000
+G1 X-15.0142 Y2.3504 Z20.8089 S200.0 V800.00 DIODE7 F1000
+G1 X-15.0142 Y2.3504 Z20.8089 S200.0 V800.00 DIODE8 F1000
+G1 X-15.1533 Y2.4204 Z20.8089 S200.0 V800.00 DIODE5 F1000
+; Layer Time: 8.0923 sec
+; ===== End Layer 629 =====
+
+; ===== Layer 630 Z=20.8339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-14.9028 Y2.2704 Z20.8339 S200.0 V800.00 DIODE10 F1000
+G1 X-15.0107 Y2.3404 Z20.8339 S200.0 V800.00 DIODE8 F1000
+G1 X-15.1335 Y2.4104 Z20.8339 S200.0 V800.00 DIODE6 F1000
+G1 X-15.3023 Y2.4804 Z20.8339 S200.0 V800.00 DIODE3 F1000
+G1 X-15.3023 Y2.4804 Z20.8339 S200.0 V800.00 DIODE4 F1000
+; -- Scan Pass 2 --
+G1 X-14.9028 Y2.2704 Z20.8339 S200.0 V800.00 DIODE10 F1000
+G1 X-15.0107 Y2.3404 Z20.8339 S200.0 V800.00 DIODE8 F1000
+G1 X-15.1335 Y2.4104 Z20.8339 S200.0 V800.00 DIODE6 F1000
+G1 X-15.3023 Y2.4804 Z20.8339 S200.0 V800.00 DIODE3 F1000
+G1 X-15.3023 Y2.4804 Z20.8339 S200.0 V800.00 DIODE4 F1000
+; Layer Time: 8.0419 sec
+; ===== End Layer 630 =====
+
+; ===== Layer 631 Z=20.8589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-14.8913 Y2.1968 Z20.8589 S200.0 V800.00 DIODE10 F1000
+G1 X-14.9932 Y2.2668 Z20.8589 S200.0 V800.00 DIODE9 F1000
+G1 X-15.1064 Y2.3368 Z20.8589 S200.0 V800.00 DIODE7 F1000
+G1 X-15.2397 Y2.4068 Z20.8589 S200.0 V800.00 DIODE5 F1000
+; -- Scan Pass 2 --
+G1 X-14.8913 Y2.1968 Z20.8589 S200.0 V800.00 DIODE10 F1000
+G1 X-14.9932 Y2.2668 Z20.8589 S200.0 V800.00 DIODE9 F1000
+G1 X-15.1064 Y2.3368 Z20.8589 S200.0 V800.00 DIODE7 F1000
+G1 X-15.2397 Y2.4068 Z20.8589 S200.0 V800.00 DIODE5 F1000
+; Layer Time: 7.9728 sec
+; ===== End Layer 631 =====
+
+; ===== Layer 632 Z=20.8839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-14.9314 Y2.2107 Z20.8839 S200.0 V800.00 DIODE9 F1000
+G1 X-14.9314 Y2.2107 Z20.8839 S200.0 V800.00 DIODE10 F1000
+G1 X-15.0365 Y2.2807 Z20.8839 S200.0 V800.00 DIODE8 F1000
+G1 X-15.1524 Y2.3507 Z20.8839 S200.0 V800.00 DIODE6 F1000
+G1 X-15.3203 Y2.4207 Z20.8839 S200.0 V800.00 DIODE3 F1000
+; -- Scan Pass 2 --
+G1 X-14.9314 Y2.2107 Z20.8839 S200.0 V800.00 DIODE9 F1000
+G1 X-14.9314 Y2.2107 Z20.8839 S200.0 V800.00 DIODE10 F1000
+G1 X-15.0365 Y2.2807 Z20.8839 S200.0 V800.00 DIODE8 F1000
+G1 X-15.1524 Y2.3507 Z20.8839 S200.0 V800.00 DIODE6 F1000
+G1 X-15.3203 Y2.4207 Z20.8839 S200.0 V800.00 DIODE3 F1000
+; Layer Time: 7.9050 sec
+; ===== End Layer 632 =====
+
+; ===== Layer 633 Z=20.9089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-14.9770 Y2.1232 Z20.9089 S200.0 V800.00 DIODE10 F1000
+G1 X-15.0786 Y2.1932 Z20.9089 S200.0 V800.00 DIODE8 F1000
+G1 X-15.1854 Y2.2632 Z20.9089 S200.0 V800.00 DIODE6 F1000
+G1 X-15.3109 Y2.3332 Z20.9089 S200.0 V800.00 DIODE4 F1000
+; -- Scan Pass 2 --
+G1 X-14.9770 Y2.1232 Z20.9089 S200.0 V800.00 DIODE10 F1000
+G1 X-15.0786 Y2.1932 Z20.9089 S200.0 V800.00 DIODE8 F1000
+G1 X-15.1854 Y2.2632 Z20.9089 S200.0 V800.00 DIODE6 F1000
+G1 X-15.3109 Y2.3332 Z20.9089 S200.0 V800.00 DIODE4 F1000
+; Layer Time: 7.8604 sec
+; ===== End Layer 633 =====
+
+; ===== Layer 634 Z=20.9339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.0486 Y2.0921 Z20.9339 S200.0 V800.00 DIODE10 F1000
+G1 X-15.1519 Y2.1621 Z20.9339 S200.0 V800.00 DIODE8 F1000
+G1 X-15.2538 Y2.2321 Z20.9339 S200.0 V800.00 DIODE6 F1000
+G1 X-15.2538 Y2.2321 Z20.9339 S200.0 V800.00 DIODE7 F1000
+G1 X-15.3704 Y2.3021 Z20.9339 S200.0 V800.00 DIODE4 F1000
+G1 X-15.3704 Y2.3021 Z20.9339 S200.0 V800.00 DIODE5 F1000
+; -- Scan Pass 2 --
+G1 X-15.0486 Y2.0921 Z20.9339 S200.0 V800.00 DIODE10 F1000
+G1 X-15.1519 Y2.1621 Z20.9339 S200.0 V800.00 DIODE8 F1000
+G1 X-15.2538 Y2.2321 Z20.9339 S200.0 V800.00 DIODE6 F1000
+G1 X-15.2538 Y2.2321 Z20.9339 S200.0 V800.00 DIODE7 F1000
+G1 X-15.3704 Y2.3021 Z20.9339 S200.0 V800.00 DIODE4 F1000
+G1 X-15.3704 Y2.3021 Z20.9339 S200.0 V800.00 DIODE5 F1000
+; Layer Time: 7.7843 sec
+; ===== End Layer 634 =====
+
+; ===== Layer 635 Z=20.9589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.0781 Y2.0569 Z20.9589 S200.0 V800.00 DIODE10 F1000
+G1 X-15.1987 Y2.1269 Z20.9589 S200.0 V800.00 DIODE8 F1000
+G1 X-15.1987 Y2.1269 Z20.9589 S200.0 V800.00 DIODE9 F1000
+G1 X-15.3004 Y2.1969 Z20.9589 S200.0 V800.00 DIODE6 F1000
+G1 X-15.3004 Y2.1969 Z20.9589 S200.0 V800.00 DIODE7 F1000
+G1 X-15.4104 Y2.2669 Z20.9589 S200.0 V800.00 DIODE5 F1000
+G1 X-15.5602 Y2.3369 Z20.9589 S200.0 V800.00 DIODE2 F1000
+; -- Scan Pass 2 --
+G1 X-15.0781 Y2.0569 Z20.9589 S200.0 V800.00 DIODE10 F1000
+G1 X-15.1987 Y2.1269 Z20.9589 S200.0 V800.00 DIODE8 F1000
+G1 X-15.1987 Y2.1269 Z20.9589 S200.0 V800.00 DIODE9 F1000
+G1 X-15.3004 Y2.1969 Z20.9589 S200.0 V800.00 DIODE6 F1000
+G1 X-15.3004 Y2.1969 Z20.9589 S200.0 V800.00 DIODE7 F1000
+G1 X-15.4104 Y2.2669 Z20.9589 S200.0 V800.00 DIODE5 F1000
+G1 X-15.5602 Y2.3369 Z20.9589 S200.0 V800.00 DIODE2 F1000
+; Layer Time: 7.7075 sec
+; ===== End Layer 635 =====
+
+; ===== Layer 636 Z=20.9839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.3034 Y2.0221 Z20.9839 S200.0 V800.00 DIODE8 F1000
+G1 X-15.3034 Y2.0221 Z20.9839 S200.0 V800.00 DIODE9 F1000
+G1 X-15.4174 Y2.0921 Z20.9839 S200.0 V800.00 DIODE6 F1000
+G1 X-15.4174 Y2.0921 Z20.9839 S200.0 V800.00 DIODE7 F1000
+G1 X-15.5242 Y2.1621 Z20.9839 S200.0 V800.00 DIODE5 F1000
+G1 X-15.6499 Y2.2321 Z20.9839 S200.0 V800.00 DIODE3 F1000
+; -- Scan Pass 2 --
+G1 X-15.3034 Y2.0221 Z20.9839 S200.0 V800.00 DIODE8 F1000
+G1 X-15.3034 Y2.0221 Z20.9839 S200.0 V800.00 DIODE9 F1000
+G1 X-15.4174 Y2.0921 Z20.9839 S200.0 V800.00 DIODE6 F1000
+G1 X-15.4174 Y2.0921 Z20.9839 S200.0 V800.00 DIODE7 F1000
+G1 X-15.5242 Y2.1621 Z20.9839 S200.0 V800.00 DIODE5 F1000
+G1 X-15.6499 Y2.2321 Z20.9839 S200.0 V800.00 DIODE3 F1000
+; Layer Time: 7.6648 sec
+; ===== End Layer 636 =====
+
+; ===== Layer 637 Z=21.0089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.2829 Y2.0585 Z21.0089 S200.0 V800.00 DIODE8 F1000
+G1 X-15.4237 Y2.1285 Z21.0089 S200.0 V800.00 DIODE6 F1000
+G1 X-15.5337 Y2.1985 Z21.0089 S200.0 V800.00 DIODE4 F1000
+G1 X-15.6638 Y2.2685 Z21.0089 S200.0 V800.00 DIODE2 F1000
+; -- Scan Pass 2 --
+G1 X-15.2829 Y2.0585 Z21.0089 S200.0 V800.00 DIODE8 F1000
+G1 X-15.4237 Y2.1285 Z21.0089 S200.0 V800.00 DIODE6 F1000
+G1 X-15.5337 Y2.1985 Z21.0089 S200.0 V800.00 DIODE4 F1000
+G1 X-15.6638 Y2.2685 Z21.0089 S200.0 V800.00 DIODE2 F1000
+; Layer Time: 7.5943 sec
+; ===== End Layer 637 =====
+
+; ===== Layer 638 Z=21.0339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.3771 Y1.9595 Z21.0339 S200.0 V800.00 DIODE7 F1000
+G1 X-15.6022 Y2.0295 Z21.0339 S200.0 V800.00 DIODE3 F1000
+G1 X-15.6022 Y2.0295 Z21.0339 S200.0 V800.00 DIODE4 F1000
+G1 X-15.7541 Y2.0995 Z21.0339 S200.0 V800.00 DIODE1 F1000
+; -- Scan Pass 2 --
+G1 X-15.3771 Y1.9595 Z21.0339 S200.0 V800.00 DIODE7 F1000
+G1 X-15.6022 Y2.0295 Z21.0339 S200.0 V800.00 DIODE3 F1000
+G1 X-15.6022 Y2.0295 Z21.0339 S200.0 V800.00 DIODE4 F1000
+G1 X-15.7541 Y2.0995 Z21.0339 S200.0 V800.00 DIODE1 F1000
+; Layer Time: 7.5303 sec
+; ===== End Layer 638 =====
+
+; ===== Layer 639 Z=21.0589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.0888 Y1.9568 Z21.0589 S200.0 V800.00 DIODE10 F1000
+G1 X-15.6015 Y2.0268 Z21.0589 S200.0 V800.00 DIODE2 F1000
+; -- Scan Pass 2 --
+G1 X-15.0888 Y1.9568 Z21.0589 S200.0 V800.00 DIODE10 F1000
+G1 X-15.6015 Y2.0268 Z21.0589 S200.0 V800.00 DIODE2 F1000
+; Layer Time: 7.4908 sec
+; ===== End Layer 639 =====
+
+; ===== Layer 640 Z=21.0839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.4312 Y2.0153 Z21.0839 S200.0 V800.00 DIODE5 F1000
+; -- Scan Pass 2 --
+G1 X-15.4312 Y2.0153 Z21.0839 S200.0 V800.00 DIODE5 F1000
+; Layer Time: 7.4281 sec
+; ===== End Layer 640 =====
+
+; ===== Layer 641 Z=21.1089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 7.3858 sec
+; ===== End Layer 641 =====
+
+; ===== Layer 642 Z=21.1339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 7.3184 sec
+; ===== End Layer 642 =====
+
+; ===== Layer 643 Z=21.1589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 7.2599 sec
+; ===== End Layer 643 =====
+
+; ===== Layer 644 Z=21.1839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 7.2185 sec
+; ===== End Layer 644 =====
+
+; ===== Layer 645 Z=21.2089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.6039 Y2.0007 Z21.2089 S200.0 V800.00 DIODE10 F1000
+; -- Scan Pass 2 --
+G1 X-15.6039 Y2.0007 Z21.2089 S200.0 V800.00 DIODE10 F1000
+; Layer Time: 7.1662 sec
+; ===== End Layer 645 =====
+
+; ===== Layer 646 Z=21.2339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 7.1376 sec
+; ===== End Layer 646 =====
+
+; ===== Layer 647 Z=21.2589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.6406 Y1.9403 Z21.2589 S200.0 V800.00 DIODE8 F1000
+G1 X-15.6406 Y1.9403 Z21.2589 S200.0 V800.00 DIODE9 F1000
+; -- Scan Pass 2 --
+G1 X-15.6406 Y1.9403 Z21.2589 S200.0 V800.00 DIODE8 F1000
+G1 X-15.6406 Y1.9403 Z21.2589 S200.0 V800.00 DIODE9 F1000
+; Layer Time: 7.0861 sec
+; ===== End Layer 647 =====
+
+; ===== Layer 648 Z=21.2839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 7.0337 sec
+; ===== End Layer 648 =====
+
+; ===== Layer 649 Z=21.3089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 7.0082 sec
+; ===== End Layer 649 =====
+
+; ===== Layer 650 Z=21.3339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.6419 Y1.9628 Z21.3339 S200.0 V800.00 DIODE8 F1000
+G1 X-15.6419 Y1.9628 Z21.3339 S200.0 V800.00 DIODE9 F1000
+; -- Scan Pass 2 --
+G1 X-15.6419 Y1.9628 Z21.3339 S200.0 V800.00 DIODE8 F1000
+G1 X-15.6419 Y1.9628 Z21.3339 S200.0 V800.00 DIODE9 F1000
+; Layer Time: 6.9574 sec
+; ===== End Layer 650 =====
+
+; ===== Layer 651 Z=21.3589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.5414 Y1.8772 Z21.3589 S200.0 V800.00 DIODE10 F1000
+; -- Scan Pass 2 --
+G1 X-15.5414 Y1.8772 Z21.3589 S200.0 V800.00 DIODE10 F1000
+; Layer Time: 6.9339 sec
+; ===== End Layer 651 =====
+
+; ===== Layer 652 Z=21.3839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.3918 Y1.8604 Z21.3839 S200.0 V800.00 DIODE10 F1000
+; -- Scan Pass 2 --
+G1 X-15.3918 Y1.8604 Z21.3839 S200.0 V800.00 DIODE10 F1000
+; Layer Time: 6.8885 sec
+; ===== End Layer 652 =====
+
+; ===== Layer 653 Z=21.4089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 6.8622 sec
+; ===== End Layer 653 =====
+
+; ===== Layer 654 Z=21.4339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 6.8207 sec
+; ===== End Layer 654 =====
+
+; ===== Layer 655 Z=21.4589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-15.0145 Y1.9025 Z21.4589 S200.0 V800.00 DIODE10 F1000
+; -- Scan Pass 2 --
+G1 X-15.0145 Y1.9025 Z21.4589 S200.0 V800.00 DIODE10 F1000
+; Layer Time: 6.7968 sec
+; ===== End Layer 655 =====
+
+; ===== Layer 656 Z=21.4839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-14.5860 Y1.8052 Z21.4839 S200.0 V800.00 DIODE10 F1000
+G1 X-14.7724 Y1.8752 Z21.4839 S200.0 V800.00 DIODE7 F1000
+G1 X-14.7724 Y1.8752 Z21.4839 S200.0 V800.00 DIODE8 F1000
+; -- Scan Pass 2 --
+G1 X-14.5860 Y1.8052 Z21.4839 S200.0 V800.00 DIODE10 F1000
+G1 X-14.7724 Y1.8752 Z21.4839 S200.0 V800.00 DIODE7 F1000
+G1 X-14.7724 Y1.8752 Z21.4839 S200.0 V800.00 DIODE8 F1000
+; Layer Time: 6.7538 sec
+; ===== End Layer 656 =====
+
+; ===== Layer 657 Z=21.5089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-14.6586 Y1.7952 Z21.5089 S200.0 V800.00 DIODE9 F1000
+G1 X-14.8295 Y1.8652 Z21.5089 S200.0 V800.00 DIODE6 F1000
+G1 X-14.8295 Y1.8652 Z21.5089 S200.0 V800.00 DIODE7 F1000
+; -- Scan Pass 2 --
+G1 X-14.6586 Y1.7952 Z21.5089 S200.0 V800.00 DIODE9 F1000
+G1 X-14.8295 Y1.8652 Z21.5089 S200.0 V800.00 DIODE6 F1000
+G1 X-14.8295 Y1.8652 Z21.5089 S200.0 V800.00 DIODE7 F1000
+; Layer Time: 6.7197 sec
+; ===== End Layer 657 =====
+
+; ===== Layer 658 Z=21.5339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-14.4536 Y1.6836 Z21.5339 S200.0 V800.00 DIODE10 F1000
+G1 X-14.5677 Y1.7536 Z21.5339 S200.0 V800.00 DIODE9 F1000
+G1 X-14.7278 Y1.8236 Z21.5339 S200.0 V800.00 DIODE6 F1000
+; -- Scan Pass 2 --
+G1 X-14.4536 Y1.6836 Z21.5339 S200.0 V800.00 DIODE10 F1000
+G1 X-14.5677 Y1.7536 Z21.5339 S200.0 V800.00 DIODE9 F1000
+G1 X-14.7278 Y1.8236 Z21.5339 S200.0 V800.00 DIODE6 F1000
+; Layer Time: 6.7097 sec
+; ===== End Layer 658 =====
+
+; ===== Layer 659 Z=21.5589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-14.3902 Y1.6187 Z21.5589 S200.0 V800.00 DIODE10 F1000
+G1 X-14.5044 Y1.6887 Z21.5589 S200.0 V800.00 DIODE8 F1000
+G1 X-14.5044 Y1.6887 Z21.5589 S200.0 V800.00 DIODE9 F1000
+G1 X-14.6403 Y1.7587 Z21.5589 S200.0 V800.00 DIODE6 F1000
+; -- Scan Pass 2 --
+G1 X-14.3902 Y1.6187 Z21.5589 S200.0 V800.00 DIODE10 F1000
+G1 X-14.5044 Y1.6887 Z21.5589 S200.0 V800.00 DIODE8 F1000
+G1 X-14.5044 Y1.6887 Z21.5589 S200.0 V800.00 DIODE9 F1000
+G1 X-14.6403 Y1.7587 Z21.5589 S200.0 V800.00 DIODE6 F1000
+; Layer Time: 6.6659 sec
+; ===== End Layer 659 =====
+
+; ===== Layer 660 Z=21.5839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-14.3379 Y1.5930 Z21.5839 S200.0 V800.00 DIODE10 F1000
+G1 X-14.4495 Y1.6630 Z21.5839 S200.0 V800.00 DIODE8 F1000
+G1 X-14.5749 Y1.7330 Z21.5839 S200.0 V800.00 DIODE6 F1000
+; -- Scan Pass 2 --
+G1 X-14.3379 Y1.5930 Z21.5839 S200.0 V800.00 DIODE10 F1000
+G1 X-14.4495 Y1.6630 Z21.5839 S200.0 V800.00 DIODE8 F1000
+G1 X-14.5749 Y1.7330 Z21.5839 S200.0 V800.00 DIODE6 F1000
+; Layer Time: 6.6501 sec
+; ===== End Layer 660 =====
+
+; ===== Layer 661 Z=21.6089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-14.3432 Y1.4886 Z21.6089 S200.0 V800.00 DIODE10 F1000
+G1 X-14.4500 Y1.5586 Z21.6089 S200.0 V800.00 DIODE8 F1000
+G1 X-14.5646 Y1.6286 Z21.6089 S200.0 V800.00 DIODE6 F1000
+; -- Scan Pass 2 --
+G1 X-14.3432 Y1.4886 Z21.6089 S200.0 V800.00 DIODE10 F1000
+G1 X-14.4500 Y1.5586 Z21.6089 S200.0 V800.00 DIODE8 F1000
+G1 X-14.5646 Y1.6286 Z21.6089 S200.0 V800.00 DIODE6 F1000
+; Layer Time: 6.6103 sec
+; ===== End Layer 661 =====
+
+; ===== Layer 662 Z=21.6339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-14.3614 Y1.4546 Z21.6339 S200.0 V800.00 DIODE9 F1000
+G1 X-14.3614 Y1.4546 Z21.6339 S200.0 V800.00 DIODE10 F1000
+G1 X-14.4693 Y1.5246 Z21.6339 S200.0 V800.00 DIODE8 F1000
+G1 X-14.5765 Y1.5946 Z21.6339 S200.0 V800.00 DIODE6 F1000
+G1 X-14.7850 Y1.6646 Z21.6339 S200.0 V800.00 DIODE2 F1000
+G1 X-14.7850 Y1.6646 Z21.6339 S200.0 V800.00 DIODE3 F1000
+; -- Scan Pass 2 --
+G1 X-14.3614 Y1.4546 Z21.6339 S200.0 V800.00 DIODE9 F1000
+G1 X-14.3614 Y1.4546 Z21.6339 S200.0 V800.00 DIODE10 F1000
+G1 X-14.4693 Y1.5246 Z21.6339 S200.0 V800.00 DIODE8 F1000
+G1 X-14.5765 Y1.5946 Z21.6339 S200.0 V800.00 DIODE6 F1000
+G1 X-14.7850 Y1.6646 Z21.6339 S200.0 V800.00 DIODE2 F1000
+G1 X-14.7850 Y1.6646 Z21.6339 S200.0 V800.00 DIODE3 F1000
+; Layer Time: 6.5861 sec
+; ===== End Layer 662 =====
+
+; ===== Layer 663 Z=21.6589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-14.3551 Y1.4488 Z21.6589 S200.0 V800.00 DIODE9 F1000
+G1 X-14.4590 Y1.5188 Z21.6589 S200.0 V800.00 DIODE7 F1000
+G1 X-14.4590 Y1.5188 Z21.6589 S200.0 V800.00 DIODE8 F1000
+G1 X-14.5665 Y1.5888 Z21.6589 S200.0 V800.00 DIODE6 F1000
+G1 X-14.7175 Y1.6588 Z21.6589 S200.0 V800.00 DIODE3 F1000
+; -- Scan Pass 2 --
+G1 X-14.3551 Y1.4488 Z21.6589 S200.0 V800.00 DIODE9 F1000
+G1 X-14.4590 Y1.5188 Z21.6589 S200.0 V800.00 DIODE7 F1000
+G1 X-14.4590 Y1.5188 Z21.6589 S200.0 V800.00 DIODE8 F1000
+G1 X-14.5665 Y1.5888 Z21.6589 S200.0 V800.00 DIODE6 F1000
+G1 X-14.7175 Y1.6588 Z21.6589 S200.0 V800.00 DIODE3 F1000
+; Layer Time: 6.5482 sec
+; ===== End Layer 663 =====
+
+; ===== Layer 664 Z=21.6839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-14.3546 Y1.4577 Z21.6839 S200.0 V800.00 DIODE9 F1000
+G1 X-14.4619 Y1.5277 Z21.6839 S200.0 V800.00 DIODE7 F1000
+G1 X-14.5598 Y1.5977 Z21.6839 S200.0 V800.00 DIODE5 F1000
+G1 X-14.5598 Y1.5977 Z21.6839 S200.0 V800.00 DIODE6 F1000
+G1 X-14.6941 Y1.6677 Z21.6839 S200.0 V800.00 DIODE3 F1000
+; -- Scan Pass 2 --
+G1 X-14.3546 Y1.4577 Z21.6839 S200.0 V800.00 DIODE9 F1000
+G1 X-14.4619 Y1.5277 Z21.6839 S200.0 V800.00 DIODE7 F1000
+G1 X-14.5598 Y1.5977 Z21.6839 S200.0 V800.00 DIODE5 F1000
+G1 X-14.5598 Y1.5977 Z21.6839 S200.0 V800.00 DIODE6 F1000
+G1 X-14.6941 Y1.6677 Z21.6839 S200.0 V800.00 DIODE3 F1000
+; Layer Time: 6.5065 sec
+; ===== End Layer 664 =====
+
+; ===== Layer 665 Z=21.7089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-14.3499 Y1.4717 Z21.7089 S200.0 V800.00 DIODE8 F1000
+G1 X-14.4554 Y1.5417 Z21.7089 S200.0 V800.00 DIODE6 F1000
+G1 X-14.5523 Y1.6117 Z21.7089 S200.0 V800.00 DIODE4 F1000
+G1 X-14.5523 Y1.6117 Z21.7089 S200.0 V800.00 DIODE5 F1000
+G1 X-14.6827 Y1.6817 Z21.7089 S200.0 V800.00 DIODE2 F1000
+G1 X-14.6827 Y1.6817 Z21.7089 S200.0 V800.00 DIODE3 F1000
+; -- Scan Pass 2 --
+G1 X-14.3499 Y1.4717 Z21.7089 S200.0 V800.00 DIODE8 F1000
+G1 X-14.4554 Y1.5417 Z21.7089 S200.0 V800.00 DIODE6 F1000
+G1 X-14.5523 Y1.6117 Z21.7089 S200.0 V800.00 DIODE4 F1000
+G1 X-14.5523 Y1.6117 Z21.7089 S200.0 V800.00 DIODE5 F1000
+G1 X-14.6827 Y1.6817 Z21.7089 S200.0 V800.00 DIODE2 F1000
+G1 X-14.6827 Y1.6817 Z21.7089 S200.0 V800.00 DIODE3 F1000
+; Layer Time: 6.4843 sec
+; ===== End Layer 665 =====
+
+; ===== Layer 666 Z=21.7339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-14.4288 Y1.4476 Z21.7339 S200.0 V800.00 DIODE6 F1000
+G1 X-14.5313 Y1.5176 Z21.7339 S200.0 V800.00 DIODE4 F1000
+G1 X-14.6236 Y1.5876 Z21.7339 S200.0 V800.00 DIODE3 F1000
+; -- Scan Pass 2 --
+G1 X-14.4288 Y1.4476 Z21.7339 S200.0 V800.00 DIODE6 F1000
+G1 X-14.5313 Y1.5176 Z21.7339 S200.0 V800.00 DIODE4 F1000
+G1 X-14.6236 Y1.5876 Z21.7339 S200.0 V800.00 DIODE3 F1000
+; Layer Time: 6.4434 sec
+; ===== End Layer 666 =====
+
+; ===== Layer 667 Z=21.7589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 6.4198 sec
+; ===== End Layer 667 =====
+
+; ===== Layer 668 Z=21.7839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 6.3810 sec
+; ===== End Layer 668 =====
+
+; ===== Layer 669 Z=21.8089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 6.3623 sec
+; ===== End Layer 669 =====
+
+; ===== Layer 670 Z=21.8339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 6.3167 sec
+; ===== End Layer 670 =====
+
+; ===== Layer 671 Z=21.8589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 6.3002 sec
+; ===== End Layer 671 =====
+
+; ===== Layer 672 Z=21.8839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 6.2580 sec
+; ===== End Layer 672 =====
+
+; ===== Layer 673 Z=21.9089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 6.2445 sec
+; ===== End Layer 673 =====
+
+; ===== Layer 674 Z=21.9339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 6.2039 sec
+; ===== End Layer 674 =====
+
+; ===== Layer 675 Z=21.9589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 6.1833 sec
+; ===== End Layer 675 =====
+
+; ===== Layer 676 Z=21.9839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 6.1484 sec
+; ===== End Layer 676 =====
+
+; ===== Layer 677 Z=22.0089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 6.1363 sec
+; ===== End Layer 677 =====
+
+; ===== Layer 678 Z=22.0339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 6.1032 sec
+; ===== End Layer 678 =====
+
+; ===== Layer 679 Z=22.0589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 6.0898 sec
+; ===== End Layer 679 =====
+
+; ===== Layer 680 Z=22.0839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 6.0531 sec
+; ===== End Layer 680 =====
+
+; ===== Layer 681 Z=22.1089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 6.0359 sec
+; ===== End Layer 681 =====
+
+; ===== Layer 682 Z=22.1339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 5.9954 sec
+; ===== End Layer 682 =====
+
+; ===== Layer 683 Z=22.1589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 5.9754 sec
+; ===== End Layer 683 =====
+
+; ===== Layer 684 Z=22.1839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 5.9377 sec
+; ===== End Layer 684 =====
+
+; ===== Layer 685 Z=22.2089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 5.9181 sec
+; ===== End Layer 685 =====
+
+; ===== Layer 686 Z=22.2339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 5.8966 sec
+; ===== End Layer 686 =====
+
+; ===== Layer 687 Z=22.2589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 5.8644 sec
+; ===== End Layer 687 =====
+
+; ===== Layer 688 Z=22.2839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 5.8494 sec
+; ===== End Layer 688 =====
+
+; ===== Layer 689 Z=22.3089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 5.8075 sec
+; ===== End Layer 689 =====
+
+; ===== Layer 690 Z=22.3339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 5.7898 sec
+; ===== End Layer 690 =====
+
+; ===== Layer 691 Z=22.3589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 5.7706 sec
+; ===== End Layer 691 =====
+
+; ===== Layer 692 Z=22.3839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 5.7321 sec
+; ===== End Layer 692 =====
+
+; ===== Layer 693 Z=22.4089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-13.0950 Y0.4984 Z22.4089 S200.0 V800.00 DIODE10 F1000
+; -- Scan Pass 2 --
+G1 X-13.0950 Y0.4984 Z22.4089 S200.0 V800.00 DIODE10 F1000
+; Layer Time: 5.7125 sec
+; ===== End Layer 693 =====
+
+; ===== Layer 694 Z=22.4339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 5.6975 sec
+; ===== End Layer 694 =====
+
+; ===== Layer 695 Z=22.4589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 5.6651 sec
+; ===== End Layer 695 =====
+
+; ===== Layer 696 Z=22.4839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-13.0929 Y0.3010 Z22.4839 S200.0 V800.00 DIODE7 F1000
+; -- Scan Pass 2 --
+G1 X-13.0929 Y0.3010 Z22.4839 S200.0 V800.00 DIODE7 F1000
+; Layer Time: 5.6319 sec
+; ===== End Layer 696 =====
+
+; ===== Layer 697 Z=22.5089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-13.0149 Y0.1773 Z22.5089 S200.0 V800.00 DIODE8 F1000
+; -- Scan Pass 2 --
+G1 X-13.0149 Y0.1773 Z22.5089 S200.0 V800.00 DIODE8 F1000
+; Layer Time: 5.6087 sec
+; ===== End Layer 697 =====
+
+; ===== Layer 698 Z=22.5339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-12.6809 Y0.0162 Z22.5339 S200.0 V800.00 DIODE10 F1000
+G1 X-12.9413 Y0.0862 Z22.5339 S200.0 V800.00 DIODE6 F1000
+; -- Scan Pass 2 --
+G1 X-12.6809 Y0.0162 Z22.5339 S200.0 V800.00 DIODE10 F1000
+G1 X-12.9413 Y0.0862 Z22.5339 S200.0 V800.00 DIODE6 F1000
+; Layer Time: 5.5929 sec
+; ===== End Layer 698 =====
+
+; ===== Layer 699 Z=22.5589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-12.7467 Y-0.3683 Z22.5589 S200.0 V800.00 DIODE6 F1000
+G1 X-12.6759 Y-0.2983 Z22.5589 S200.0 V800.00 DIODE7 F1000
+G1 X-12.6510 Y-0.2283 Z22.5589 S200.0 V800.00 DIODE7 F1000
+G1 X-12.6510 Y-0.2283 Z22.5589 S200.0 V800.00 DIODE8 F1000
+G1 X-12.6684 Y-0.1583 Z22.5589 S200.0 V800.00 DIODE7 F1000
+G1 X-12.7400 Y-0.0883 Z22.5589 S200.0 V800.00 DIODE6 F1000
+; -- Scan Pass 2 --
+G1 X-12.7467 Y-0.3683 Z22.5589 S200.0 V800.00 DIODE6 F1000
+G1 X-12.6759 Y-0.2983 Z22.5589 S200.0 V800.00 DIODE7 F1000
+G1 X-12.6510 Y-0.2283 Z22.5589 S200.0 V800.00 DIODE7 F1000
+G1 X-12.6510 Y-0.2283 Z22.5589 S200.0 V800.00 DIODE8 F1000
+G1 X-12.6684 Y-0.1583 Z22.5589 S200.0 V800.00 DIODE7 F1000
+G1 X-12.7400 Y-0.0883 Z22.5589 S200.0 V800.00 DIODE6 F1000
+; Layer Time: 5.5652 sec
+; ===== End Layer 699 =====
+
+; ===== Layer 700 Z=22.5839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 5.5349 sec
+; ===== End Layer 700 =====
+
+; ===== Layer 701 Z=22.6089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 5.5217 sec
+; ===== End Layer 701 =====
+
+; ===== Layer 702 Z=22.6339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 5.4971 sec
+; ===== End Layer 702 =====
+
+; ===== Layer 703 Z=22.6589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 5.4854 sec
+; ===== End Layer 703 =====
+
+; ===== Layer 704 Z=22.6839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 5.4924 sec
+; ===== End Layer 704 =====
+
+; ===== Layer 705 Z=22.7089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 5.4707 sec
+; ===== End Layer 705 =====
+
+; ===== Layer 706 Z=22.7339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 5.4555 sec
+; ===== End Layer 706 =====
+
+; ===== Layer 707 Z=22.7589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 5.4233 sec
+; ===== End Layer 707 =====
+
+; ===== Layer 708 Z=22.7839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 5.4125 sec
+; ===== End Layer 708 =====
+
+; ===== Layer 709 Z=22.8089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 5.3923 sec
+; ===== End Layer 709 =====
+
+; ===== Layer 710 Z=22.8339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 5.3569 sec
+; ===== End Layer 710 =====
+
+; ===== Layer 711 Z=22.8589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 5.3373 sec
+; ===== End Layer 711 =====
+
+; ===== Layer 712 Z=22.8839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 5.3146 sec
+; ===== End Layer 712 =====
+
+; ===== Layer 713 Z=22.9089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 5.2702 sec
+; ===== End Layer 713 =====
+
+; ===== Layer 714 Z=22.9339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 5.2431 sec
+; ===== End Layer 714 =====
+
+; ===== Layer 715 Z=22.9589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 5.2116 sec
+; ===== End Layer 715 =====
+
+; ===== Layer 716 Z=22.9839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 5.1699 sec
+; ===== End Layer 716 =====
+
+; ===== Layer 717 Z=23.0089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 5.1279 sec
+; ===== End Layer 717 =====
+
+; ===== Layer 718 Z=23.0339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 5.0515 sec
+; ===== End Layer 718 =====
+
+; ===== Layer 719 Z=23.0589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 5.0054 sec
+; ===== End Layer 719 =====
+
+; ===== Layer 720 Z=23.0839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 4.9667 sec
+; ===== End Layer 720 =====
+
+; ===== Layer 721 Z=23.1089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 4.9090 sec
+; ===== End Layer 721 =====
+
+; ===== Layer 722 Z=23.1339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 4.8910 sec
+; ===== End Layer 722 =====
+
+; ===== Layer 723 Z=23.1589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 4.8605 sec
+; ===== End Layer 723 =====
+
+; ===== Layer 724 Z=23.1839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 4.8531 sec
+; ===== End Layer 724 =====
+
+; ===== Layer 725 Z=23.2089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-10.6772 Y-0.6616 Z23.2089 S200.0 V800.00 DIODE6 F1000
+; -- Scan Pass 2 --
+G1 X-10.6772 Y-0.6616 Z23.2089 S200.0 V800.00 DIODE6 F1000
+; Layer Time: 4.8381 sec
+; ===== End Layer 725 =====
+
+; ===== Layer 726 Z=23.2339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-10.7116 Y-0.6132 Z23.2339 S200.0 V800.00 DIODE6 F1000
+; -- Scan Pass 2 --
+G1 X-10.7116 Y-0.6132 Z23.2339 S200.0 V800.00 DIODE6 F1000
+; Layer Time: 4.8212 sec
+; ===== End Layer 726 =====
+
+; ===== Layer 727 Z=23.2589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 4.7912 sec
+; ===== End Layer 727 =====
+
+; ===== Layer 728 Z=23.2839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 4.7843 sec
+; ===== End Layer 728 =====
+
+; ===== Layer 729 Z=23.3089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 4.7621 sec
+; ===== End Layer 729 =====
+
+; ===== Layer 730 Z=23.3339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 4.7599 sec
+; ===== End Layer 730 =====
+
+; ===== Layer 731 Z=23.3589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 4.7691 sec
+; ===== End Layer 731 =====
+
+; ===== Layer 732 Z=23.3839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 4.7504 sec
+; ===== End Layer 732 =====
+
+; ===== Layer 733 Z=23.4089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 4.7543 sec
+; ===== End Layer 733 =====
+
+; ===== Layer 734 Z=23.4339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 4.7432 sec
+; ===== End Layer 734 =====
+
+; ===== Layer 735 Z=23.4589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 4.7415 sec
+; ===== End Layer 735 =====
+
+; ===== Layer 736 Z=23.4839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 4.7426 sec
+; ===== End Layer 736 =====
+
+; ===== Layer 737 Z=23.5089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 4.7386 sec
+; ===== End Layer 737 =====
+
+; ===== Layer 738 Z=23.5339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 4.7184 sec
+; ===== End Layer 738 =====
+
+; ===== Layer 739 Z=23.5589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.9623 Y-0.2632 Z23.5589 S200.0 V800.00 DIODE10 F1000
+; -- Scan Pass 2 --
+G1 X-9.9623 Y-0.2632 Z23.5589 S200.0 V800.00 DIODE10 F1000
+; Layer Time: 4.7256 sec
+; ===== End Layer 739 =====
+
+; ===== Layer 740 Z=23.5839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-10.0563 Y-0.2744 Z23.5839 S200.0 V800.00 DIODE8 F1000
+; -- Scan Pass 2 --
+G1 X-10.0563 Y-0.2744 Z23.5839 S200.0 V800.00 DIODE8 F1000
+; Layer Time: 4.7198 sec
+; ===== End Layer 740 =====
+
+; ===== Layer 741 Z=23.6089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.8141 Y-0.3412 Z23.6089 S200.0 V800.00 DIODE10 F1000
+; -- Scan Pass 2 --
+G1 X-9.8141 Y-0.3412 Z23.6089 S200.0 V800.00 DIODE10 F1000
+; Layer Time: 4.6960 sec
+; ===== End Layer 741 =====
+
+; ===== Layer 742 Z=23.6339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.8590 Y-0.2426 Z23.6339 S200.0 V800.00 DIODE7 F1000
+G1 X-9.8590 Y-0.2426 Z23.6339 S200.0 V800.00 DIODE8 F1000
+; -- Scan Pass 2 --
+G1 X-9.8590 Y-0.2426 Z23.6339 S200.0 V800.00 DIODE7 F1000
+G1 X-9.8590 Y-0.2426 Z23.6339 S200.0 V800.00 DIODE8 F1000
+; Layer Time: 4.6985 sec
+; ===== End Layer 742 =====
+
+; ===== Layer 743 Z=23.6589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.6963 Y-0.2380 Z23.6589 S200.0 V800.00 DIODE10 F1000
+; -- Scan Pass 2 --
+G1 X-9.6963 Y-0.2380 Z23.6589 S200.0 V800.00 DIODE10 F1000
+; Layer Time: 4.6718 sec
+; ===== End Layer 743 =====
+
+; ===== Layer 744 Z=23.6839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.9464 Y-0.1999 Z23.6839 S200.0 V800.00 DIODE6 F1000
+; -- Scan Pass 2 --
+G1 X-9.9464 Y-0.1999 Z23.6839 S200.0 V800.00 DIODE6 F1000
+; Layer Time: 4.6592 sec
+; ===== End Layer 744 =====
+
+; ===== Layer 745 Z=23.7089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.6284 Y-0.2107 Z23.7089 S200.0 V800.00 DIODE10 F1000
+; -- Scan Pass 2 --
+G1 X-9.6284 Y-0.2107 Z23.7089 S200.0 V800.00 DIODE10 F1000
+; Layer Time: 4.6258 sec
+; ===== End Layer 745 =====
+
+; ===== Layer 746 Z=23.7339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 4.6113 sec
+; ===== End Layer 746 =====
+
+; ===== Layer 747 Z=23.7589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 4.5929 sec
+; ===== End Layer 747 =====
+
+; ===== Layer 748 Z=23.7839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 4.5745 sec
+; ===== End Layer 748 =====
+
+; ===== Layer 749 Z=23.8089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 4.5601 sec
+; ===== End Layer 749 =====
+
+; ===== Layer 750 Z=23.8339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.5050 Y-0.0502 Z23.8339 S200.0 V800.00 DIODE9 F1000
+; -- Scan Pass 2 --
+G1 X-9.5050 Y-0.0502 Z23.8339 S200.0 V800.00 DIODE9 F1000
+; Layer Time: 4.5439 sec
+; ===== End Layer 750 =====
+
+; ===== Layer 751 Z=23.8589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.5202 Y-0.2367 Z23.8589 S200.0 V800.00 DIODE9 F1000
+; -- Scan Pass 2 --
+G1 X-9.5202 Y-0.2367 Z23.8589 S200.0 V800.00 DIODE9 F1000
+; Layer Time: 4.5248 sec
+; ===== End Layer 751 =====
+
+; ===== Layer 752 Z=23.8839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.5067 Y-0.2381 Z23.8839 S200.0 V800.00 DIODE9 F1000
+; -- Scan Pass 2 --
+G1 X-9.5067 Y-0.2381 Z23.8839 S200.0 V800.00 DIODE9 F1000
+; Layer Time: 4.4921 sec
+; ===== End Layer 752 =====
+
+; ===== Layer 753 Z=23.9089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.3420 Y-0.2035 Z23.9089 S200.0 V800.00 DIODE9 F1000
+; -- Scan Pass 2 --
+G1 X-9.3420 Y-0.2035 Z23.9089 S200.0 V800.00 DIODE9 F1000
+; Layer Time: 4.4764 sec
+; ===== End Layer 753 =====
+
+; ===== Layer 754 Z=23.9339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.3514 Y-0.2577 Z23.9339 S200.0 V800.00 DIODE8 F1000
+G1 X-9.3514 Y-0.2577 Z23.9339 S200.0 V800.00 DIODE9 F1000
+; -- Scan Pass 2 --
+G1 X-9.3514 Y-0.2577 Z23.9339 S200.0 V800.00 DIODE8 F1000
+G1 X-9.3514 Y-0.2577 Z23.9339 S200.0 V800.00 DIODE9 F1000
+; Layer Time: 4.4581 sec
+; ===== End Layer 754 =====
+
+; ===== Layer 755 Z=23.9589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.3816 Y-0.3293 Z23.9589 S200.0 V800.00 DIODE8 F1000
+; -- Scan Pass 2 --
+G1 X-9.3816 Y-0.3293 Z23.9589 S200.0 V800.00 DIODE8 F1000
+; Layer Time: 4.4410 sec
+; ===== End Layer 755 =====
+
+; ===== Layer 756 Z=23.9839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.2138 Y-0.4705 Z23.9839 S200.0 V800.00 DIODE10 F1000
+G1 X-9.4163 Y-0.4005 Z23.9839 S200.0 V800.00 DIODE7 F1000
+; -- Scan Pass 2 --
+G1 X-9.2138 Y-0.4705 Z23.9839 S200.0 V800.00 DIODE10 F1000
+G1 X-9.4163 Y-0.4005 Z23.9839 S200.0 V800.00 DIODE7 F1000
+; Layer Time: 4.4052 sec
+; ===== End Layer 756 =====
+
+; ===== Layer 757 Z=24.0089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.1983 Y-0.5193 Z24.0089 S200.0 V800.00 DIODE10 F1000
+G1 X-9.4575 Y-0.4493 Z24.0089 S200.0 V800.00 DIODE6 F1000
+; -- Scan Pass 2 --
+G1 X-9.1983 Y-0.5193 Z24.0089 S200.0 V800.00 DIODE10 F1000
+G1 X-9.4575 Y-0.4493 Z24.0089 S200.0 V800.00 DIODE6 F1000
+; Layer Time: 4.3940 sec
+; ===== End Layer 757 =====
+
+; ===== Layer 758 Z=24.0339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.0392 Y-0.5591 Z24.0339 S200.0 V800.00 DIODE10 F1000
+G1 X-9.3658 Y-0.4891 Z24.0339 S200.0 V800.00 DIODE4 F1000
+G1 X-9.3658 Y-0.4891 Z24.0339 S200.0 V800.00 DIODE5 F1000
+; -- Scan Pass 2 --
+G1 X-9.0392 Y-0.5591 Z24.0339 S200.0 V800.00 DIODE10 F1000
+G1 X-9.3658 Y-0.4891 Z24.0339 S200.0 V800.00 DIODE4 F1000
+G1 X-9.3658 Y-0.4891 Z24.0339 S200.0 V800.00 DIODE5 F1000
+; Layer Time: 4.3772 sec
+; ===== End Layer 758 =====
+
+; ===== Layer 759 Z=24.0589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-8.9902 Y-0.4441 Z24.0589 S200.0 V800.00 DIODE10 F1000
+; -- Scan Pass 2 --
+G1 X-8.9902 Y-0.4441 Z24.0589 S200.0 V800.00 DIODE10 F1000
+; Layer Time: 4.3399 sec
+; ===== End Layer 759 =====
+
+; ===== Layer 760 Z=24.0839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.2240 Y-0.4788 Z24.0839 S200.0 V800.00 DIODE8 F1000
+G1 X-9.2240 Y-0.4788 Z24.0839 S200.0 V800.00 DIODE9 F1000
+; -- Scan Pass 2 --
+G1 X-9.2240 Y-0.4788 Z24.0839 S200.0 V800.00 DIODE8 F1000
+G1 X-9.2240 Y-0.4788 Z24.0839 S200.0 V800.00 DIODE9 F1000
+; Layer Time: 4.3199 sec
+; ===== End Layer 760 =====
+
+; ===== Layer 761 Z=24.1089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.0027 Y-1.1643 Z24.1089 S200.0 V800.00 DIODE8 F1000
+G1 X-9.0027 Y-1.1643 Z24.1089 S200.0 V800.00 DIODE9 F1000
+G1 X-9.0579 Y-1.0943 Z24.1089 S200.0 V800.00 DIODE7 F1000
+G1 X-9.0579 Y-1.0943 Z24.1089 S200.0 V800.00 DIODE8 F1000
+G1 X-9.0394 Y-1.0243 Z24.1089 S200.0 V800.00 DIODE8 F1000
+G1 X-8.9943 Y-0.9543 Z24.1089 S200.0 V800.00 DIODE8 F1000
+G1 X-8.9943 Y-0.9543 Z24.1089 S200.0 V800.00 DIODE9 F1000
+G1 X-8.9372 Y-0.8843 Z24.1089 S200.0 V800.00 DIODE9 F1000
+G1 X-8.9372 Y-0.8843 Z24.1089 S200.0 V800.00 DIODE10 F1000
+G1 X-9.0999 Y-0.3943 Z24.1089 S200.0 V800.00 DIODE7 F1000
+; -- Scan Pass 2 --
+G1 X-9.0027 Y-1.1643 Z24.1089 S200.0 V800.00 DIODE8 F1000
+G1 X-9.0027 Y-1.1643 Z24.1089 S200.0 V800.00 DIODE9 F1000
+G1 X-9.0579 Y-1.0943 Z24.1089 S200.0 V800.00 DIODE7 F1000
+G1 X-9.0579 Y-1.0943 Z24.1089 S200.0 V800.00 DIODE8 F1000
+G1 X-9.0394 Y-1.0243 Z24.1089 S200.0 V800.00 DIODE8 F1000
+G1 X-8.9943 Y-0.9543 Z24.1089 S200.0 V800.00 DIODE8 F1000
+G1 X-8.9943 Y-0.9543 Z24.1089 S200.0 V800.00 DIODE9 F1000
+G1 X-8.9372 Y-0.8843 Z24.1089 S200.0 V800.00 DIODE9 F1000
+G1 X-8.9372 Y-0.8843 Z24.1089 S200.0 V800.00 DIODE10 F1000
+G1 X-9.0999 Y-0.3943 Z24.1089 S200.0 V800.00 DIODE7 F1000
+; Layer Time: 4.2973 sec
+; ===== End Layer 761 =====
+
+; ===== Layer 762 Z=24.1339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.2603 Y-0.9508 Z24.1339 S200.0 V800.00 DIODE6 F1000
+G1 X-9.1934 Y-0.8808 Z24.1339 S200.0 V800.00 DIODE7 F1000
+G1 X-9.1418 Y-0.8108 Z24.1339 S200.0 V800.00 DIODE8 F1000
+G1 X-9.0878 Y-0.7408 Z24.1339 S200.0 V800.00 DIODE9 F1000
+G1 X-8.9874 Y-0.6008 Z24.1339 S200.0 V800.00 DIODE10 F1000
+G1 X-9.1579 Y-0.5308 Z24.1339 S200.0 V800.00 DIODE7 F1000
+G1 X-9.1579 Y-0.5308 Z24.1339 S200.0 V800.00 DIODE8 F1000
+G1 X-9.2957 Y-0.4608 Z24.1339 S200.0 V800.00 DIODE5 F1000
+; -- Scan Pass 2 --
+G1 X-9.2603 Y-0.9508 Z24.1339 S200.0 V800.00 DIODE6 F1000
+G1 X-9.1934 Y-0.8808 Z24.1339 S200.0 V800.00 DIODE7 F1000
+G1 X-9.1418 Y-0.8108 Z24.1339 S200.0 V800.00 DIODE8 F1000
+G1 X-9.0878 Y-0.7408 Z24.1339 S200.0 V800.00 DIODE9 F1000
+G1 X-8.9874 Y-0.6008 Z24.1339 S200.0 V800.00 DIODE10 F1000
+G1 X-9.1579 Y-0.5308 Z24.1339 S200.0 V800.00 DIODE7 F1000
+G1 X-9.1579 Y-0.5308 Z24.1339 S200.0 V800.00 DIODE8 F1000
+G1 X-9.2957 Y-0.4608 Z24.1339 S200.0 V800.00 DIODE5 F1000
+; Layer Time: 4.2589 sec
+; ===== End Layer 762 =====
+
+; ===== Layer 763 Z=24.1589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.4218 Y-0.7342 Z24.1589 S200.0 V800.00 DIODE5 F1000
+G1 X-9.3909 Y-0.6642 Z24.1589 S200.0 V800.00 DIODE5 F1000
+G1 X-9.3909 Y-0.6642 Z24.1589 S200.0 V800.00 DIODE6 F1000
+G1 X-9.3898 Y-0.5942 Z24.1589 S200.0 V800.00 DIODE5 F1000
+G1 X-9.3898 Y-0.5942 Z24.1589 S200.0 V800.00 DIODE6 F1000
+G1 X-9.4199 Y-0.5242 Z24.1589 S200.0 V800.00 DIODE5 F1000
+G1 X-9.5143 Y-0.4542 Z24.1589 S200.0 V800.00 DIODE3 F1000
+G1 X-9.5143 Y-0.4542 Z24.1589 S200.0 V800.00 DIODE4 F1000
+; -- Scan Pass 2 --
+G1 X-9.4218 Y-0.7342 Z24.1589 S200.0 V800.00 DIODE5 F1000
+G1 X-9.3909 Y-0.6642 Z24.1589 S200.0 V800.00 DIODE5 F1000
+G1 X-9.3909 Y-0.6642 Z24.1589 S200.0 V800.00 DIODE6 F1000
+G1 X-9.3898 Y-0.5942 Z24.1589 S200.0 V800.00 DIODE5 F1000
+G1 X-9.3898 Y-0.5942 Z24.1589 S200.0 V800.00 DIODE6 F1000
+G1 X-9.4199 Y-0.5242 Z24.1589 S200.0 V800.00 DIODE5 F1000
+G1 X-9.5143 Y-0.4542 Z24.1589 S200.0 V800.00 DIODE3 F1000
+G1 X-9.5143 Y-0.4542 Z24.1589 S200.0 V800.00 DIODE4 F1000
+; Layer Time: 4.2547 sec
+; ===== End Layer 763 =====
+
+; ===== Layer 764 Z=24.1839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.2300 Y-1.0649 Z24.1839 S200.0 V800.00 DIODE8 F1000
+; -- Scan Pass 2 --
+G1 X-9.2300 Y-1.0649 Z24.1839 S200.0 V800.00 DIODE8 F1000
+; Layer Time: 4.2407 sec
+; ===== End Layer 764 =====
+
+; ===== Layer 765 Z=24.2089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 4.2172 sec
+; ===== End Layer 765 =====
+
+; ===== Layer 766 Z=24.2339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 4.2087 sec
+; ===== End Layer 766 =====
+
+; ===== Layer 767 Z=24.2589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 4.2111 sec
+; ===== End Layer 767 =====
+
+; ===== Layer 768 Z=24.2839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 4.1842 sec
+; ===== End Layer 768 =====
+
+; ===== Layer 769 Z=24.3089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 4.1781 sec
+; ===== End Layer 769 =====
+
+; ===== Layer 770 Z=24.3339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 4.1684 sec
+; ===== End Layer 770 =====
+
+; ===== Layer 771 Z=24.3589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 4.1564 sec
+; ===== End Layer 771 =====
+
+; ===== Layer 772 Z=24.3839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.0955 Y-0.8076 Z24.3839 S200.0 V800.00 DIODE8 F1000
+; -- Scan Pass 2 --
+G1 X-9.0955 Y-0.8076 Z24.3839 S200.0 V800.00 DIODE8 F1000
+; Layer Time: 4.1398 sec
+; ===== End Layer 772 =====
+
+; ===== Layer 773 Z=24.4089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 4.1279 sec
+; ===== End Layer 773 =====
+
+; ===== Layer 774 Z=24.4339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 4.1140 sec
+; ===== End Layer 774 =====
+
+; ===== Layer 775 Z=24.4589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 4.0976 sec
+; ===== End Layer 775 =====
+
+; ===== Layer 776 Z=24.4839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.2679 Y-0.7835 Z24.4839 S200.0 V800.00 DIODE8 F1000
+G1 X-9.2679 Y-0.7835 Z24.4839 S200.0 V800.00 DIODE9 F1000
+; -- Scan Pass 2 --
+G1 X-9.2679 Y-0.7835 Z24.4839 S200.0 V800.00 DIODE8 F1000
+G1 X-9.2679 Y-0.7835 Z24.4839 S200.0 V800.00 DIODE9 F1000
+; Layer Time: 4.0780 sec
+; ===== End Layer 776 =====
+
+; ===== Layer 777 Z=24.5089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 4.0634 sec
+; ===== End Layer 777 =====
+
+; ===== Layer 778 Z=24.5339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 4.0407 sec
+; ===== End Layer 778 =====
+
+; ===== Layer 779 Z=24.5589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 4.0197 sec
+; ===== End Layer 779 =====
+
+; ===== Layer 780 Z=24.5839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 4.0143 sec
+; ===== End Layer 780 =====
+
+; ===== Layer 781 Z=24.6089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 4.0050 sec
+; ===== End Layer 781 =====
+
+; ===== Layer 782 Z=24.6339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.9982 sec
+; ===== End Layer 782 =====
+
+; ===== Layer 783 Z=24.6589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.3693 Y-0.6293 Z24.6589 S200.0 V800.00 DIODE10 F1000
+; -- Scan Pass 2 --
+G1 X-9.3693 Y-0.6293 Z24.6589 S200.0 V800.00 DIODE10 F1000
+; Layer Time: 4.0027 sec
+; ===== End Layer 783 =====
+
+; ===== Layer 784 Z=24.6839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.9822 sec
+; ===== End Layer 784 =====
+
+; ===== Layer 785 Z=24.7089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.6173 Y-0.4622 Z24.7089 S200.0 V800.00 DIODE6 F1000
+; -- Scan Pass 2 --
+G1 X-9.6173 Y-0.4622 Z24.7089 S200.0 V800.00 DIODE6 F1000
+; Layer Time: 3.9769 sec
+; ===== End Layer 785 =====
+
+; ===== Layer 786 Z=24.7339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.9824 sec
+; ===== End Layer 786 =====
+
+; ===== Layer 787 Z=24.7589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.9757 sec
+; ===== End Layer 787 =====
+
+; ===== Layer 788 Z=24.7839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.9516 sec
+; ===== End Layer 788 =====
+
+; ===== Layer 789 Z=24.8089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.9513 sec
+; ===== End Layer 789 =====
+
+; ===== Layer 790 Z=24.8339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.4249 Y-0.4028 Z24.8339 S200.0 V800.00 DIODE10 F1000
+; -- Scan Pass 2 --
+G1 X-9.4249 Y-0.4028 Z24.8339 S200.0 V800.00 DIODE10 F1000
+; Layer Time: 3.9426 sec
+; ===== End Layer 790 =====
+
+; ===== Layer 791 Z=24.8589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.9303 sec
+; ===== End Layer 791 =====
+
+; ===== Layer 792 Z=24.8839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.9176 sec
+; ===== End Layer 792 =====
+
+; ===== Layer 793 Z=24.9089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-10.0619 Y-0.3342 Z24.9089 S200.0 V800.00 DIODE4 F1000
+G1 X-10.0619 Y-0.3342 Z24.9089 S200.0 V800.00 DIODE5 F1000
+; -- Scan Pass 2 --
+G1 X-10.0619 Y-0.3342 Z24.9089 S200.0 V800.00 DIODE4 F1000
+G1 X-10.0619 Y-0.3342 Z24.9089 S200.0 V800.00 DIODE5 F1000
+; Layer Time: 3.9190 sec
+; ===== End Layer 793 =====
+
+; ===== Layer 794 Z=24.9339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-10.2765 Y-0.1372 Z24.9339 S200.0 V800.00 DIODE5 F1000
+; -- Scan Pass 2 --
+G1 X-10.2765 Y-0.1372 Z24.9339 S200.0 V800.00 DIODE5 F1000
+; Layer Time: 3.9081 sec
+; ===== End Layer 794 =====
+
+; ===== Layer 795 Z=24.9589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-10.4612 Y0.0754 Z24.9589 S200.0 V800.00 DIODE5 F1000
+; -- Scan Pass 2 --
+G1 X-10.4612 Y0.0754 Z24.9589 S200.0 V800.00 DIODE5 F1000
+; Layer Time: 3.8977 sec
+; ===== End Layer 795 =====
+
+; ===== Layer 796 Z=24.9839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-10.3863 Y0.0334 Z24.9839 S200.0 V800.00 DIODE5 F1000
+G1 X-10.3863 Y0.0334 Z24.9839 S200.0 V800.00 DIODE6 F1000
+; -- Scan Pass 2 --
+G1 X-10.3863 Y0.0334 Z24.9839 S200.0 V800.00 DIODE5 F1000
+G1 X-10.3863 Y0.0334 Z24.9839 S200.0 V800.00 DIODE6 F1000
+; Layer Time: 3.9011 sec
+; ===== End Layer 796 =====
+
+; ===== Layer 797 Z=25.0089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-10.3389 Y0.0080 Z25.0089 S200.0 V800.00 DIODE5 F1000
+G1 X-10.3389 Y0.0080 Z25.0089 S200.0 V800.00 DIODE6 F1000
+; -- Scan Pass 2 --
+G1 X-10.3389 Y0.0080 Z25.0089 S200.0 V800.00 DIODE5 F1000
+G1 X-10.3389 Y0.0080 Z25.0089 S200.0 V800.00 DIODE6 F1000
+; Layer Time: 3.8914 sec
+; ===== End Layer 797 =====
+
+; ===== Layer 798 Z=25.0339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-10.2995 Y-0.0337 Z25.0339 S200.0 V800.00 DIODE6 F1000
+; -- Scan Pass 2 --
+G1 X-10.2995 Y-0.0337 Z25.0339 S200.0 V800.00 DIODE6 F1000
+; Layer Time: 3.8820 sec
+; ===== End Layer 798 =====
+
+; ===== Layer 799 Z=25.0589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.8671 sec
+; ===== End Layer 799 =====
+
+; ===== Layer 800 Z=25.0839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.8605 sec
+; ===== End Layer 800 =====
+
+; ===== Layer 801 Z=25.1089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.8423 sec
+; ===== End Layer 801 =====
+
+; ===== Layer 802 Z=25.1339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.8206 sec
+; ===== End Layer 802 =====
+
+; ===== Layer 803 Z=25.1589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-10.4045 Y0.1403 Z25.1589 S200.0 V800.00 DIODE1 F1000
+; -- Scan Pass 2 --
+G1 X-10.4045 Y0.1403 Z25.1589 S200.0 V800.00 DIODE1 F1000
+; Layer Time: 3.8027 sec
+; ===== End Layer 803 =====
+
+; ===== Layer 804 Z=25.1839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-10.3213 Y0.2756 Z25.1839 S200.0 V800.00 DIODE1 F1000
+G1 X-10.3213 Y0.2756 Z25.1839 S200.0 V800.00 DIODE2 F1000
+; -- Scan Pass 2 --
+G1 X-10.3213 Y0.2756 Z25.1839 S200.0 V800.00 DIODE1 F1000
+G1 X-10.3213 Y0.2756 Z25.1839 S200.0 V800.00 DIODE2 F1000
+; Layer Time: 3.7769 sec
+; ===== End Layer 804 =====
+
+; ===== Layer 805 Z=25.2089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.7706 sec
+; ===== End Layer 805 =====
+
+; ===== Layer 806 Z=25.2339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.9026 Y0.2206 Z25.2339 S200.0 V800.00 DIODE10 F1000
+; -- Scan Pass 2 --
+G1 X-9.9026 Y0.2206 Z25.2339 S200.0 V800.00 DIODE10 F1000
+; Layer Time: 3.7768 sec
+; ===== End Layer 806 =====
+
+; ===== Layer 807 Z=25.2589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.7717 sec
+; ===== End Layer 807 =====
+
+; ===== Layer 808 Z=25.2839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.7660 sec
+; ===== End Layer 808 =====
+
+; ===== Layer 809 Z=25.3089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.7707 sec
+; ===== End Layer 809 =====
+
+; ===== Layer 810 Z=25.3339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-10.2890 Y0.2748 Z25.3339 S200.0 V800.00 DIODE1 F1000
+G1 X-10.2890 Y0.2748 Z25.3339 S200.0 V800.00 DIODE2 F1000
+; -- Scan Pass 2 --
+G1 X-10.2890 Y0.2748 Z25.3339 S200.0 V800.00 DIODE1 F1000
+G1 X-10.2890 Y0.2748 Z25.3339 S200.0 V800.00 DIODE2 F1000
+; Layer Time: 3.7840 sec
+; ===== End Layer 810 =====
+
+; ===== Layer 811 Z=25.3589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-10.2145 Y0.2507 Z25.3589 S200.0 V800.00 DIODE1 F1000
+G1 X-10.2145 Y0.2507 Z25.3589 S200.0 V800.00 DIODE2 F1000
+G1 X-10.0075 Y0.2507 Z25.3589 S200.0 V800.00 DIODE5 F1000
+; -- Scan Pass 2 --
+G1 X-10.2145 Y0.2507 Z25.3589 S200.0 V800.00 DIODE1 F1000
+G1 X-10.2145 Y0.2507 Z25.3589 S200.0 V800.00 DIODE2 F1000
+G1 X-10.0075 Y0.2507 Z25.3589 S200.0 V800.00 DIODE5 F1000
+; Layer Time: 3.7770 sec
+; ===== End Layer 811 =====
+
+; ===== Layer 812 Z=25.3839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-10.1683 Y0.2952 Z25.3839 S200.0 V800.00 DIODE1 F1000
+G1 X-10.1683 Y0.2952 Z25.3839 S200.0 V800.00 DIODE2 F1000
+G1 X-9.8399 Y0.2952 Z25.3839 S200.0 V800.00 DIODE7 F1000
+; -- Scan Pass 2 --
+G1 X-10.1683 Y0.2952 Z25.3839 S200.0 V800.00 DIODE1 F1000
+G1 X-10.1683 Y0.2952 Z25.3839 S200.0 V800.00 DIODE2 F1000
+G1 X-9.8399 Y0.2952 Z25.3839 S200.0 V800.00 DIODE7 F1000
+; Layer Time: 3.7828 sec
+; ===== End Layer 812 =====
+
+; ===== Layer 813 Z=25.4089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-10.1244 Y0.2144 Z25.4089 S200.0 V800.00 DIODE2 F1000
+G1 X-9.6823 Y0.2144 Z25.4089 S200.0 V800.00 DIODE9 F1000
+; -- Scan Pass 2 --
+G1 X-10.1244 Y0.2144 Z25.4089 S200.0 V800.00 DIODE2 F1000
+G1 X-9.6823 Y0.2144 Z25.4089 S200.0 V800.00 DIODE9 F1000
+; Layer Time: 3.7755 sec
+; ===== End Layer 813 =====
+
+; ===== Layer 814 Z=25.4339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.7780 sec
+; ===== End Layer 814 =====
+
+; ===== Layer 815 Z=25.4589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.7849 sec
+; ===== End Layer 815 =====
+
+; ===== Layer 816 Z=25.4839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-10.0509 Y0.2472 Z25.4839 S200.0 V800.00 DIODE1 F1000
+; -- Scan Pass 2 --
+G1 X-10.0509 Y0.2472 Z25.4839 S200.0 V800.00 DIODE1 F1000
+; Layer Time: 3.7859 sec
+; ===== End Layer 816 =====
+
+; ===== Layer 817 Z=25.5089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.8157 Y0.2822 Z25.5089 S200.0 V800.00 DIODE1 F1000
+G1 X-9.8157 Y0.2822 Z25.5089 S200.0 V800.00 DIODE2 F1000
+; -- Scan Pass 2 --
+G1 X-9.8157 Y0.2822 Z25.5089 S200.0 V800.00 DIODE1 F1000
+G1 X-9.8157 Y0.2822 Z25.5089 S200.0 V800.00 DIODE2 F1000
+; Layer Time: 3.7763 sec
+; ===== End Layer 817 =====
+
+; ===== Layer 818 Z=25.5339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.9739 Y0.1794 Z25.5339 S200.0 V800.00 DIODE1 F1000
+G1 X-9.9739 Y0.1794 Z25.5339 S200.0 V800.00 DIODE2 F1000
+G1 X-9.6539 Y0.1794 Z25.5339 S200.0 V800.00 DIODE7 F1000
+; -- Scan Pass 2 --
+G1 X-9.9739 Y0.1794 Z25.5339 S200.0 V800.00 DIODE1 F1000
+G1 X-9.9739 Y0.1794 Z25.5339 S200.0 V800.00 DIODE2 F1000
+G1 X-9.6539 Y0.1794 Z25.5339 S200.0 V800.00 DIODE7 F1000
+; Layer Time: 3.7807 sec
+; ===== End Layer 818 =====
+
+; ===== Layer 819 Z=25.5589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.7153 Y0.1271 Z25.5589 S200.0 V800.00 DIODE2 F1000
+; -- Scan Pass 2 --
+G1 X-9.7153 Y0.1271 Z25.5589 S200.0 V800.00 DIODE2 F1000
+; Layer Time: 3.7868 sec
+; ===== End Layer 819 =====
+
+; ===== Layer 820 Z=25.5839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.6799 Y0.2245 Z25.5839 S200.0 V800.00 DIODE2 F1000
+; -- Scan Pass 2 --
+G1 X-9.6799 Y0.2245 Z25.5839 S200.0 V800.00 DIODE2 F1000
+; Layer Time: 3.7747 sec
+; ===== End Layer 820 =====
+
+; ===== Layer 821 Z=25.6089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.7743 Y0.2030 Z25.6089 S200.0 V800.00 DIODE1 F1000
+G1 X-9.7743 Y0.2030 Z25.6089 S200.0 V800.00 DIODE2 F1000
+; -- Scan Pass 2 --
+G1 X-9.7743 Y0.2030 Z25.6089 S200.0 V800.00 DIODE1 F1000
+G1 X-9.7743 Y0.2030 Z25.6089 S200.0 V800.00 DIODE2 F1000
+; Layer Time: 3.7850 sec
+; ===== End Layer 821 =====
+
+; ===== Layer 822 Z=25.6339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.6888 Y0.2503 Z25.6339 S200.0 V800.00 DIODE1 F1000
+G1 X-9.6888 Y0.2503 Z25.6339 S200.0 V800.00 DIODE2 F1000
+; -- Scan Pass 2 --
+G1 X-9.6888 Y0.2503 Z25.6339 S200.0 V800.00 DIODE1 F1000
+G1 X-9.6888 Y0.2503 Z25.6339 S200.0 V800.00 DIODE2 F1000
+; Layer Time: 3.7685 sec
+; ===== End Layer 822 =====
+
+; ===== Layer 823 Z=25.6589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.7684 sec
+; ===== End Layer 823 =====
+
+; ===== Layer 824 Z=25.6839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-8.9377 Y0.2294 Z25.6839 S200.0 V800.00 DIODE10 F1000
+; -- Scan Pass 2 --
+G1 X-8.9377 Y0.2294 Z25.6839 S200.0 V800.00 DIODE10 F1000
+; Layer Time: 3.7710 sec
+; ===== End Layer 824 =====
+
+; ===== Layer 825 Z=25.7089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.7042 Y0.2066 Z25.7089 S200.0 V800.00 DIODE1 F1000
+G1 X-9.7042 Y0.2066 Z25.7089 S200.0 V800.00 DIODE2 F1000
+; -- Scan Pass 2 --
+G1 X-9.7042 Y0.2066 Z25.7089 S200.0 V800.00 DIODE1 F1000
+G1 X-9.7042 Y0.2066 Z25.7089 S200.0 V800.00 DIODE2 F1000
+; Layer Time: 3.7508 sec
+; ===== End Layer 825 =====
+
+; ===== Layer 826 Z=25.7339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.6261 Y0.1867 Z25.7339 S200.0 V800.00 DIODE1 F1000
+G1 X-9.6261 Y0.1867 Z25.7339 S200.0 V800.00 DIODE2 F1000
+; -- Scan Pass 2 --
+G1 X-9.6261 Y0.1867 Z25.7339 S200.0 V800.00 DIODE1 F1000
+G1 X-9.6261 Y0.1867 Z25.7339 S200.0 V800.00 DIODE2 F1000
+; Layer Time: 3.7548 sec
+; ===== End Layer 826 =====
+
+; ===== Layer 827 Z=25.7589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.4598 Y0.1813 Z25.7589 S200.0 V800.00 DIODE1 F1000
+G1 X-9.4598 Y0.1813 Z25.7589 S200.0 V800.00 DIODE2 F1000
+; -- Scan Pass 2 --
+G1 X-9.4598 Y0.1813 Z25.7589 S200.0 V800.00 DIODE1 F1000
+G1 X-9.4598 Y0.1813 Z25.7589 S200.0 V800.00 DIODE2 F1000
+; Layer Time: 3.7465 sec
+; ===== End Layer 827 =====
+
+; ===== Layer 828 Z=25.7839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.5180 Y0.3026 Z25.7839 S200.0 V800.00 DIODE1 F1000
+G1 X-9.5180 Y0.3026 Z25.7839 S200.0 V800.00 DIODE2 F1000
+; -- Scan Pass 2 --
+G1 X-9.5180 Y0.3026 Z25.7839 S200.0 V800.00 DIODE1 F1000
+G1 X-9.5180 Y0.3026 Z25.7839 S200.0 V800.00 DIODE2 F1000
+; Layer Time: 3.7491 sec
+; ===== End Layer 828 =====
+
+; ===== Layer 829 Z=25.8089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.4948 Y0.2457 Z25.8089 S200.0 V800.00 DIODE1 F1000
+G1 X-9.4948 Y0.2457 Z25.8089 S200.0 V800.00 DIODE2 F1000
+; -- Scan Pass 2 --
+G1 X-9.4948 Y0.2457 Z25.8089 S200.0 V800.00 DIODE1 F1000
+G1 X-9.4948 Y0.2457 Z25.8089 S200.0 V800.00 DIODE2 F1000
+; Layer Time: 3.7238 sec
+; ===== End Layer 829 =====
+
+; ===== Layer 830 Z=25.8339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.3908 Y0.3570 Z25.8339 S200.0 V800.00 DIODE1 F1000
+G1 X-9.3908 Y0.3570 Z25.8339 S200.0 V800.00 DIODE2 F1000
+; -- Scan Pass 2 --
+G1 X-9.3908 Y0.3570 Z25.8339 S200.0 V800.00 DIODE1 F1000
+G1 X-9.3908 Y0.3570 Z25.8339 S200.0 V800.00 DIODE2 F1000
+; Layer Time: 3.7213 sec
+; ===== End Layer 830 =====
+
+; ===== Layer 831 Z=25.8589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.3727 Y0.2775 Z25.8589 S200.0 V800.00 DIODE1 F1000
+; -- Scan Pass 2 --
+G1 X-9.3727 Y0.2775 Z25.8589 S200.0 V800.00 DIODE1 F1000
+; Layer Time: 3.7215 sec
+; ===== End Layer 831 =====
+
+; ===== Layer 832 Z=25.8839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.1260 Y0.2087 Z25.8839 S200.0 V800.00 DIODE2 F1000
+; -- Scan Pass 2 --
+G1 X-9.1260 Y0.2087 Z25.8839 S200.0 V800.00 DIODE2 F1000
+; Layer Time: 3.7093 sec
+; ===== End Layer 832 =====
+
+; ===== Layer 833 Z=25.9089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.0530 Y0.2367 Z25.9089 S200.0 V800.00 DIODE2 F1000
+G1 X-9.0989 Y0.3067 Z25.9089 S200.0 V800.00 DIODE1 F1000
+; -- Scan Pass 2 --
+G1 X-9.0530 Y0.2367 Z25.9089 S200.0 V800.00 DIODE2 F1000
+G1 X-9.0989 Y0.3067 Z25.9089 S200.0 V800.00 DIODE1 F1000
+; Layer Time: 3.7121 sec
+; ===== End Layer 833 =====
+
+; ===== Layer 834 Z=25.9339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-9.0398 Y0.1986 Z25.9339 S200.0 V800.00 DIODE2 F1000
+G1 X-9.0949 Y0.2686 Z25.9339 S200.0 V800.00 DIODE1 F1000
+; -- Scan Pass 2 --
+G1 X-9.0398 Y0.1986 Z25.9339 S200.0 V800.00 DIODE2 F1000
+G1 X-9.0949 Y0.2686 Z25.9339 S200.0 V800.00 DIODE1 F1000
+; Layer Time: 3.7153 sec
+; ===== End Layer 834 =====
+
+; ===== Layer 835 Z=25.9589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-8.7815 Y0.2095 Z25.9589 S200.0 V800.00 DIODE2 F1000
+G1 X-8.4027 Y0.2095 Z25.9589 S200.0 V800.00 DIODE8 F1000
+G1 X-8.4027 Y0.2095 Z25.9589 S200.0 V800.00 DIODE9 F1000
+G1 X-8.8390 Y0.2795 Z25.9589 S200.0 V800.00 DIODE1 F1000
+; -- Scan Pass 2 --
+G1 X-8.7815 Y0.2095 Z25.9589 S200.0 V800.00 DIODE2 F1000
+G1 X-8.4027 Y0.2095 Z25.9589 S200.0 V800.00 DIODE8 F1000
+G1 X-8.4027 Y0.2095 Z25.9589 S200.0 V800.00 DIODE9 F1000
+G1 X-8.8390 Y0.2795 Z25.9589 S200.0 V800.00 DIODE1 F1000
+; Layer Time: 3.7211 sec
+; ===== End Layer 835 =====
+
+; ===== Layer 836 Z=25.9839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-8.7168 Y0.2142 Z25.9839 S200.0 V800.00 DIODE2 F1000
+G1 X-8.7168 Y0.2142 Z25.9839 S200.0 V800.00 DIODE3 F1000
+G1 X-8.7945 Y0.2842 Z25.9839 S200.0 V800.00 DIODE1 F1000
+G1 X-8.7945 Y0.2842 Z25.9839 S200.0 V800.00 DIODE2 F1000
+; -- Scan Pass 2 --
+G1 X-8.7168 Y0.2142 Z25.9839 S200.0 V800.00 DIODE2 F1000
+G1 X-8.7168 Y0.2142 Z25.9839 S200.0 V800.00 DIODE3 F1000
+G1 X-8.7945 Y0.2842 Z25.9839 S200.0 V800.00 DIODE1 F1000
+G1 X-8.7945 Y0.2842 Z25.9839 S200.0 V800.00 DIODE2 F1000
+; Layer Time: 3.7386 sec
+; ===== End Layer 836 =====
+
+; ===== Layer 837 Z=26.0089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-8.4741 Y0.2715 Z26.0089 S200.0 V800.00 DIODE1 F1000
+; -- Scan Pass 2 --
+G1 X-8.4741 Y0.2715 Z26.0089 S200.0 V800.00 DIODE1 F1000
+; Layer Time: 3.7485 sec
+; ===== End Layer 837 =====
+
+; ===== Layer 838 Z=26.0339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-8.5606 Y0.2150 Z26.0339 S200.0 V800.00 DIODE1 F1000
+; -- Scan Pass 2 --
+G1 X-8.5606 Y0.2150 Z26.0339 S200.0 V800.00 DIODE1 F1000
+; Layer Time: 3.7809 sec
+; ===== End Layer 838 =====
+
+; ===== Layer 839 Z=26.0589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-8.4614 Y0.2063 Z26.0589 S200.0 V800.00 DIODE1 F1000
+G1 X-8.4614 Y0.2063 Z26.0589 S200.0 V800.00 DIODE2 F1000
+; -- Scan Pass 2 --
+G1 X-8.4614 Y0.2063 Z26.0589 S200.0 V800.00 DIODE1 F1000
+G1 X-8.4614 Y0.2063 Z26.0589 S200.0 V800.00 DIODE2 F1000
+; Layer Time: 3.7904 sec
+; ===== End Layer 839 =====
+
+; ===== Layer 840 Z=26.0839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-8.2386 Y0.1810 Z26.0839 S200.0 V800.00 DIODE1 F1000
+G1 X-8.2386 Y0.1810 Z26.0839 S200.0 V800.00 DIODE2 F1000
+; -- Scan Pass 2 --
+G1 X-8.2386 Y0.1810 Z26.0839 S200.0 V800.00 DIODE1 F1000
+G1 X-8.2386 Y0.1810 Z26.0839 S200.0 V800.00 DIODE2 F1000
+; Layer Time: 3.8250 sec
+; ===== End Layer 840 =====
+
+; ===== Layer 841 Z=26.1089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-8.2531 Y0.1897 Z26.1089 S200.0 V800.00 DIODE1 F1000
+G1 X-8.2531 Y0.1897 Z26.1089 S200.0 V800.00 DIODE2 F1000
+; -- Scan Pass 2 --
+G1 X-8.2531 Y0.1897 Z26.1089 S200.0 V800.00 DIODE1 F1000
+G1 X-8.2531 Y0.1897 Z26.1089 S200.0 V800.00 DIODE2 F1000
+; Layer Time: 3.8748 sec
+; ===== End Layer 841 =====
+
+; ===== Layer 842 Z=26.1339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-8.1113 Y0.2658 Z26.1339 S200.0 V800.00 DIODE1 F1000
+G1 X-8.1113 Y0.2658 Z26.1339 S200.0 V800.00 DIODE2 F1000
+; -- Scan Pass 2 --
+G1 X-8.1113 Y0.2658 Z26.1339 S200.0 V800.00 DIODE1 F1000
+G1 X-8.1113 Y0.2658 Z26.1339 S200.0 V800.00 DIODE2 F1000
+; Layer Time: 3.9414 sec
+; ===== End Layer 842 =====
+
+; ===== Layer 843 Z=26.1589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-8.2014 Y0.2908 Z26.1589 S200.0 V800.00 DIODE1 F1000
+G1 X-8.2014 Y0.2908 Z26.1589 S200.0 V800.00 DIODE2 F1000
+; -- Scan Pass 2 --
+G1 X-8.2014 Y0.2908 Z26.1589 S200.0 V800.00 DIODE1 F1000
+G1 X-8.2014 Y0.2908 Z26.1589 S200.0 V800.00 DIODE2 F1000
+; Layer Time: 4.0623 sec
+; ===== End Layer 843 =====
+
+; ===== Layer 844 Z=26.1839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-8.0071 Y0.2486 Z26.1839 S200.0 V800.00 DIODE1 F1000
+G1 X-8.0071 Y0.2486 Z26.1839 S200.0 V800.00 DIODE2 F1000
+; -- Scan Pass 2 --
+G1 X-8.0071 Y0.2486 Z26.1839 S200.0 V800.00 DIODE1 F1000
+G1 X-8.0071 Y0.2486 Z26.1839 S200.0 V800.00 DIODE2 F1000
+; Layer Time: 4.1860 sec
+; ===== End Layer 844 =====
+
+; ===== Layer 845 Z=26.2089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-7.9876 Y0.2284 Z26.2089 S200.0 V800.00 DIODE1 F1000
+G1 X-7.9876 Y0.2284 Z26.2089 S200.0 V800.00 DIODE2 F1000
+; -- Scan Pass 2 --
+G1 X-7.9876 Y0.2284 Z26.2089 S200.0 V800.00 DIODE1 F1000
+G1 X-7.9876 Y0.2284 Z26.2089 S200.0 V800.00 DIODE2 F1000
+; Layer Time: 4.1561 sec
+; ===== End Layer 845 =====
+
+; ===== Layer 846 Z=26.2339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-7.9894 Y0.0636 Z26.2339 S200.0 V800.00 DIODE1 F1000
+G1 X-7.9894 Y0.0636 Z26.2339 S200.0 V800.00 DIODE2 F1000
+; -- Scan Pass 2 --
+G1 X-7.9894 Y0.0636 Z26.2339 S200.0 V800.00 DIODE1 F1000
+G1 X-7.9894 Y0.0636 Z26.2339 S200.0 V800.00 DIODE2 F1000
+; Layer Time: 4.1204 sec
+; ===== End Layer 846 =====
+
+; ===== Layer 847 Z=26.2589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-8.0133 Y-0.1457 Z26.2589 S200.0 V800.00 DIODE1 F1000
+; -- Scan Pass 2 --
+G1 X-8.0133 Y-0.1457 Z26.2589 S200.0 V800.00 DIODE1 F1000
+; Layer Time: 4.0829 sec
+; ===== End Layer 847 =====
+
+; ===== Layer 848 Z=26.2839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-7.8933 Y-0.3286 Z26.2839 S200.0 V800.00 DIODE2 F1000
+G1 X-7.4277 Y-0.3286 Z26.2839 S200.0 V800.00 DIODE10 F1000
+G1 X-7.9431 Y-0.2586 Z26.2839 S200.0 V800.00 DIODE1 F1000
+; -- Scan Pass 2 --
+G1 X-7.8933 Y-0.3286 Z26.2839 S200.0 V800.00 DIODE2 F1000
+G1 X-7.4277 Y-0.3286 Z26.2839 S200.0 V800.00 DIODE10 F1000
+G1 X-7.9431 Y-0.2586 Z26.2839 S200.0 V800.00 DIODE1 F1000
+; Layer Time: 4.0428 sec
+; ===== End Layer 848 =====
+
+; ===== Layer 849 Z=26.3089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-7.7992 Y-0.4801 Z26.3089 S200.0 V800.00 DIODE2 F1000
+; -- Scan Pass 2 --
+G1 X-7.7992 Y-0.4801 Z26.3089 S200.0 V800.00 DIODE2 F1000
+; Layer Time: 4.0030 sec
+; ===== End Layer 849 =====
+
+; ===== Layer 850 Z=26.3339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-7.6453 Y-0.4094 Z26.3339 S200.0 V800.00 DIODE2 F1000
+G1 X-7.2534 Y-0.4094 Z26.3339 S200.0 V800.00 DIODE8 F1000
+; -- Scan Pass 2 --
+G1 X-7.6453 Y-0.4094 Z26.3339 S200.0 V800.00 DIODE2 F1000
+G1 X-7.2534 Y-0.4094 Z26.3339 S200.0 V800.00 DIODE8 F1000
+; Layer Time: 3.9633 sec
+; ===== End Layer 850 =====
+
+; ===== Layer 851 Z=26.3589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-7.4355 Y-0.5149 Z26.3589 S200.0 V800.00 DIODE1 F1000
+G1 X-7.4355 Y-0.5149 Z26.3589 S200.0 V800.00 DIODE2 F1000
+G1 X-6.9931 Y-0.5149 Z26.3589 S200.0 V800.00 DIODE9 F1000
+; -- Scan Pass 2 --
+G1 X-7.4355 Y-0.5149 Z26.3589 S200.0 V800.00 DIODE1 F1000
+G1 X-7.4355 Y-0.5149 Z26.3589 S200.0 V800.00 DIODE2 F1000
+G1 X-6.9931 Y-0.5149 Z26.3589 S200.0 V800.00 DIODE9 F1000
+; Layer Time: 3.9234 sec
+; ===== End Layer 851 =====
+
+; ===== Layer 852 Z=26.3839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-7.5679 Y-0.5199 Z26.3839 S200.0 V800.00 DIODE1 F1000
+G1 X-7.5679 Y-0.5199 Z26.3839 S200.0 V800.00 DIODE2 F1000
+G1 X-7.0950 Y-0.5199 Z26.3839 S200.0 V800.00 DIODE9 F1000
+; -- Scan Pass 2 --
+G1 X-7.5679 Y-0.5199 Z26.3839 S200.0 V800.00 DIODE1 F1000
+G1 X-7.5679 Y-0.5199 Z26.3839 S200.0 V800.00 DIODE2 F1000
+G1 X-7.0950 Y-0.5199 Z26.3839 S200.0 V800.00 DIODE9 F1000
+; Layer Time: 3.8826 sec
+; ===== End Layer 852 =====
+
+; ===== Layer 853 Z=26.4089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-7.3225 Y-0.5687 Z26.4089 S200.0 V800.00 DIODE1 F1000
+G1 X-7.3225 Y-0.5687 Z26.4089 S200.0 V800.00 DIODE2 F1000
+G1 X-6.8509 Y-0.5687 Z26.4089 S200.0 V800.00 DIODE9 F1000
+; -- Scan Pass 2 --
+G1 X-7.3225 Y-0.5687 Z26.4089 S200.0 V800.00 DIODE1 F1000
+G1 X-7.3225 Y-0.5687 Z26.4089 S200.0 V800.00 DIODE2 F1000
+G1 X-6.8509 Y-0.5687 Z26.4089 S200.0 V800.00 DIODE9 F1000
+; Layer Time: 3.8404 sec
+; ===== End Layer 853 =====
+
+; ===== Layer 854 Z=26.4339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-7.1015 Y-0.6009 Z26.4339 S200.0 V800.00 DIODE1 F1000
+G1 X-7.1015 Y-0.6009 Z26.4339 S200.0 V800.00 DIODE2 F1000
+G1 X-6.6672 Y-0.6009 Z26.4339 S200.0 V800.00 DIODE9 F1000
+; -- Scan Pass 2 --
+G1 X-7.1015 Y-0.6009 Z26.4339 S200.0 V800.00 DIODE1 F1000
+G1 X-7.1015 Y-0.6009 Z26.4339 S200.0 V800.00 DIODE2 F1000
+G1 X-6.6672 Y-0.6009 Z26.4339 S200.0 V800.00 DIODE9 F1000
+; Layer Time: 3.7967 sec
+; ===== End Layer 854 =====
+
+; ===== Layer 855 Z=26.4589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-6.5754 Y-0.4782 Z26.4589 S200.0 V800.00 DIODE10 F1000
+G1 X-7.1199 Y-0.4082 Z26.4589 S200.0 V800.00 DIODE1 F1000
+G1 X-7.1199 Y-0.4082 Z26.4589 S200.0 V800.00 DIODE2 F1000
+; -- Scan Pass 2 --
+G1 X-6.5754 Y-0.4782 Z26.4589 S200.0 V800.00 DIODE10 F1000
+G1 X-7.1199 Y-0.4082 Z26.4589 S200.0 V800.00 DIODE1 F1000
+G1 X-7.1199 Y-0.4082 Z26.4589 S200.0 V800.00 DIODE2 F1000
+; Layer Time: 3.7507 sec
+; ===== End Layer 855 =====
+
+; ===== Layer 856 Z=26.4839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-6.9201 Y-0.4599 Z26.4839 S200.0 V800.00 DIODE3 F1000
+G1 X-6.6399 Y-0.4599 Z26.4839 S200.0 V800.00 DIODE8 F1000
+G1 X-7.0361 Y-0.3899 Z26.4839 S200.0 V800.00 DIODE1 F1000
+; -- Scan Pass 2 --
+G1 X-6.9201 Y-0.4599 Z26.4839 S200.0 V800.00 DIODE3 F1000
+G1 X-6.6399 Y-0.4599 Z26.4839 S200.0 V800.00 DIODE8 F1000
+G1 X-7.0361 Y-0.3899 Z26.4839 S200.0 V800.00 DIODE1 F1000
+; Layer Time: 3.7022 sec
+; ===== End Layer 856 =====
+
+; ===== Layer 857 Z=26.5089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-7.1032 Y-0.3238 Z26.5089 S200.0 V800.00 DIODE2 F1000
+; -- Scan Pass 2 --
+G1 X-7.1032 Y-0.3238 Z26.5089 S200.0 V800.00 DIODE2 F1000
+; Layer Time: 3.6541 sec
+; ===== End Layer 857 =====
+
+; ===== Layer 858 Z=26.5339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-6.9752 Y-0.3394 Z26.5339 S200.0 V800.00 DIODE1 F1000
+G1 X-6.9752 Y-0.3394 Z26.5339 S200.0 V800.00 DIODE2 F1000
+; -- Scan Pass 2 --
+G1 X-6.9752 Y-0.3394 Z26.5339 S200.0 V800.00 DIODE1 F1000
+G1 X-6.9752 Y-0.3394 Z26.5339 S200.0 V800.00 DIODE2 F1000
+; Layer Time: 3.6058 sec
+; ===== End Layer 858 =====
+
+; ===== Layer 859 Z=26.5589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-6.3231 Y-0.4442 Z26.5589 S200.0 V800.00 DIODE9 F1000
+G1 X-6.3231 Y-0.4442 Z26.5589 S200.0 V800.00 DIODE10 F1000
+G1 X-6.8103 Y-0.3742 Z26.5589 S200.0 V800.00 DIODE1 F1000
+; -- Scan Pass 2 --
+G1 X-6.3231 Y-0.4442 Z26.5589 S200.0 V800.00 DIODE9 F1000
+G1 X-6.3231 Y-0.4442 Z26.5589 S200.0 V800.00 DIODE10 F1000
+G1 X-6.8103 Y-0.3742 Z26.5589 S200.0 V800.00 DIODE1 F1000
+; Layer Time: 3.5590 sec
+; ===== End Layer 859 =====
+
+; ===== Layer 860 Z=26.5839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.5155 sec
+; ===== End Layer 860 =====
+
+; ===== Layer 861 Z=26.6089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 8]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.4688 sec
+; ===== End Layer 861 =====
+
+; ===== Layer 862 Z=26.6339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.4273 sec
+; ===== End Layer 862 =====
+
+; ===== Layer 863 Z=26.6589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.3781 sec
+; ===== End Layer 863 =====
+
+; ===== Layer 864 Z=26.6839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.3347 sec
+; ===== End Layer 864 =====
+
+; ===== Layer 865 Z=26.7089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.2920 sec
+; ===== End Layer 865 =====
+
+; ===== Layer 866 Z=26.7339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.2490 sec
+; ===== End Layer 866 =====
+
+; ===== Layer 867 Z=26.7589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.2111 sec
+; ===== End Layer 867 =====
+
+; ===== Layer 868 Z=26.7839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.1833 sec
+; ===== End Layer 868 =====
+
+; ===== Layer 869 Z=26.8089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.1536 sec
+; ===== End Layer 869 =====
+
+; ===== Layer 870 Z=26.8339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.1262 sec
+; ===== End Layer 870 =====
+
+; ===== Layer 871 Z=26.8589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.0969 sec
+; ===== End Layer 871 =====
+
+; ===== Layer 872 Z=26.8839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.0652 sec
+; ===== End Layer 872 =====
+
+; ===== Layer 873 Z=26.9089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.0333 sec
+; ===== End Layer 873 =====
+
+; ===== Layer 874 Z=26.9339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 3.0025 sec
+; ===== End Layer 874 =====
+
+; ===== Layer 875 Z=26.9589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 2.9759 sec
+; ===== End Layer 875 =====
+
+; ===== Layer 876 Z=26.9839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 7, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 2.9462 sec
+; ===== End Layer 876 =====
+
+; ===== Layer 877 Z=27.0089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 2.9158 sec
+; ===== End Layer 877 =====
+
+; ===== Layer 878 Z=27.0339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 2.8834 sec
+; ===== End Layer 878 =====
+
+; ===== Layer 879 Z=27.0589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 2.8494 sec
+; ===== End Layer 879 =====
+
+; ===== Layer 880 Z=27.0839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 2.8157 sec
+; ===== End Layer 880 =====
+
+; ===== Layer 881 Z=27.1089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 2.7797 sec
+; ===== End Layer 881 =====
+
+; ===== Layer 882 Z=27.1339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 2.7463 sec
+; ===== End Layer 882 =====
+
+; ===== Layer 883 Z=27.1589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 2.7060 sec
+; ===== End Layer 883 =====
+
+; ===== Layer 884 Z=27.1839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 2.6670 sec
+; ===== End Layer 884 =====
+
+; ===== Layer 885 Z=27.2089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-3.0304 Y-0.6910 Z27.2089 S200.0 V800.00 DIODE10 F1000
+; -- Scan Pass 2 --
+G1 X-3.0304 Y-0.6910 Z27.2089 S200.0 V800.00 DIODE10 F1000
+; Layer Time: 2.6339 sec
+; ===== End Layer 885 =====
+
+; ===== Layer 886 Z=27.2339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 8, 9]
+; -- Scan Pass 1 --
+G1 X-3.0821 Y-0.6936 Z27.2339 S200.0 V800.00 DIODE9 F1000
+G1 X-3.0821 Y-0.6936 Z27.2339 S200.0 V800.00 DIODE10 F1000
+; -- Scan Pass 2 --
+G1 X-3.0821 Y-0.6936 Z27.2339 S200.0 V800.00 DIODE9 F1000
+G1 X-3.0821 Y-0.6936 Z27.2339 S200.0 V800.00 DIODE10 F1000
+; Layer Time: 2.6004 sec
+; ===== End Layer 886 =====
+
+; ===== Layer 887 Z=27.2589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 2.5635 sec
+; ===== End Layer 887 =====
+
+; ===== Layer 888 Z=27.2839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 2.5297 sec
+; ===== End Layer 888 =====
+
+; ===== Layer 889 Z=27.3089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 2.4946 sec
+; ===== End Layer 889 =====
+
+; ===== Layer 890 Z=27.3339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 2.4583 sec
+; ===== End Layer 890 =====
+
+; ===== Layer 891 Z=27.3589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 2.4187 sec
+; ===== End Layer 891 =====
+
+; ===== Layer 892 Z=27.3839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 2.3765 sec
+; ===== End Layer 892 =====
+
+; ===== Layer 893 Z=27.4089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-3.1575 Y-0.5041 Z27.4089 S200.0 V800.00 DIODE6 F1000
+; -- Scan Pass 2 --
+G1 X-3.1575 Y-0.5041 Z27.4089 S200.0 V800.00 DIODE6 F1000
+; Layer Time: 2.3314 sec
+; ===== End Layer 893 =====
+
+; ===== Layer 894 Z=27.4339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-3.1728 Y-0.5249 Z27.4339 S200.0 V800.00 DIODE7 F1000
+G1 X-3.1728 Y-0.5249 Z27.4339 S200.0 V800.00 DIODE8 F1000
+; -- Scan Pass 2 --
+G1 X-3.1728 Y-0.5249 Z27.4339 S200.0 V800.00 DIODE7 F1000
+G1 X-3.1728 Y-0.5249 Z27.4339 S200.0 V800.00 DIODE8 F1000
+; Layer Time: 2.2836 sec
+; ===== End Layer 894 =====
+
+; ===== Layer 895 Z=27.4589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-3.1305 Y-0.3664 Z27.4589 S200.0 V800.00 DIODE8 F1000
+; -- Scan Pass 2 --
+G1 X-3.1305 Y-0.3664 Z27.4589 S200.0 V800.00 DIODE8 F1000
+; Layer Time: 2.2348 sec
+; ===== End Layer 895 =====
+
+; ===== Layer 896 Z=27.4839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 2.1832 sec
+; ===== End Layer 896 =====
+
+; ===== Layer 897 Z=27.5089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-3.1718 Y-0.4645 Z27.5089 S200.0 V800.00 DIODE6 F1000
+G1 X-3.1718 Y-0.4645 Z27.5089 S200.0 V800.00 DIODE7 F1000
+; -- Scan Pass 2 --
+G1 X-3.1718 Y-0.4645 Z27.5089 S200.0 V800.00 DIODE6 F1000
+G1 X-3.1718 Y-0.4645 Z27.5089 S200.0 V800.00 DIODE7 F1000
+; Layer Time: 2.1301 sec
+; ===== End Layer 897 =====
+
+; ===== Layer 898 Z=27.5339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-2.9622 Y-0.5533 Z27.5339 S200.0 V800.00 DIODE10 F1000
+G1 X-3.3658 Y-0.4833 Z27.5339 S200.0 V800.00 DIODE3 F1000
+; -- Scan Pass 2 --
+G1 X-2.9622 Y-0.5533 Z27.5339 S200.0 V800.00 DIODE10 F1000
+G1 X-3.3658 Y-0.4833 Z27.5339 S200.0 V800.00 DIODE3 F1000
+; Layer Time: 2.0699 sec
+; ===== End Layer 898 =====
+
+; ===== Layer 899 Z=27.5589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-2.8157 Y-0.6536 Z27.5589 S200.0 V800.00 DIODE10 F1000
+G1 X-2.9089 Y-0.5836 Z27.5589 S200.0 V800.00 DIODE9 F1000
+G1 X-3.0070 Y-0.5136 Z27.5589 S200.0 V800.00 DIODE7 F1000
+G1 X-3.1429 Y-0.4436 Z27.5589 S200.0 V800.00 DIODE5 F1000
+; -- Scan Pass 2 --
+G1 X-2.8157 Y-0.6536 Z27.5589 S200.0 V800.00 DIODE10 F1000
+G1 X-2.9089 Y-0.5836 Z27.5589 S200.0 V800.00 DIODE9 F1000
+G1 X-3.0070 Y-0.5136 Z27.5589 S200.0 V800.00 DIODE7 F1000
+G1 X-3.1429 Y-0.4436 Z27.5589 S200.0 V800.00 DIODE5 F1000
+; Layer Time: 2.0168 sec
+; ===== End Layer 899 =====
+
+; ===== Layer 900 Z=27.5839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-2.8863 Y-0.5975 Z27.5839 S200.0 V800.00 DIODE8 F1000
+G1 X-2.9407 Y-0.5275 Z27.5839 S200.0 V800.00 DIODE7 F1000
+G1 X-2.9874 Y-0.4575 Z27.5839 S200.0 V800.00 DIODE6 F1000
+G1 X-3.0281 Y-0.3875 Z27.5839 S200.0 V800.00 DIODE5 F1000
+G1 X-3.0281 Y-0.3875 Z27.5839 S200.0 V800.00 DIODE6 F1000
+G1 X-3.0838 Y-0.3175 Z27.5839 S200.0 V800.00 DIODE4 F1000
+G1 X-3.0838 Y-0.3175 Z27.5839 S200.0 V800.00 DIODE5 F1000
+; -- Scan Pass 2 --
+G1 X-2.8863 Y-0.5975 Z27.5839 S200.0 V800.00 DIODE8 F1000
+G1 X-2.9407 Y-0.5275 Z27.5839 S200.0 V800.00 DIODE7 F1000
+G1 X-2.9874 Y-0.4575 Z27.5839 S200.0 V800.00 DIODE6 F1000
+G1 X-3.0281 Y-0.3875 Z27.5839 S200.0 V800.00 DIODE5 F1000
+G1 X-3.0281 Y-0.3875 Z27.5839 S200.0 V800.00 DIODE6 F1000
+G1 X-3.0838 Y-0.3175 Z27.5839 S200.0 V800.00 DIODE4 F1000
+G1 X-3.0838 Y-0.3175 Z27.5839 S200.0 V800.00 DIODE5 F1000
+; Layer Time: 1.9537 sec
+; ===== End Layer 900 =====
+
+; ===== Layer 901 Z=27.6089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-3.0032 Y-0.4999 Z27.6089 S200.0 V800.00 DIODE6 F1000
+G1 X-3.0606 Y-0.4299 Z27.6089 S200.0 V800.00 DIODE5 F1000
+G1 X-3.1030 Y-0.3599 Z27.6089 S200.0 V800.00 DIODE4 F1000
+G1 X-3.1030 Y-0.3599 Z27.6089 S200.0 V800.00 DIODE5 F1000
+; -- Scan Pass 2 --
+G1 X-3.0032 Y-0.4999 Z27.6089 S200.0 V800.00 DIODE6 F1000
+G1 X-3.0606 Y-0.4299 Z27.6089 S200.0 V800.00 DIODE5 F1000
+G1 X-3.1030 Y-0.3599 Z27.6089 S200.0 V800.00 DIODE4 F1000
+G1 X-3.1030 Y-0.3599 Z27.6089 S200.0 V800.00 DIODE5 F1000
+; Layer Time: 1.8896 sec
+; ===== End Layer 901 =====
+
+; ===== Layer 902 Z=27.6339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+; -- Scan Pass 2 --
+; Layer Time: 1.8244 sec
+; ===== End Layer 902 =====
+
+; ===== Layer 903 Z=27.6589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-2.7283 Y-1.0252 Z27.6589 S200.0 V800.00 DIODE9 F1000
+G1 X-2.7283 Y-1.0252 Z27.6589 S200.0 V800.00 DIODE10 F1000
+; -- Scan Pass 2 --
+G1 X-2.7283 Y-1.0252 Z27.6589 S200.0 V800.00 DIODE9 F1000
+G1 X-2.7283 Y-1.0252 Z27.6589 S200.0 V800.00 DIODE10 F1000
+; Layer Time: 1.7478 sec
+; ===== End Layer 903 =====
+
+; ===== Layer 904 Z=27.6839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-2.6946 Y-0.9292 Z27.6839 S200.0 V800.00 DIODE10 F1000
+; -- Scan Pass 2 --
+G1 X-2.6946 Y-0.9292 Z27.6839 S200.0 V800.00 DIODE10 F1000
+; Layer Time: 1.6802 sec
+; ===== End Layer 904 =====
+
+; ===== Layer 905 Z=27.7089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-3.1165 Y-1.1310 Z27.7089 S200.0 V800.00 DIODE2 F1000
+; -- Scan Pass 2 --
+G1 X-3.1165 Y-1.1310 Z27.7089 S200.0 V800.00 DIODE2 F1000
+; Layer Time: 1.6133 sec
+; ===== End Layer 905 =====
+
+; ===== Layer 906 Z=27.7339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-3.0921 Y-0.7999 Z27.7339 S200.0 V800.00 DIODE1 F1000
+G1 X-3.0921 Y-0.7999 Z27.7339 S200.0 V800.00 DIODE2 F1000
+G1 X-2.5645 Y-0.7299 Z27.7339 S200.0 V800.00 DIODE10 F1000
+; -- Scan Pass 2 --
+G1 X-3.0921 Y-0.7999 Z27.7339 S200.0 V800.00 DIODE1 F1000
+G1 X-3.0921 Y-0.7999 Z27.7339 S200.0 V800.00 DIODE2 F1000
+G1 X-2.5645 Y-0.7299 Z27.7339 S200.0 V800.00 DIODE10 F1000
+; Layer Time: 1.5483 sec
+; ===== End Layer 906 =====
+
+; ===== Layer 907 Z=27.7589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-3.1415 Y-0.8892 Z27.7589 S200.0 V800.00 DIODE1 F1000
+G1 X-3.1415 Y-0.8892 Z27.7589 S200.0 V800.00 DIODE2 F1000
+; -- Scan Pass 2 --
+G1 X-3.1415 Y-0.8892 Z27.7589 S200.0 V800.00 DIODE1 F1000
+G1 X-3.1415 Y-0.8892 Z27.7589 S200.0 V800.00 DIODE2 F1000
+; Layer Time: 1.4785 sec
+; ===== End Layer 907 =====
+
+; ===== Layer 908 Z=27.7839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-2.5594 Y-0.8937 Z27.7839 S200.0 V800.00 DIODE10 F1000
+G1 X-2.6164 Y-0.8237 Z27.7839 S200.0 V800.00 DIODE9 F1000
+G1 X-2.6553 Y-0.7537 Z27.7839 S200.0 V800.00 DIODE8 F1000
+G1 X-2.6700 Y-0.6837 Z27.7839 S200.0 V800.00 DIODE8 F1000
+; -- Scan Pass 2 --
+G1 X-2.5594 Y-0.8937 Z27.7839 S200.0 V800.00 DIODE10 F1000
+G1 X-2.6164 Y-0.8237 Z27.7839 S200.0 V800.00 DIODE9 F1000
+G1 X-2.6553 Y-0.7537 Z27.7839 S200.0 V800.00 DIODE8 F1000
+G1 X-2.6700 Y-0.6837 Z27.7839 S200.0 V800.00 DIODE8 F1000
+; Layer Time: 1.4075 sec
+; ===== End Layer 908 =====
+
+; ===== Layer 909 Z=27.8089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-2.7223 Y-0.8930 Z27.8089 S200.0 V800.00 DIODE8 F1000
+G1 X-2.7657 Y-0.8230 Z27.8089 S200.0 V800.00 DIODE7 F1000
+G1 X-3.0910 Y-0.7530 Z27.8089 S200.0 V800.00 DIODE2 F1000
+G1 X-2.7882 Y-0.7530 Z27.8089 S200.0 V800.00 DIODE7 F1000
+G1 X-2.8343 Y-0.6830 Z27.8089 S200.0 V800.00 DIODE6 F1000
+; -- Scan Pass 2 --
+G1 X-2.7223 Y-0.8930 Z27.8089 S200.0 V800.00 DIODE8 F1000
+G1 X-2.7657 Y-0.8230 Z27.8089 S200.0 V800.00 DIODE7 F1000
+G1 X-3.0910 Y-0.7530 Z27.8089 S200.0 V800.00 DIODE2 F1000
+G1 X-2.7882 Y-0.7530 Z27.8089 S200.0 V800.00 DIODE7 F1000
+G1 X-2.8343 Y-0.6830 Z27.8089 S200.0 V800.00 DIODE6 F1000
+; Layer Time: 1.3409 sec
+; ===== End Layer 909 =====
+
+; ===== Layer 910 Z=27.8339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-2.6548 Y-0.8436 Z27.8339 S200.0 V800.00 DIODE10 F1000
+G1 X-2.7742 Y-0.7736 Z27.8339 S200.0 V800.00 DIODE8 F1000
+G1 X-2.8260 Y-0.7036 Z27.8339 S200.0 V800.00 DIODE7 F1000
+G1 X-2.8653 Y-0.6336 Z27.8339 S200.0 V800.00 DIODE6 F1000
+G1 X-2.8653 Y-0.6336 Z27.8339 S200.0 V800.00 DIODE7 F1000
+G1 X-2.9087 Y-0.5636 Z27.8339 S200.0 V800.00 DIODE5 F1000
+G1 X-2.9087 Y-0.5636 Z27.8339 S200.0 V800.00 DIODE6 F1000
+G1 X-2.9805 Y-0.4936 Z27.8339 S200.0 V800.00 DIODE4 F1000
+G1 X-2.9805 Y-0.4936 Z27.8339 S200.0 V800.00 DIODE5 F1000
+; -- Scan Pass 2 --
+G1 X-2.6548 Y-0.8436 Z27.8339 S200.0 V800.00 DIODE10 F1000
+G1 X-2.7742 Y-0.7736 Z27.8339 S200.0 V800.00 DIODE8 F1000
+G1 X-2.8260 Y-0.7036 Z27.8339 S200.0 V800.00 DIODE7 F1000
+G1 X-2.8653 Y-0.6336 Z27.8339 S200.0 V800.00 DIODE6 F1000
+G1 X-2.8653 Y-0.6336 Z27.8339 S200.0 V800.00 DIODE7 F1000
+G1 X-2.9087 Y-0.5636 Z27.8339 S200.0 V800.00 DIODE5 F1000
+G1 X-2.9087 Y-0.5636 Z27.8339 S200.0 V800.00 DIODE6 F1000
+G1 X-2.9805 Y-0.4936 Z27.8339 S200.0 V800.00 DIODE4 F1000
+G1 X-2.9805 Y-0.4936 Z27.8339 S200.0 V800.00 DIODE5 F1000
+; Layer Time: 1.2724 sec
+; ===== End Layer 910 =====
+
+; ===== Layer 911 Z=27.8589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8]
+; -- Scan Pass 1 --
+G1 X-2.9443 Y-0.8188 Z27.8589 S200.0 V800.00 DIODE2 F1000
+G1 X-2.6284 Y-0.8188 Z27.8589 S200.0 V800.00 DIODE7 F1000
+G1 X-2.6284 Y-0.8188 Z27.8589 S200.0 V800.00 DIODE8 F1000
+G1 X-2.9518 Y-0.7488 Z27.8589 S200.0 V800.00 DIODE2 F1000
+G1 X-2.9096 Y-0.6788 Z27.8589 S200.0 V800.00 DIODE3 F1000
+G1 X-2.7400 Y-0.6088 Z27.8589 S200.0 V800.00 DIODE5 F1000
+G1 X-2.7400 Y-0.6088 Z27.8589 S200.0 V800.00 DIODE6 F1000
+G1 X-2.7434 Y-0.5388 Z27.8589 S200.0 V800.00 DIODE5 F1000
+G1 X-2.7434 Y-0.5388 Z27.8589 S200.0 V800.00 DIODE6 F1000
+G1 X-2.7887 Y-0.4688 Z27.8589 S200.0 V800.00 DIODE5 F1000
+; -- Scan Pass 2 --
+G1 X-2.9443 Y-0.8188 Z27.8589 S200.0 V800.00 DIODE2 F1000
+G1 X-2.6284 Y-0.8188 Z27.8589 S200.0 V800.00 DIODE7 F1000
+G1 X-2.6284 Y-0.8188 Z27.8589 S200.0 V800.00 DIODE8 F1000
+G1 X-2.9518 Y-0.7488 Z27.8589 S200.0 V800.00 DIODE2 F1000
+G1 X-2.9096 Y-0.6788 Z27.8589 S200.0 V800.00 DIODE3 F1000
+G1 X-2.7400 Y-0.6088 Z27.8589 S200.0 V800.00 DIODE5 F1000
+G1 X-2.7400 Y-0.6088 Z27.8589 S200.0 V800.00 DIODE6 F1000
+G1 X-2.7434 Y-0.5388 Z27.8589 S200.0 V800.00 DIODE5 F1000
+G1 X-2.7434 Y-0.5388 Z27.8589 S200.0 V800.00 DIODE6 F1000
+G1 X-2.7887 Y-0.4688 Z27.8589 S200.0 V800.00 DIODE5 F1000
+; Layer Time: 1.1945 sec
+; ===== End Layer 911 =====
+
+; ===== Layer 912 Z=27.8839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 9]
+; -- Scan Pass 1 --
+G1 X-2.9535 Y-0.6450 Z27.8839 S200.0 V800.00 DIODE2 F1000
+G1 X-2.7494 Y-0.6450 Z27.8839 S200.0 V800.00 DIODE6 F1000
+G1 X-3.0065 Y-0.5750 Z27.8839 S200.0 V800.00 DIODE1 F1000
+G1 X-3.0065 Y-0.5750 Z27.8839 S200.0 V800.00 DIODE2 F1000
+; -- Scan Pass 2 --
+G1 X-2.9535 Y-0.6450 Z27.8839 S200.0 V800.00 DIODE2 F1000
+G1 X-2.7494 Y-0.6450 Z27.8839 S200.0 V800.00 DIODE6 F1000
+G1 X-3.0065 Y-0.5750 Z27.8839 S200.0 V800.00 DIODE1 F1000
+G1 X-3.0065 Y-0.5750 Z27.8839 S200.0 V800.00 DIODE2 F1000
+; Layer Time: 1.1064 sec
+; ===== End Layer 912 =====
+
+; ===== Layer 913 Z=27.9089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-2.3016 Y-0.2216 Z27.9089 S200.0 V800.00 DIODE10 F1000
+; -- Scan Pass 2 --
+G1 X-2.3016 Y-0.2216 Z27.9089 S200.0 V800.00 DIODE10 F1000
+; Layer Time: 1.0150 sec
+; ===== End Layer 913 =====
+
+; ===== Layer 914 Z=27.9339 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-2.1573 Y0.4825 Z27.9339 S200.0 V800.00 DIODE10 F1000
+G1 X-2.1849 Y0.5525 Z27.9339 S200.0 V800.00 DIODE10 F1000
+G1 X-2.1875 Y0.6225 Z27.9339 S200.0 V800.00 DIODE10 F1000
+G1 X-2.1881 Y0.6925 Z27.9339 S200.0 V800.00 DIODE10 F1000
+G1 X-2.6268 Y0.7625 Z27.9339 S200.0 V800.00 DIODE2 F1000
+G1 X-2.6268 Y0.7625 Z27.9339 S200.0 V800.00 DIODE3 F1000
+G1 X-2.2457 Y0.7625 Z27.9339 S200.0 V800.00 DIODE9 F1000
+; -- Scan Pass 2 --
+G1 X-2.1573 Y0.4825 Z27.9339 S200.0 V800.00 DIODE10 F1000
+G1 X-2.1849 Y0.5525 Z27.9339 S200.0 V800.00 DIODE10 F1000
+G1 X-2.1875 Y0.6225 Z27.9339 S200.0 V800.00 DIODE10 F1000
+G1 X-2.1881 Y0.6925 Z27.9339 S200.0 V800.00 DIODE10 F1000
+G1 X-2.6268 Y0.7625 Z27.9339 S200.0 V800.00 DIODE2 F1000
+G1 X-2.6268 Y0.7625 Z27.9339 S200.0 V800.00 DIODE3 F1000
+G1 X-2.2457 Y0.7625 Z27.9339 S200.0 V800.00 DIODE9 F1000
+; Layer Time: 0.9230 sec
+; ===== End Layer 914 =====
+
+; ===== Layer 915 Z=27.9589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-1.9975 Y-1.3406 Z27.9589 S200.0 V800.00 DIODE10 F1000
+G1 X-2.1059 Y-0.2906 Z27.9589 S200.0 V800.00 DIODE8 F1000
+G1 X-2.1059 Y-0.2906 Z27.9589 S200.0 V800.00 DIODE9 F1000
+G1 X-2.2284 Y-0.2206 Z27.9589 S200.0 V800.00 DIODE6 F1000
+G1 X-2.2284 Y-0.2206 Z27.9589 S200.0 V800.00 DIODE7 F1000
+G1 X-2.2031 Y0.2694 Z27.9589 S200.0 V800.00 DIODE7 F1000
+G1 X-2.0280 Y0.3394 Z27.9589 S200.0 V800.00 DIODE10 F1000
+G1 X-2.0543 Y0.4094 Z27.9589 S200.0 V800.00 DIODE9 F1000
+G1 X-2.0543 Y0.4094 Z27.9589 S200.0 V800.00 DIODE10 F1000
+G1 X-2.1099 Y0.4794 Z27.9589 S200.0 V800.00 DIODE8 F1000
+G1 X-2.1099 Y0.4794 Z27.9589 S200.0 V800.00 DIODE9 F1000
+G1 X-2.1312 Y0.5494 Z27.9589 S200.0 V800.00 DIODE8 F1000
+G1 X-2.1409 Y0.6194 Z27.9589 S200.0 V800.00 DIODE8 F1000
+G1 X-2.1421 Y0.6894 Z27.9589 S200.0 V800.00 DIODE8 F1000
+G1 X-2.1604 Y0.7594 Z27.9589 S200.0 V800.00 DIODE7 F1000
+G1 X-2.1604 Y0.7594 Z27.9589 S200.0 V800.00 DIODE8 F1000
+; -- Scan Pass 2 --
+G1 X-1.9975 Y-1.3406 Z27.9589 S200.0 V800.00 DIODE10 F1000
+G1 X-2.1059 Y-0.2906 Z27.9589 S200.0 V800.00 DIODE8 F1000
+G1 X-2.1059 Y-0.2906 Z27.9589 S200.0 V800.00 DIODE9 F1000
+G1 X-2.2284 Y-0.2206 Z27.9589 S200.0 V800.00 DIODE6 F1000
+G1 X-2.2284 Y-0.2206 Z27.9589 S200.0 V800.00 DIODE7 F1000
+G1 X-2.2031 Y0.2694 Z27.9589 S200.0 V800.00 DIODE7 F1000
+G1 X-2.0280 Y0.3394 Z27.9589 S200.0 V800.00 DIODE10 F1000
+G1 X-2.0543 Y0.4094 Z27.9589 S200.0 V800.00 DIODE9 F1000
+G1 X-2.0543 Y0.4094 Z27.9589 S200.0 V800.00 DIODE10 F1000
+G1 X-2.1099 Y0.4794 Z27.9589 S200.0 V800.00 DIODE8 F1000
+G1 X-2.1099 Y0.4794 Z27.9589 S200.0 V800.00 DIODE9 F1000
+G1 X-2.1312 Y0.5494 Z27.9589 S200.0 V800.00 DIODE8 F1000
+G1 X-2.1409 Y0.6194 Z27.9589 S200.0 V800.00 DIODE8 F1000
+G1 X-2.1421 Y0.6894 Z27.9589 S200.0 V800.00 DIODE8 F1000
+G1 X-2.1604 Y0.7594 Z27.9589 S200.0 V800.00 DIODE7 F1000
+G1 X-2.1604 Y0.7594 Z27.9589 S200.0 V800.00 DIODE8 F1000
+; Layer Time: 0.8263 sec
+; ===== End Layer 915 =====
+
+; ===== Layer 916 Z=27.9839 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-2.2008 Y-0.9705 Z27.9839 S200.0 V800.00 DIODE8 F1000
+G1 X-2.1269 Y-0.9005 Z27.9839 S200.0 V800.00 DIODE9 F1000
+G1 X-2.1269 Y-0.9005 Z27.9839 S200.0 V800.00 DIODE10 F1000
+G1 X-2.4116 Y0.6395 Z27.9839 S200.0 V800.00 DIODE5 F1000
+G1 X-2.3894 Y0.7095 Z27.9839 S200.0 V800.00 DIODE5 F1000
+G1 X-2.4158 Y0.7795 Z27.9839 S200.0 V800.00 DIODE5 F1000
+; -- Scan Pass 2 --
+G1 X-2.2008 Y-0.9705 Z27.9839 S200.0 V800.00 DIODE8 F1000
+G1 X-2.1269 Y-0.9005 Z27.9839 S200.0 V800.00 DIODE9 F1000
+G1 X-2.1269 Y-0.9005 Z27.9839 S200.0 V800.00 DIODE10 F1000
+G1 X-2.4116 Y0.6395 Z27.9839 S200.0 V800.00 DIODE5 F1000
+G1 X-2.3894 Y0.7095 Z27.9839 S200.0 V800.00 DIODE5 F1000
+G1 X-2.4158 Y0.7795 Z27.9839 S200.0 V800.00 DIODE5 F1000
+; Layer Time: 0.7095 sec
+; ===== End Layer 916 =====
+
+; ===== Layer 917 Z=28.0089 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7]
+; -- Scan Pass 1 --
+G1 X-1.8634 Y-0.8137 Z28.0089 S200.0 V800.00 DIODE6 F1000
+G1 X-1.8634 Y-0.8137 Z28.0089 S200.0 V800.00 DIODE7 F1000
+G1 X-1.9236 Y-0.7437 Z28.0089 S200.0 V800.00 DIODE5 F1000
+G1 X-1.9236 Y-0.7437 Z28.0089 S200.0 V800.00 DIODE6 F1000
+G1 X-1.9656 Y-0.1837 Z28.0089 S200.0 V800.00 DIODE4 F1000
+G1 X-1.9656 Y-0.1837 Z28.0089 S200.0 V800.00 DIODE5 F1000
+G1 X-1.8963 Y-0.1137 Z28.0089 S200.0 V800.00 DIODE6 F1000
+G1 X-1.8675 Y-0.0437 Z28.0089 S200.0 V800.00 DIODE6 F1000
+G1 X-1.8439 Y0.0263 Z28.0089 S200.0 V800.00 DIODE7 F1000
+G1 X-1.8160 Y0.0963 Z28.0089 S200.0 V800.00 DIODE7 F1000
+G1 X-1.8079 Y0.1663 Z28.0089 S200.0 V800.00 DIODE7 F1000
+G1 X-1.8584 Y0.2363 Z28.0089 S200.0 V800.00 DIODE6 F1000
+G1 X-1.8584 Y0.2363 Z28.0089 S200.0 V800.00 DIODE7 F1000
+G1 X-1.9210 Y0.3063 Z28.0089 S200.0 V800.00 DIODE5 F1000
+G1 X-1.9210 Y0.3063 Z28.0089 S200.0 V800.00 DIODE6 F1000
+G1 X-1.9567 Y0.3763 Z28.0089 S200.0 V800.00 DIODE5 F1000
+; -- Scan Pass 2 --
+G1 X-1.8634 Y-0.8137 Z28.0089 S200.0 V800.00 DIODE6 F1000
+G1 X-1.8634 Y-0.8137 Z28.0089 S200.0 V800.00 DIODE7 F1000
+G1 X-1.9236 Y-0.7437 Z28.0089 S200.0 V800.00 DIODE5 F1000
+G1 X-1.9236 Y-0.7437 Z28.0089 S200.0 V800.00 DIODE6 F1000
+G1 X-1.9656 Y-0.1837 Z28.0089 S200.0 V800.00 DIODE4 F1000
+G1 X-1.9656 Y-0.1837 Z28.0089 S200.0 V800.00 DIODE5 F1000
+G1 X-1.8963 Y-0.1137 Z28.0089 S200.0 V800.00 DIODE6 F1000
+G1 X-1.8675 Y-0.0437 Z28.0089 S200.0 V800.00 DIODE6 F1000
+G1 X-1.8439 Y0.0263 Z28.0089 S200.0 V800.00 DIODE7 F1000
+G1 X-1.8160 Y0.0963 Z28.0089 S200.0 V800.00 DIODE7 F1000
+G1 X-1.8079 Y0.1663 Z28.0089 S200.0 V800.00 DIODE7 F1000
+G1 X-1.8584 Y0.2363 Z28.0089 S200.0 V800.00 DIODE6 F1000
+G1 X-1.8584 Y0.2363 Z28.0089 S200.0 V800.00 DIODE7 F1000
+G1 X-1.9210 Y0.3063 Z28.0089 S200.0 V800.00 DIODE5 F1000
+G1 X-1.9210 Y0.3063 Z28.0089 S200.0 V800.00 DIODE6 F1000
+G1 X-1.9567 Y0.3763 Z28.0089 S200.0 V800.00 DIODE5 F1000
+; Layer Time: 0.6360 sec
+; ===== End Layer 917 =====
+
+; ===== Layer 918 Z=28.0339 =====
+; Active Diodes This Layer: [0, 1]
+; -- Scan Pass 1 --
+G1 X-3.3724 Y-0.0422 Z28.0339 S200.0 V800.00 DIODE1 F1000
+; -- Scan Pass 2 --
+G1 X-3.3724 Y-0.0422 Z28.0339 S200.0 V800.00 DIODE1 F1000
+; Layer Time: 0.5860 sec
+; ===== End Layer 918 =====
+
+; ===== Layer 919 Z=28.0589 =====
+; Active Diodes This Layer: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+; -- Scan Pass 1 --
+G1 X-0.6111 Y-0.0531 Z28.0589 S200.0 V800.00 DIODE9 F1000
+G1 X-0.6513 Y0.0169 Z28.0589 S200.0 V800.00 DIODE8 F1000
+G1 X-0.6513 Y0.0169 Z28.0589 S200.0 V800.00 DIODE9 F1000
+G1 X-0.6760 Y0.0869 Z28.0589 S200.0 V800.00 DIODE8 F1000
+G1 X-0.6981 Y0.1569 Z28.0589 S200.0 V800.00 DIODE8 F1000
+G1 X-0.6994 Y0.2269 Z28.0589 S200.0 V800.00 DIODE7 F1000
+G1 X-0.6994 Y0.2269 Z28.0589 S200.0 V800.00 DIODE8 F1000
+G1 X-0.6908 Y0.2969 Z28.0589 S200.0 V800.00 DIODE8 F1000
+G1 X-0.6980 Y0.3669 Z28.0589 S200.0 V800.00 DIODE8 F1000
+G1 X-0.7335 Y0.4369 Z28.0589 S200.0 V800.00 DIODE7 F1000
+; -- Scan Pass 2 --
+G1 X-0.6111 Y-0.0531 Z28.0589 S200.0 V800.00 DIODE9 F1000
+G1 X-0.6513 Y0.0169 Z28.0589 S200.0 V800.00 DIODE8 F1000
+G1 X-0.6513 Y0.0169 Z28.0589 S200.0 V800.00 DIODE9 F1000
+G1 X-0.6760 Y0.0869 Z28.0589 S200.0 V800.00 DIODE8 F1000
+G1 X-0.6981 Y0.1569 Z28.0589 S200.0 V800.00 DIODE8 F1000
+G1 X-0.6994 Y0.2269 Z28.0589 S200.0 V800.00 DIODE7 F1000
+G1 X-0.6994 Y0.2269 Z28.0589 S200.0 V800.00 DIODE8 F1000
+G1 X-0.6908 Y0.2969 Z28.0589 S200.0 V800.00 DIODE8 F1000
+G1 X-0.6980 Y0.3669 Z28.0589 S200.0 V800.00 DIODE8 F1000
+G1 X-0.7335 Y0.4369 Z28.0589 S200.0 V800.00 DIODE7 F1000
+; Layer Time: 0.5456 sec
+; ===== End Layer 919 =====
+
+; ===== Layer 920 Z=28.0839 =====
+; Active Diodes This Layer: [0, 1, 2, 3]
+; -- Scan Pass 1 --
+G1 X-0.8388 Y-0.1697 Z28.0839 S200.0 V800.00 DIODE4 F1000
+G1 X-0.8109 Y-0.0997 Z28.0839 S200.0 V800.00 DIODE4 F1000
+G1 X-0.8204 Y-0.0297 Z28.0839 S200.0 V800.00 DIODE4 F1000
+G1 X-0.8372 Y0.0403 Z28.0839 S200.0 V800.00 DIODE4 F1000
+G1 X-0.8566 Y0.1103 Z28.0839 S200.0 V800.00 DIODE3 F1000
+G1 X-0.8566 Y0.1103 Z28.0839 S200.0 V800.00 DIODE4 F1000
+G1 X-0.8776 Y0.1803 Z28.0839 S200.0 V800.00 DIODE3 F1000
+; -- Scan Pass 2 --
+G1 X-0.8388 Y-0.1697 Z28.0839 S200.0 V800.00 DIODE4 F1000
+G1 X-0.8109 Y-0.0997 Z28.0839 S200.0 V800.00 DIODE4 F1000
+G1 X-0.8204 Y-0.0297 Z28.0839 S200.0 V800.00 DIODE4 F1000
+G1 X-0.8372 Y0.0403 Z28.0839 S200.0 V800.00 DIODE4 F1000
+G1 X-0.8566 Y0.1103 Z28.0839 S200.0 V800.00 DIODE3 F1000
+G1 X-0.8566 Y0.1103 Z28.0839 S200.0 V800.00 DIODE4 F1000
+G1 X-0.8776 Y0.1803 Z28.0839 S200.0 V800.00 DIODE3 F1000
+; Layer Time: 0.5075 sec
+; ===== End Layer 920 =====
+
+
+; ===== PRINT TIME ESTIMATE =====
+; Estimated Time (seconds): 5846.99
+; Estimated Time (minutes): 97.45
+; Estimated Time (hours):   1.62
+; ===== END OF FILE =====

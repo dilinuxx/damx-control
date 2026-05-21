@@ -111,6 +111,7 @@ from hardware.axis import AxisControl
 from hardware.chamber import ChamberControl
 from hardware.beam_control import BeamControl
 from hardware.beam_control import BeamWorker
+from hardware.cpx400 import CPX400DP
 
 # Comms
 from comms.marlin_controller import MarlinController
@@ -234,11 +235,14 @@ class DAMXUI(QWidget):
         self.dashboard_page = DashboardPage(self)
         self.axis_page = AxisPage(self.controller)
         self.chamber_page = ChamberPage(self.chamber)
+        self.psu = CPX400DP("192.168.0.100")
         self.beam_page = BeamPage(
+            controller=self.controller,
             worker=self.worker,
-            trigger_connect=self.trigger_connect,
-            trigger_disconnect=self.trigger_disconnect
+            psu=self.psu,
+            parent=self
         )
+
         self.camera_page = CameraPage()
         self.blower_page = BlowerPage()
         self.parts_page = PartsPage()
@@ -296,29 +300,28 @@ class DAMXUI(QWidget):
     def check_marlin_connection(self):
         connected = self.controller.find_marlin_port()
         if connected:
-            self.dashboard_page.marlin_status_label.setText("Firmware: Not Connected")
+            self.dashboard_page.marlin_status_label.setText("Firmware: Connected")
             self.dashboard_page.marlin_status_label.setStyleSheet(
-                "font-size:16px; font-weight:bold; color:red"
+                "font-size:16px; font-weight:bold; color:green"
             )
-            self.dashboard_page.reconnect_btn.setText("Connect")
-            print("Firmware connected")
             # Update button
-            self.reconnect_btn.setText("Disconnect")
+            self.dashboard_page.reconnect_btn.setText("Disconnect")
+            print("Firmware connected")
 
-            # -----------------------
-            # START PRINTER SERVICE (QT VERSION)
-            # -----------------------
-            self.printer_service = PrinterService(self.controller, poll_interval=5000)  # ms
-            self.printer_service.data_updated.connect(self.chamber_page.update_chamber_display) # Connect data → UI
-            self.printer_service.log.connect(print)  # Optional: logs
-            self.printer_service.start()  # Start polling (non-blocking)
+            # START PRINTER SERVICE
+            self.printer_service = PrinterService(self.controller, poll_interval=5000)
+            self.printer_service.data_updated.connect(self.chamber_page.update_chamber_display)
+            self.printer_service.log.connect(print)
+            self.printer_service.start()
+
         else:
             self.dashboard_page.marlin_status_label.setText("Firmware: Not Connected")
             self.dashboard_page.marlin_status_label.setStyleSheet(
                 "font-size:16px; font-weight:bold; color:red"
             )
-            print("Firmware not detected")
             self.dashboard_page.reconnect_btn.setText("Connect")
+
+            print("Firmware not detected")
 
     # -----------------------
     # UPDATE CHAMBER DISPLAY
@@ -534,62 +537,7 @@ class DAMXUI(QWidget):
                 print(f"\n[LAYER {layer + 1}/{config.TOTAL_LAYERS}] Starting structural layer.")
 
                 # =====================================================
-                # Step 1: Dosing piston UP
-                # =====================================================
-                self.controller.send_gcode(f"{config.TOOL_DOSING_PISTON}\n")
-                self.controller.wait_for_ok()
-
-                self.controller.send_gcode("M17\n")
-                self.controller.wait_for_ok()
-
-                self.controller.send_gcode("G91\n")  # Motion axes relative
-                self.controller.wait_for_ok()
-
-                self.controller.send_gcode("M83\n")  # Extruder axis relative
-                self.controller.wait_for_ok()
-
-                # Calculate relative volumetric powder feed delta
-                dose_move_val = config.DIRECTION_DOSE_UP * config.LAYER_THICKNESS_MM * config.build_dosing_motor_units
-                self.controller.send_gcode(f"G1 E{dose_move_val:.3f} F{config.FEEDRATE_PISTONS}\n")
-                self.controller.wait_for_ok()
-
-                self.controller.send_gcode("M400\n")
-                if self.controller.wait_for_ok():
-                    config.dosing_position += (config.DIRECTION_DOSE_UP * config.LAYER_THICKNESS_MM)
-                    print(f"[LAYER {layer + 1}] Dosing piston raised. Tracker: {config.dosing_position}mm")
-                else:
-                    print(f"[ERROR] Layer {layer + 1}: Dosing piston move failed.")
-                    self.printing = False
-                    return
-
-                # =====================================================
-                # Step 2: Recoater sweep
-                # =====================================================
-                self.controller.send_gcode("G91\n")
-                self.controller.wait_for_ok()
-
-                # Forward Sweep
-                self.controller.send_gcode(
-                    f"G0 {config.RECOATER_AXIS}{config.RECOATER_SWEEP_DISTANCE} F{config.FEEDRATE_RECOATER}\n"
-                )
-                self.controller.wait_for_ok()
-
-                # Return Sweep
-                self.controller.send_gcode(
-                    f"G0 {config.RECOATER_AXIS}{-config.RECOATER_SWEEP_DISTANCE} F{config.FEEDRATE_RECOATER}\n"
-                )
-                self.controller.wait_for_ok()
-
-                self.controller.send_gcode("M400\n")
-                if self.controller.wait_for_ok():
-                    print(f"[LAYER {layer + 1}] Recoater sweep complete.")
-                else:
-                    print(f"[ERROR] Layer {layer + 1}: Recoater sweep failed.")
-                    self.printing = False
-                    return
-
-                # =====================================================
-                # Step 3: Build piston DOWN
+                # Step 1: Build piston DOWN (NEW LAYER HEIGHT)
                 # =====================================================
                 self.controller.send_gcode(f"{config.TOOL_BUILD_PISTON}\n")
                 self.controller.wait_for_ok()
@@ -623,6 +571,60 @@ class DAMXUI(QWidget):
                 self.controller.send_gcode("M82\n")
                 self.controller.wait_for_ok()
 
+                # =====================================================
+                # Step 2: Dosing piston UP (FEED POWDER)
+                # =====================================================
+                self.controller.send_gcode(f"{config.TOOL_DOSING_PISTON}\n")
+                self.controller.wait_for_ok()
+
+                self.controller.send_gcode("M17\n")
+                self.controller.wait_for_ok()
+
+                self.controller.send_gcode("G91\n")  # Motion axes relative
+                self.controller.wait_for_ok()
+
+                self.controller.send_gcode("M83\n")  # Extruder axis relative
+                self.controller.wait_for_ok()
+
+                # Calculate relative volumetric powder feed delta
+                dose_move_val = config.DIRECTION_DOSE_UP * config.LAYER_THICKNESS_MM * config.build_dosing_motor_units
+                self.controller.send_gcode(f"G1 E{dose_move_val:.3f} F{config.FEEDRATE_PISTONS}\n")
+                self.controller.wait_for_ok()
+
+                self.controller.send_gcode("M400\n")
+                if self.controller.wait_for_ok():
+                    config.dosing_position += (config.DIRECTION_DOSE_UP * config.LAYER_THICKNESS_MM)
+                    print(f"[LAYER {layer + 1}] Dosing piston raised. Tracker: {config.dosing_position}mm")
+                else:
+                    print(f"[ERROR] Layer {layer + 1}: Dosing piston move failed.")
+                    self.printing = False
+                    return
+
+                # =====================================================
+                # Step 3: Recoater sweep (FEED POWDER)
+                # =====================================================
+                self.controller.send_gcode("G91\n")
+                self.controller.wait_for_ok()
+
+                # Forward Sweep
+                self.controller.send_gcode(
+                    f"G0 {config.RECOATER_AXIS}{config.RECOATER_SWEEP_DISTANCE} F{config.FEEDRATE_RECOATER}\n"
+                )
+                self.controller.wait_for_ok()
+
+                # Return Sweep
+                self.controller.send_gcode(
+                    f"G0 {config.RECOATER_AXIS}{-config.RECOATER_SWEEP_DISTANCE} F{config.FEEDRATE_RECOATER}\n"
+                )
+                self.controller.wait_for_ok()
+
+                self.controller.send_gcode("M400\n")
+                if self.controller.wait_for_ok():
+                    print(f"[LAYER {layer + 1}] Recoater sweep complete.")
+                else:
+                    print(f"[ERROR] Layer {layer + 1}: Recoater sweep failed.")
+                    self.printing = False
+                    return
                 # =====================================================
                 # Step 4: Laser firing (placeholder)
                 # =====================================================

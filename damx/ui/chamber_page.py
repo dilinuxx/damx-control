@@ -201,3 +201,22 @@ class ChamberPage(QWidget):
         layout.setVerticalSpacing(10)
 
         return frame
+
+    def update_chamber_display(self, data):
+        if "o2" in data:
+            self.o2_label.setText(f"O2: {data['o2']:.2f} ppm")
+
+        if "argon" in data:
+            self.argon_label.setText(f"Argon Flow: {data['argon']:.2f} L/min")
+
+        if "nitrogen" in data:
+            self.nitrogen_label.setText(f"Nitrogen Flow: {data['nitrogen']:.2f} L/min")
+
+        if "pressure" in data:
+            self.pressure_label.setText(f"Chamber Pressure: {data['pressure']:.2f} bar")
+
+        if "humidity" in data:
+            self.humidity_label.setText(f"Humidity: {data['humidity']:.2f} %")
+
+        if "temp" in data:
+            self.temp_label.setText(f"Temperature: {data['temp']:.2f} °C")
